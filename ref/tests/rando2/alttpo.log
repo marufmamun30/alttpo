@@ -1,0 +1,30 @@
+[       0] A Link to the Past Online 1.0
+[       0] base ROM: C:/Users/Maruf/Documents/Claude Code/ALTTP-Online/ALttPOnline/game-win64/../../Zelda no Densetsu - Kamigami no Triforce (Japan).sfc
+[       0] rando: "C:\Users\Maruf\Documents\Claude Code\ALTTP-Online\ALttPOnline\game-win64\randomizer\python\python.exe" -u DungeonRandomizer.py --settingsfile "C:/Users/Maruf/Documents/Claude Code/ALTTP-Online/ALttPOnline/game-win64/randomizer/work/settings.json" --rom "C:/Users/Maruf/Documents/Claude Code/ALTTP-Online/ALttPOnline/game-win64/randomizer/work/base.sfc" --outputpath "C:/Users/Maruf/Documents/Claude Code/ALTTP-Online/ALttPOnline/game-win64/randomizer/work/." --outputname seed --seed 34127064 --logic noglitches --algorithm balanced --swords random --progressive on --difficulty normal --item_functionality normal --accessibility items --keyshuffle wild --restrict_boss_items none --dropshuffle underworld --pottery lottery --bow_mode progressive --flute_mode normal --take_any none --beemizer 0 --mode open --goal ganon --crystals_gt 7 --crystals_ganon 7 --openpyramid auto --timer none --spoiler full --shuffle insanity --skullwoods original --linked_drops unset --overworld_map default --door_shuffle crossed --intensity 3 --door_type_mode original --trap_door_mode optional --key_logic_algorithm partial --dungeon_counters on --mixed_travel prevent --standardize_palettes standardize --shufflebosses full --shuffleenemies shuffled --enemy_health default --enemy_damage default --any_enemy_logic allow_all --fastmenu normal --heartbeep normal --heartcolor red --ow_palettes default --uw_palettes default
+[       0] rando: Starting the randomizer...
+[      14] rando: ALttP Door Randomizer Version 1.5.7-u : --seed 34127064 --code RQAAg6M8OLEAAgEBCQA=
+[      14] rando: Creating Meta Info
+[      38] rando: Shuffling the World about
+[      39] rando: Dungeon and Item prep
+[      39] rando: Shuffling dungeons
+[      39] rando: Shuffling Dungeon Sectors
+[      40] rando: -Balancing Doors
+[      64] rando: -Balanced solution found in 0.28125
+[     109] rando: -Balanced solution found in 0.0
+[     111] rando: -Balanced solution found in 0.0
+[     128] rando: Generating dungeons
+[     577] rando: Generating Item Pool
+[     577] rando: Calculating Access Rules
+[     582] rando: Placing Dungeon Prizes
+[     583] rando: Placing Dungeon Items
+[     589] rando: Fill the world
+[     639] rando: Patching ROM
+[     685] rando: Creating Spoiler
+[     686] rando: Calculating Playthrough
+[     734] rando: Creating Spoiler
+[     734] rando: Done. Enjoy.
+[     734] rando: Patched ROM:         Yes
+[     734] rando: Printed Playthrough: Yes
+[     734] rando: Printed Spoiler:     Yes
+[     734] rando: Seed: 34127064
+[     734] rando: Total Time: 11.979803499998525

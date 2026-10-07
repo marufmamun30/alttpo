@@ -1,0 +1,62 @@
+[       0] A Link to the Past Online 1.0
+[       0] base ROM: C:/Users/Maruf/Documents/Claude Code/ALTTP-Online/ALttPOnline/game-win64/alttp-jp.sfc
+[       0] game: "DR157_1_1_126024102" rando=1 door=1 fast=1 crc=fae57117 online=1
+[       0] net: hosting room F2011 (cid 67a103ef, udp port 54930)
+[      60] peek 00010=00 00011=00 0f359=00 0f36d=00 0f3c5=00 
+[     116] net: new peer f3e49189
+[     117] net: direct link to f3e49189
+[     117] net: peer f3e49189 connected
+[     120] peek 00010=00 00011=01 0f359=00 0f36d=00 0f3c5=00 
+[     123] note: Bob joined the room
+[     180] peek 00010=00 00011=01 0f359=00 0f36d=00 0f3c5=00 
+[     239] net: new peer 305166f5
+[     240] net: direct link to 305166f5
+[     240] net: peer 305166f5 connected
+[     240] peek 00010=00 00011=01 0f359=00 0f36d=00 0f3c5=00 
+[     247] note: Carol joined the room
+[     300] peek 00010=00 00011=03 0f359=00 0f36d=00 0f3c5=00 
+[     327] net: new peer 87645e93
+[     328] net: direct link to 87645e93
+[     328] net: peer 87645e93 connected
+[     335] note: Dave joined the room
+[     360] peek 00010=00 00011=03 0f359=00 0f36d=00 0f3c5=00 
+[     420] peek 00010=00 00011=04 0f359=00 0f36d=00 0f3c5=00 
+[     480] peek 00010=00 00011=04 0f359=00 0f36d=00 0f3c5=00 
+[     540] peek 00010=01 00011=01 0f359=00 0f36d=00 0f3c5=00 
+[     600] peek 00010=01 00011=04 0f359=00 0f36d=00 0f3c5=00 
+[     660] peek 00010=01 00011=04 0f359=00 0f36d=00 0f3c5=00 
+[     720] peek 00010=04 00011=02 0f359=00 0f36d=00 0f3c5=00 
+[     780] peek 00010=04 00011=02 0f359=00 0f36d=00 0f3c5=00 
+[     840] peek 00010=04 00011=02 0f359=00 0f36d=00 0f3c5=00 
+[     900] peek 00010=04 00011=02 0f359=00 0f36d=00 0f3c5=00 
+[     960] peek 00010=01 00011=04 0f359=00 0f36d=00 0f3c5=00 
+[    1020] peek 00010=01 00011=04 0f359=00 0f36d=00 0f3c5=00 
+[    1080] peek 00010=01 00011=04 0f359=00 0f36d=00 0f3c5=00 
+[    1140] peek 00010=05 00011=00 0f359=00 0f36d=18 0f3c5=00 
+[    1200] peek 00010=07 00011=0f 0f359=00 0f36d=18 0f3c5=00 
+[    1254] note: Bob entered Hyrule
+[    1260] peek 00010=07 00011=00 0f359=00 0f36d=18 0f3c5=00 
+[    1320] peek 00010=0e 00011=02 0f359=00 0f36d=18 0f3c5=00 
+[    1380] peek 00010=0e 00011=02 0f359=00 0f36d=18 0f3c5=00 
+[    1389] note: Carol entered Hyrule
+[    1440] peek 00010=0e 00011=02 0f359=00 0f36d=18 0f3c5=00 
+[    1476] note: Dave entered Hyrule
+[    1500] peek 00010=0e 00011=02 0f359=00 0f36d=18 0f3c5=00 
+[    1560] peek 00010=07 00011=00 0f359=00 0f36d=18 0f3c5=00 
+[    1620] peek 00010=07 00011=00 0f359=00 0f36d=18 0f3c5=00 
+[    1680] peek 00010=07 00011=00 0f359=00 0f36d=18 0f3c5=00 
+[    1740] peek 00010=07 00011=00 0f359=00 0f36d=18 0f3c5=00 
+[    1800] peek 00010=07 00011=00 0f359=00 0f36d=18 0f3c5=00 
+[    1860] peek 00010=07 00011=00 0f359=00 0f36d=18 0f3c5=00 
+[    1920] peek 00010=07 00011=00 0f359=00 0f36d=18 0f3c5=00 
+[    1980] peek 00010=07 00011=00 0f359=00 0f36d=18 0f3c5=00 
+[    2040] peek 00010=07 00011=00 0f359=00 0f36d=18 0f3c5=00 
+[    2100] peek 00010=07 00011=00 0f359=00 0f36d=18 0f3c5=00 
+[    2160] peek 00010=07 00011=00 0f359=00 0f36d=18 0f3c5=00 
+[    2220] peek 00010=07 00011=00 0f359=00 0f36d=18 0f3c5=00 
+[    2280] peek 00010=07 00011=00 0f359=00 0f36d=18 0f3c5=00 
+[    2340] peek 00010=07 00011=00 0f359=00 0f36d=18 0f3c5=00 
+[    2400] peek 00010=07 00011=00 0f359=00 0f36d=18 0f3c5=00 
+[    2400] note: Bob left the room
+[    2400] note: Carol left the room
+[    2400] note: Dave left the room

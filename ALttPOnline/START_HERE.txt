@@ -1,0 +1,53 @@
+A LINK TO THE PAST ONLINE - quick start
+=======================================
+
+game-win64\      Ready to play. Start "ALttP Online.exe".
+                 alttp-jp.sfc is your ROM (copied in). randomizer\ is the seed
+                 generator, seeds\ holds the seeds you create, saves\ your files.
+source\          Full source code and build files.
+
+PLAY TOGETHER (up to 8 players, nobody forwards a port or runs a server)
+  1. Everyone starts "ALttP Online.exe" and needs the same ROM next to it
+     (Zelda no Densetsu - Kamigami no Triforce, Japan v1.0). To give the game
+     to a friend, zip the game-win64 folder WITHOUT alttp-jp.sfc; on first start
+     they drag their own ROM onto the window.
+  2. One player: PLAY ONLINE > HOST A ROOM, pick a game, OPEN THE ROOM.
+     A 5 letter room code appears at the top of the screen (and in the ESC menu).
+  3. The others: PLAY ONLINE > JOIN A ROOM, type the code. The game or seed the
+     room is playing is fetched automatically.
+  4. Everyone picks a save slot in the game's own file menu and plays.
+     A new file catches up with what the team already has.
+
+WHAT IS SHARED
+  Shared:  every item and upgrade, dungeon maps / compasses / big keys / small
+           keys, heart containers, pendants, crystals, opened chests, bosses,
+           story progress. A message shows who found what.
+  Yours:   health, magic, rupees, arrows, bombs. When anyone picks up bombs,
+           everybody's bomb count goes up; placing a bomb only uses your own.
+  Players in the same area see each other, with names. Cut bushes, opened
+  doors and lifted pots show up for everyone in the room. Swords, arrows, rods
+  and the hammer hurt other players (the host can turn that off).
+
+THE GAMES YOU CAN PLAY
+  "original-english"  The original adventure with every item in its original
+                      place and English text. Already created for you.
+  Original Game       Your untouched ROM (Japanese text).
+  RANDOMIZER          Create your own seeds: items, entrances, dungeon doors,
+                      enemies, bosses, pots, keys, goals... Start from a preset,
+                      change anything on the option pages, then CREATE SEED.
+
+TRY IT ALONE ON ONE PC
+  Start "ALttP Online.exe" twice. Host in one window, join in the other.
+  The second copy automatically plays as another person with its own saves.
+
+CONTROLS (change them in OPTIONS > CONTROLS; gamepads work)
+  Arrows move    Z sword (B)    X action (A)    A item (Y)    S map (X)
+  Enter Start (item menu)       Right Shift Select            D / C  L / R
+  ESC menu and room code        TAB player list
+  F11 fullscreen                F12 screenshot
+
+SAVING
+  Use the game's own Save and Quit. Saves are per game/seed in saves\, on each
+  player's own PC, so anyone can host next time.
+
+More details and troubleshooting: game-win64\README.md

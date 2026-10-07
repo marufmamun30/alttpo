@@ -1,0 +1,1324 @@
+ALttP Dungeon Randomizer Version 1.5.7-u  -  Seed: 126024102
+
+Hash: Bombos, Bug Net, Rod, Bomb, Bug Net
+Filling Algorithm:               vanilla_fill
+Players:                         1
+Teams:                           1
+Settings Code:                   AA4AAoA4OAAAEAEACQA=
+Logic:                           noglitches
+Mode:                            standard
+Swords:                          vanilla
+Goal:                            ganon
+
+Accessibility:                   items
+Restricted Boss Items:           none
+Difficulty:                      normal
+Item Functionality:              normal
+Flute Mode:                      normal
+Bow Mode:                        progressive
+Bombbag:                         No
+Pseudoboots:                     No
+Mirror Scroll:                   No
+
+Shopsanity:                      No
+Pottery Mode:                    none
+Pot Shuffle (Legacy):            No
+Enemy Drop Shuffle:              none
+Take Any Caves:                  none
+
+Entrance Shuffle:                vanilla
+Pyramid hole pre-opened:         auto
+
+Map shuffle:                     No
+Compass shuffle:                 No
+Small Key shuffle:               none
+Big Key shuffle:                 No
+Key Logic Algorithm:'            partial
+Door Shuffle:                    vanilla
+Experimental:                    No
+Dungeon Counters:                default
+
+Boss shuffle:                    none
+Enemy shuffle:                   none
+Enemy health:                    default
+Enemy damage:                    default
+
+Hints:                           No
+Race:                            No
+
+Requirements:
+
+Misery Mire: Ether Medallion
+Turtle Rock: Quake Medallion
+Crystals Required for GT:          7
+Crystals Required for Ganon:       7
+
+
+Bottle Refills:
+
+Waterfall Bottle: Bottle (Fairy)
+Pyramid Bottle: Bottle (Blue Potion)
+
+Entrances:
+
+Links House <= Chris Houlihan Room Exit
+
+Locations:
+
+Master Sword Pedestal: Progressive Sword
+Mushroom: Mushroom
+Ether Tablet: Ether
+Spectacle Rock: Piece of Heart
+Floating Island: Piece of Heart
+King Zora: Flippers
+Zora's Ledge: Piece of Heart
+Bottle Merchant: Bottle (Red Potion)
+Maze Race: Piece of Heart
+Flute Spot: Ocarina
+Hobo: Bottle (Red Potion)
+Desert Ledge: Piece of Heart
+Bombos Tablet: Bombos
+Lake Hylia Island: Piece of Heart
+Purple Chest: Bottle (Red Potion)
+Sunken Treasure: Piece of Heart
+Bumper Cave Ledge: Piece of Heart
+Catfish: Quake
+Pyramid: Piece of Heart
+Dark Blacksmith Ruins: Pick Up Purple Chest
+Digging Game: Piece of Heart
+Frog: Get Frog
+Stumpy: Hookshot
+Lost Woods Hideout: Piece of Heart
+Lumberjack Tree: Piece of Heart
+Old Man: Magic Mirror
+Spectacle Rock Cave: Piece of Heart
+Spiral Cave: Rupees (50)
+Mimic Cave: Piece of Heart
+Paradox Cave Lower - Far Left: Rupees (20)
+Paradox Cave Lower - Left: Rupees (20)
+Paradox Cave Lower - Right: Rupees (20)
+Paradox Cave Lower - Far Right: Rupees (20)
+Paradox Cave Lower - Middle: Rupees (20)
+Paradox Cave Upper - Left: Bombs (3)
+Paradox Cave Upper - Right: Arrows (10)
+Waterfall Fairy - Left: Red Boomerang
+Waterfall Fairy - Right: Progressive Shield
+Bonk Rock Cave: Piece of Heart
+Graveyard Cave: Piece of Heart
+King's Tomb: Boss Heart Container
+Potion Shop: Magic Powder
+Kakariko Well - Left: Rupees (20)
+Kakariko Well - Middle: Rupees (20)
+Kakariko Well - Right: Rupees (20)
+Kakariko Well - Bottom: Bombs (3)
+Kakariko Well - Top: Piece of Heart
+Blind's Hideout - Left: Rupees (20)
+Blind's Hideout - Right: Rupees (20)
+Blind's Hideout - Far Left: Rupees (20)
+Blind's Hideout - Far Right: Rupees (20)
+Blind's Hideout - Top: Piece of Heart
+Chicken House: Arrows (10)
+Sick Kid: Bug Catching Net
+Kakariko Tavern: Bottle (Bee)
+Link's Uncle: Progressive Sword
+Secret Passage: Progressive Shield
+Sahasrahla's Hut - Left: Rupees (50)
+Sahasrahla's Hut - Middle: Bombs (3)
+Sahasrahla's Hut - Right: Rupees (50)
+Sahasrahla: Pegasus Boots
+Blacksmith: Progressive Sword
+Magic Bat: Magic Upgrade (1/2)
+Library: Book of Mudora
+Link's House: Lamp
+Checkerboard Cave: Piece of Heart
+Aginah's Cave: Piece of Heart
+Cave 45: Piece of Heart
+Mini Moldorm Cave - Far Left: Bombs (3)
+Mini Moldorm Cave - Left: Rupees (20)
+Mini Moldorm Cave - Right: Rupees (20)
+Mini Moldorm Cave - Far Right: Arrows (10)
+Mini Moldorm Cave - Generous Guy: Rupees (300)
+Ice Rod Cave: Ice Rod
+Floodgate Chest: Bombs (3)
+Spike Cave: Cane of Byrna
+Hookshot Cave - Bottom Right: Rupees (50)
+Hookshot Cave - Top Right: Rupees (50)
+Hookshot Cave - Top Left: Rupees (20)
+Hookshot Cave - Bottom Left: Rupees (50)
+Superbunny Cave - Top: Bombs (3)
+Superbunny Cave - Bottom: Rupees (50)
+Chest Game: Piece of Heart
+C-Shaped House: Rupees (300)
+Brewery: Rupees (300)
+Pyramid Fairy - Left: Progressive Sword
+Pyramid Fairy - Right: Progressive Bow
+Ganon: Triforce
+Peg Cave: Piece of Heart
+Mire Shed - Left: Piece of Heart
+Mire Shed - Right: Arrows (10)
+Hype Cave - Top: Rupees (20)
+Hype Cave - Middle Right: Rupees (20)
+Hype Cave - Middle Left: Rupees (20)
+Hype Cave - Bottom: Rupees (20)
+Hype Cave - Generous Guy: Rupees (300)
+Hyrule Castle - Map Chest: Map (Escape)
+Hyrule Castle - Boomerang Chest: Blue Boomerang
+Hyrule Castle - Zelda's Chest: Rupees (5)
+Sewers - Dark Cross: Small Key (Escape)
+Sewers - Secret Room - Left: Bombs (3)
+Sewers - Secret Room - Middle: Rupees (300)
+Sewers - Secret Room - Right: Arrows (10)
+Sanctuary: Sanctuary Heart Container
+Eastern Palace - Cannonball Chest: Rupees (100)
+Eastern Palace - Map Chest: Map (Eastern Palace)
+Eastern Palace - Compass Chest: Compass (Eastern Palace)
+Eastern Palace - Big Chest: Progressive Bow
+Eastern Palace - Big Key Chest: Big Key (Eastern Palace)
+Eastern Palace - Boss: Shovel
+Eastern Palace - Prize: Green Pendant
+Desert Palace - Compass Chest: Compass (Desert Palace)
+Desert Palace - Big Key Chest: Big Key (Desert Palace)
+Desert Palace - Map Chest: Map (Desert Palace)
+Desert Palace - Torch: Small Key (Desert Palace)
+Desert Palace - Big Chest: Progressive Glove
+Desert Palace - Boss: Boss Heart Container
+Desert Palace - Prize: Blue Pendant
+Tower of Hera - Map Chest: Map (Tower of Hera)
+Tower of Hera - Basement Cage: Small Key (Tower of Hera)
+Tower of Hera - Big Key Chest: Big Key (Tower of Hera)
+Tower of Hera - Compass Chest: Compass (Tower of Hera)
+Tower of Hera - Big Chest: Moon Pearl
+Tower of Hera - Boss: Cape
+Tower of Hera - Prize: Red Pendant
+Castle Tower - Room 03: Small Key (Agahnims Tower)
+Castle Tower - Dark Maze: Small Key (Agahnims Tower)
+Agahnim 1: Beat Agahnim 1
+Palace of Darkness - Shooter Room: Small Key (Palace of Darkness)
+Palace of Darkness - The Arena - Bridge: Small Key (Palace of Darkness)
+Palace of Darkness - The Arena - Ledge: Small Key (Palace of Darkness)
+Palace of Darkness - Map Chest: Map (Palace of Darkness)
+Palace of Darkness - Stalfos Basement: Small Key (Palace of Darkness)
+Palace of Darkness - Big Key Chest: Big Key (Palace of Darkness)
+Palace of Darkness - Dark Maze - Top: Bombs (3)
+Palace of Darkness - Dark Maze - Bottom: Rupees (5)
+Palace of Darkness - Big Chest: Hammer
+Palace of Darkness - Compass Chest: Compass (Palace of Darkness)
+Palace of Darkness - Dark Basement - Left: Single Arrow
+Palace of Darkness - Dark Basement - Right: Small Key (Palace of Darkness)
+Palace of Darkness - Harmless Hellway: Small Key (Palace of Darkness)
+Palace of Darkness - Boss: Boss Heart Container
+Palace of Darkness - Prize: Crystal 3
+Thieves' Town - Map Chest: Map (Thieves Town)
+Thieves' Town - Ambush Chest: Rupees (20)
+Thieves' Town - Compass Chest: Compass (Thieves Town)
+Thieves' Town - Big Key Chest: Big Key (Thieves Town)
+Thieves' Town - Boss: Boss Heart Container
+Thieves' Town - Prize: Crystal 4
+Thieves' Town - Attic: Bombs (3)
+Thieves' Town - Blind's Cell: Small Key (Thieves Town)
+Thieves' Town - Big Chest: Progressive Glove
+Skull Woods - Map Chest: Map (Skull Woods)
+Skull Woods - Big Chest: Fire Rod
+Skull Woods - Pinball Room: Small Key (Skull Woods)
+Skull Woods - Pot Prison: Small Key (Skull Woods)
+Skull Woods - Compass Chest: Compass (Skull Woods)
+Skull Woods - Big Key Chest: Big Key (Skull Woods)
+Skull Woods - Bridge Room: Small Key (Skull Woods)
+Skull Woods - Boss: Boss Heart Container
+Skull Woods - Prize: Crystal 7
+Swamp Palace - Entrance: Small Key (Swamp Palace)
+Swamp Palace - Map Chest: Map (Swamp Palace)
+Swamp Palace - Big Chest: Boss Heart Container
+Swamp Palace - Compass Chest: Compass (Swamp Palace)
+Swamp Palace - Big Key Chest: Big Key (Swamp Palace)
+Swamp Palace - West Chest: Rupees (20)
+Swamp Palace - Flooded Room - Left: Rupees (20)
+Swamp Palace - Flooded Room - Right: Rupees (20)
+Swamp Palace - Waterfall Room: Rupees (20)
+Swamp Palace - Boss: Boss Heart Container
+Swamp Palace - Prize: Crystal 2
+Ice Palace - Compass Chest: Compass (Ice Palace)
+Ice Palace - Big Key Chest: Big Key (Ice Palace)
+Ice Palace - Spike Room: Small Key (Ice Palace)
+Ice Palace - Map Chest: Map (Ice Palace)
+Ice Palace - Freezor Chest: Bombs (3)
+Ice Palace - Iced T Room: Small Key (Ice Palace)
+Ice Palace - Big Chest: Progressive Armor
+Ice Palace - Boss: Boss Heart Container
+Ice Palace - Prize: Crystal 6
+Misery Mire - Main Lobby: Small Key (Misery Mire)
+Misery Mire - Big Chest: Cane of Somaria
+Misery Mire - Map Chest: Map (Misery Mire)
+Misery Mire - Spike Chest: Small Key (Misery Mire)
+Misery Mire - Bridge Chest: Small Key (Misery Mire)
+Misery Mire - Compass Chest: Compass (Misery Mire)
+Misery Mire - Big Key Chest: Big Key (Misery Mire)
+Misery Mire - Boss: Boss Heart Container
+Misery Mire - Prize: Crystal 5
+Turtle Rock - Compass Chest: Compass (Turtle Rock)
+Turtle Rock - Roller Room - Left: Map (Turtle Rock)
+Turtle Rock - Roller Room - Right: Small Key (Turtle Rock)
+Turtle Rock - Chain Chomps: Small Key (Turtle Rock)
+Turtle Rock - Big Key Chest: Big Key (Turtle Rock)
+Turtle Rock - Big Chest: Progressive Shield
+Turtle Rock - Crystaroller Room: Small Key (Turtle Rock)
+Turtle Rock - Eye Bridge - Bottom Left: Small Key (Turtle Rock)
+Turtle Rock - Eye Bridge - Bottom Right: Rupees (20)
+Turtle Rock - Eye Bridge - Top Left: Rupees (5)
+Turtle Rock - Eye Bridge - Top Right: Rupee (1)
+Turtle Rock - Boss: Boss Heart Container
+Turtle Rock - Prize: Crystal 1
+Ganons Tower - Bob's Torch: Small Key (Ganons Tower)
+Ganons Tower - Hope Room - Left: Arrows (10)
+Ganons Tower - Hope Room - Right: Bombs (3)
+Ganons Tower - Big Chest: Progressive Armor
+Ganons Tower - Bob's Chest: Arrows (10)
+Ganons Tower - Tile Room: Small Key (Ganons Tower)
+Ganons Tower - Compass Room - Top Left: Compass (Ganons Tower)
+Ganons Tower - Compass Room - Top Right: Rupee (1)
+Ganons Tower - Compass Room - Bottom Left: Rupees (20)
+Ganons Tower - Compass Room - Bottom Right: Arrows (10)
+Ganons Tower - Map Chest: Map (Ganons Tower)
+Ganons Tower - Firesnake Room: Bombs (10)
+Ganons Tower - DMs Room - Top Left: Small Key (Ganons Tower)
+Ganons Tower - DMs Room - Top Right: Arrows (10)
+Ganons Tower - DMs Room - Bottom Left: Rupees (20)
+Ganons Tower - DMs Room - Bottom Right: Rupees (20)
+Ganons Tower - Randomizer Room - Top Left: Arrows (10)
+Ganons Tower - Randomizer Room - Top Right: Arrows (10)
+Ganons Tower - Randomizer Room - Bottom Left: Bombs (3)
+Ganons Tower - Randomizer Room - Bottom Right: Bombs (3)
+Ganons Tower - Big Key Room - Left: Arrows (10)
+Ganons Tower - Big Key Room - Right: Bombs (3)
+Ganons Tower - Big Key Chest: Big Key (Ganons Tower)
+Ganons Tower - Mini Helmasaur Room - Left: Bombs (3)
+Ganons Tower - Mini Helmasaur Room - Right: Bombs (3)
+Ganons Tower - Pre-Moldorm Chest: Small Key (Ganons Tower)
+Ganons Tower - Validation Chest: Rupees (5)
+Agahnim 2: Beat Agahnim 2
+
+Shops:
+
+Capacity Upgrade [Shop]
+    Bomb Upgrade (+5) — 100
+    Arrow Upgrade (+5) — 100
+
+Playthrough:
+
+0: {
+
+}
+1: {
+  Link's Uncle: Progressive Sword
+  Zelda Pickup: Zelda Herself
+}
+2: {
+  Zelda Drop Off: Zelda Delivered
+}
+3: {
+  Mushroom: Mushroom
+  Ice Rod Cave: Ice Rod
+  Link's House: Lamp
+  Floodgate: Open Floodgate
+}
+4: {
+  Eastern Palace - Big Chest: Progressive Bow
+  Potion Shop: Magic Powder
+}
+5: {
+  Eastern Palace - Boss: Shovel
+  Eastern Palace - Prize: Green Pendant
+}
+6: {
+  Sahasrahla: Pegasus Boots
+  Flute Spot: Ocarina
+}
+7: {
+  Old Man: Magic Mirror
+  Library: Book of Mudora
+}
+8: {
+  Tower of Hera - Big Chest: Moon Pearl
+  Tower of Hera - Boss: Cape
+  Tower of Hera - Prize: Red Pendant
+}
+9: {
+  Agahnim 1: Beat Agahnim 1
+}
+10: {
+  Palace of Darkness - Big Chest: Hammer
+}
+11: {
+  Stumpy: Hookshot
+  Palace of Darkness - Prize: Crystal 3
+}
+12: {
+  Attic Cracked Floor: Shining Light
+  Suspicious Maiden: Maiden Rescued
+  Thieves' Town - Big Chest: Progressive Glove
+  Skull Woods - Big Chest: Fire Rod
+}
+13: {
+  Catfish: Quake
+  Revealing Light: Maiden Unmasked
+  Skull Woods - Prize: Crystal 7
+  King Zora: Flippers
+  Desert Palace - Big Chest: Progressive Glove
+  Desert Palace - Prize: Blue Pendant
+}
+14: {
+  Trench 1 Switch: Trench 1 Filled
+  Master Sword Pedestal: Progressive Sword
+  Thieves' Town - Prize: Crystal 4
+}
+15: {
+  Swamp Drain: Drained Swamp
+  Ether Tablet: Ether
+}
+16: {
+  Misery Mire - Big Chest: Cane of Somaria
+  Swamp Palace - Prize: Crystal 2
+}
+17: {
+  Ice Palace - Prize: Crystal 6
+  Misery Mire - Prize: Crystal 5
+  Turtle Rock - Prize: Crystal 1
+}
+18: {
+  Agahnim 2: Beat Agahnim 2
+}
+19: {
+  Ganon: Triforce
+}
+
+Paths:
+
+Agahnim 1
+        Hyrule Castle Secret Entrance -> Hyrule Castle Secret Entrance Exit
+   =>   Hyrule Castle Courtyard Northeast -> Hyrule Castle Courtyard Bush (North)
+   =>   Hyrule Castle Courtyard -> Hyrule Castle Entrance (South)
+   =>   Hyrule Castle South Portal -> Enter HC (South)
+   =>   Hyrule Castle Lobby -> Hyrule Castle Lobby W
+   =>   Hyrule Castle West Lobby -> Hyrule Castle West Lobby S
+   =>   Hyrule Castle West Portal -> Hyrule Castle Exit (West)
+   =>   Hyrule Castle Ledge -> Agahnims Tower
+   =>   Agahnims Tower Portal -> Enter Agahnims Tower
+   =>   Tower Lobby -> Tower Lobby NW
+   =>   Tower Gold Knights -> Tower Gold Knights EN
+   =>   Tower Room 03 -> Tower Room 03 Up Stairs
+   =>   Tower Lone Statue -> Tower Lone Statue WN
+   =>   Tower Dark Maze -> Tower Dark Maze ES
+   =>   Tower Dark Chargers -> Tower Dark Chargers Up Stairs
+   =>   Tower Dual Statues -> Tower Dual Statues WS
+   =>   Tower Dark Pits -> Tower Dark Pits EN
+   =>   Tower Dark Archers -> Tower Dark Archers Up Stairs
+   =>   Tower Red Spears -> Tower Red Spears WN
+   =>   Tower Red Guards -> Tower Red Guards SW
+   =>   Tower Circle of Pots -> Tower Circle of Pots ES
+   =>   Tower Pacifist Run -> Tower Pacifist Run Up Stairs
+   =>   Tower Push Statue -> Tower Push Statue WS
+   =>   Tower Catwalk -> Tower Catwalk North Stairs
+   =>   Tower Antechamber -> Tower Antechamber NW
+   =>   Tower Altar -> Tower Altar NW
+   =>   Tower Agahnim 1
+Agahnim 2
+        Hyrule Castle Secret Entrance -> Hyrule Castle Secret Entrance Exit
+   =>   Hyrule Castle Courtyard Northeast -> Flute From Hyrule Castle Courtyard Northeast
+   =>   Flute Sky -> Flute Spot 1
+   =>   West Death Mountain (Bottom) -> West Death Mountain Teleporter
+   =>   West Dark Death Mountain (Bottom) -> Mirror From West Dark Death Mountain (Bottom)
+   =>   Spectacle Rock Ledge -> Spectacle Rock Ledge Drop
+   =>   West Death Mountain (Top) -> West Death Mountain EN
+   =>   East Death Mountain (Top West) -> DM Hammer Bridge (West)
+   =>   East Death Mountain (Top East) -> EDM Ledge Drop
+   =>   East Death Mountain (Bottom) -> East Death Mountain Teleporter
+   =>   East Dark Death Mountain (Bottom) -> Superbunny Cave (Bottom)
+   =>   Superbunny Cave (Bottom) -> Superbunny Cave Climb
+   =>   Superbunny Cave (Top) -> Superbunny Cave Exit (Top)
+   =>   East Dark Death Mountain (Top) -> East Dark Death Mountain WN
+   =>   West Dark Death Mountain (Top) -> GT Approach
+   =>   GT Stairs -> Ganons Tower
+   =>   Ganons Tower Portal -> Enter Ganons Tower
+   =>   GT Lobby -> GT Lobby Up Stairs
+   =>   GT Crystal Paths -> GT Crystal Paths SW
+   =>   GT Mimics 1 -> GT Mimics 1 ES
+   =>   GT Mimics 2 -> GT Mimics 2 NE
+   =>   GT Dash Hall -> GT Dash Hall NE
+   =>   GT Hidden Spikes -> GT Hidden Spikes EN
+   =>   GT Cannonball Bridge -> GT Cannonball Bridge Up Stairs
+   =>   GT Gauntlet 1 -> GT Gauntlet 1 WN
+   =>   GT Gauntlet 2 -> GT Gauntlet 2 SW
+   =>   GT Gauntlet 3 -> GT Gauntlet 3 SW
+   =>   GT Gauntlet 4 -> GT Gauntlet 4 SW
+   =>   GT Gauntlet 5 -> GT Gauntlet 5 WS
+   =>   GT Beam Dash -> GT Beam Dash WS
+   =>   GT Lanmolas 2 -> GT Lanmolas 2 NW
+   =>   GT Quad Pot -> GT Quad Pot Up Stairs
+   =>   GT Wizzrobes 1 -> GT Wizzrobes 1 SW
+   =>   GT Dashing Bridge -> GT Dashing Bridge NE
+   =>   GT Wizzrobes 2 -> GT Wizzrobes 2 NE
+   =>   GT Conveyor Bridge -> GT Conveyor Bridge EN
+   =>   GT Torch Cross -> GT Torch Cross ES
+   =>   GT Staredown -> GT Staredown Up Ladder
+   =>   GT Falling Torches -> GT Falling Torches NE
+   =>   GT Mini Helmasaur Room -> GT Mini Helmasaur Room WN
+   =>   GT Bomb Conveyor -> GT Bomb Conveyor SW
+   =>   GT Crystal Circles -> GT Crystal Circles SW
+   =>   GT Left Moldorm Ledge -> GT Left Moldorm Ledge Drop Down
+   =>   GT Moldorm -> GT Moldorm Gap
+   =>   GT Validation -> GT Validation Block Path
+   =>   GT Validation Door -> GT Validation WS
+   =>   GT Frozen Over -> GT Frozen Over Up Stairs
+   =>   GT Brightly Lit Hall -> GT Brightly Lit Hall NW
+   =>   GT Agahnim 2
+Attic Cracked Floor
+        Pyramid Area -> Pyramid ES
+   =>   Dark Dunes Area -> Dark Dunes NW
+   =>   Broken Bridge Area -> Broken Bridge Hammer Rock (South)
+   =>   Broken Bridge Northeast -> Broken Bridge Hookshot Gap
+   =>   Broken Bridge West -> Broken Bridge NW
+   =>   Qirn Jump Area -> Qirn Jump WC
+   =>   Dark Graveyard Area -> Dark Graveyard WC
+   =>   Dark Chapel Area -> Dark Chapel WN
+   =>   Outcast Pond Area -> Outcast Pond WN
+   =>   Dark Fortune Area -> Dark Fortune SC
+   =>   Village of Outcasts -> Thieves Town
+   =>   Thieves Town Portal -> Enter Thieves Town
+   =>   Thieves Lobby -> Thieves Lobby N Edge
+   =>   Thieves Ambush -> Thieves Ambush ES Edge
+   =>   Thieves BK Corner -> Thieves BK Corner NE
+   =>   Thieves Hallway -> Thieves Hallway WS
+   =>   Thieves Pot Alcove Mid -> Thieves Pot Alcove Mid WS
+   =>   Thieves Spike Track -> Thieves Spike Track WS
+   =>   Thieves Hellway S Crystal -> Thieves Hellway Crystal Orange Barrier
+   =>   Thieves Hellway -> Thieves Hellway NW
+   =>   Thieves Spike Switch -> Thieves Spike Switch Up Stairs
+   =>   Thieves Attic -> Thieves Attic ES
+   =>   Thieves Cricket Hall Left -> Thieves Cricket Hall Left Edge
+   =>   Thieves Cricket Hall Right -> Thieves Cricket Hall Right ES
+   =>   Thieves Attic Window
+Catfish
+        Pyramid Area -> Pyramid ES
+   =>   Dark Dunes Area -> Dark Dunes NW
+   =>   Broken Bridge Area -> Broken Bridge Hammer Rock (South)
+   =>   Broken Bridge Northeast -> Broken Bridge NE
+   =>   Qirn Jump East Bank -> Qirn Jump EC
+   =>   Dark Witch Area -> Dark Witch Rock (South)
+   =>   Dark Witch Northeast -> Dark Witch EC
+   =>   Catfish Approach Area -> Catfish Approach Rocks (West)
+   =>   Catfish Approach Ledge -> Catfish Approach NE
+   =>   Catfish Area
+Desert Palace - Big Chest
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Statues WN
+   =>   C Whirlpool Area -> C Whirlpool SC
+   =>   Dam Area -> Dam WC
+   =>   Desert Pass Area -> Desert Pass WS
+   =>   Desert Area -> Desert Statue Move
+   =>   Desert Stairs -> Desert Palace Entrance (South)
+   =>   Desert South Portal -> Enter Desert (South)
+   =>   Desert Main Lobby -> Desert Main Lobby Left Path
+   =>   Desert Left Alcove -> Desert Main Lobby NW Edge
+   =>   Desert North Hall -> Desert North Hall W Edge
+   =>   Desert Sandworm Corner -> Desert Sandworm Corner WS
+   =>   Desert Circle of Pots -> Desert Circle of Pots NW
+   =>   Desert Big Chest Room
+Desert Palace - Prize
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Statues WN
+   =>   C Whirlpool Area -> C Whirlpool SC
+   =>   Dam Area -> Dam WC
+   =>   Desert Pass Area -> Desert Pass WS
+   =>   Desert Area -> Desert Statue Move
+   =>   Desert Stairs -> Desert Palace Entrance (South)
+   =>   Desert South Portal -> Enter Desert (South)
+   =>   Desert Main Lobby -> Desert Main Lobby Left Path
+   =>   Desert Left Alcove -> Desert Main Lobby NW Edge
+   =>   Desert North Hall -> Desert North Hall W Edge
+   =>   Desert Sandworm Corner -> Desert Sandworm Corner S Edge
+   =>   Desert West Wing -> Desert West Wing WS
+   =>   Desert West Lobby -> Desert West S
+   =>   Desert West Portal -> Desert Palace Exit (West)
+   =>   Desert Ledge -> Desert Ledge Rocks (Outer)
+   =>   Desert Ledge Keep -> Desert Palace Entrance (North)
+   =>   Desert Back Portal -> Enter Desert (North)
+   =>   Desert Back Lobby -> Desert Back Lobby NW
+   =>   Desert Tiles 1 -> Desert Tiles 1 Up Stairs
+   =>   Desert Bridge -> Desert Bridge SW
+   =>   Desert Four Statues -> Desert Four Statues ES
+   =>   Desert Beamos Hall -> Desert Beamos Hall NE
+   =>   Desert Tiles 2 -> Desert Tiles 2 NE
+   =>   Desert Wall Slide -> Desert Wall Slide NW
+   =>   Desert Boss
+Eastern Palace - Big Chest
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House ES
+   =>   Stone Bridge South Area -> Stone Bridge (Northbound)
+   =>   Stone Bridge North Area -> Stone Bridge EN
+   =>   Tree Line Area -> Tree Line NW
+   =>   Eastern Palace Area -> Eastern Palace
+   =>   Eastern Portal -> Enter Eastern Palace
+   =>   Eastern Lobby -> Eastern Lobby N
+   =>   Eastern Lobby Bridge -> Eastern Lobby Bridge N
+   =>   Eastern Cannonball -> Eastern Cannonball N
+   =>   Eastern Courtyard Ledge -> Eastern Courtyard Ledge W
+   =>   Eastern West Wing -> Eastern West Wing WS
+   =>   Eastern Stalfos Spawn -> Eastern Stalfos Spawn NW
+   =>   Eastern Compass Room -> Eastern Compass Room EN
+   =>   Eastern Hint Tile -> Eastern Hint Tile EN
+   =>   Eastern Courtyard
+Eastern Palace - Boss
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House ES
+   =>   Stone Bridge South Area -> Stone Bridge (Northbound)
+   =>   Stone Bridge North Area -> Stone Bridge EN
+   =>   Tree Line Area -> Tree Line NW
+   =>   Eastern Palace Area -> Eastern Palace
+   =>   Eastern Portal -> Enter Eastern Palace
+   =>   Eastern Lobby -> Eastern Lobby N
+   =>   Eastern Lobby Bridge -> Eastern Lobby Bridge N
+   =>   Eastern Cannonball -> Eastern Cannonball N
+   =>   Eastern Courtyard Ledge -> Eastern Courtyard Ledge W
+   =>   Eastern West Wing -> Eastern West Wing WS
+   =>   Eastern Stalfos Spawn -> Eastern Stalfos Spawn NW
+   =>   Eastern Compass Room -> Eastern Compass Room EN
+   =>   Eastern Hint Tile -> Eastern Hint Tile EN
+   =>   Eastern Courtyard -> Eastern Courtyard N
+   =>   Eastern Darkness -> Eastern Darkness Up Stairs
+   =>   Eastern Attic Start -> Eastern Attic Start WS
+   =>   Eastern False Switches -> Eastern False Switches WS
+   =>   Eastern Cannonball Hell -> Eastern Cannonball Hell WS
+   =>   Eastern Single Eyegore -> Eastern Single Eyegore NE
+   =>   Eastern Duo Eyegores -> Eastern Duo Eyegores NE
+   =>   Eastern Boss
+Eastern Palace - Prize
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House ES
+   =>   Stone Bridge South Area -> Stone Bridge (Northbound)
+   =>   Stone Bridge North Area -> Stone Bridge EN
+   =>   Tree Line Area -> Tree Line NW
+   =>   Eastern Palace Area -> Eastern Palace
+   =>   Eastern Portal -> Enter Eastern Palace
+   =>   Eastern Lobby -> Eastern Lobby N
+   =>   Eastern Lobby Bridge -> Eastern Lobby Bridge N
+   =>   Eastern Cannonball -> Eastern Cannonball N
+   =>   Eastern Courtyard Ledge -> Eastern Courtyard Ledge W
+   =>   Eastern West Wing -> Eastern West Wing WS
+   =>   Eastern Stalfos Spawn -> Eastern Stalfos Spawn NW
+   =>   Eastern Compass Room -> Eastern Compass Room EN
+   =>   Eastern Hint Tile -> Eastern Hint Tile EN
+   =>   Eastern Courtyard -> Eastern Courtyard N
+   =>   Eastern Darkness -> Eastern Darkness Up Stairs
+   =>   Eastern Attic Start -> Eastern Attic Start WS
+   =>   Eastern False Switches -> Eastern False Switches WS
+   =>   Eastern Cannonball Hell -> Eastern Cannonball Hell WS
+   =>   Eastern Single Eyegore -> Eastern Single Eyegore NE
+   =>   Eastern Duo Eyegores -> Eastern Duo Eyegores NE
+   =>   Eastern Boss
+Ether Tablet
+        Hyrule Castle Secret Entrance -> Hyrule Castle Secret Entrance Exit
+   =>   Hyrule Castle Courtyard Northeast -> Flute From Hyrule Castle Courtyard Northeast
+   =>   Flute Sky -> Flute Spot 1
+   =>   West Death Mountain (Bottom) -> West Death Mountain Teleporter
+   =>   West Dark Death Mountain (Bottom) -> Mirror From West Dark Death Mountain (Bottom)
+   =>   Spectacle Rock Ledge -> Spectacle Rock Ledge Drop
+   =>   West Death Mountain (Top)
+Floodgate
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Statues WN
+   =>   C Whirlpool Area -> C Whirlpool SC
+   =>   Dam Area -> Dam
+   =>   Dam
+Flute Spot
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House WN
+   =>   Central Bonk Rocks Area -> Central Bonk Rocks SW
+   =>   C Whirlpool Outer Area -> C Whirlpool WC
+   =>   Flute Boy Approach Area -> Flute Boy Bush (South)
+   =>   Flute Boy Bush Entry -> Flute Boy Pass NC
+   =>   Flute Boy Area
+Ganon
+        Pyramid Area -> Pyramid Hole
+   =>   Pyramid
+Ice Palace - Prize
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House ES
+   =>   Stone Bridge South Area -> Stone Bridge SC
+   =>   Lake Hylia Northwest Bank -> Lake Hylia Water Drop
+   =>   Lake Hylia Water -> Lake Hylia Central Island Pier
+   =>   Lake Hylia Central Island -> Lake Hylia Teleporter
+   =>   Ice Palace Area -> Ice Palace
+   =>   Ice Portal -> Enter Ice Palace
+   =>   Ice Lobby -> Ice Lobby WS
+   =>   Ice Jelly Key -> Ice Jelly Key Down Stairs
+   =>   Ice Floor Switch -> Ice Floor Switch ES
+   =>   Ice Cross Left -> Ice Cross Left Push Block
+   =>   Ice Compass Room -> Ice Compass Room NE
+   =>   Ice Cross Bottom -> Ice Cross Bottom Push Block Right
+   =>   Ice Pengator Switch -> Ice Pengator Switch WS
+   =>   Ice Cross Right -> Ice Cross Right Push Block Top
+   =>   Ice Bomb Drop -> Ice Bomb Drop Path
+   =>   Ice Bomb Drop - Top -> Ice Bomb Drop Hole
+   =>   Ice Stalfos Hint -> Ice Stalfos Hint SE
+   =>   Ice Conveyor -> Ice Conveyor to Crystal
+   =>   Ice Conveyor - Crystal -> Ice Conveyor Crystal Exit
+   =>   Ice Conveyor -> Ice Conveyor SW
+   =>   Ice Bomb Jump Ledge -> Ice Bomb Jump Ledge Orange Barrier
+   =>   Ice Bomb Jump Catwalk -> Ice Bomb Jump EN
+   =>   Ice Narrow Corridor -> Ice Narrow Corridor Down Stairs
+   =>   Ice Pengator Trap -> Ice Pengator Trap NE
+   =>   Ice Spike Cross -> Ice Spike Cross WS
+   =>   Ice Firebar -> Ice Firebar Down Ladder
+   =>   Ice Freezors -> Ice Freezors Hole
+   =>   Ice Big Chest View -> Ice Big Chest View ES
+   =>   Ice Crystal Left -> Ice Crystal Left Orange Barrier
+   =>   Ice Crystal Right -> Ice Crystal Right NE
+   =>   Ice Backwards Room -> Ice Backwards Room Down Stairs
+   =>   Ice Anti-Fairy -> Ice Anti-Fairy SE
+   =>   Ice Switch Room -> Ice Switch Room ES
+   =>   Ice Refill -> Ice Refill WS
+   =>   Ice Switch Room -> Ice Switch Room SE
+   =>   Ice Antechamber -> Ice Antechamber Hole
+   =>   Ice Boss
+Ice Rod Cave
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Statues SC
+   =>   South Pass Area -> South Pass ES
+   =>   Lake Hylia South Shore -> Lake Hylia ES
+   =>   Octoballoon Area -> Octoballoon NE
+   =>   Ice Cave Area -> Ice Rod Cave
+   =>   Ice Rod Cave
+King Zora
+        Hyrule Castle Secret Entrance -> Hyrule Castle Secret Entrance Exit
+   =>   Hyrule Castle Courtyard Northeast -> Hyrule Castle Courtyard Bush (North)
+   =>   Hyrule Castle Courtyard -> Hyrule Castle Entrance (South)
+   =>   Hyrule Castle South Portal -> Enter HC (South)
+   =>   Hyrule Castle Lobby -> Hyrule Castle Lobby North Stairs
+   =>   Hyrule Castle Throne Room -> Hyrule Castle Throne Room Tapestry
+   =>   Hyrule Castle Behind Tapestry -> Hyrule Castle Throne Room N
+   =>   Sewers Behind Tapestry -> Sewers Behind Tapestry Down Stairs
+   =>   Sewers Rope Room -> Sewers Rope Room North Stairs
+   =>   Sewers Dark Cross -> Sewers Dark Cross Key Door N
+   =>   Sewers Water -> Sewers Water W
+   =>   Sewers Dark Aquabats -> Sewers Dark Aquabats N
+   =>   Sewers Key Rat -> Sewers Key Rat NE
+   =>   Sewers Rat Path -> Sewers Secret Room Push Block
+   =>   Sewers Secret Room Blocked Path -> Sewers Secret Room Up Stairs
+   =>   Sewers Yet More Rats -> Sewers Yet More Rats S
+   =>   Sewers Pull Switch -> Sewers Pull Switch S
+   =>   Sanctuary -> Sanctuary S
+   =>   Sanctuary Portal -> Sanctuary Exit
+   =>   Sanctuary Area -> Sanctuary EC
+   =>   Graveyard Area -> Graveyard EC
+   =>   River Bend Area -> River Bend SW
+   =>   Wooden Bridge Area -> Wooden Bridge Bush (South)
+   =>   Wooden Bridge Northeast -> Wooden Bridge NE
+   =>   River Bend East Bank -> River Bend EC
+   =>   Potion Shop Area -> Potion Shop Rock (South)
+   =>   Potion Shop Northeast -> Potion Shop EC
+   =>   Zora Approach Area -> Zora Approach Rocks (West)
+   =>   Zora Approach Ledge -> Zora Approach NE
+   =>   Zora Waterfall Area -> Zora Waterfall NE
+   =>   Zoras Domain
+Library
+        Hyrule Castle Secret Entrance -> Hyrule Castle Secret Entrance Exit
+   =>   Hyrule Castle Courtyard Northeast -> Hyrule Castle Courtyard Bush (North)
+   =>   Hyrule Castle Courtyard -> Hyrule Castle Entrance (South)
+   =>   Hyrule Castle South Portal -> Enter HC (South)
+   =>   Hyrule Castle Lobby -> Hyrule Castle Lobby North Stairs
+   =>   Hyrule Castle Throne Room -> Hyrule Castle Throne Room Tapestry
+   =>   Hyrule Castle Behind Tapestry -> Hyrule Castle Throne Room N
+   =>   Sewers Behind Tapestry -> Sewers Behind Tapestry Down Stairs
+   =>   Sewers Rope Room -> Sewers Rope Room North Stairs
+   =>   Sewers Dark Cross -> Sewers Dark Cross Key Door N
+   =>   Sewers Water -> Sewers Water W
+   =>   Sewers Dark Aquabats -> Sewers Dark Aquabats N
+   =>   Sewers Key Rat -> Sewers Key Rat NE
+   =>   Sewers Rat Path -> Sewers Secret Room Push Block
+   =>   Sewers Secret Room Blocked Path -> Sewers Secret Room Up Stairs
+   =>   Sewers Yet More Rats -> Sewers Yet More Rats S
+   =>   Sewers Pull Switch -> Sewers Pull Switch S
+   =>   Sanctuary -> Sanctuary S
+   =>   Sanctuary Portal -> Sanctuary Exit
+   =>   Sanctuary Area -> Sanctuary WS
+   =>   Kakariko Pond Area -> Kakariko Pond WN
+   =>   Kakariko Fortune Area -> Kakariko Fortune SC
+   =>   Kakariko Village -> Kakariko SE
+   =>   Kakariko Suburb Area -> Library
+   =>   Library
+Link's House
+        Links House
+Link's Uncle
+        Hyrule Castle Secret Entrance
+Master Sword Pedestal
+        Hyrule Castle Secret Entrance -> Hyrule Castle Secret Entrance Exit
+   =>   Hyrule Castle Courtyard Northeast -> Hyrule Castle Courtyard Bush (North)
+   =>   Hyrule Castle Courtyard -> Hyrule Castle Entrance (South)
+   =>   Hyrule Castle South Portal -> Enter HC (South)
+   =>   Hyrule Castle Lobby -> Hyrule Castle Lobby North Stairs
+   =>   Hyrule Castle Throne Room -> Hyrule Castle Throne Room Tapestry
+   =>   Hyrule Castle Behind Tapestry -> Hyrule Castle Throne Room N
+   =>   Sewers Behind Tapestry -> Sewers Behind Tapestry Down Stairs
+   =>   Sewers Rope Room -> Sewers Rope Room North Stairs
+   =>   Sewers Dark Cross -> Sewers Dark Cross Key Door N
+   =>   Sewers Water -> Sewers Water W
+   =>   Sewers Dark Aquabats -> Sewers Dark Aquabats N
+   =>   Sewers Key Rat -> Sewers Key Rat NE
+   =>   Sewers Rat Path -> Sewers Secret Room Push Block
+   =>   Sewers Secret Room Blocked Path -> Sewers Secret Room Up Stairs
+   =>   Sewers Yet More Rats -> Sewers Yet More Rats S
+   =>   Sewers Pull Switch -> Sewers Pull Switch S
+   =>   Sanctuary -> Sanctuary S
+   =>   Sanctuary Portal -> Sanctuary Exit
+   =>   Sanctuary Area -> Sanctuary WS
+   =>   Kakariko Pond Area -> Kakariko Pond WN
+   =>   Kakariko Fortune Area -> Kakariko Fortune NE
+   =>   Lost Woods East Area -> Lost Woods Bush (East)
+   =>   Lost Woods West Area -> Lost Woods NW
+   =>   Master Sword Meadow
+Misery Mire - Big Chest
+        Hyrule Castle Secret Entrance -> Hyrule Castle Secret Entrance Exit
+   =>   Hyrule Castle Courtyard Northeast -> Flute From Hyrule Castle Courtyard Northeast
+   =>   Flute Sky -> Flute Spot 6
+   =>   Desert Teleporter Ledge -> Desert Teleporter
+   =>   Mire Teleporter Ledge -> Mire Teleporter Ledge Drop
+   =>   Mire Area -> Misery Mire
+   =>   Mire Portal -> Enter Misery Mire
+   =>   Mire Lobby -> Mire Lobby Gap
+   =>   Mire Post-Gap -> Mire Post-Gap Down Stairs
+   =>   Mire 2 -> Mire 2 NE
+   =>   Mire Hub -> Mire Hub ES
+   =>   Mire Lone Shooter -> Mire Lone Shooter ES
+   =>   Mire Falling Bridge - Primary -> Mire Falling Bridge Hook Path
+   =>   Mire Falling Bridge - Chest
+Misery Mire - Prize
+        Hyrule Castle Secret Entrance -> Hyrule Castle Secret Entrance Exit
+   =>   Hyrule Castle Courtyard Northeast -> Flute From Hyrule Castle Courtyard Northeast
+   =>   Flute Sky -> Flute Spot 6
+   =>   Desert Teleporter Ledge -> Desert Teleporter
+   =>   Mire Teleporter Ledge -> Mire Teleporter Ledge Drop
+   =>   Mire Area -> Misery Mire
+   =>   Mire Portal -> Enter Misery Mire
+   =>   Mire Lobby -> Mire Lobby Gap
+   =>   Mire Post-Gap -> Mire Post-Gap Down Stairs
+   =>   Mire 2 -> Mire 2 NE
+   =>   Mire Hub -> Mire Hub NE
+   =>   Mire Hidden Shooters -> Mire Hidden Shooters ES
+   =>   Mire Spikes -> Mire Spikes NW
+   =>   Mire Ledgehop -> Mire Ledgehop WN
+   =>   Mire BK Door Room -> Mire BK Door Room N
+   =>   Mire Left Bridge -> Mire Left Bridge Down Stairs
+   =>   Mire Dark Shooters -> Mire Dark Shooters SW
+   =>   Mire Block X -> Mire Block X WS
+   =>   Mire Tall Dark and Roomy -> Mire Tall Dark and Roomy WS
+   =>   Mire Crystal Right -> Mire Crystal Right Orange Barrier
+   =>   Mire Crystal Mid -> Mire Crystal Mid NW
+   =>   Mire Crystal Top -> Mire Crystal Top SW
+   =>   Mire Crystal Mid -> Mire Crystal Mid Blue Barrier
+   =>   Mire Crystal Left -> Mire Crystal Left WS
+   =>   Mire Falling Foes -> Mire Falling Foes Up Stairs
+   =>   Mire Firesnake Skip -> Mire Firesnake Skip Orange Barrier
+   =>   Mire Antechamber -> Mire Antechamber NW
+   =>   Mire Boss
+Mushroom
+        Hyrule Castle Secret Entrance -> Hyrule Castle Secret Entrance Exit
+   =>   Hyrule Castle Courtyard Northeast -> Hyrule Castle Courtyard Bush (North)
+   =>   Hyrule Castle Courtyard -> Hyrule Castle Entrance (South)
+   =>   Hyrule Castle South Portal -> Enter HC (South)
+   =>   Hyrule Castle Lobby -> Hyrule Castle Lobby North Stairs
+   =>   Hyrule Castle Throne Room -> Hyrule Castle Throne Room Tapestry
+   =>   Hyrule Castle Behind Tapestry -> Hyrule Castle Throne Room N
+   =>   Sewers Behind Tapestry -> Sewers Behind Tapestry Down Stairs
+   =>   Sewers Rope Room -> Sewers Rope Room North Stairs
+   =>   Sewers Dark Cross -> Sewers Dark Cross Key Door N
+   =>   Sewers Water -> Sewers Water W
+   =>   Sewers Dark Aquabats -> Sewers Dark Aquabats N
+   =>   Sewers Key Rat -> Sewers Key Rat NE
+   =>   Sewers Rat Path -> Sewers Secret Room Push Block
+   =>   Sewers Secret Room Blocked Path -> Sewers Secret Room Up Stairs
+   =>   Sewers Yet More Rats -> Sewers Yet More Rats S
+   =>   Sewers Pull Switch -> Sewers Pull Switch S
+   =>   Sanctuary -> Sanctuary S
+   =>   Sanctuary Portal -> Sanctuary Exit
+   =>   Sanctuary Area -> Sanctuary WS
+   =>   Kakariko Pond Area -> Kakariko Pond WN
+   =>   Kakariko Fortune Area -> Kakariko Fortune NE
+   =>   Lost Woods East Area
+Old Man
+        Hyrule Castle Secret Entrance -> Hyrule Castle Secret Entrance Exit
+   =>   Hyrule Castle Courtyard Northeast -> Flute From Hyrule Castle Courtyard Northeast
+   =>   Flute Sky -> Flute Spot 1
+   =>   West Death Mountain (Bottom) -> Old Man Cave (East)
+   =>   Old Man Cave (East) -> Old Man Cave W
+   =>   Old Man Cave (West)
+Palace of Darkness - Big Chest
+        Pyramid Area -> Pyramid ES
+   =>   Dark Dunes Area -> Dark Dunes SC
+   =>   Hammer Bridge North Area -> Hammer Bridge EN
+   =>   Dark Tree Line Area -> Dark Tree Line NW
+   =>   Palace of Darkness Area -> Palace of Darkness
+   =>   Palace of Darkness Portal -> Enter Palace of Darkness
+   =>   PoD Lobby -> PoD Lobby N
+   =>   PoD Middle Cage -> PoD Middle Cage Down Stairs
+   =>   PoD Warp Room -> PoD Warp Room Warp
+   =>   PoD Warp Hint -> PoD Warp Hint SE
+   =>   PoD Jelly Hall -> PoD Jelly Hall NW
+   =>   PoD Mimics 1 -> PoD Mimics 1 NW
+   =>   PoD Conveyor -> PoD Conveyor North Stairs
+   =>   PoD Map Balcony -> PoD Map Balcony to Ranged Crystal
+   =>   PoD Map Balcony - Ranged Crystal -> PoD Map Balcony Ranged Crystal Exit
+   =>   PoD Map Balcony -> PoD Map Balcony South Stairs
+   =>   PoD Conveyor -> PoD Conveyor SW
+   =>   PoD Mimics 1 -> PoD Mimics 1 SW
+   =>   PoD Jelly Hall -> PoD Jelly Hall NE
+   =>   PoD Warp Hint -> PoD Warp Hint Warp
+   =>   PoD Warp Room -> PoD Warp Room Up Stairs
+   =>   PoD Middle Cage -> PoD Middle Cage N
+   =>   PoD Pit Room -> PoD Pit Room NW
+   =>   PoD Arena Main -> PoD Arena Main to Landing Bypass
+   =>   PoD Arena Landing -> PoD Arena Landing to North Barrier - Orange
+   =>   PoD Arena North -> PoD Arena Main NW
+   =>   PoD Falling Bridge -> PoD Falling Bridge Path N
+   =>   PoD Falling Bridge Mid -> PoD Falling Bridge Mid Path N
+   =>   PoD Falling Bridge Ledge -> PoD Falling Bridge WN
+   =>   PoD Dark Maze -> PoD Dark Maze E
+   =>   PoD Big Chest Balcony
+Palace of Darkness - Prize
+        Pyramid Area -> Pyramid ES
+   =>   Dark Dunes Area -> Dark Dunes SC
+   =>   Hammer Bridge North Area -> Hammer Bridge EN
+   =>   Dark Tree Line Area -> Dark Tree Line NW
+   =>   Palace of Darkness Area -> Palace of Darkness
+   =>   Palace of Darkness Portal -> Enter Palace of Darkness
+   =>   PoD Lobby -> PoD Lobby N
+   =>   PoD Middle Cage -> PoD Middle Cage Down Stairs
+   =>   PoD Warp Room -> PoD Warp Room Warp
+   =>   PoD Warp Hint -> PoD Warp Hint SE
+   =>   PoD Jelly Hall -> PoD Jelly Hall NW
+   =>   PoD Mimics 1 -> PoD Mimics 1 NW
+   =>   PoD Conveyor -> PoD Conveyor North Stairs
+   =>   PoD Map Balcony -> PoD Map Balcony to Ranged Crystal
+   =>   PoD Map Balcony - Ranged Crystal -> PoD Map Balcony Ranged Crystal Exit
+   =>   PoD Map Balcony -> PoD Map Balcony South Stairs
+   =>   PoD Conveyor -> PoD Conveyor SW
+   =>   PoD Mimics 1 -> PoD Mimics 1 SW
+   =>   PoD Jelly Hall -> PoD Jelly Hall NE
+   =>   PoD Warp Hint -> PoD Warp Hint Warp
+   =>   PoD Warp Room -> PoD Warp Room Up Stairs
+   =>   PoD Middle Cage -> PoD Middle Cage N
+   =>   PoD Pit Room -> PoD Pit Room NW
+   =>   PoD Arena Main -> PoD Arena Main to Landing Bypass
+   =>   PoD Arena Landing -> PoD Arena Landing to Right Barrier - Blue
+   =>   PoD Arena Right -> PoD Arena Crystals E
+   =>   PoD Sexy Statue -> PoD Sexy Statue NW
+   =>   PoD Mimics 2 -> PoD Mimics 2 NW
+   =>   PoD Bow Statue Left -> PoD Bow Statue Left to Right Bypass
+   =>   PoD Bow Statue Right -> PoD Bow Statue Down Ladder
+   =>   PoD Dark Pegs Landing -> PoD Dark Pegs Landing to Right
+   =>   PoD Dark Pegs Right -> PoD Dark Pegs Right to Middle Barrier - Orange
+   =>   PoD Dark Pegs Middle -> PoD Dark Pegs Middle to Left Bypass
+   =>   PoD Dark Pegs Left -> PoD Dark Pegs WN
+   =>   PoD Lonely Turtle -> PoD Lonely Turtle SW
+   =>   PoD Turtle Party -> PoD Turtle Party ES
+   =>   PoD Callback -> PoD Callback Warp
+   =>   PoD Dark Alley -> PoD Dark Alley NE
+   =>   PoD Boss
+Potion Shop
+        Hyrule Castle Secret Entrance -> Hyrule Castle Secret Entrance Exit
+   =>   Hyrule Castle Courtyard Northeast -> Hyrule Castle Courtyard Bush (North)
+   =>   Hyrule Castle Courtyard -> Hyrule Castle Entrance (South)
+   =>   Hyrule Castle South Portal -> Enter HC (South)
+   =>   Hyrule Castle Lobby -> Hyrule Castle Lobby North Stairs
+   =>   Hyrule Castle Throne Room -> Hyrule Castle Throne Room Tapestry
+   =>   Hyrule Castle Behind Tapestry -> Hyrule Castle Throne Room N
+   =>   Sewers Behind Tapestry -> Sewers Behind Tapestry Down Stairs
+   =>   Sewers Rope Room -> Sewers Rope Room North Stairs
+   =>   Sewers Dark Cross -> Sewers Dark Cross Key Door N
+   =>   Sewers Water -> Sewers Water W
+   =>   Sewers Dark Aquabats -> Sewers Dark Aquabats N
+   =>   Sewers Key Rat -> Sewers Key Rat NE
+   =>   Sewers Rat Path -> Sewers Secret Room Push Block
+   =>   Sewers Secret Room Blocked Path -> Sewers Secret Room Up Stairs
+   =>   Sewers Yet More Rats -> Sewers Yet More Rats S
+   =>   Sewers Pull Switch -> Sewers Pull Switch S
+   =>   Sanctuary -> Sanctuary S
+   =>   Sanctuary Portal -> Sanctuary Exit
+   =>   Sanctuary Area -> Sanctuary EC
+   =>   Graveyard Area -> Graveyard EC
+   =>   River Bend Area -> River Bend SW
+   =>   Wooden Bridge Area -> Wooden Bridge Bush (South)
+   =>   Wooden Bridge Northeast -> Wooden Bridge NE
+   =>   River Bend East Bank -> River Bend EC
+   =>   Potion Shop Area -> Potion Shop
+   =>   Potion Shop
+Revealing Light
+        Pyramid Area -> Pyramid ES
+   =>   Dark Dunes Area -> Dark Dunes NW
+   =>   Broken Bridge Area -> Broken Bridge Hammer Rock (South)
+   =>   Broken Bridge Northeast -> Broken Bridge Hookshot Gap
+   =>   Broken Bridge West -> Broken Bridge NW
+   =>   Qirn Jump Area -> Qirn Jump WC
+   =>   Dark Graveyard Area -> Dark Graveyard WC
+   =>   Dark Chapel Area -> Dark Chapel WN
+   =>   Outcast Pond Area -> Outcast Pond WN
+   =>   Dark Fortune Area -> Dark Fortune SC
+   =>   Village of Outcasts -> Thieves Town
+   =>   Thieves Town Portal -> Enter Thieves Town
+   =>   Thieves Lobby -> Thieves Lobby N Edge
+   =>   Thieves Ambush -> Thieves Ambush ES Edge
+   =>   Thieves BK Corner -> Thieves BK Corner NE
+   =>   Thieves Hallway -> Thieves Hallway NE
+   =>   Thieves Boss
+Sahasrahla
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House ES
+   =>   Stone Bridge South Area -> Stone Bridge (Northbound)
+   =>   Stone Bridge North Area -> Stone Bridge EN
+   =>   Tree Line Area -> Tree Line NW
+   =>   Eastern Palace Area -> Sahasrahlas Hut
+   =>   Sahasrahlas Hut
+Skull Woods - Big Chest
+        Pyramid Area -> Pyramid ES
+   =>   Dark Dunes Area -> Dark Dunes NW
+   =>   Broken Bridge Area -> Broken Bridge Hammer Rock (South)
+   =>   Broken Bridge Northeast -> Broken Bridge Hookshot Gap
+   =>   Broken Bridge West -> Broken Bridge NW
+   =>   Qirn Jump Area -> Qirn Jump WC
+   =>   Dark Graveyard Area -> Dark Graveyard WC
+   =>   Dark Chapel Area -> Dark Chapel WN
+   =>   Outcast Pond Area -> Outcast Pond WN
+   =>   Dark Fortune Area -> Dark Fortune NE
+   =>   Skull Woods Forest -> Skull Woods First Section Hole (North)
+   =>   Skull Pot Circle -> Skull Pot Circle WN
+   =>   Skull Pull Switch -> Skull Pull Switch S
+   =>   Skull Big Chest
+Skull Woods - Prize
+        Pyramid Area -> Pyramid ES
+   =>   Dark Dunes Area -> Dark Dunes NW
+   =>   Broken Bridge Area -> Broken Bridge Hammer Rock (South)
+   =>   Broken Bridge Northeast -> Broken Bridge Hookshot Gap
+   =>   Broken Bridge West -> Broken Bridge NW
+   =>   Qirn Jump Area -> Qirn Jump WC
+   =>   Dark Graveyard Area -> Dark Graveyard WC
+   =>   Dark Chapel Area -> Dark Chapel WN
+   =>   Outcast Pond Area -> Outcast Pond WN
+   =>   Dark Fortune Area -> Dark Fortune NE
+   =>   Skull Woods Forest -> Skull Woods Second Section Door (East)
+   =>   Skull 2 East Portal -> Enter Skull Woods 2 (East)
+   =>   Skull 2 East Lobby -> Skull 2 East Lobby WS
+   =>   Skull Small Hall -> Skull Small Hall WS
+   =>   Skull 2 West Lobby -> Skull 2 West Lobby S
+   =>   Skull 2 West Portal -> Skull Woods Second Section Exit (West)
+   =>   Skull Woods Forest (West) -> Skull Woods Final Section
+   =>   Skull 3 Portal -> Enter Skull Woods 3
+   =>   Skull 3 Lobby -> Skull 3 Lobby NW
+   =>   Skull Star Pits -> Skull Star Pits ES
+   =>   Skull Torch Room -> Skull Torch Room WN
+   =>   Skull Vines -> Skull Vines NW
+   =>   Skull Spike Corner -> Skull Spike Corner ES
+   =>   Skull Final Drop -> Skull Final Drop Hole
+   =>   Skull Boss
+Stumpy
+        Pyramid Area -> Pyramid ES
+   =>   Dark Dunes Area -> Dark Dunes SC
+   =>   Hammer Bridge North Area -> Hammer Bridge Pegs (North)
+   =>   Hammer Bridge South Area -> Hammer Bridge WS
+   =>   Big Bomb Shop Area -> Big Bomb Shop WN
+   =>   Dark Bonk Rocks Area -> Dark Bonk Rocks SW
+   =>   Dark C Whirlpool Outer Area -> Dark C Whirlpool WC
+   =>   Stumpy Approach Area -> Stumpy Approach Bush (South)
+   =>   Stumpy Approach Bush Entry -> Stumpy Approach NC
+   =>   Stumpy Area
+Suspicious Maiden
+        Pyramid Area -> Pyramid ES
+   =>   Dark Dunes Area -> Dark Dunes NW
+   =>   Broken Bridge Area -> Broken Bridge Hammer Rock (South)
+   =>   Broken Bridge Northeast -> Broken Bridge Hookshot Gap
+   =>   Broken Bridge West -> Broken Bridge NW
+   =>   Qirn Jump Area -> Qirn Jump WC
+   =>   Dark Graveyard Area -> Dark Graveyard WC
+   =>   Dark Chapel Area -> Dark Chapel WN
+   =>   Outcast Pond Area -> Outcast Pond WN
+   =>   Dark Fortune Area -> Dark Fortune SC
+   =>   Village of Outcasts -> Thieves Town
+   =>   Thieves Town Portal -> Enter Thieves Town
+   =>   Thieves Lobby -> Thieves Lobby N Edge
+   =>   Thieves Ambush -> Thieves Ambush ES Edge
+   =>   Thieves BK Corner -> Thieves BK Corner NE
+   =>   Thieves Hallway -> Thieves Hallway WS
+   =>   Thieves Pot Alcove Mid -> Thieves Pot Alcove Mid WS
+   =>   Thieves Spike Track -> Thieves Spike Track WS
+   =>   Thieves Hellway S Crystal -> Thieves Hellway Crystal Orange Barrier
+   =>   Thieves Hellway -> Thieves Hellway NW
+   =>   Thieves Spike Switch -> Thieves Spike Switch SW
+   =>   Thieves Hellway -> Thieves Hellway Blue Barrier
+   =>   Thieves Hellway N Crystal -> Thieves Hellway Crystal EN
+   =>   Thieves Triple Bypass -> Thieves Triple Bypass EN
+   =>   Thieves Conveyor Maze -> Thieves Conveyor Maze Down Stairs
+   =>   Thieves Basement Block -> Thieves Basement Block WN
+   =>   Thieves Conveyor Bridge -> Thieves Conveyor Bridge ES
+   =>   Thieves Lonely Zazak -> Thieves Lonely Zazak ES
+   =>   Thieves Blind's Cell -> Thieves Blind's Cell Door
+   =>   Thieves Blind's Cell Interior
+Swamp Drain
+        Pyramid Area -> Pyramid ES
+   =>   Dark Dunes Area -> Dark Dunes SC
+   =>   Hammer Bridge North Area -> Hammer Bridge Pegs (North)
+   =>   Hammer Bridge South Area -> Hammer Bridge WS
+   =>   Big Bomb Shop Area -> Big Bomb Shop SC
+   =>   Hype Cave Area -> Hype Cave WN
+   =>   Dark C Whirlpool Area -> Dark C Whirlpool SC
+   =>   Swamp Area -> Swamp Palace
+   =>   Swamp Portal -> Enter Swamp
+   =>   Swamp Lobby -> Swamp Lobby Moat
+   =>   Swamp Entrance -> Swamp Entrance Down Stairs
+   =>   Swamp Pot Row -> Swamp Pot Row WS
+   =>   Swamp Trench 1 Approach -> Swamp Trench 1 Approach Swim Depart
+   =>   Swamp Trench 1 Departure -> Swamp Trench 1 Departure WS
+   =>   Swamp Hub -> Swamp Hub Hook Path
+   =>   Swamp Hub North Ledge -> Swamp Hub North Ledge N
+   =>   Swamp Push Statue -> Swamp Push Statue NE
+   =>   Swamp Right Elbow -> Swamp Right Elbow Down Stairs
+   =>   Swamp Drain Right
+Swamp Palace - Prize
+        Pyramid Area -> Pyramid ES
+   =>   Dark Dunes Area -> Dark Dunes SC
+   =>   Hammer Bridge North Area -> Hammer Bridge Pegs (North)
+   =>   Hammer Bridge South Area -> Hammer Bridge WS
+   =>   Big Bomb Shop Area -> Big Bomb Shop SC
+   =>   Hype Cave Area -> Hype Cave WN
+   =>   Dark C Whirlpool Area -> Dark C Whirlpool SC
+   =>   Swamp Area -> Swamp Palace
+   =>   Swamp Portal -> Enter Swamp
+   =>   Swamp Lobby -> Swamp Lobby Moat
+   =>   Swamp Entrance -> Swamp Entrance Down Stairs
+   =>   Swamp Pot Row -> Swamp Pot Row WS
+   =>   Swamp Trench 1 Approach -> Swamp Trench 1 Approach Swim Depart
+   =>   Swamp Trench 1 Departure -> Swamp Trench 1 Departure WS
+   =>   Swamp Hub -> Swamp Hub Hook Path
+   =>   Swamp Hub North Ledge -> Swamp Hub North Ledge N
+   =>   Swamp Push Statue -> Swamp Push Statue NW
+   =>   Swamp Shooters -> Swamp Shooters EN
+   =>   Swamp Left Elbow -> Swamp Left Elbow Down Stairs
+   =>   Swamp Drain Left -> Swamp Drain WN
+   =>   Swamp Basement Shallows -> Swamp Basement Shallows NW
+   =>   Swamp Waterfall Room -> Swamp Waterfall Room NE
+   =>   Swamp Behind Waterfall -> Swamp Behind Waterfall Up Stairs
+   =>   Swamp C -> Swamp C SE
+   =>   Swamp Waterway -> Swamp Waterway NW
+   =>   Swamp T -> Swamp T NW
+   =>   Swamp Boss
+Thieves' Town - Big Chest
+        Pyramid Area -> Pyramid ES
+   =>   Dark Dunes Area -> Dark Dunes NW
+   =>   Broken Bridge Area -> Broken Bridge Hammer Rock (South)
+   =>   Broken Bridge Northeast -> Broken Bridge Hookshot Gap
+   =>   Broken Bridge West -> Broken Bridge NW
+   =>   Qirn Jump Area -> Qirn Jump WC
+   =>   Dark Graveyard Area -> Dark Graveyard WC
+   =>   Dark Chapel Area -> Dark Chapel WN
+   =>   Outcast Pond Area -> Outcast Pond WN
+   =>   Dark Fortune Area -> Dark Fortune SC
+   =>   Village of Outcasts -> Thieves Town
+   =>   Thieves Town Portal -> Enter Thieves Town
+   =>   Thieves Lobby -> Thieves Lobby N Edge
+   =>   Thieves Ambush -> Thieves Ambush ES Edge
+   =>   Thieves BK Corner -> Thieves BK Corner NE
+   =>   Thieves Hallway -> Thieves Hallway WS
+   =>   Thieves Pot Alcove Mid -> Thieves Pot Alcove Mid WS
+   =>   Thieves Spike Track -> Thieves Spike Track WS
+   =>   Thieves Hellway S Crystal -> Thieves Hellway Crystal Orange Barrier
+   =>   Thieves Hellway -> Thieves Hellway NW
+   =>   Thieves Spike Switch -> Thieves Spike Switch SW
+   =>   Thieves Hellway -> Thieves Hellway Blue Barrier
+   =>   Thieves Hellway N Crystal -> Thieves Hellway Crystal EN
+   =>   Thieves Triple Bypass -> Thieves Triple Bypass EN
+   =>   Thieves Conveyor Maze -> Thieves Conveyor Maze Down Stairs
+   =>   Thieves Basement Block -> Thieves Basement Block WN
+   =>   Thieves Conveyor Bridge -> Thieves Conveyor Bridge WS
+   =>   Thieves Big Chest Room
+Thieves' Town - Prize
+        Pyramid Area -> Pyramid ES
+   =>   Dark Dunes Area -> Dark Dunes NW
+   =>   Broken Bridge Area -> Broken Bridge Hammer Rock (South)
+   =>   Broken Bridge Northeast -> Broken Bridge Hookshot Gap
+   =>   Broken Bridge West -> Broken Bridge NW
+   =>   Qirn Jump Area -> Qirn Jump WC
+   =>   Dark Graveyard Area -> Dark Graveyard WC
+   =>   Dark Chapel Area -> Dark Chapel WN
+   =>   Outcast Pond Area -> Outcast Pond WN
+   =>   Dark Fortune Area -> Dark Fortune SC
+   =>   Village of Outcasts -> Thieves Town
+   =>   Thieves Town Portal -> Enter Thieves Town
+   =>   Thieves Lobby -> Thieves Lobby N Edge
+   =>   Thieves Ambush -> Thieves Ambush ES Edge
+   =>   Thieves BK Corner -> Thieves BK Corner NE
+   =>   Thieves Hallway -> Thieves Hallway NE
+   =>   Thieves Boss
+Tower of Hera - Big Chest
+        Hyrule Castle Secret Entrance -> Hyrule Castle Secret Entrance Exit
+   =>   Hyrule Castle Courtyard Northeast -> Flute From Hyrule Castle Courtyard Northeast
+   =>   Flute Sky -> Flute Spot 1
+   =>   West Death Mountain (Bottom) -> West Death Mountain Teleporter
+   =>   West Dark Death Mountain (Bottom) -> Mirror From West Dark Death Mountain (Bottom)
+   =>   Spectacle Rock Ledge -> Spectacle Rock Ledge Drop
+   =>   West Death Mountain (Top) -> Tower of Hera
+   =>   Hera Portal -> Enter Hera
+   =>   Hera Lobby -> Hera Lobby to Crystal
+   =>   Hera Lobby - Crystal -> Hera Lobby Crystal Exit
+   =>   Hera Lobby -> Hera Lobby to Front Barrier - Blue
+   =>   Hera Front -> Hera Front to Crystal
+   =>   Hera Front - Crystal -> Hera Front Crystal Exit
+   =>   Hera Front -> Hera Front to Up Stairs Barrier - Orange
+   =>   Hera Up Stairs Landing -> Hera Lobby Up Stairs
+   =>   Hera Beetles -> Hera Beetles WS
+   =>   Hera Startile Corner -> Hera Startile Corner NW
+   =>   Hera Startile Wide -> Hera Startile Wide Up Stairs
+   =>   Hera 4F -> Hera 4F Up Stairs
+   =>   Hera 5F -> Hera 5F Star Hole
+   =>   Hera Big Chest Landing
+Tower of Hera - Boss
+        Hyrule Castle Secret Entrance -> Hyrule Castle Secret Entrance Exit
+   =>   Hyrule Castle Courtyard Northeast -> Flute From Hyrule Castle Courtyard Northeast
+   =>   Flute Sky -> Flute Spot 1
+   =>   West Death Mountain (Bottom) -> West Death Mountain Teleporter
+   =>   West Dark Death Mountain (Bottom) -> Mirror From West Dark Death Mountain (Bottom)
+   =>   Spectacle Rock Ledge -> Spectacle Rock Ledge Drop
+   =>   West Death Mountain (Top) -> Tower of Hera
+   =>   Hera Portal -> Enter Hera
+   =>   Hera Lobby -> Hera Lobby to Crystal
+   =>   Hera Lobby - Crystal -> Hera Lobby Crystal Exit
+   =>   Hera Lobby -> Hera Lobby to Front Barrier - Blue
+   =>   Hera Front -> Hera Front to Crystal
+   =>   Hera Front - Crystal -> Hera Front Crystal Exit
+   =>   Hera Front -> Hera Front to Up Stairs Barrier - Orange
+   =>   Hera Up Stairs Landing -> Hera Lobby Up Stairs
+   =>   Hera Beetles -> Hera Beetles WS
+   =>   Hera Startile Corner -> Hera Startile Corner NW
+   =>   Hera Startile Wide -> Hera Startile Wide Up Stairs
+   =>   Hera 4F -> Hera 4F Up Stairs
+   =>   Hera 5F -> Hera 5F Up Stairs
+   =>   Hera Boss
+Tower of Hera - Prize
+        Hyrule Castle Secret Entrance -> Hyrule Castle Secret Entrance Exit
+   =>   Hyrule Castle Courtyard Northeast -> Flute From Hyrule Castle Courtyard Northeast
+   =>   Flute Sky -> Flute Spot 1
+   =>   West Death Mountain (Bottom) -> West Death Mountain Teleporter
+   =>   West Dark Death Mountain (Bottom) -> Mirror From West Dark Death Mountain (Bottom)
+   =>   Spectacle Rock Ledge -> Spectacle Rock Ledge Drop
+   =>   West Death Mountain (Top) -> Tower of Hera
+   =>   Hera Portal -> Enter Hera
+   =>   Hera Lobby -> Hera Lobby to Crystal
+   =>   Hera Lobby - Crystal -> Hera Lobby Crystal Exit
+   =>   Hera Lobby -> Hera Lobby to Front Barrier - Blue
+   =>   Hera Front -> Hera Front to Crystal
+   =>   Hera Front - Crystal -> Hera Front Crystal Exit
+   =>   Hera Front -> Hera Front to Up Stairs Barrier - Orange
+   =>   Hera Up Stairs Landing -> Hera Lobby Up Stairs
+   =>   Hera Beetles -> Hera Beetles WS
+   =>   Hera Startile Corner -> Hera Startile Corner NW
+   =>   Hera Startile Wide -> Hera Startile Wide Up Stairs
+   =>   Hera 4F -> Hera 4F Up Stairs
+   =>   Hera 5F -> Hera 5F Up Stairs
+   =>   Hera Boss
+Trench 1 Switch
+        Pyramid Area -> Pyramid ES
+   =>   Dark Dunes Area -> Dark Dunes SC
+   =>   Hammer Bridge North Area -> Hammer Bridge Pegs (North)
+   =>   Hammer Bridge South Area -> Hammer Bridge WS
+   =>   Big Bomb Shop Area -> Big Bomb Shop SC
+   =>   Hype Cave Area -> Hype Cave WN
+   =>   Dark C Whirlpool Area -> Dark C Whirlpool SC
+   =>   Swamp Area -> Swamp Palace
+   =>   Swamp Portal -> Enter Swamp
+   =>   Swamp Lobby -> Swamp Lobby Moat
+   =>   Swamp Entrance -> Swamp Entrance Down Stairs
+   =>   Swamp Pot Row -> Swamp Pot Row WS
+   =>   Swamp Trench 1 Approach -> Swamp Trench 1 Approach Dry
+   =>   Swamp Trench 1 Nexus -> Swamp Trench 1 Nexus Key
+   =>   Swamp Trench 1 Key Ledge -> Swamp Trench 1 Key Ledge NW
+   =>   Swamp Hammer Switch
+Turtle Rock - Prize
+        Hyrule Castle Secret Entrance -> Hyrule Castle Secret Entrance Exit
+   =>   Hyrule Castle Courtyard Northeast -> Flute From Hyrule Castle Courtyard Northeast
+   =>   Flute Sky -> Flute Spot 1
+   =>   West Death Mountain (Bottom) -> West Death Mountain Teleporter
+   =>   West Dark Death Mountain (Bottom) -> Mirror From West Dark Death Mountain (Bottom)
+   =>   Spectacle Rock Ledge -> Spectacle Rock Ledge Drop
+   =>   West Death Mountain (Top) -> West Death Mountain EN
+   =>   East Death Mountain (Top West) -> DM Hammer Bridge (West)
+   =>   East Death Mountain (Top East) -> East Death Mountain EN
+   =>   Death Mountain TR Pegs Area -> TR Pegs Ledge Entry
+   =>   Death Mountain TR Pegs Ledge -> TR Pegs Teleporter
+   =>   Turtle Rock Ledge -> Turtle Rock Ledge Drop
+   =>   Turtle Rock Area -> Turtle Rock
+   =>   Turtle Rock Main Portal -> Enter Turtle Rock (Main)
+   =>   TR Main Lobby -> TR Main Lobby Gap
+   =>   TR Lobby Ledge -> TR Lobby Ledge NE
+   =>   TR Hub -> TR Hub NW
+   =>   TR Pokey 1 -> TR Pokey 1 NW
+   =>   TR Chain Chomps Bottom -> TR Chain Chomps Bottom to Top Barrier - Orange
+   =>   TR Chain Chomps Top -> TR Chain Chomps Top to Crystal
+   =>   TR Chain Chomps Top - Crystal -> TR Chain Chomps Top Crystal Exit
+   =>   TR Chain Chomps Top -> TR Chain Chomps Down Stairs
+   =>   TR Pipe Pit -> TR Pipe Pit WN
+   =>   TR Lava Dual Pipes -> TR Lava Dual Pipes SW
+   =>   TR Twin Pokeys -> TR Twin Pokeys EN
+   =>   TR Dodgers -> TR Dodgers NE
+   =>   TR Lava Escape -> TR Lava Escape NW
+   =>   TR Dash Room -> TR Dash Room NW
+   =>   TR Crystaroller Bottom -> TR Crystaroller Bottom to Middle Barrier - Orange
+   =>   TR Crystaroller Middle -> TR Crystaroller Middle to Top Barrier - Orange
+   =>   TR Crystaroller Top -> TR Crystaroller Top to Crystal
+   =>   TR Crystaroller Top - Crystal -> TR Crystaroller Top Crystal Exit
+   =>   TR Crystaroller Top -> TR Crystaroller Down Stairs
+   =>   TR Dark Ride North Platform -> TR Dark Ride Normal Path
+   =>   TR Dark Ride South Platform -> TR Dark Ride SW
+   =>   TR Dash Bridge -> TR Dash Bridge WS
+   =>   TR Crystal Maze Start -> TR Crystal Maze Start to Interior Barrier - Blue
+   =>   TR Crystal Maze Interior -> TR Crystal Maze Interior to End Barrier - Blue
+   =>   TR Crystal Maze End -> TR Crystal Maze North Stairs
+   =>   TR Final Abyss Balcony -> TR Final Abyss Balcony Path
+   =>   TR Final Abyss Ledge -> TR Final Abyss NW
+   =>   TR Boss
+Zelda Drop Off
+        Hyrule Castle Secret Entrance -> Hyrule Castle Secret Entrance Exit
+   =>   Hyrule Castle Courtyard Northeast -> Hyrule Castle Courtyard Bush (North)
+   =>   Hyrule Castle Courtyard -> Hyrule Castle Entrance (South)
+   =>   Hyrule Castle South Portal -> Enter HC (South)
+   =>   Hyrule Castle Lobby -> Hyrule Castle Lobby North Stairs
+   =>   Hyrule Castle Throne Room -> Hyrule Castle Throne Room Tapestry
+   =>   Hyrule Castle Behind Tapestry -> Hyrule Castle Throne Room N
+   =>   Sewers Behind Tapestry -> Sewers Behind Tapestry Down Stairs
+   =>   Sewers Rope Room -> Sewers Rope Room North Stairs
+   =>   Sewers Dark Cross -> Sewers Dark Cross Key Door N
+   =>   Sewers Water -> Sewers Water W
+   =>   Sewers Dark Aquabats -> Sewers Dark Aquabats N
+   =>   Sewers Key Rat -> Sewers Key Rat NE
+   =>   Sewers Rat Path -> Sewers Secret Room Push Block
+   =>   Sewers Secret Room Blocked Path -> Sewers Secret Room Up Stairs
+   =>   Sewers Yet More Rats -> Sewers Yet More Rats S
+   =>   Sewers Pull Switch -> Sewers Pull Switch S
+   =>   Sanctuary
+Zelda Pickup
+        Hyrule Castle Secret Entrance -> Hyrule Castle Secret Entrance Exit
+   =>   Hyrule Castle Courtyard Northeast -> Hyrule Castle Courtyard Bush (North)
+   =>   Hyrule Castle Courtyard -> Hyrule Castle Entrance (South)
+   =>   Hyrule Castle South Portal -> Enter HC (South)
+   =>   Hyrule Castle Lobby -> Hyrule Castle Lobby W
+   =>   Hyrule Castle West Lobby -> Hyrule Castle West Lobby N
+   =>   Hyrule Castle West Hall -> Hyrule Castle West Hall E
+   =>   Hyrule Castle Back Hall -> Hyrule Castle Back Hall Down Stairs
+   =>   Hyrule Dungeon Map Room -> Hyrule Dungeon Map Room Key Door S
+   =>   Hyrule Dungeon North Abyss -> Hyrule Dungeon North Abyss South Edge
+   =>   Hyrule Dungeon South Abyss -> Hyrule Dungeon South Abyss West Edge
+   =>   Hyrule Dungeon Guardroom -> Hyrule Dungeon Guardroom N
+   =>   Hyrule Dungeon Armory Main -> Hyrule Dungeon Armory Interior Key Door N
+   =>   Hyrule Dungeon Armory North Branch -> Hyrule Dungeon Armory Down Stairs
+   =>   Hyrule Dungeon Staircase -> Hyrule Dungeon Staircase Down Stairs
+   =>   Hyrule Dungeon Cellblock -> Hyrule Dungeon Cellblock Door
+   =>   Hyrule Dungeon Cell

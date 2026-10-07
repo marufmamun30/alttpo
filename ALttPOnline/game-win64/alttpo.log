@@ -1,0 +1,44 @@
+[       0] A Link to the Past Online 1.0
+[       0] base ROM: C:/Users/Maruf/Documents/Claude Code/ALTTP-Online/ALttPOnline/game-win64/alttp-jp.sfc
+[   13220] rando: "C:\Users\Maruf\Documents\Claude Code\ALTTP-Online\ALttPOnline\game-win64\randomizer\python\python.exe" -u DungeonRandomizer.py --settingsfile "C:/Users/Maruf/Documents/Claude Code/ALTTP-Online/ALttPOnline/game-win64/randomizer/work/settings.json" --rom "C:/Users/Maruf/Documents/Claude Code/ALTTP-Online/ALttPOnline/game-win64/randomizer/work/base.sfc" --outputpath "C:/Users/Maruf/Documents/Claude Code/ALTTP-Online/ALttPOnline/game-win64/randomizer/work/." --outputname seed --seed 474018039 --logic noglitches --algorithm balanced --swords random --progressive on --difficulty normal --item_functionality normal --accessibility items --keyshuffle none --restrict_boss_items none --dropshuffle none --pottery none --bow_mode progressive --flute_mode normal --take_any none --beemizer 0 --mode open --goal ganon --crystals_gt 7 --crystals_ganon 7 --openpyramid auto --timer none --spoiler full --shuffle full --skullwoods original --linked_drops linked --overworld_map compass --door_shuffle vanilla --intensity 2 --door_type_mode original --trap_door_mode optional --key_logic_algorithm partial --dungeon_counters default --mixed_travel prevent --standardize_palettes standardize --shufflebosses none --shuffleenemies none --enemy_health default --enemy_damage default --any_enemy_logic allow_all --fastmenu normal --heartbeep normal --heartcolor red --ow_palettes default --uw_palettes default
+[   13220] rando: Starting the randomizer...
+[   13274] rando: ALttP Door Randomizer Version 1.5.7-u : --seed 474018039 --code AwAAAoA4OAAAAAEAKRA=
+[   13274] rando: Creating Meta Info
+[   13293] rando: Shuffling the World about
+[   13293] rando: Dungeon and Item prep
+[   13315] rando: Shuffling dungeons
+[   13315] rando: Generating Item Pool
+[   13315] rando: Calculating Access Rules
+[   13316] rando: Placing Dungeon Prizes
+[   13317] rando: Placing Dungeon Items
+[   13335] rando: Fill the world
+[   13353] rando: Patching ROM
+[   13395] rando: Creating Spoiler
+[   13395] rando: Calculating Playthrough
+[   13410] rando: Creating Spoiler
+[   13410] rando: Done. Enjoy.
+[   13410] rando: Patched ROM:         Yes
+[   13410] rando: Printed Playthrough: Yes
+[   13410] rando: Printed Spoiler:     Yes
+[   13410] rando: Seed: 474018039
+[   13410] rando: Total Time: 2.2620654001366347
+[   13629] game: "DR157_1_1_474018039" rando=1 door=1 fast=1 crc=4eaa11ac online=0
+[  351773] game: "ZELDANODENSETSU      " rando=0 door=0 fast=0 crc=3322effc online=1
+[  351773] net: hosting room XPYWW (cid 552b296b, udp port 49199)
+[  353819] net: new peer 145600ef
+[  353820] net: direct link to 145600ef
+[  353820] net: peer 145600ef connected
+[  353828] note: Link2 joined the room
+[  355047] note: Link2 entered Hyrule
+[  357092] tilemap: sent 4 changed tiles (stamp 1, 29 bytes) to 145600ef
+[  358944] tilemap: Link2 has 1 runs (stamp 1)
+[  359068] tilemap: Link2 has 1 runs (stamp 2)
+[  359220] tilemap: Link2 has 2 runs (stamp 3)
+[  359384] tilemap: Link2 has 3 runs (stamp 4)
+[  363109] note: Link2 found the Fighter's Sword
+[  363109] note: Link2 found the Fighter's Shield
+[  365736] tilemap: Link2 has 2 runs (stamp 1)
+[  365812] tilemap: Link2 has 4 runs (stamp 2)
+[  365960] tilemap: Link2 has 4 runs (stamp 3)
+[  368018] net: peer 145600ef dropped (left)
+[  368018] note: Link2 left the room

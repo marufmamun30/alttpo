@@ -1,0 +1,18 @@
+[       0] A Link to the Past Online 1.0
+[       0] base ROM: C:/Users/Maruf/Documents/Claude Code/ALTTP-Online/ALttPOnline/game-win64/alttp-jp.sfc
+[    1021] net: joining room XPYWW (cid 145600ef, udp port 64346)
+[    1043] net: new peer 552b296b
+[    1043] net: peer 552b296b connected
+[    1044] net: direct link to 552b296b
+[    1044] game: "ZELDANODENSETSU      " rando=0 door=0 fast=0 crc=3322effc online=1
+[    1858] note: Link entered Hyrule
+[    4317] tilemap: Link has 2 runs (stamp 1)
+[    4854] note: Link found the Lamp
+[    6166] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 552b296b
+[    6290] tilemap: sent 2 changed tiles (stamp 2, 17 bytes) to 552b296b
+[    6442] tilemap: sent 3 changed tiles (stamp 3, 23 bytes) to 552b296b
+[    6606] tilemap: sent 4 changed tiles (stamp 4, 29 bytes) to 552b296b
+[   12958] tilemap: sent 4 changed tiles (stamp 1, 29 bytes) to 552b296b
+[   13034] tilemap: sent 8 changed tiles (stamp 2, 47 bytes) to 552b296b
+[   13182] tilemap: sent 12 changed tiles (stamp 3, 59 bytes) to 552b296b
+[   15233] note: Link left the room

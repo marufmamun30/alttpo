@@ -1,0 +1,24 @@
+[       0] A Link to the Past Online 1.0
+[       0] base ROM: C:/Users/Maruf/Documents/Claude Code/ALTTP-Online/ALttPOnline/game-win64/alttp-jp.sfc
+[       0] rando: "C:\Users\Maruf\Documents\Claude Code\ALTTP-Online\ALttPOnline\game-win64\randomizer\python\python.exe" -u DungeonRandomizer.py --settingsfile "C:/Users/Maruf/Documents/Claude Code/ALTTP-Online/ALttPOnline/game-win64/randomizer/work/settings.json" --rom "C:/Users/Maruf/Documents/Claude Code/ALTTP-Online/ALttPOnline/game-win64/randomizer/work/base.sfc" --outputpath "C:/Users/Maruf/Documents/Claude Code/ALTTP-Online/ALttPOnline/game-win64/randomizer/work/." --outputname seed --seed 963577202 --logic noglitches --algorithm balanced --swords random --progressive on --difficulty normal --item_functionality normal --accessibility items --keyshuffle none --restrict_boss_items none --dropshuffle none --pottery none --bow_mode progressive --flute_mode normal --take_any none --beemizer 0 --mode open --goal ganon --crystals_gt 7 --crystals_ganon 7 --openpyramid auto --timer none --spoiler full --shuffle vanilla --skullwoods original --linked_drops unset --overworld_map default --door_shuffle vanilla --intensity 2 --door_type_mode original --trap_door_mode optional --key_logic_algorithm partial --dungeon_counters default --mixed_travel prevent --standardize_palettes standardize --shufflebosses none --shuffleenemies none --enemy_health default --enemy_damage default --any_enemy_logic allow_all --fastmenu normal --heartbeep normal --heartcolor red --ow_palettes default --uw_palettes default
+[       0] rando: Starting the randomizer...
+[      66] rando: ALttP Door Randomizer Version 1.5.7-u : --seed 963577202 --code AAAAAoA4OAAAAAEACQA=
+[      66] rando: Creating Meta Info
+[      87] rando: Shuffling the World about
+[      87] rando: Dungeon and Item prep
+[     105] rando: Shuffling dungeons
+[     105] rando: Generating Item Pool
+[     105] rando: Calculating Access Rules
+[     105] rando: Placing Dungeon Prizes
+[     106] rando: Placing Dungeon Items
+[     130] rando: Fill the world
+[     152] rando: Patching ROM
+[     200] rando: Creating Spoiler
+[     200] rando: Calculating Playthrough
+[     214] rando: Creating Spoiler
+[     214] rando: Done. Enjoy.
+[     214] rando: Patched ROM:         Yes
+[     214] rando: Printed Playthrough: Yes
+[     214] rando: Printed Spoiler:     Yes
+[     214] rando: Seed: 963577202
+[     214] rando: Total Time: 2.4737334998790175
