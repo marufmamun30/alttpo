@@ -331,7 +331,7 @@ static void screen_main(void) {
   draw_backdrop(205);
   draw_title(30);
   Item it[5] = {
-    {"PLAY ONLINE", NULL, false, "Create a room or join your friends with a room code.", 0},
+    {"PLAY ONLINE", NULL, false, "Create a room or join another player with a room code.", 0},
     {"SINGLE PLAYER", NULL, false, "Play the original game or a randomized seed on your own.", 0},
     {"RANDOMIZER", NULL, false, "Create a new seed: shuffle items, entrances, dungeon doors, enemies and more.", 0},
     {"OPTIONS", NULL, false, "Your name and color, controls, video and sound.", 0},
@@ -361,8 +361,8 @@ static void screen_online(void) {
   char last[48] = "";
   if (g_cfg.lastRoom[0]) snprintf(last, sizeof(last), "%s", g_cfg.lastRoom);
   Item it[3] = {
-    {"HOST A ROOM", NULL, false, "Pick a game and open a room. You get a 5 letter code to share. Nobody needs to forward ports or run a server.", 0},
-    {"JOIN A ROOM", NULL, false, "Enter the room code a friend gave you. The game they are playing is fetched automatically.", 0},
+    {"HOST A ROOM", NULL, false, "Pick a game and open a room. You get a 5 letter room code to share.", 0},
+    {"JOIN A ROOM", NULL, false, "Enter the room code the host gave you. The game they are playing is fetched automatically.", 0},
     {"REJOIN LAST ROOM", last, g_cfg.lastRoom[0] == 0, "Go back to the last room you were in, if it is still open.", 0},
   };
   int ev = menu(it, 3, &s_sel[SC_ONLINE], NULL, 96, 116, 320, 3, 2);
@@ -382,7 +382,7 @@ static void screen_gamesel(void) {
   static Item it[132];
   static char dates[132][20];
   int n = 0;
-  it[n++] = (Item){"Original Game", "Japanese text", false, "The untouched game from your ROM. Text is in Japanese; use the randomizer preset \"Original Adventure (English)\" for English.", 0};
+  it[n++] = (Item){"Original Game", "Japanese text", false, "Vanilla 1.0 JP ROM. Use the randomizer preset \"Original Adventure (English)\" for Machine Translated ROM.", 0};
   for (int i = 0; i < s_seedCount; i++) {
     struct tm *tm = localtime(&s_seeds[i].mtime);
     if (tm) strftime(dates[i], sizeof(dates[i]), "%b %d %H:%M", tm); else dates[i][0] = 0;
@@ -444,7 +444,7 @@ static void screen_join(void) {
     else if (i == (int)strlen(s_code) && ((g_uiTick / 20) & 1)) ui_fill(x + 8, 194, 20, 3, COL_GOLD);
   }
   ui_text_center(CANVAS_W / 2, 224, "ENTER  Join      ESC  Back", COL_GRAY, 1);
-  footer("Type the 5 letter code your friend sees on their screen");
+  footer("Type the 5 letter code the host sees on their screen");
   int r = edit_update();
   if (r == 1) {
     if (strlen(s_code) == 5) begin_join(s_code);
@@ -814,7 +814,7 @@ static void screen_pause(void) {
   draw_players(250, 60, 240);
   if (s_gameOnline) {
     ui_frame(24, 244, 216, 86);
-    ui_text(38, 256, "Friends join with the code", COL_GRAY, 1);
+    ui_text(38, 256, "Players join with the code", COL_GRAY, 1);
     ui_text(38, 272, net_room_code(), COL_GOLD, 3);
     int up, down;
     net_stats(&up, &down);
@@ -879,7 +879,7 @@ static void hud_in_game(void) {
     int w = ui_text_w(b, 2) + 24;
     ui_frame(CANVAS_W / 2 - w / 2, 6, w, 30);
     ui_text_center(CANVAS_W / 2, 14, b, COL_GOLD, 2);
-    ui_text_center(CANVAS_W / 2, 40, "Share the code with your friends.  ESC opens the menu.", COL_WHITE, 1);
+    ui_text_center(CANVAS_W / 2, 40, "Share the code with other players.  ESC opens the menu.", COL_WHITE, 1);
   }
   const Uint8 *ks = SDL_GetKeyboardState(NULL);
   if (ks[SDL_SCANCODE_TAB]) draw_players(CANVAS_W - 250, 10, 240);
