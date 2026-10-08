@@ -62,6 +62,8 @@ struct Snes {
   // ALTTPO: 256 bytes of injected code mapped at ff:7f00-7fff
   bool patchMapped;
   uint8_t patchCode[256];
+  // ALTTPO: sees every byte the game sends to the sound cpu (ports 0-3) and may replace it
+  uint8_t (*apuWriteHook)(uint8_t port, uint8_t val);
 };
 
 Snes* snes_init(void);

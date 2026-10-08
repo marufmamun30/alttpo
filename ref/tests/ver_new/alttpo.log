@@ -1,0 +1,14 @@
+[       0] A Link to the Past Online 1.1
+[       0] base ROM: C:/Users/Maruf/Documents/Claude Code/ALTTP-Online/ref/testbin/../../Zelda no Densetsu - Kamigami no Triforce (Japan).sfc
+[       0] game: "DR157_1_1_126024102" rando=1 door=1 fast=1 crc=fae57117 online=1
+[       0] net: hosting room V3376 (cid 4e6cb28d, udp port 55963)
+[       3] net: public address known, 4 addresses to offer
+[      15] net: matchmaking server broker.hivemq.com ready
+[      27] net: matchmaking server broker.emqx.io ready
+[     135] net: new peer f6534e4b
+[     136] net: direct link to f6534e4b
+[     136] net: peer f6534e4b connected (direct link)
+[     137] net: peer f6534e4b dropped (left)
+[     143] net: new peer f6534e4b
+[     143] net: peer f6534e4b connected (through the relay so far)
+[     143] net: peer f6534e4b dropped (left)

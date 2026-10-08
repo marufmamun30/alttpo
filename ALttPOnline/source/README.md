@@ -9,13 +9,24 @@ people who want to build or change the program.
 `mingw-w64-x86_64-SDL2` and `mingw-w64-x86_64-zlib` installed:
 
 ```sh
-C:\msys64\usr\bin\bash.exe -l /full/path/to/source/build.sh
+C:\msys64\usr\bin\bash.exe -l /full/path/to/source/build.sh [install]
 ```
 
-`build.sh` sets up the MinGW64 environment, runs `make` and copies the result
-to `../game-win64/ALttP Online.exe`. SDL2 is linked statically, the exe needs
+`build.sh` sets up the MinGW64 environment and runs `make`; the result is
+`alttpo.exe` in this folder. With `install` it is also copied to
+`../game-win64/ALttP Online.exe`. That is a separate step on purpose: players
+in one room need the same version, so an unfinished build must not end up in
+the folder somebody is playing from. SDL2 is linked statically, the exe needs
 no DLLs. Pass the full path of the script: a login shell starts in the home
 folder.
+
+Two version numbers matter. `PROTO_VERSION` (`app.h`) is the game protocol:
+raise it when players with the old and the new build must not play together.
+`NET_VERSION` (`net.c`) covers the matchmaking topics, the room key and the
+packet layout and should stay as it is unless those change: it is what lets
+two different builds find each other and be told that they differ, instead of
+each seeing an empty room. `tools/tver.sh` runs an older exe against the
+current one to check that.
 
 **Linux / macOS**: `make` (needs SDL2 and zlib development packages). The game
 and the netcode are portable; starting the seed generator (`rando.c`) is only
@@ -34,7 +45,8 @@ by `tools/gen_names.py`.
 | `src/emu.c` | Wrapper around the SNES core: ROM, save RAM, main-loop hook |
 | `src/snes/` | LakeSnes, with three additions marked `ALTTPO` (see below) |
 | `src/net.c` | Rooms without servers: MQTT signalling, STUN, UDP hole punching, relay fallback, reliable channel |
-| `src/game.c` | Everything about the game: reading its memory, merging save data, keys, bombs, PvP, sprites of other players, tilemap changes, sending the seed to joiners |
+| `src/game.c` | Everything about the game: reading its memory, merging save data, keys, bombs, PvP, sprites and sounds of other players, tunic colors, tilemap changes, sending the seed to joiners |
+| `src/enemy.c` | Shared enemies: who runs which enemy, mirroring it into the other games, deaths and drops |
 | `src/rando.c` | Randomizer options, presets, running the generator |
 
 ### Additions to the SNES core
@@ -49,6 +61,10 @@ by `tools/gen_names.py`.
 * `ppu.c`: "extra" sprites are composited into the OBJ layer line buffer with a
   priority and their own palette. Other players are real sprites to the PPU:
   they go behind walls and take part in color math (dark rooms, transparency).
+* `snes.c`: a hook on the four bytes the game sends to the sound CPU. The game
+  hands over its two sound effect bytes once per frame; `game.c` notes them for
+  the other players and, on frames where the game has nothing to play, puts a
+  sound of another player there instead.
 
 ### How the co-op works
 
@@ -76,6 +92,28 @@ Every player runs their own game. Once per game frame (`on_main`):
    runs and applied to WRAM, the collision attributes and VRAM by players in
    the same room (a Lamport stamp decides who is newer).
 
+6. **Enemies** (`enemy.c`, 60 Hz on a direct link): for every enemy that
+   several players have loaded, one player is its authority and sends its
+   complete sprite state (56 bytes, zeros left out); the others overwrite their
+   copy with it and keep the game from changing the outcome (copies carry no
+   damage and do not finish dying). The authority is whoever last hit the
+   enemy, otherwise the nearest player who has it on screen; claims are
+   numbered so that everybody agrees. Sprites are identified by the number the
+   game gives them when it loads a room or area, which is the same in every
+   game. Deaths travel as a list every player keeps for the place they are in
+   and repeats: "gone", "gone and left a pickup" or "pickup collected". Enemies
+   that carry a key or a randomizer item die in every game on their own, so the
+   game's own code creates the item. The comment at the top of `enemy.c` has
+   the details.
+7. **Sounds**: the last few sound effects ride on the state packets with a
+   running number, the receiver plays the ones it has not played yet (unless
+   its own game just played the same sound, which is what a shared enemy makes
+   happen).
+
+The player's own tunic color is not painted over the picture: the four mail
+palettes in the loaded ROM image are changed (colors 9 to 12), so the game
+itself loads, fades and flashes the new colors.
+
 Joining: the first `HELLO` from a player who is in a game tells the joiner the
 ROM's CRC and the room rules. If the joiner does not have that seed, it asks
 for it and receives `zlib(seed XOR original ROM)`.
@@ -93,9 +131,11 @@ their reliable stream.
 ## Testing without a screen
 
 Set `SDL_VIDEODRIVER=dummy` and `SDL_AUDIODRIVER=dummy` and drive the program
-with environment variables (`tools/t.sh`, `tools/t2.sh` and `tools/t4.sh` are
-ready-made one, two and four player runs; `tools/sheet.py` makes a contact
-sheet of the screenshots):
+with environment variables. `tools/t.sh`, `tools/t2.sh` and `tools/t4.sh` are
+ready-made one, two and four player runs, `tools/t4e.sh` is four players
+fighting the same guards, `tools/nav.sh` helps to find a walking route and
+`tools/sheet.py` makes a contact sheet of the screenshots. The scripts run
+`alttpo.exe` from a folder of its own, so the installed game is left alone.
 
 | Variable | Meaning |
 |---|---|
@@ -107,6 +147,12 @@ sheet of the screenshots):
 | `ALTTPO_POKE`, `ALTTPO_PEEK` | `frame:addr=value,...` WRAM writes; addresses logged once per second |
 | `ALTTPO_SHOT_DIR`, `ALTTPO_SHOT_EVERY`, `ALTTPO_EXIT_AFTER`, `ALTTPO_FAST` | screenshots, exit frame, run unthrottled |
 | `ALTTPO_NO_UDP`, `ALTTPO_NO_SEED_LOOKUP`, `ALTTPO_BROKER` | force the relay path, force a seed download, use a private MQTT broker |
+| `ALTTPO_ENEMY_LOG`, `ALTTPO_SFX_LOG` | log every tracked sprite each N frames (with a clock shared by all copies on the PC); log shared sound effects |
+
+A sprite can be put into a running game with `ALTTPO_POKE`: write its position,
+type and room number (`0bc0+slot`), then state 8 (`0dd0+slot`), and the game
+sets it up on the next frame. That is how the indoor enemy tests work without
+walking to a dungeon.
 
 ## Licenses
 

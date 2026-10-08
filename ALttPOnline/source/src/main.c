@@ -37,6 +37,7 @@ static int s_capKey = -1, s_capBtn = -1;
 static bool s_capturing;
 static uint64_t s_padRepeatAt;
 static int s_padHeld;
+static uint16_t s_padBlock; // buttons held while a menu was open: ignored by the game until released
 
 // ------------------------------------------------------------------ helpers
 uint64_t app_ms(void) {
@@ -95,6 +96,7 @@ void cfg_load(void) {
   g_cfg.scale = 3;
   g_cfg.showNames = true;
   g_cfg.tintTunic = true;
+  g_cfg.playerSounds = true;
   cfg_reset_controls();
   char path[600];
   app_path(path, sizeof(path), "alttpo.ini");
@@ -115,6 +117,7 @@ void cfg_load(void) {
     else if (!strcmp(k, "smooth")) g_cfg.smooth = atoi(v) != 0;
     else if (!strcmp(k, "show_names")) g_cfg.showNames = atoi(v) != 0;
     else if (!strcmp(k, "tint_tunic")) g_cfg.tintTunic = atoi(v) != 0;
+    else if (!strcmp(k, "player_sounds")) g_cfg.playerSounds = atoi(v) != 0;
     else if (!strcmp(k, "last_room")) snprintf(g_cfg.lastRoom, sizeof(g_cfg.lastRoom), "%.5s", v);
     else if (!strcmp(k, "last_game")) snprintf(g_cfg.lastGame, sizeof(g_cfg.lastGame), "%.60s", v);
     else if (!strncmp(k, "key", 3) && atoi(k + 3) < 12) g_cfg.keys[atoi(k + 3)] = atoi(v);
@@ -123,6 +126,7 @@ void cfg_load(void) {
     else if (!strcmp(k, "share_bombs")) g_room.shareBombs = atoi(v) != 0;
     else if (!strcmp(k, "share_keys")) g_room.shareKeys = atoi(v) != 0;
     else if (!strcmp(k, "share_hearts")) g_room.shareHearts = atoi(v) != 0;
+    else if (!strcmp(k, "share_enemies")) g_room.syncEnemies = atoi(v) != 0;
   }
   fclose(f);
   if (g_cfg.volume < 0 || g_cfg.volume > 10) g_cfg.volume = 7;
@@ -136,9 +140,9 @@ void cfg_save(void) {
   app_path(path, sizeof(path), "alttpo.ini");
   FILE *f = fopen(path, "w");
   if (!f) return;
-  fprintf(f, "name=%s\ncolor=%d\nvolume=%d\nscale=%d\nfullscreen=%d\nsmooth=%d\nshow_names=%d\ntint_tunic=%d\nlast_room=%s\nlast_game=%s\n",
-          g_cfg.name, g_cfg.color, g_cfg.volume, g_cfg.scale, g_cfg.fullscreen, g_cfg.smooth, g_cfg.showNames, g_cfg.tintTunic, g_cfg.lastRoom, g_cfg.lastGame);
-  fprintf(f, "pvp=%d\nshare_bombs=%d\nshare_keys=%d\nshare_hearts=%d\n", g_room.pvp, g_room.shareBombs, g_room.shareKeys, g_room.shareHearts);
+  fprintf(f, "name=%s\ncolor=%d\nvolume=%d\nscale=%d\nfullscreen=%d\nsmooth=%d\nshow_names=%d\ntint_tunic=%d\nplayer_sounds=%d\nlast_room=%s\nlast_game=%s\n",
+          g_cfg.name, g_cfg.color, g_cfg.volume, g_cfg.scale, g_cfg.fullscreen, g_cfg.smooth, g_cfg.showNames, g_cfg.tintTunic, g_cfg.playerSounds, g_cfg.lastRoom, g_cfg.lastGame);
+  fprintf(f, "pvp=%d\nshare_bombs=%d\nshare_keys=%d\nshare_hearts=%d\nshare_enemies=%d\n", g_room.pvp, g_room.shareBombs, g_room.shareKeys, g_room.shareHearts, g_room.syncEnemies);
   for (int i = 0; i < 12; i++) fprintf(f, "key%d=%d\n", i, g_cfg.keys[i]);
   for (int i = 0; i < 12; i++) fprintf(f, "pad%d=%d\n", i, g_cfg.pad[i]);
   fclose(f);
@@ -415,6 +419,13 @@ int main(int argc, char **argv) {
   }
 #endif
   app_path(p, sizeof(p), "alttpo.log");
+  {
+    // keep the log of the session before this one: it is what gets asked for when something went wrong
+    char prev[640];
+    snprintf(prev, sizeof(prev), "%.*s-previous.log", (int)strlen(p) - 4, p);
+    remove(prev);
+    rename(p, prev);
+  }
   s_logFile = fopen(p, "w");
   app_log("A Link to the Past Online %s", APP_VERSION);
   app_path(p, sizeof(p), "seeds");
@@ -488,9 +499,14 @@ int main(int argc, char **argv) {
     net_poll();
 
     bool menuOpen = launcher_active();
+    // A button that opened, used or closed a menu must not reach the game as well (Start would
+    // open the game's own menu): whatever is held while a menu is up stays ignored until released.
+    uint16_t held = s_scriptPadOn ? s_scriptPad : read_game_pad();
+    if (menuOpen || (g_uiPressed & UI_MENU)) s_padBlock = held;
+    else s_padBlock &= held;
     if (emu_loaded() && launcher_game_runs()) {
       uint16_t pad = 0;
-      if (launcher_in_game() && !menuOpen) pad = s_scriptPadOn ? s_scriptPad : read_game_pad();
+      if (launcher_in_game() && !menuOpen) pad = held & ~s_padBlock;
       game_pre_frame();
       emu_frame(pad);
       game_post_frame();

@@ -1,0 +1,37 @@
+[       0] A Link to the Past Online 1.1
+[       0] base ROM: C:/Users/Maruf/Documents/Claude Code/ALTTP-Online/ref/testbin/../../Zelda no Densetsu - Kamigami no Triforce (Japan).sfc
+[       0] game: "DR157_1_1_000012345" rando=1 door=1 fast=1 crc=35fa643d online=1
+[       0] net: hosting room U2538 (cid d5ed49a9, udp port 55535)
+[      60] peek 00010=00 0c6f2=00 0c6f3=00 0c6f4=00 0c6f5=00 
+[     120] peek 00010=00 0c6f2=00 0c6f3=00 0c6f4=00 0c6f5=00 
+[     180] peek 00010=00 0c6f2=00 0c6f3=00 0c6f4=00 0c6f5=00 
+[     240] peek 00010=00 0c6f2=00 0c6f3=00 0c6f4=00 0c6f5=00 
+[     300] peek 00010=00 0c6f2=00 0c6f3=00 0c6f4=00 0c6f5=00 
+[     360] peek 00010=00 0c6f2=00 0c6f3=00 0c6f4=00 0c6f5=00 
+[     420] peek 00010=00 0c6f2=00 0c6f3=00 0c6f4=00 0c6f5=00 
+[     480] peek 00010=00 0c6f2=00 0c6f3=00 0c6f4=00 0c6f5=00 
+[     540] peek 00010=01 0c6f2=00 0c6f3=00 0c6f4=00 0c6f5=00 
+[     600] peek 00010=01 0c6f2=ff 0c6f3=7f 0c6f4=1f 0c6f5=5a 
+[     660] peek 00010=01 0c6f2=ff 0c6f3=7f 0c6f4=1f 0c6f5=5a 
+[     720] peek 00010=05 0c6f2=ff 0c6f3=7f 0c6f4=1f 0c6f5=5a 
+[     780] peek 00010=1b 0c6f2=d2 0c6f3=18 0c6f4=5e 0c6f5=29 
+[     840] peek 00010=1b 0c6f2=d2 0c6f3=18 0c6f4=5e 0c6f5=29 
+[     900] peek 00010=1b 0c6f2=d2 0c6f3=18 0c6f4=5e 0c6f5=29 
+[     960] peek 00010=1b 0c6f2=d2 0c6f3=18 0c6f4=5e 0c6f5=29 
+[    1020] peek 00010=1b 0c6f2=d2 0c6f3=18 0c6f4=5e 0c6f5=29 
+[    1080] peek 00010=1b 0c6f2=d2 0c6f3=18 0c6f4=5e 0c6f5=29 
+[    1140] peek 00010=05 0c6f2=d2 0c6f3=18 0c6f4=5e 0c6f5=29 
+[    1200] peek 00010=07 0c6f2=d2 0c6f3=18 0c6f4=5e 0c6f5=29 
+[    1260] peek 00010=07 0c6f2=d2 0c6f3=18 0c6f4=5e 0c6f5=29 
+[    1320] peek 00010=07 0c6f2=d2 0c6f3=18 0c6f4=5e 0c6f5=29 
+[    1380] peek 00010=07 0c6f2=d2 0c6f3=18 0c6f4=5e 0c6f5=29 
+[    1440] peek 00010=07 0c6f2=d2 0c6f3=18 0c6f4=5e 0c6f5=29 
+[    1500] peek 00010=07 0c6f2=d2 0c6f3=18 0c6f4=5e 0c6f5=29 
+[    1560] peek 00010=07 0c6f2=d2 0c6f3=18 0c6f4=5e 0c6f5=29 
+[    1620] peek 00010=07 0c6f2=d2 0c6f3=18 0c6f4=5e 0c6f5=29 
+[    1680] peek 00010=07 0c6f2=47 0c6f3=36 0c6f4=68 0c6f5=3b 
+[    1740] peek 00010=07 0c6f2=47 0c6f3=36 0c6f4=68 0c6f5=3b 
+[    1800] peek 00010=07 0c6f2=d2 0c6f3=18 0c6f4=5e 0c6f5=29 
+[    1860] peek 00010=07 0c6f2=f2 0c6f3=11 0c6f4=5f 0c6f5=1f 
+[    1920] peek 00010=07 0c6f2=f2 0c6f3=11 0c6f4=5f 0c6f5=1f 
+[    1980] peek 00010=07 0c6f2=f2 0c6f3=11 0c6f4=5f 0c6f5=1f 

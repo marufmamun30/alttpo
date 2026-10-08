@@ -396,7 +396,7 @@ static void screen_gamesel(void) {
     int s = s_sel[SC_GAMESEL];
     if (s == n - 1) { s_screen = SC_RANDO; return; }
     snprintf(s_gameName, sizeof(s_gameName), "%s", s == 0 ? "original" : s_seeds[s - 1].name);
-    if (s_purpose == 1) { s_sel[SC_HOSTOPTS] = 4; s_screen = SC_HOSTOPTS; }
+    if (s_purpose == 1) { s_sel[SC_HOSTOPTS] = 5; s_screen = SC_HOSTOPTS; }
     else if (!begin_solo(s_gameName)) show_message("That game could not be loaded.", SC_GAMESEL);
   }
   if (g_uiPressed & UI_BACK) s_screen = s_purpose ? SC_ONLINE : SC_MAIN;
@@ -404,27 +404,29 @@ static void screen_gamesel(void) {
 
 static void screen_hostopts(void) {
   draw_backdrop(190);
-  ui_frame_titled(56, 60, CANVAS_W - 112, 220, "ROOM RULES");
+  ui_frame_titled(56, 60, CANVAS_W - 112, 242, "ROOM RULES");
   char g[80];
   snprintf(g, sizeof(g), "Game: %s", strcmp(s_gameName, "original") ? s_gameName : "Original Game");
   ui_text_center(CANVAS_W / 2, 84, g, COL_GRAY, 1);
-  Item it[5] = {
+  Item it[6] = {
+    {"Shared Enemies", g_room.syncEnemies ? "On" : "Off", false, "Players in the same place fight the same enemies: an enemy one player beats is beaten for everyone, and what it drops goes to whoever picks it up first. Bosses stay separate.", 0},
     {"Players Can Fight", g_room.pvp ? "On" : "Off", false, "Swords, arrows, rods and the hammer hit other players. Everyone still works toward the same goal.", 0},
     {"Shared Bomb Pickups", g_room.shareBombs ? "On" : "Off", false, "When someone collects bombs, everybody's bomb count goes up. Using bombs only costs your own.", 0},
     {"Shared Small Keys", g_room.shareKeys ? "On" : "Off", false, "Small keys belong to the team: finding one gives it to everyone, using one takes it from everyone.", 0},
     {"Shared Heart Containers", g_room.shareHearts ? "On" : "Off", false, "Heart containers and pieces of heart raise everyone's maximum health. Current health is always your own.", 0},
     {"OPEN THE ROOM", NULL, false, "Items, dungeon items, progress and opened chests are always shared. Rupees, arrows, magic and health are your own.", COL_GREEN},
   };
-  int ev = menu(it, 5, &s_sel[SC_HOSTOPTS], NULL, 72, 110, CANVAS_W - 144, 5, 2);
+  int ev = menu(it, 6, &s_sel[SC_HOSTOPTS], NULL, 72, 110, CANVAS_W - 144, 6, 2);
   help_box(it[s_sel[SC_HOSTOPTS]].help);
   footer("ENTER / LEFT / RIGHT  Change     ESC  Back");
   if (ev != EV_NONE) {
     switch (s_sel[SC_HOSTOPTS]) {
-      case 0: g_room.pvp = !g_room.pvp; break;
-      case 1: g_room.shareBombs = !g_room.shareBombs; break;
-      case 2: g_room.shareKeys = !g_room.shareKeys; break;
-      case 3: g_room.shareHearts = !g_room.shareHearts; break;
-      case 4:
+      case 0: g_room.syncEnemies = !g_room.syncEnemies; break;
+      case 1: g_room.pvp = !g_room.pvp; break;
+      case 2: g_room.shareBombs = !g_room.shareBombs; break;
+      case 3: g_room.shareKeys = !g_room.shareKeys; break;
+      case 4: g_room.shareHearts = !g_room.shareHearts; break;
+      case 5:
         if (ev == EV_OK && !begin_host(s_gameName)) show_message("That game could not be loaded.", SC_GAMESEL);
         break;
     }
@@ -473,8 +475,8 @@ static void screen_connect(void) {
   int dots = (g_uiTick / 15) % 4;
   for (int i = 0; i < 3; i++) ui_triforce(CANVAS_W / 2 - 24 + i * 24, 226, i < dots ? 14 : 8);
   footer("ESC  Cancel");
-  if (net_state() == NET_FAILED) { char m[120]; snprintf(m, sizeof(m), "%s", net_status_text()); net_leave(); show_message(m, SC_ONLINE); return; }
-  if (js == JOIN_ERROR) { char m[120]; snprintf(m, sizeof(m), "%s", game_join_error()); net_leave(); show_message(m, SC_ONLINE); return; }
+  if (net_state() == NET_FAILED) { char m[200]; snprintf(m, sizeof(m), "%s", net_status_text()); net_leave(); show_message(m, SC_ONLINE); return; }
+  if (js == JOIN_ERROR) { char m[200]; snprintf(m, sizeof(m), "%s", game_join_error()); net_leave(); show_message(m, SC_ONLINE); return; }
   if (js == JOIN_READY) {
     uint8_t *rom; int len; char name[64];
     if (game_join_take_rom(&rom, &len, name, sizeof(name))) {
@@ -659,7 +661,7 @@ static void screen_rando_run(void) {
       snprintf(name, sizeof(name), "%s", s_seedName);
       int s = s_sel[SC_RANDO_RUN];
       s_seedName[0] = 0; s_seedNumber[0] = 0;
-      if (s == 0) { snprintf(s_gameName, sizeof(s_gameName), "%s", name); s_purpose = 1; scan_seeds(); s_sel[SC_HOSTOPTS] = 4; s_screen = SC_HOSTOPTS; }
+      if (s == 0) { snprintf(s_gameName, sizeof(s_gameName), "%s", name); s_purpose = 1; scan_seeds(); s_sel[SC_HOSTOPTS] = 5; s_screen = SC_HOSTOPTS; }
       else if (s == 1) { if (!begin_solo(name)) show_message("The seed could not be loaded.", SC_RANDO); }
       else s_screen = SC_RANDO;
     }
@@ -674,16 +676,17 @@ static void screen_rando_run(void) {
 
 static void screen_options(void) {
   draw_backdrop(s_inGame ? 150 : 190);
-  ui_frame_titled(72, 40, 368, 300, "OPTIONS");
+  ui_frame_titled(72, 30, 368, 310, "OPTIONS");
   char name[24], vol[8], scale[8];
   edit_show(g_cfg.name, name, sizeof(name));
   snprintf(vol, sizeof(vol), "%d", g_cfg.volume);
   snprintf(scale, sizeof(scale), "%dx", g_cfg.scale);
-  Item it[10] = {
+  Item it[11] = {
     {"Name", name, false, "The name other players see above your head.", 0},
-    {"Tunic Color", g_playerColorNames[g_cfg.color % NUM_PLAYER_COLORS], false, "The color of your name, and of your tunic on other players' screens.", g_playerColors[g_cfg.color % NUM_PLAYER_COLORS]},
+    {"Tunic Color", g_playerColorNames[g_cfg.color % NUM_PLAYER_COLORS], false, "The color of your name and of your tunic in online games.", g_playerColors[g_cfg.color % NUM_PLAYER_COLORS]},
     {"Show Names", g_cfg.showNames ? "On" : "Off", false, "Draw player names above the other players.", 0},
-    {"Color Other Players", g_cfg.tintTunic ? "On" : "Off", false, "Recolor the other players' tunics with their chosen color so you can tell them apart.", 0},
+    {"Colored Tunics", g_cfg.tintTunic ? "On" : "Off", false, "In online games every player, you included, wears a tunic in their chosen color. Off shows the game's own tunic colors.", 0},
+    {"Other Players' Sounds", g_cfg.playerSounds ? "On" : "Off", false, "Hear the swords, items and hits of players who are near you.", 0},
     {"Volume", vol, false, "", 0},
     {"Window Size", scale, false, "", 0},
     {"Fullscreen", g_cfg.fullscreen ? "On" : "Off", false, "F11 or Alt+Enter also switches.", 0},
@@ -692,24 +695,26 @@ static void screen_options(void) {
     {"BACK", NULL, false, "", 0},
   };
   int *sel = &s_sel[SC_OPTIONS];
-  int ev = menu(it, 10, sel, NULL, 88, 62, 336, 10, 2);
+  int ev = menu(it, 11, sel, NULL, 88, 52, 336, 11, 2);
   help_box(it[*sel].help);
   footer("LEFT / RIGHT  Change     ESC  Back");
   int r = edit_update();
   if (r == 1 && !g_cfg.name[0]) strcpy(g_cfg.name, "Link");
+  if (r == 1) game_profile_changed();
   int dir = ev == EV_LEFT ? -1 : 1;
   if (ev != EV_NONE) {
     switch (*sel) {
       case 0: if (ev == EV_OK) edit_begin(g_cfg.name, 12, 0); break;
-      case 1: g_cfg.color = (g_cfg.color + dir + NUM_PLAYER_COLORS) % NUM_PLAYER_COLORS; break;
+      case 1: g_cfg.color = (g_cfg.color + dir + NUM_PLAYER_COLORS) % NUM_PLAYER_COLORS; game_profile_changed(); break;
       case 2: g_cfg.showNames = !g_cfg.showNames; break;
-      case 3: g_cfg.tintTunic = !g_cfg.tintTunic; break;
-      case 4: g_cfg.volume += dir; if (g_cfg.volume > 10) g_cfg.volume = ev == EV_OK ? 0 : 10; if (g_cfg.volume < 0) g_cfg.volume = 0; break;
-      case 5: g_cfg.scale += dir; if (g_cfg.scale > 6) g_cfg.scale = ev == EV_OK ? 1 : 6; if (g_cfg.scale < 1) g_cfg.scale = 1; app_apply_video(); break;
-      case 6: g_cfg.fullscreen = !g_cfg.fullscreen; app_apply_video(); break;
-      case 7: g_cfg.smooth = !g_cfg.smooth; app_apply_video(); break;
-      case 8: if (ev == EV_OK) { s_bindWait = -1; s_screen = SC_CONTROLS; } break;
-      case 9: if (ev == EV_OK) { cfg_save(); s_screen = s_inGame ? SC_PAUSE : SC_MAIN; } break;
+      case 3: g_cfg.tintTunic = !g_cfg.tintTunic; game_profile_changed(); break;
+      case 4: g_cfg.playerSounds = !g_cfg.playerSounds; break;
+      case 5: g_cfg.volume += dir; if (g_cfg.volume > 10) g_cfg.volume = ev == EV_OK ? 0 : 10; if (g_cfg.volume < 0) g_cfg.volume = 0; break;
+      case 6: g_cfg.scale += dir; if (g_cfg.scale > 6) g_cfg.scale = ev == EV_OK ? 1 : 6; if (g_cfg.scale < 1) g_cfg.scale = 1; app_apply_video(); break;
+      case 7: g_cfg.fullscreen = !g_cfg.fullscreen; app_apply_video(); break;
+      case 8: g_cfg.smooth = !g_cfg.smooth; app_apply_video(); break;
+      case 9: if (ev == EV_OK) { s_bindWait = -1; s_screen = SC_CONTROLS; } break;
+      case 10: if (ev == EV_OK) { cfg_save(); s_screen = s_inGame ? SC_PAUSE : SC_MAIN; } break;
     }
   }
   if (!s_edit.active && (g_uiPressed & UI_BACK)) { cfg_save(); s_screen = s_inGame ? SC_PAUSE : SC_MAIN; }
@@ -848,8 +853,9 @@ static void screen_help(void) {
     "but placing a bomb only uses yours.\n\n"
     "PLAYING TOGETHER\n"
     "  Everyone picks a save slot in the game's own file menu; a new file catches up with the team as soon as "
-    "it starts. Players in the same area see each other. Cut bushes, opened doors and lifted pots "
-    "show up for everyone in the room. If the room allows it, your sword, arrows, rods and hammer hurt other players.\n\n"
+    "it starts. Players in the same area see and hear each other and fight the same enemies; what an enemy "
+    "drops goes to whoever picks it up first. Cut bushes, opened doors and lifted pots show up for everyone. "
+    "If the room allows it, your sword, arrows, rods and hammer hurt other players.\n\n"
     "SAVING\n"
     "  Use the game's Save and Quit (open the item menu, then press Select... or just die). Each player keeps a save "
     "file per seed on their own PC, and anyone can host the next session.\n\n"

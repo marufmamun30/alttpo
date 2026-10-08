@@ -105,6 +105,10 @@ static void chacha20_xor(const uint8_t key[32], const uint8_t nonce[12], uint8_t
 }
 
 // ------------------------------------------------------------------ state
+// Version of everything in this file (topic names, room key, signalling and packet layout).
+// It is deliberately not the game's PROTO_VERSION: players with different game versions must
+// still find each other, so that they can be told about it instead of seeing an empty room.
+#define NET_VERSION 1
 #define MAX_PEERS (MAX_PLAYERS - 1)
 #define MAX_CAND 6
 #define FRAG_SIZE 1100
@@ -186,7 +190,7 @@ static int s_stunTries;
 static struct sockaddr_in s_cands[MAX_CAND];
 static int s_nCands, s_nLocalCands;
 static bool s_havePublic;
-static char s_status[96];
+static char s_status[160];
 static NetRecvFn s_onRecv;
 static NetPeerFn s_onPeer;
 static uint64_t s_seen[512];
@@ -195,6 +199,8 @@ static int s_upBytes, s_downBytes, s_upBps, s_downBps;
 static uint64_t s_tStats;
 static bool s_wsa;
 static bool s_noUdp; // test switch: force everything through the relay
+static int s_mqFailLogs[NUM_BROKERS];
+static bool s_stunLogged;
 
 enum { P_PING = 1, P_PONG, P_DATA, P_REL, P_ACK, P_BYE };
 enum { S_ANNOUNCE = 1, S_LEAVE, S_RELAY };
@@ -342,8 +348,8 @@ static void mq_subscribe(Mqtt *m) {
   int n = 0;
   b[n++] = 0; b[n++] = 1; // packet id
   char t[2][64];
-  snprintf(t[0], 64, "alttpo%d/%s/all", PROTO_VERSION, s_topic);
-  snprintf(t[1], 64, "alttpo%d/%s/%08x", PROTO_VERSION, s_topic, s_cid);
+  snprintf(t[0], 64, "alttpo%d/%s/all", NET_VERSION, s_topic);
+  snprintf(t[1], 64, "alttpo%d/%s/%08x", NET_VERSION, s_topic, s_cid);
   for (int i = 0; i < 2; i++) {
     int l = (int)strlen(t[i]);
     b[n++] = 0; b[n++] = (uint8_t)l;
@@ -355,7 +361,19 @@ static void mq_subscribe(Mqtt *m) {
 
 static void sig_handle(const uint8_t *payload, int len);
 
+static void mq_poll_inner(Mqtt *m, HostEnt *h);
+
+// one matchmaking server; what happens to the connection goes to the log
 static void mq_poll(Mqtt *m, HostEnt *h) {
+  int before = m->st;
+  mq_poll_inner(m, h);
+  int i = (int)(m - s_mq);
+  if (before != 3 && m->st == 3) { app_log("net: matchmaking server %s ready", h->host); s_mqFailLogs[i] = 0; }
+  else if (before == 3 && m->st != 3) app_log("net: connection to matchmaking server %s lost", h->host);
+  else if (before != 0 && m->st == 0 && s_mqFailLogs[i]++ < 3) app_log("net: matchmaking server %s did not answer", h->host);
+}
+
+static void mq_poll_inner(Mqtt *m, HostEnt *h) {
   uint64_t t = now_ms();
   if (m->st == 0) {
     if (s_state != NET_OFF && h->ok && t - m->tRetry > 4000) { m->tRetry = t; mq_start(m, h); }
@@ -447,15 +465,15 @@ static void sig_publish(uint32_t dst, uint8_t type, const uint8_t *body, int len
   uint8_t *buf = malloc(len + 64);
   for (int i = 0; i < 3; i++) { uint32_t r = rnd32(); memcpy(buf + i * 4, &r, 4); }
   uint8_t *p = buf + 12;
-  p[0] = 'Z'; p[1] = 'O'; p[2] = PROTO_VERSION; p[3] = type;
+  p[0] = 'Z'; p[1] = 'O'; p[2] = NET_VERSION; p[3] = type;
   memcpy(p + 4, &s_cid, 4);
   uint32_t seq = ++s_sigSeq;
   memcpy(p + 8, &seq, 4);
   if (len) memcpy(p + 12, body, len);
   chacha20_xor(s_key, buf, p, 12 + len);
   char topic[64];
-  if (dst) snprintf(topic, sizeof(topic), "alttpo%d/%s/%08x", PROTO_VERSION, s_topic, dst);
-  else snprintf(topic, sizeof(topic), "alttpo%d/%s/all", PROTO_VERSION, s_topic);
+  if (dst) snprintf(topic, sizeof(topic), "alttpo%d/%s/%08x", NET_VERSION, s_topic, dst);
+  else snprintf(topic, sizeof(topic), "alttpo%d/%s/all", NET_VERSION, s_topic);
   int tl = (int)strlen(topic);
   uint8_t th[66];
   th[0] = 0; th[1] = (uint8_t)tl;
@@ -511,7 +529,7 @@ static void peer_connected(Peer *p) {
   if (p->connected) return;
   p->connected = true;
   if (s_state == NET_SEARCHING) { s_state = NET_ONLINE; snprintf(s_status, sizeof(s_status), "Connected"); }
-  app_log("net: peer %08x connected", p->cid);
+  app_log("net: peer %08x connected (%s)", p->cid, p->direct ? "direct link" : "through the relay so far");
   if (s_onPeer) s_onPeer(p->cid, true);
 }
 
@@ -785,7 +803,7 @@ static void sig_handle(const uint8_t *payload, int len) {
   int pl = len - 12;
   memcpy(buf, payload + 12, pl);
   chacha20_xor(s_key, payload, buf, pl);
-  if (buf[0] != 'Z' || buf[1] != 'O' || buf[2] != PROTO_VERSION) return;
+  if (buf[0] != 'Z' || buf[1] != 'O' || buf[2] != NET_VERSION) return;
   uint8_t type = buf[3];
   uint32_t src, seq;
   memcpy(&src, buf + 4, 4); memcpy(&seq, buf + 8, 4);
@@ -884,6 +902,7 @@ static void open_udp(void) {
   if (s_nCands == 0) add_cand(htonl(0x7f000001), htons((uint16_t)s_udpPort));
   s_nLocalCands = s_nCands;
   s_havePublic = false;
+  s_stunLogged = false;
   s_stunTries = 0;
   s_tStun = 0;
 }
@@ -915,6 +934,7 @@ static bool stun_handle(const uint8_t *b, int n) {
       memcpy(&ipn, ip, 4); memcpy(&pn, port, 2);
       int before = s_nCands;
       add_cand(ipn, pn);
+      if (!s_havePublic) app_log("net: public address known, %d addresses to offer", s_nCands);
       if (s_nCands != before) { s_havePublic = true; s_tAnnounce = 0; }
       else s_havePublic = true;
       return true;
@@ -950,11 +970,11 @@ static void room_begin(const char *code, bool host) {
   for (char *c = s_code; *c; c++) if (*c >= 'a' && *c <= 'z') *c -= 32;
   char tmp[64];
   uint8_t h[32];
-  snprintf(tmp, sizeof(tmp), "alttpo-topic-v%d:%s", PROTO_VERSION, s_code);
+  snprintf(tmp, sizeof(tmp), "alttpo-topic-v%d:%s", NET_VERSION, s_code);
   sha256((const uint8_t *)tmp, strlen(tmp), h);
   for (int i = 0; i < 8; i++) snprintf(s_topic + i * 2, 3, "%02x", h[i]);
   memcpy(&s_roomTag, h + 8, 4);
-  snprintf(tmp, sizeof(tmp), "alttpo-key-v%d:%s", PROTO_VERSION, s_code);
+  snprintf(tmp, sizeof(tmp), "alttpo-key-v%d:%s", NET_VERSION, s_code);
   sha256((const uint8_t *)tmp, strlen(tmp), s_key);
   s_isHost = host;
   s_state = NET_CONNECTING;
@@ -963,6 +983,7 @@ static void room_begin(const char *code, bool host) {
   s_tAnnounce = 0;
   snprintf(s_status, sizeof(s_status), "Contacting matchmaking service...");
   memset(s_seen, 0, sizeof(s_seen));
+  memset(s_mqFailLogs, 0, sizeof(s_mqFailLogs));
   open_udp();
   start_resolve();
   for (int i = 0; i < NUM_BROKERS; i++) { s_mq[i].tRetry = 0; if (s_brokers[i].ok) { mq_start(&s_mq[i], &s_brokers[i]); s_mq[i].tRetry = now_ms(); } }
@@ -1047,12 +1068,15 @@ void net_poll(void) {
     } else if (t - s_tStart > 15000) {
       s_state = NET_FAILED;
       snprintf(s_status, sizeof(s_status), "Could not reach the matchmaking service. Check your internet connection.");
+      app_log("net: no matchmaking server reached (%s %s, %s %s)", s_brokers[0].host, s_brokers[0].ok ? "does not answer" : "not found",
+              s_brokers[1].host, s_brokers[1].ok ? "does not answer" : "not found");
       return;
     }
   } else if (s_state == NET_SEARCHING) {
     if (t - s_tBrokerReady > 14000) {
       s_state = NET_FAILED;
-      snprintf(s_status, sizeof(s_status), "Room %s was not found.", s_code);
+      snprintf(s_status, sizeof(s_status), "Room %s was not found. Check the code with the host; a room only exists while someone is in it.", s_code);
+      app_log("net: nobody answered in room %s (servers ready: %s %d, %s %d)", s_code, s_brokers[0].host, s_mq[0].st == 3, s_brokers[1].host, s_mq[1].st == 3);
       return;
     }
   }
@@ -1061,6 +1085,10 @@ void net_poll(void) {
   if (!s_havePublic && s_stunTries < 8 && t - s_tStun > 400) {
     bool any = s_stuns[0].ok || s_stuns[1].ok;
     if (any) { stun_send(); s_stunTries++; s_tStun = t; }
+  }
+  if (!s_havePublic && s_stunTries >= 8 && !s_stunLogged && t - s_tStun > 1000) {
+    s_stunLogged = true;
+    app_log("net: public address unknown (no answer over UDP), players on other networks will be reached through the relay");
   }
 
   // announce ourselves: often at first, then slowly

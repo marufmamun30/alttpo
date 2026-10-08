@@ -1,0 +1,3258 @@
+ALttP Dungeon Randomizer Version 1.5.7-u  -  Seed: 580690297
+
+Hash: Bottle, Shovel, Mushroom, Lamp, Hammer
+Filling Algorithm:               balanced
+Players:                         1
+Teams:                           1
+Settings Code:                   RQAAg6M8OLEAAgEBCQA=
+Logic:                           noglitches
+Mode:                            open
+Swords:                          random
+Goal:                            ganon
+
+Accessibility:                   items
+Restricted Boss Items:           none
+Difficulty:                      normal
+Item Functionality:              normal
+Flute Mode:                      normal
+Bow Mode:                        progressive
+Bombbag:                         No
+Pseudoboots:                     No
+Mirror Scroll:                   No
+
+Shopsanity:                      Yes
+Pottery Mode:                    lottery
+Pot Shuffle (Legacy):            No
+Enemy Drop Shuffle:              underworld
+Take Any Caves:                  none
+
+Entrance Shuffle:                insanity
+Link's House Shuffled:           No
+Back of Tavern Shuffled:         Yes
+Skull Woods Shuffle:             original
+Linked Drops Override:           unset
+GT/Ganon Shuffled:               Yes
+Overworld Map:                   default
+Pyramid hole pre-opened:         auto
+
+Map shuffle:                     Yes
+Compass shuffle:                 Yes
+Small Key shuffle:               wild
+Big Key shuffle:                 Yes
+Key Logic Algorithm:'            partial
+Door Shuffle:                    crossed
+Intensity:                       3
+Door Type Mode:                  original
+Trap Door Mode:                  optional
+Decouple Doors:                  No
+Spiral Stairs can self-loop:     No
+Experimental:                    No
+Dungeon Counters:                on
+
+Boss shuffle:                    full
+Enemy shuffle:                   shuffled
+Enemy health:                    default
+Enemy damage:                    default
+Enemy logic:                     allow_all
+
+Hints:                           No
+Race:                            No
+
+Requirements:
+
+Misery Mire: Ether Medallion
+Turtle Rock: Quake Medallion
+Crystals Required for GT:          7
+Crystals Required for Ganon:       7
+
+
+Bottle Refills:
+
+Waterfall Bottle: Bottle (Blue Potion)
+Pyramid Bottle: Bottle (Blue Potion)
+
+Entrances:
+
+Lost Woods Hideout Drop => Skull Back Drop
+Kakariko Well Drop => Skull Left Drop
+Skull Woods First Section Hole (East) => Pyramid
+Skull Woods Second Section Hole => Lumberjack Tree (top)
+Bat Cave Drop => Skull Pinball
+North Fairy Cave Drop => Skull Pot Circle
+Lumberjack Tree Tree => Sewer Drop
+Skull Woods First Section Hole (West) => Lost Woods Hideout (top)
+Pyramid Hole => Bat Cave (right)
+Skull Woods First Section Hole (North) => North Fairy Cave
+Sanctuary Grave => Kakariko Well (top)
+Hyrule Castle Secret Entrance Drop => Hyrule Castle Secret Entrance
+Links House <=> Links House Exit
+Links House <= Chris Houlihan Room Exit
+Desert Palace Entrance (East) <= Turtle Rock Isolated Ledge Exit
+Dark Death Mountain Ledge (East) <= Superbunny Cave Exit (Top)
+Turtle Rock Isolated Ledge Entrance <= Hookshot Cave Back Exit
+Bumper Cave (Top) <= Skull Woods Second Section Exit (East)
+Hookshot Cave Back Entrance <= Death Mountain Return Cave Exit (West)
+Pyramid Entrance <= Fairy Ascension Cave Exit (Top)
+Skull Woods Second Section Door (West) <= Elder House Exit (East)
+Old Man Cave (East) <= Old Man Cave Exit (East)
+Light World Bomb Hut => Blacksmiths Hut
+Kakariko Well Cave => Big Bomb Shop
+Lake Hylia Shop <= Paradox Cave Exit (Bottom)
+Spiral Cave <= Paradox Cave Exit (Middle)
+Turtle Rock <= Paradox Cave Exit (Top)
+Fairy Ascension Cave (Bottom) <= Spectacle Rock Cave Exit
+Tavern (Front) <= Spectacle Rock Cave Exit (Top)
+Mire Hint <= Spectacle Rock Cave Exit (Peak)
+Blacksmiths Hut <= Hyrule Castle Exit (East)
+Hookshot Cave <= Hyrule Castle Exit (West)
+20 Rupee Cave <= Hyrule Castle Exit (South)
+C-Shaped House <= Desert Palace Exit (West)
+Sanctuary <= Desert Palace Exit (East)
+Skull Woods First Section Door <= Desert Palace Exit (South)
+Archery Game <= Two Brothers House Exit (West)
+Eastern Palace <= Two Brothers House Exit (East)
+Desert Fairy <= Bumper Cave Exit (Bottom)
+Dark Lake Hylia Ledge Spike Cave <= Bumper Cave Exit (Top)
+Lost Woods Hideout Stump <= Spiral Cave Exit
+Tower of Hera <= Spiral Cave Exit (Top)
+East Dark World Hint <= Old Man House Exit (Top)
+Lake Hylia Fairy <= Old Man House Exit (Bottom)
+Elder House (East) <= Elder House Exit (West)
+Mire Shed <= Thieves Town Exit
+Dark Sanctuary Hint <= Pyramid Exit
+Dark Death Mountain Fairy <= Turtle Rock Ledge Exit (West)
+Hookshot Fairy <= Tower of Hera Exit
+Kakariko Shop <= Swamp Palace Exit
+Spectacle Rock Cave Peak <= Ganons Tower Exit
+Snitch Lady (West) <= Misery Mire Exit
+Long Fairy Cave <= Fairy Ascension Cave Exit (Bottom)
+Palace of Darkness <= Palace of Darkness Exit
+Hyrule Castle Entrance (West) <= Sanctuary Exit
+Ice Palace <= Desert Palace Exit (North)
+Checkerboard Cave <= Lost Woods Hideout Exit
+Kakariko Well Cave <= Ice Palace Exit
+Spectacle Rock Cave <= Turtle Rock Ledge Exit (East)
+Red Shield Shop <= Lumberjack Tree Exit
+Desert Palace Entrance (North) <= Agahnims Tower Exit
+Brewery <= Hookshot Cave Front Exit
+Lumberjack House <= North Fairy Cave Exit
+Hype Cave <= Skull Woods Second Section Exit (West)
+Dark Death Mountain Ledge (West) <= Kakariko Well Exit
+Spiral Cave (Bottom) <= Skull Woods Final Section Exit
+Tavern North <= Old Man Cave Exit (West)
+Superbunny Cave (Bottom) <= Bat Cave Exit
+Dark Lake Hylia Fairy <= Death Mountain Return Cave Exit (East)
+Ice Rod Cave <= Skull Woods First Section Exit
+Bonk Fairy (Dark) <= Eastern Palace Exit
+Dark Lumberjack Shop <= Superbunny Cave Exit (Bottom)
+Hyrule Castle Secret Entrance Stairs <= Hyrule Castle Secret Entrance Exit
+Mini Moldorm Cave <= Turtle Rock Exit (Front)
+Ice Rod Cave => Desert Healer Fairy
+Dark World Shop => Old Man House Exit (Top)
+Kings Grave => Dark Sanctuary Hint
+Desert Palace Entrance (West) => Palace of Darkness Exit
+Mini Moldorm Cave => Kakariko Shop
+Dark Sanctuary Hint => Palace of Darkness Hint
+Desert Fairy => Hyrule Castle Exit (East)
+C-Shaped House => Two Brothers House Exit (West)
+Snitch Lady (East) => Dark Lake Hylia Ledge Hint
+Hyrule Castle Entrance (East) => Checkerboard Cave
+Dark Lake Hylia Ledge Spike Cave => Skull Woods Second Section Exit (East)
+Turtle Rock => Hookshot Cave Front Exit
+Chest Game => Lake Hylia Fortune Teller
+East Dark World Hint => Spectacle Rock Cave Exit (Peak)
+Bonk Fairy (Dark) => North Fairy Cave Exit
+Mimic Cave => Graveyard Cave
+Hyrule Castle Entrance (West) => Lake Hylia Shop
+Hookshot Cave Back Entrance => Mire Shed
+Lumberjack Tree Cave => Paradox Cave Exit (Middle)
+Potion Shop => Brewery
+Paradox Cave (Bottom) => Cave 45
+Good Bee Cave => Waterfall of Wishing
+Superbunny Cave (Top) => Paradox Cave Exit (Bottom)
+Dark Death Mountain Ledge (West) => Spiral Cave Exit
+Palace of Darkness => Village of Outcasts Shop
+Ice Palace => Capacity Upgrade
+Brewery => Two Brothers House Exit (East)
+Hookshot Cave => Lumberjack House
+Sahasrahlas Hut => Mire Hint
+Blacksmiths Hut => Death Mountain Return Cave Exit (East)
+Eastern Palace => Spike Cave
+Bonk Rock Cave => Spiral Cave Exit (Top)
+Lost Woods Gamble => Old Man Cave Exit (East)
+Death Mountain Return Cave (East) => Long Fairy Cave
+Mire Shed => Bumper Cave Exit (Bottom)
+Cave 45 => Hype Cave
+Hype Cave => Ice Palace Exit
+Thieves Town => Potion Shop
+Fairy Ascension Cave (Top) => Turtle Rock Ledge Exit (West)
+Agahnims Tower => Elder House Exit (West)
+Big Bomb Shop => Mire Healer Fairy
+Dark Death Mountain Shop => Lumberjack Tree Exit
+Blinds Hideout => Hyrule Castle Exit (West)
+Tavern (Front) => Ganons Tower Exit
+Desert Palace Entrance (East) => Turtle Rock Isolated Ledge Exit
+Dark Lake Hylia Fairy => Agahnims Tower Exit
+Dark Death Mountain Ledge (East) => Dark Lake Hylia Ledge Healer Fairy
+Swamp Palace => Chicken House
+Skull Woods Second Section Door (West) => Skull Woods First Section Exit
+Spectacle Rock Cave Peak => Archery Game
+Desert Palace Entrance (South) => Dark Lake Hylia Shop
+Elder House (West) => Old Man Cave Exit (West)
+Spectacle Rock Cave (Bottom) => Spectacle Rock Cave Exit (Top)
+Spiral Cave (Bottom) => Lost Woods Hideout Exit
+Lake Hylia Shop => 50 Rupee Cave
+Sanctuary => Mimic Cave
+Desert Palace Entrance (North) => Eastern Palace Exit
+Dark Lumberjack Shop => Paradox Cave Exit (Top)
+Two Brothers House (East) => Tavern
+Fortune Teller (Light) => Lost Woods Gamble
+Dark Lake Hylia Shop => Skull Woods Final Section Exit
+Skull Woods Second Section Door (East) => Chest Game
+Dark Death Mountain Fairy => 20 Rupee Cave
+Paradox Cave (Top) => Tavern (Front)
+Bonk Fairy (Light) => Bonk Rock Cave
+Mire Fairy => Library
+Kakariko Shop => Turtle Rock Exit (Front)
+Tavern North => Good Bee Cave
+Paradox Cave (Middle) => Fortune Teller (Dark)
+Spectacle Rock Cave => Desert Palace Exit (North)
+Pyramid Fairy => Blinds Hideout
+Palace of Darkness Hint => Misery Mire Exit
+Old Man House (Bottom) => Mini Moldorm Cave
+Old Man Cave (East) => Turtle Rock Ledge Exit (East)
+Fortune Teller (Dark) => Bonk Fairy (Dark)
+Dark Lake Hylia Ledge Hint => Superbunny Cave Exit (Top)
+Dark Potion Shop => Fortune Teller (Light)
+Skull Woods Final Section => Dark Lumberjack Shop
+20 Rupee Cave => Bumper Cave Exit (Top)
+Spike Cave => Hyrule Castle Secret Entrance Exit
+Superbunny Cave (Bottom) => Light Hype Fairy
+Waterfall of Wishing => C-Shaped House
+Bat Cave Cave => Kakariko Gamble Game
+Lake Hylia Fairy => Fairy Ascension Cave Exit (Top)
+Capacity Upgrade => East Dark World Hint
+Sick Kids House => Hookshot Cave Back Exit
+Bumper Cave (Top) => Elder House Exit (East)
+Hyrule Castle Entrance (South) => Dark Death Mountain Shop
+Hammer Peg Cave => Snitch Lady (East)
+Turtle Rock Isolated Ledge Entrance => Pyramid Fairy
+Graveyard Cave => Dam
+Checkerboard Cave => Red Shield Shop
+Skull Woods First Section Door => Lake Hylia Healer Fairy
+Lake Hylia Fortune Teller => Kings Grave
+Kakariko Gamble Game => Bush Covered House
+Elder House (East) => Sanctuary Exit
+Snitch Lady (West) => Dark Death Mountain Healer Fairy
+Old Man House (Top) => Sick Kids House
+Library => Light World Bomb Hut
+Ganons Tower => Hookshot Fairy
+Dam => Thieves Town Exit
+Bush Covered House => Kakariko Well Exit
+Fairy Ascension Cave (Bottom) => Spectacle Rock Cave Exit
+Archery Game => Skull Woods Second Section Exit (West)
+Red Shield Shop => Pyramid Exit
+Two Brothers House (West) => Hyrule Castle Exit (South)
+Dark Lake Hylia Ledge Fairy => Bonk Fairy (Light)
+Lost Woods Hideout Stump => Snitch Lady (West)
+Chicken House => Fairy Ascension Cave Exit (Bottom)
+Lumberjack House => Superbunny Cave Exit (Bottom)
+Hyrule Castle Secret Entrance Stairs => Death Mountain Return Cave Exit (West)
+North Fairy Cave => Aginahs Cave
+Spiral Cave => Swamp Palace Exit
+Aginahs Cave => Dark Lake Hylia Ledge Spike Cave
+Tower of Hera => Hammer Peg Cave
+Bumper Cave (Bottom) => Sahasrahlas Hut
+Long Fairy Cave => Dark Potion Shop
+Light Hype Fairy => Old Man House Exit (Bottom)
+Hookshot Fairy => Dark Lake Hylia Healer Fairy
+Pyramid Entrance => Ice Rod Cave
+Mire Hint => Desert Palace Exit (South)
+Misery Mire => Tower of Hera Exit
+50 Rupee Cave => Desert Palace Exit (West)
+Old Man Cave (West) => Desert Palace Exit (East)
+Death Mountain Return Cave (West) => Bat Cave Exit
+
+Doors:
+
+Sewers Secret Room Key Door S <=> Thieves Lobby NE Edge (Hyrule Castle)
+Sewers Secret Room Up Stairs <=> Mire Firesnake Skip Down Stairs (Hyrule Castle)
+Mire Antechamber NW <=> TR Dark Ride SW (Hyrule Castle)
+TR Dark Ride Up Stairs <=> Swamp Entrance Down Stairs (Hyrule Castle)
+Swamp Lobby S <=> TR Twin Pokeys NW (Hyrule Castle)
+TR Hallway WS => Thieves Lobby E (Hyrule Castle)
+TR Dodgers NE <=> Desert Sandworm Corner S Edge (Hyrule Castle)
+Desert Sandworm Corner E Edge <=> Sewers Water W (Hyrule Castle)
+TR Big Chest Entrance SE <=> Swamp Basement Shallows NW (Hyrule Castle)
+Swamp Flooded Room Up Stairs <=> PoD Compass Room W Down Stairs (Hyrule Castle)
+PoD Compass Room E Down Stairs <=> PoD Shooter Room Up Stairs (Hyrule Castle)
+PoD Falling Bridge WN <=> Mire Over Bridge E (Hyrule Castle)
+PoD Falling Bridge SW <=> Thieves Lobby N Edge (Hyrule Castle)
+Mire Over Bridge W <=> Swamp Hub Dead Ledge EN (Hyrule Castle)
+Swamp Drain Left Up Stairs <=> Swamp Drain Right Up Stairs (Hyrule Castle)
+Skull Pot Prison ES <=> PoD Sexy Statue W (Eastern Palace)
+PoD Sexy Statue NW <=> GT Hookshot SW (Eastern Palace)
+GT Hookshot NW <=> PoD Map Balcony South Stairs (Eastern Palace)
+PoD Map Balcony WS <=> Hyrule Castle Back Hall E (Eastern Palace)
+Hyrule Castle Back Hall W <=> Swamp Trench 1 Approach ES (Eastern Palace)
+Hyrule Castle Back Hall Down Stairs <=> Sewers Rope Room Up Stairs (Eastern Palace)
+Sewers Rope Room North Stairs => Eastern Boss SE (Eastern Palace)
+Swamp Trench 1 Departure WS <=> Mire Falling Foes ES (Eastern Palace)
+Mire Falling Foes Up Stairs <=> Ice Narrow Corridor Down Stairs (Eastern Palace)
+Ice Bomb Jump NW <=> GT Gauntlet 3 SW (Eastern Palace)
+GT Gauntlet 1 Down Stairs <=> Hyrule Dungeon Cellblock Up Stairs (Eastern Palace)
+Swamp Hammer Switch WN <=> GT Conveyor Cross EN (Eastern Palace)
+Swamp Hub ES <=> Thieves Conveyor Maze WN (Tower of Hera)
+Swamp Hub WS <=> Eastern Single Eyegore ES (Tower of Hera)
+Swamp Hub WN <=> GT Conveyor Bridge EN (Tower of Hera)
+Swamp Hub North Ledge N <=> Thieves Hallway SE (Tower of Hera)
+Thieves Hallway NE <=> GT Conveyor Bridge SE (Tower of Hera)
+Thieves Pot Alcove Mid WS => GT Frozen Over ES (Tower of Hera)
+GT Frozen Over Up Stairs <=> Hera 4F Up Stairs (Tower of Hera)
+Hera 4F Down Stairs <=> Hera Basement Cage Up Stairs (Tower of Hera)
+Hera Lobby Key Stairs <=> Thieves Conveyor Maze Down Stairs (Tower of Hera)
+Hera Lobby Up Stairs <=> PoD Middle Cage Down Stairs (Tower of Hera)
+PoD Middle Cage N <=> Hera Lobby S (Tower of Hera)
+PoD Lobby S <=> Eastern Duo Eyegores NE (Tower of Hera)
+PoD Left Cage Down Stairs <=> Hera 5F Down Stairs (Tower of Hera)
+Hera 5F Up Stairs <=> Hera Boss Down Stairs (Tower of Hera)
+Hera Lobby Down Stairs <=> GT Quad Pot Up Stairs (Tower of Hera)
+GT Beam Dash ES <=> Ice Refill WS (Tower of Hera)
+Hera Startile Wide Up Stairs <=> Hera Beetles Down Stairs (Tower of Hera)
+Skull 3 Lobby NW <=> Tower Lobby S (Agahnims Tower)
+Tower Room 03 Up Stairs <=> Ice Hammer Block Down Stairs (Agahnims Tower)
+Ice Tongue Pull Up Ladder <=> Thieves BK Corner S Edge (Agahnims Tower)
+Thieves BK Corner WN Edge <=> Thieves Big Chest Nook ES Edge (Agahnims Tower)
+Thieves BK Corner WS Edge <=> Hyrule Castle West Lobby E (Agahnims Tower)
+Thieves BK Corner SW Edge <=> Thieves BK Corner NE (Agahnims Tower)
+Hyrule Castle West Lobby N => Tower Agahnim 1 SW (Agahnims Tower)
+Hyrule Castle West Lobby EN <=> Eastern Cannonball Ledge WN (Agahnims Tower)
+Hyrule Castle West Lobby S <=> Thieves Rail Ledge NW (Agahnims Tower)
+Thieves Rail Ledge W <=> GT Hidden Star ES (Agahnims Tower)
+GT Invisible Bridges WS <=> Eastern Cannonball Ledge Key Door EN (Agahnims Tower)
+Skull Vines NW <=> Mire Lobby S (Palace of Darkness)
+Mire Post-Gap Down Stairs <=> Tower Lone Statue Down Stairs (Palace of Darkness)
+Tower Dark Chargers Up Stairs <=> Swamp Push Statue Down Stairs (Palace of Darkness)
+Swamp Push Statue S <=> GT Double Switch NW (Palace of Darkness)
+Swamp Right Elbow Down Stairs <=> Tower Pacifist Run Up Stairs (Palace of Darkness)
+Tower Red Spears Down Stairs <=> Swamp Left Elbow Down Stairs (Palace of Darkness)
+GT Warp Maze (Pits) ES <=> TR Lava Island WS (Palace of Darkness)
+TR Lava Island ES <=> GT Tile Room WN (Palace of Darkness)
+GT Speed Torch NE <=> Eastern Cannonball S (Palace of Darkness)
+GT Speed Torch SE <=> GT Invisible Catwalk NE (Palace of Darkness)
+Desert North Hall W Edge => GT Invisible Catwalk ES (Palace of Darkness)
+GT Invisible Catwalk WS <=> Swamp Trench 2 Pots ES (Palace of Darkness)
+GT Invisible Catwalk NW <=> Desert North Hall SE Edge (Palace of Darkness)
+Desert North Hall SW Edge <=> Eastern Courtyard N (Palace of Darkness)
+Desert North Hall E Edge <=> Eastern Courtyard WN (Palace of Darkness)
+Eastern Courtyard EN <=> GT Warp Maze (Rails) WS (Palace of Darkness)
+Swamp Trench 2 Departure WS <=> Swamp Crystal Switch EN (Palace of Darkness)
+Eastern Cannonball N => PoD Boss SE (Palace of Darkness)
+Sewers Behind Tapestry Down Stairs <=> Sewers Pull Switch Down Stairs (Swamp Palace)
+Sewers Pull Switch S <=> Mire Conveyor Barrier NW (Swamp Palace)
+Mire Conveyor Barrier Up Stairs <=> Mire Torches Top Down Stairs (Swamp Palace)
+Mire BK Door Room EN <=> Thieves Compass Room WS Edge (Swamp Palace)
+Mire BK Door Room N <=> Mire Spike Barrier SE (Swamp Palace)
+Thieves Compass Room NW Edge <=> GT Crystal Circles SW (Swamp Palace)
+Thieves Compass Room N Edge <=> Skull 2 East Lobby SW (Swamp Palace)
+Thieves Compass Room W <=> Hyrule Dungeon Guardroom Abyss Edge (Swamp Palace)
+Hyrule Dungeon Guardroom Catwalk Edge <=> GT Torch Cross WN (Swamp Palace)
+Hyrule Dungeon Guardroom N <=> Mire Cross SW (Swamp Palace)
+Mire Hidden Shooters SE <=> Mire Spike Barrier NE (Swamp Palace)
+Mire Hidden Shooters ES <=> Mire Block X WS (Swamp Palace)
+Mire Minibridge NE <=> GT Falling Torches Down Ladder (Swamp Palace)
+GT Staredown Up Ladder => Swamp Boss SW (Swamp Palace)
+Mire Dark Shooters Up Stairs <=> Iced T Up Stairs (Swamp Palace)
+Iced T EN <=> Skull 2 East Lobby WS (Swamp Palace)
+Swamp Behind Waterfall Up Stairs <=> GT Cannonball Bridge Up Stairs (Thieves Town)
+GT Cannonball Bridge WN <=> Sewers Dark Aquabats ES (Thieves Town)
+Sewers Key Rat NE <=> Desert Main Lobby S (Thieves Town)
+Desert Main Lobby N Edge <=> Desert Tiles 2 SE (Thieves Town)
+Desert Main Lobby NE Edge <=> Desert Arrow Pot Corner S Edge (Thieves Town)
+Desert Main Lobby E Edge => Ice Hookshot Ledge WN (Thieves Town)
+Ice Spikeball Up Stairs <=> Tower Push Statue Down Stairs (Thieves Town)
+Tower Catwalk North Stairs <=> Mire Fishbone SE (Thieves Town)
+Mire Fishbone E <=> Desert Arrow Pot Corner W Edge (Thieves Town)
+Desert Main Lobby NW Edge => Thieves Boss SE (Thieves Town)
+Desert Wall Slide NW <=> Desert Cannonball S (Thieves Town)
+Mire Conveyor Crystal ES <=> Eastern East Wing W (Ice Palace)
+Mire Tile Room SW <=> Ice Antechamber NE (Ice Palace)
+Mire Wizzrobe Bypass EN <=> Hyrule Castle Lobby WN (Ice Palace)
+Mire Wizzrobe Bypass NE <=> Thieves Pot Alcove Bottom SW (Ice Palace)
+Hyrule Castle Lobby W <=> Eastern West Wing E (Ice Palace)
+Hyrule Castle Lobby E <=> Eastern Attic Start WS (Ice Palace)
+Hyrule Castle Lobby North Stairs <=> Eastern Hint Tile Blocked Path SE (Ice Palace)
+Hyrule Castle Lobby S <=> Hyrule Castle Throne Room N (Ice Palace)
+Hyrule Castle Throne Room South Stairs <=> TR Compass Room NW (Ice Palace)
+Eastern Hint Tile EN <=> Mire Lone Shooter WS (Ice Palace)
+Mire Failure Bridge W <=> Hyrule Castle West Hall E (Ice Palace)
+Hyrule Castle West Hall S <=> Mire Crystal Dead End NW (Ice Palace)
+Mire Map Spot WN <=> Eastern False Switches ES (Ice Palace)
+Eastern Cannonball Hell WS <=> GT Randomizer Room ES (Ice Palace)
+Eastern Attic Start Down Stairs <=> Hera Tile Room Up Stairs (Ice Palace)
+Eastern Darkness Up Stairs <=> Ice Spike Room Down Stairs (Misery Mire)
+Ice Spike Room WS <=> PoD Dark Maze EN (Misery Mire)
+Ice Spike Room Up Stairs <=> GT Hope Room Up Stairs (Misery Mire)
+GT Hope Room EN <=> Eastern Map Valley WN (Misery Mire)
+Eastern Map Valley SW <=> Swamp Donut Top N (Misery Mire)
+GT Torch Up Stairs <=> GT Blocked Stairs Down Stairs (Misery Mire)
+GT Torch WN <=> TR Crystal Maze ES (Misery Mire)
+TR Crystal Maze North Stairs <=> TR Dash Bridge SW (Misery Mire)
+TR Dash Bridge NW <=> Desert Dead End Edge (Misery Mire)
+TR Dash Bridge WS <=> TR Pokey 2 EN (Misery Mire)
+TR Pokey 2 ES <=> Thieves Cricket Hall Right Edge (Misery Mire)
+GT Big Chest SW <=> TR Final Abyss NW (Misery Mire)
+TR Final Abyss South Stairs <=> GT Brightly Lit Hall NW (Misery Mire)
+GT Brightly Lit Hall Down Stairs <=> Swamp C Down Stairs (Misery Mire)
+Swamp T NW <=> GT Petting Zoo SE (Misery Mire)
+PoD Dark Maze E <=> Ice Catwalk WN (Misery Mire)
+Ice Catwalk NW => Mire Boss SW (Misery Mire)
+Desert Tiles 1 Up Stairs <=> GT Moldorm Pit Up Stairs (Turtle Rock)
+Mire Hub ES <=> Mire Spikes WS (Turtle Rock)
+Mire Hub E <=> Hyrule Dungeon South Abyss West Edge (Turtle Rock)
+Mire Hub NE <=> Mire Spikes SW (Turtle Rock)
+Mire Hub WN <=> TR Lazy Eyes ES (Turtle Rock)
+Mire Hub WS <=> Thieves Conveyor Bridge ES (Turtle Rock)
+Mire Hub Right EN <=> Swamp Pot Row WN (Turtle Rock)
+Swamp Pot Row Up Stairs <=> Thieves Spike Switch Up Stairs (Turtle Rock)
+Swamp Pot Row WS <=> TR Hub EN (Turtle Rock)
+TR Hub SW <=> TR Hub NE (Turtle Rock)
+TR Hub SE <=> Mire Neglected Room NE (Turtle Rock)
+TR Hub ES <=> Mire Ledgehop WN (Turtle Rock)
+TR Hub NW <=> Thieves Ambush S Edge (Turtle Rock)
+Thieves Ambush SE Edge <=> Tower Altar NW (Turtle Rock)
+Thieves Ambush ES Edge <=> Mire Bent Bridge W (Turtle Rock)
+Thieves Ambush EN Edge <=> TR Torches Ledge WS (Turtle Rock)
+Thieves Ambush E <=> Eastern Dark Square Key Door WN (Turtle Rock)
+Eastern Dark Square NW <=> TR Dash Room SW (Turtle Rock)
+TR Crystaroller Down Stairs <=> Swamp Attic Down Stairs (Turtle Rock)
+Swamp Barrier EN <=> Ice Pengator Switch WS (Turtle Rock)
+Swamp West Shallows ES <=> GT Gauntlet 5 WS (Turtle Rock)
+Swamp West Block Path Up Stairs <=> GT Right Moldorm Ledge Down Stairs (Turtle Rock)
+GT Validation WS <=> Eastern Big Key EN (Turtle Rock)
+Eastern Big Key NE <=> TR Eye Bridge SW (Turtle Rock)
+TR Eye Bridge NW <=> Thieves Spike Switch SW (Turtle Rock)
+GT Gauntlet 4 NW <=> Mire Bent Bridge SW (Turtle Rock)
+Mire Ledgehop NW <=> Ice Big Key Down Ladder (Turtle Rock)
+Mire Hub Top NW => TR Boss SW (Turtle Rock)
+Thieves Conveyor Bridge EN <=> Hyrule Dungeon South Abyss Catwalk West Edge (Turtle Rock)
+Hyrule Dungeon South Abyss Catwalk North Edge <=> Eastern Lobby S (Turtle Rock)
+Eastern Lobby Bridge N <=> Tower Antechamber South Stairs (Turtle Rock)
+TR Lazy Eyes SE <=> GT Left Moldorm Ledge NW (Turtle Rock)
+Hyrule Dungeon South Abyss North Edge <=> PoD Bow Statue Down Ladder (Turtle Rock)
+Hyrule Castle East Lobby W <=> Mire Tall Dark and Roomy ES (Ganons Tower)
+Hyrule Castle East Lobby N <=> Desert East Lobby S (Ganons Tower)
+Hyrule Castle East Lobby NW <=> TR Lava Dual Pipes SW (Ganons Tower)
+TR Lava Dual Pipes EN <=> PoD Big Chest Balcony W (Ganons Tower)
+TR Lava Dual Pipes WN <=> Swamp Map Ledge EN (Ganons Tower)
+Desert East Wing W Edge <=> PoD Arena Ledge ES (Ganons Tower)
+Desert East Wing N Edge <=> Hyrule Dungeon North Abyss Catwalk Edge (Ganons Tower)
+Hyrule Dungeon North Abyss South Edge <=> Ice Pengator Trap NE (Ganons Tower)
+Hyrule Dungeon Map Room Up Stairs <=> GT Four Torches Up Stairs (Ganons Tower)
+Ice Pengator Trap Up Stairs <=> Mire Left Bridge Down Stairs (Ganons Tower)
+Mire Left Bridge S <=> Ice Compass Room NE (Ganons Tower)
+Mire Right Bridge SE => Sanctuary N (Ganons Tower)
+Desert Compass NE <=> Sanctuary S (Ganons Tower)
+Mire Crystal Left WS <=> Thieves Spike Track ES (Ganons Tower)
+Thieves Triple Bypass EN <=> GT Falling Bridge WS (Ganons Tower)
+GT Falling Bridge WN <=> GT Hidden Spikes EN (Ganons Tower)
+GT Hidden Spikes SE <=> Mire 2 NE (Ganons Tower)
+Mire 2 Up Stairs <=> Tower Dual Statues Down Stairs (Ganons Tower)
+Tower Dark Archers Up Stairs <=> GT Crystal Paths Down Stairs (Ganons Tower)
+GT Dash Hall NE <=> TR Main Lobby SE (Ganons Tower)
+TR Lobby Ledge NE => GT Agahnim 2 SW (Ganons Tower)
+Thieves Hellway NW <=> GT Bob's Room SE (Ganons Tower)
+Ice Tall Hint EN <=> TR Pipe Pit WN (Desert Palace)
+TR Pipe Pit Up Stairs <=> Thieves Basement Block Up Stairs (Desert Palace)
+Thieves Basement Block WN <=> Ice Spike Cross ES (Desert Palace)
+Thieves Lonely Zazak WS <=> Ice Switch Room ES (Desert Palace)
+Ice Switch Room SE <=> Ice Freezors Up Ladder (Desert Palace)
+Ice Crystal Right ES <=> Swamp Big Key Ledge WN (Desert Palace)
+Ice Backwards Room Down Stairs <=> Hyrule Dungeon Staircase Down Stairs (Desert Palace)
+Hyrule Dungeon Staircase Up Stairs <=> Ice Lonely Freezor Down Stairs (Desert Palace)
+Ice Lonely Freezor NE <=> Ice Spike Cross SE (Desert Palace)
+Ice Anti-Fairy Up Stairs <=> PoD Dark Basement W Up Stairs (Desert Palace)
+PoD Dark Basement E Up Stairs <=> Desert Bridge Down Stairs (Desert Palace)
+Desert Beamos Hall NE <=> Ice Firebar Down Ladder (Desert Palace)
+Desert West Wing N Edge <=> TR Lava Escape SE (Desert Palace)
+TR Lava Escape NW <=> Sewers Dark Cross South Stairs (Desert Palace)
+Sewers Dark Cross Key Door N <=> PoD Arena Bridge SE (Desert Palace)
+PoD Arena Main NW <=> Ice Many Pots SW (Desert Palace)
+PoD Arena Main NE <=> Hyrule Dungeon Armory S (Desert Palace)
+Hyrule Dungeon Armory Down Stairs <=> Thieves Attic Down Stairs (Desert Palace)
+Thieves Cricket Hall Left Edge => TR Pipe Ledge WS (Desert Palace)
+Ice Many Pots WS <=> PoD Arena Crystals E (Desert Palace)
+Skull Small Hall ES <=> Hyrule Castle East Hall W (Skull Woods)
+Skull 2 West Lobby S <=> GT Wizzrobes 2 NE (Skull Woods)
+GT Wizzrobes 1 Down Stairs <=> Ice Floor Switch Up Stairs (Skull Woods)
+GT Crystal Conveyor NE <=> Ice Cross Bottom SE (Skull Woods)
+GT Conveyor Star Pits EN <=> TR Torches WN (Skull Woods)
+TR Torches NW <=> GT DMs Room SW (Skull Woods)
+GT Lobby Left Down Stairs <=> PoD Warp Room Up Stairs (Skull Woods)
+GT Lobby Up Stairs <=> PoD Basement Ledge Up Stairs (Skull Woods)
+GT Lobby Right Down Stairs <=> PoD Big Key Landing Down Stairs (Skull Woods)
+PoD Mimics 1 NW <=> PoD Pit Room S (Skull Woods)
+PoD Pit Room NW <=> Skull Map Room SE (Skull Woods)
+PoD Pit Room NE <=> PoD Conveyor SW (Skull Woods)
+PoD Conveyor North Stairs <=> Eastern Courtyard Ledge S (Skull Woods)
+Eastern Courtyard Ledge W <=> Skull Compass Room ES (Skull Woods)
+Eastern Courtyard Ledge E <=> Skull 1 Lobby WS (Skull Woods)
+Skull 1 Lobby S <=> Skull Compass Room NE (Skull Woods)
+Hyrule Castle East Hall S <=> PoD Dark Pegs Up Ladder (Skull Woods)
+PoD Dark Alley NE <=> Ice Lobby SE (Skull Woods)
+Ice Jelly Key Down Stairs <=> TR Chain Chomps Down Stairs (Skull Woods)
+TR Pokey 1 SW <=> Skull Pinball NE (Skull Woods)
+Skull Pinball WS <=> Ice Cross Right ES (Skull Woods)
+
+Dungeon Lobbies:
+
+Sanctuary: Thieves Lobby S
+Hyrule Castle West: PoD Harmless Hellway SE
+Hyrule Castle South: Sewers Water S
+Hyrule Castle East: TR Roller Room SW
+Eastern: Skull Pot Prison SE
+Desert South: Desert West S
+Desert East: Desert Boss SW
+Desert West: PoD Arena Main SW
+Desert Back: Ice Tall Hint SE
+Turtle Rock Lazy Eyes: Mire Hub SE
+Turtle Rock Eye Bridge: PoD Mimics 2 SW
+Turtle Rock Chest: Desert Back Lobby S
+Agahnims Tower: Skull 3 Lobby SW
+Swamp: Sewers Behind Tapestry S
+Palace of Darkness: Skull Star Pits SW
+Mire: Eastern Darkness S
+Skull 2 West: Skull Spike Corner SW
+Skull 2 East: Hyrule Castle East Hall SW
+Skull 1: Ice Conveyor SW
+Skull 3: GT Lobby S
+Ice: Mire Conveyor Crystal SE
+Hera: Swamp Hub S
+Thieves Town: Swamp Waterfall Room SW
+Turtle Rock Main: TR Tile Room SE
+Ganons Tower: Hyrule Castle East Lobby S
+
+Door Types:
+
+Thieves Lobby E (Hyrule Castle) Trap Door
+Ice Falling Square SE (Desert Palace) Trap Door
+TR Pipe Ledge WS (Desert Palace) Trap Door
+GT Frozen Over ES (Tower of Hera) Trap Door
+Thieves Hallway WN (Tower of Hera) Trap Door
+GT Invisible Catwalk ES (Palace of Darkness) Trap Door
+Mire Warping Pool ES (Swamp Palace) Trap Door
+Ice Conveyor NE (Skull Woods) Trap Door
+Ice Hookshot Ledge WN (Thieves Town) Trap Door
+Mire Wizzrobe Bypass WN (Ice Palace) Trap Door
+Mire Map Spike Side EN (Ice Palace) Trap Door
+Mire Falling Bridge WS (Ice Palace) Trap Door
+Mire Failure Bridge E (Ice Palace) Trap Door
+GT Torch SW (Misery Mire) Trap Door
+Tower Altar SW (Turtle Rock) Trap Door
+GT Four Torches ES (Ganons Tower) Trap Door
+TR Dodgers NE (Hyrule Castle) Big Key Door
+Mire Antechamber NW (Hyrule Castle) Big Key Door
+Ice Crystal Right NE (Desert Palace) Big Key Door
+Hera Startile Corner NW (Tower of Hera) Big Key Door
+Thieves BK Corner NE (Agahnims Tower) Big Key Door
+Eastern Courtyard N (Palace of Darkness) Big Key Door
+Mire Square Rail NW (Swamp Palace) Big Key Door
+Mire BK Door Room N (Swamp Palace) Big Key Door
+PoD Dark Alley NE (Skull Woods) Big Key Door
+Desert Wall Slide NW (Thieves Town) Big Key Door
+TR Final Abyss NW (Misery Mire) Big Key Door
+GT Brightly Lit Hall NW (Misery Mire) Big Key Door
+Eastern Big Key NE (Turtle Rock) Big Key Door
+GT Dash Hall NE (Ganons Tower) Big Key Door
+Swamp Entrance Down Stairs (Hyrule Castle) Key Door
+PoD Falling Bridge WN <-> Mire Over Bridge E (Hyrule Castle) Key Door
+Desert Sandworm Corner NE <-> Desert Bonk Torch SE (Hyrule Castle) Key Door
+Sewers Rat Path WS <-> Sewers Secret Room ES (Hyrule Castle) Key Door
+Swamp Trench 1 Key Ledge NW <-> Swamp Hammer Switch SW (Eastern Palace) Key Door
+PoD Map Balcony ES <-> PoD Fairy Pool WS (Eastern Palace) Key Door
+Ice Backwards Room Down Stairs (Desert Palace) Key Door
+Ice Crystal Right ES <-> Swamp Big Key Ledge WN (Desert Palace) Key Door
+Thieves Lonely Zazak NW <-> Thieves Blocked Entry SW (Desert Palace) Key Door
+Ice Big Chest View ES <-> Ice Crystal Left WS (Desert Palace) Key Door
+TR Pipe Pit WN <-> Ice Tall Hint EN (Desert Palace) Key Door
+PoD Middle Cage S <-> PoD Lobby N (Tower of Hera) Key Door
+Hera Lobby Key Stairs (Tower of Hera) Key Door
+Thieves Hallway WS <-> Thieves Pot Alcove Mid ES (Tower of Hera) Key Door
+GT Invisible Bridges WS <-> Eastern Cannonball Ledge Key Door EN (Agahnims Tower) Key Door
+Thieves Rail Ledge W <-> GT Hidden Star ES (Agahnims Tower) Key Door
+Skull 3 Lobby NW <-> Tower Lobby S (Agahnims Tower) Key Door
+Swamp Crystal Switch SE <-> Swamp Shortcut NE (Palace of Darkness) Key Door
+Desert North Hall NW <-> Desert Map SW (Palace of Darkness) Key Door
+GT Speed Torch NE <-> Eastern Cannonball S (Palace of Darkness) Key Door
+GT Tile Room EN <-> GT Speed Torch WN (Palace of Darkness) Key Door
+Tower Pacifist Run WS <-> Tower Circle of Pots ES (Palace of Darkness) Key Door
+Skull Star Pits ES <-> Skull Torch Room WS (Palace of Darkness) Key Door
+GT Bomb Conveyor EN <-> GT Mini Helmasaur Room WN (Swamp Palace) Key Door
+GT Crystal Circles NW <-> GT Bomb Conveyor SW (Swamp Palace) Key Door
+Mire Torches Bottom ES <-> Mire Attic Hint WS (Swamp Palace) Key Door
+Skull Pot Circle WN <-> Skull Pull Switch EN (Skull Woods) Key Door
+PoD Pit Room NE <-> PoD Conveyor SW (Skull Woods) Key Door
+Skull 2 West Lobby NW <-> Skull X Room SW (Skull Woods) Key Door
+TR Chain Chomps Down Stairs (Skull Woods) Key Door
+GT Crystal Conveyor WN <-> GT Compass Room EN (Skull Woods) Key Door
+Ice Cross Bottom SE <-> GT Crystal Conveyor NE (Skull Woods) Key Door
+TR Pokey 1 SW <-> Skull Pinball NE (Skull Woods) Key Door
+Hyrule Castle East Hall S (Skull Woods) Key Door
+Skull Spike Corner ES <-> Skull Final Drop WS (Skull Woods) Key Door
+Ice Hookshot Balcony SW <-> Ice Spikeball NW (Thieves Town) Key Door
+Sewers Dark Aquabats N <-> Sewers Key Rat S (Thieves Town) Key Door
+GT Cannonball Bridge WN <-> Sewers Dark Aquabats ES (Thieves Town) Key Door
+Hera Tridorm SE <-> Hera Torches NE (Ice Palace) Key Door
+Eastern East Wing ES <-> Eastern Map Balcony WS (Ice Palace) Key Door
+Swamp Waterway NW <-> Swamp T SW (Misery Mire) Key Door
+Swamp Waterway N <-> Swamp I S (Misery Mire) Key Door
+Swamp C SE <-> Swamp Waterway NE (Misery Mire) Key Door
+Thieves Cricket Hall Right ES <-> Thieves Attic Window WS (Misery Mire) Key Door
+TR Dash Bridge NW (Misery Mire) Key Door
+Eastern Darkness NE <-> Eastern Rupees SE (Misery Mire) Key Door
+Thieves Conveyor Bridge EN (Turtle Rock) Key Door
+Mire Neglected Room SE <-> Mire Chest View NE (Turtle Rock) Key Door
+Mire Ledgehop NW (Turtle Rock) Key Door
+Mire Ledgehop SW <-> Mire Spikes NW (Turtle Rock) Key Door
+GT Validation WS <-> Eastern Big Key EN (Turtle Rock) Key Door
+TR Dash Room ES <-> TR Tongue Pull WS (Turtle Rock) Key Door
+Thieves Ambush E <-> Eastern Dark Square Key Door WN (Turtle Rock) Key Door
+Mire Hub Right EN <-> Swamp Pot Row WN (Turtle Rock) Key Door
+Mire Hub WN <-> TR Lazy Eyes ES (Turtle Rock) Key Door
+Thieves Spike Track WS <-> Thieves Hellway Crystal ES (Ganons Tower) Key Door
+Mire Tall Dark and Roomy WS <-> Mire Crystal Right ES (Ganons Tower) Key Door
+Mire Left Bridge S <-> Ice Compass Room NE (Ganons Tower) Key Door
+GT Four Torches NW <-> GT Fairy Abyss SW (Ganons Tower) Key Door
+Hyrule Dungeon North Abyss Key Door N <-> Hyrule Dungeon Map Room Key Door S (Ganons Tower) Key Door
+Desert East Lobby WS <-> Desert East Wing ES (Ganons Tower) Key Door
+TR Lava Dual Pipes WN <-> Swamp Map Ledge EN (Ganons Tower) Key Door
+Mire Over Bridge W <-> Swamp Hub Dead Ledge EN (Hyrule Castle) Bomb Door
+Hyrule Dungeon Armory Interior Key Door N <-> Hyrule Dungeon Armory Interior Key Door S (Desert Palace) Bomb Door
+Ice Switch Room ES <-> Thieves Lonely Zazak WS (Desert Palace) Dash Door
+Swamp Hub WN <-> GT Conveyor Bridge EN (Tower of Hera) Bomb Door
+Tower Dark Maze ES <-> Tower Dark Chargers WS (Palace of Darkness) Bomb Door
+Swamp Left Elbow WN <-> Swamp Shooters EN (Palace of Darkness) Bomb Door
+GT Double Switch EN <-> GT Spike Crystals WN (Palace of Darkness) Dash Door
+Mire Square Rail WS <-> Mire Spike Barrier ES (Swamp Palace) Bomb Door
+PoD Jelly Hall NW <-> PoD Mimics 1 SW (Skull Woods) Bomb Door
+Skull 2 West Lobby ES <-> Skull Small Hall WS (Skull Woods) Dash Door
+TR Chain Chomps SW <-> TR Pokey 1 NW (Skull Woods) Dash Door
+Desert Tiles 2 NE <-> Desert Wall Slide SE (Thieves Town) Bomb Door
+GT Hope Room WN <-> GT Torch EN (Misery Mire) Bomb Door
+TR Pokey 2 ES (Misery Mire) Bomb Door
+TR Dash Bridge WS <-> TR Pokey 2 EN (Misery Mire) Dash Door
+Eastern Lobby NE <-> Eastern Lobby Right Ledge SE (Turtle Rock) Bomb Door
+TR Lazy Eyes SE <-> GT Left Moldorm Ledge NW (Turtle Rock) Dash Door
+Thieves Spike Track NE <-> Thieves Triple Bypass SE (Ganons Tower) Bomb Door
+Mire Tall Dark and Roomy WN <-> Mire Shooter Rupees EN (Ganons Tower) Dash Door
+Desert East Wing Key Door EN <-> Desert Compass Key Door WN (Ganons Tower) Dash Door
+
+Locations:
+
+Master Sword Pedestal: Rupees (5) (Player 1)
+Mushroom: Rupees (5) (Player 1)
+Ether Tablet: Rupees (5)
+Spectacle Rock: Progressive Shield
+Floating Island: Small Heart
+King Zora: Small Key (Turtle Rock)
+Zora's Ledge: Small Heart
+Bottle Merchant: Rupees (5) (Player 1)
+Maze Race: Rupees (20)
+Flute Spot: Rupee (1)
+Hobo: Single Bomb
+Desert Ledge: Rupee (1)
+Bombos Tablet: Rupees (5)
+Lake Hylia Island: Rupees (5) (Player 1)
+Purple Chest: Small Magic
+Sunken Treasure: Small Heart
+Bumper Cave Ledge: Single Bomb
+Catfish: Small Heart
+Pyramid: Small Key (Misery Mire)
+Dark Blacksmith Ruins: Pick Up Purple Chest
+Digging Game: Rupee (1)
+Frog: Get Frog
+Stumpy: Rupees (5) (Player 1)
+Lost Woods Hideout: Small Magic
+Lumberjack Tree: Rupees (5)
+Lumberjack Tree (top) Enemy #1 (Octorok): Arrows (10) (Player 1)
+Lumberjack Tree (top) Enemy #2 (MiniMoldorm): Rupees (5)
+Lumberjack Tree (top) Enemy #3 (Octorok4Way): Rupees (5) (Player 1)
+Lumberjack Tree (top) Enemy #4 (Crab): Rupee (1)
+Old Man: Rupees (5)
+Old Man Cave (East) Pot #1: Fairy
+Old Man House Enemy #2 (BlueArcher): Small Heart
+Old Man House Back Pot #1: Blue Shield
+Death Mountain Return Cave (right) Enemy #4 (Sluggula): Small Magic
+Death Mountain Return Cave (right) Enemy #5 (Sluggula): Rupees (5) (Player 1)
+Spectacle Rock Cave: Rupees (5)
+Spectacle Rock Cave (Bottom) Enemy #1 (Stal): Small Heart
+Spectacle Rock Cave (Bottom) Enemy #2 (HardhatBeetle): Small Heart
+Spectacle Rock Cave (Bottom) Enemy #4 (HardhatBeetle): Hammer
+Spectacle Rock Cave Pool Enemy #1 (Stalfos): Rupees (5) (Player 1)
+Spiral Cave: Rupee (1)
+Spiral Cave (Top) Enemy #1 (Hover): Rupee (1)
+Spiral Cave (Top) Enemy #2 (Ropa): Single Bomb
+Spiral Cave (Top) Enemy #3 (Hinox): Arrows (10) (Player 1)
+Spiral Cave (Top) Enemy #4 (Hover): Small Magic
+Spiral Cave (Top) Enemy #5 (Hinox): Small Magic
+Spiral Cave (Bottom) Enemy #1 (MiniHelmasaur): Small Key (Desert Palace)
+Spiral Cave (Bottom) Enemy #3 (HardhatBeetle): Small Magic
+Spiral Cave (Bottom) Enemy #4 (MiniMoldorm): Single Bomb
+Spiral Cave (Bottom) Enemy #5 (MiniMoldorm): Big Magic
+Mimic Cave: Bombs (10)
+Mimic Cave Enemy #5 (Pengator): Rupees (5) (Player 1)
+Mimic Cave Enemy #6 (Stalfos): Single Bomb
+Mimic Cave Enemy #7 (Pengator): Small Magic
+Fairy Ascension Cave (Bottom) Enemy #1 (FloatingSkull): Arrows (10) (Player 1)
+Fairy Ascension Cave (Bottom) Enemy #2 (Snake): Rupees (5) (Player 1)
+Fairy Ascension Cave (Bottom) Enemy #5 (Snake): Rupees (5) (Player 1)
+Fairy Ascension Cave (Top) Pot #2: Rupees (20)
+Hookshot Fairy Pot #1: Rupees (20)
+Hookshot Fairy Enemy #2 (Pengator): Rupees (5) (Player 1)
+Hookshot Fairy Enemy #3 (Stal): Small Heart
+Paradox Cave Lower - Far Left: Rupee (1)
+Paradox Cave Lower - Left: Small Heart
+Paradox Cave Lower - Right: Small Magic
+Paradox Cave Lower - Far Right: Single Bomb
+Paradox Cave Lower - Middle: Rupees (5)
+Paradox Cave Chest Area Enemy #1 (UsainBolt): Big Magic
+Paradox Cave Chest Area Enemy #2 (Pengator): Small Heart
+Paradox Cave Upper - Left: Rupees (5) (Player 1)
+Paradox Cave Upper - Right: Compass (Eastern Palace)
+Paradox Cave Enemy #2 (MiniMoldorm): Rupees (5) (Player 1)
+Paradox Shop - Left: Small Heart
+Paradox Shop - Middle: Arrows (10) (Player 1)
+Paradox Shop - Right: Blue Potion
+Waterfall Fairy - Left: Single Bomb
+Waterfall Fairy - Right: Small Heart
+Bonk Rock Cave: Rupees (5) (Player 1)
+Graveyard Cave: Small Magic
+Graveyard Cave Pot #12: Arrows (10)
+King's Tomb: Rupees (5) (Player 1)
+Potion Shop: Bomb Upgrade (+5)
+Potion Shop - Left: Small Heart
+Potion Shop - Middle: Small Heart
+Potion Shop - Right: Arrows (10) (Player 1)
+Kakariko Well - Left: Small Heart
+Kakariko Well - Middle: Single Arrow
+Kakariko Well - Right: Blue Shield
+Kakariko Well - Bottom: Small Heart
+Kakariko Well - Top: Rupees (5) (Player 1)
+Kakariko Well (back) Pot #1: Rupees (50) (Player 1)
+Kakariko Well (bottom) Pot #7: Bombs (10)
+Kakariko Well (bottom) Pot #8: Rupees (50) (Player 1)
+Blind's Hideout - Left: Small Magic
+Blind's Hideout - Right: Small Heart
+Blind's Hideout - Far Left: Small Heart
+Blind's Hideout - Far Right: Rupees (5)
+Blind's Hideout - Top: Small Magic
+Blinds Hideout (Top) Pot #4: Rupees (20)
+Chicken House: Small Heart
+Chicken House Enemy #1 (Popo): Arrows (10)
+Chicken House Enemy #3 (Popo2): Single Bomb
+Chicken House Enemy #4 (Popo): Single Bomb
+Sick Kid: Big Key (Tower of Hera)
+Light World Bomb Hut Pot #1: Rupees (50) (Player 1)
+Light World Bomb Hut Pot #2: Fairy
+Light World Bomb Hut Pot #3: Bombs (10)
+Light World Bomb Hut Pot #5: Bombs (10)
+Light World Bomb Hut Pot #8: Small Key (Turtle Rock)
+Kakariko Shop - Left: Big Magic
+Kakariko Shop - Middle: Rupee (1)
+Kakariko Shop - Right: Arrow Upgrade (+5) (Player 1)
+Kakariko Tavern: Arrows (10) (Player 1)
+Link's Uncle: Small Key (Tower of Hera)
+Secret Passage: Small Magic
+Hyrule Castle Secret Entrance Pot #1: Blue Boomerang
+Hyrule Castle Secret Entrance Enemy #2 (CricketRat): Rupees (5)
+Sahasrahla's Hut - Left: Small Heart
+Sahasrahla's Hut - Middle: Small Magic
+Sahasrahla's Hut - Right: Rupee (1)
+Sahasrahla: Piece of Heart
+Blacksmith: Rupees (5)
+Magic Bat: Arrows (10) (Player 1)
+Library: Small Heart
+Bonk Fairy Pool Enemy #1 (Popo2): Small Heart
+Bonk Fairy Pool Enemy #4 (GreenMimic): Rupee (1)
+Link's House: Small Heart
+Links House Pot #1: Flippers
+Long Fairy Cave Enemy #1 (Tektite): Big Key (Skull Woods)
+Long Fairy Cave Enemy #2 (MiniMoldorm): Rupees (5) (Player 1)
+Long Fairy Cave Enemy #4 (Deadrock): Rupees (5)
+Checkerboard Cave: Rupees (5) (Player 1)
+Aginah's Cave: Arrows (10) (Player 1)
+Cave 45: Single Bomb
+Cave 45 Pot #3: Arrows (10)
+Cave 45 Pot #4: Arrows (10)
+Lake Hylia Shop - Left: Rupees (5)
+Lake Hylia Shop - Middle: Big Magic
+Lake Hylia Shop - Right: Single Bomb
+Capacity Upgrade - Left: Single Bomb
+Capacity Upgrade - Right: Small Heart
+Capacity Fairy Pool Enemy #3 (Stal): Compass (Tower of Hera)
+Capacity Fairy Pool Enemy #4 (Stal): Rupees (5)
+Mini Moldorm Cave - Far Left: Rupees (5)
+Mini Moldorm Cave - Left: Small Heart
+Mini Moldorm Cave - Right: Rupees (20)
+Mini Moldorm Cave - Far Right: Rupee (1)
+Mini Moldorm Cave - Generous Guy: Small Heart
+Mini Moldorm Cave Enemy #1 (Gibdo): Small Heart
+Mini Moldorm Cave Enemy #2 (MiniHelmasaur): Rupee (1)
+Mini Moldorm Cave Enemy #3 (Gibdo): Piece of Heart
+Mini Moldorm Cave Enemy #4 (MiniMoldorm): Small Heart
+Ice Rod Cave: Rupees (20)
+Good Bee Cave (back) Enemy #2 (FloatingSkull): Single Bomb
+Good Bee Cave (back) Enemy #3 (Stalfos): Arrows (10) (Player 1)
+50 Rupee Cave Pot #4: Bombs (3)
+Floodgate Chest: Big Magic
+Dam Enemy #7 (RedMimic): Small Heart
+Dark Lumberjack Shop - Left: Rupees (5)
+Dark Lumberjack Shop - Middle: Rupees (5) (Player 1)
+Dark Lumberjack Shop - Right: Arrows (10) (Player 1)
+Spike Cave: Progressive Sword
+Hookshot Cave - Bottom Right: Rupees (5) (Player 1)
+Hookshot Cave (Bonk Islands) Enemy #3 (BlueBari): Small Magic
+Hookshot Cave - Top Right: Small Heart
+Hookshot Cave - Top Left: Big Magic
+Hookshot Cave - Bottom Left: Arrows (10) (Player 1)
+Hookshot Cave (Hook Islands) Pot #1: Rupees (20)
+Hookshot Cave (Hook Islands) Pot #2: Rupees (20)
+Hookshot Cave (Hook Islands) Enemy #1 (UsainBolt): Small Magic
+Hookshot Cave (Hook Islands) Enemy #2 (Pengator): Rupee (1)
+Hookshot Cave (Middle) Pot #1: Rupees (20)
+Hookshot Cave (Fairy Pool) Enemy #3 (Stal): Rupee (1)
+Superbunny Cave - Top: Small Heart
+Superbunny Cave - Bottom: Rupees (5)
+Superbunny Cave (Bottom) Pot #1: Small Key (Skull Woods)
+Superbunny Cave (Bottom) Enemy #1 (RedBari): Rupees (5)
+Superbunny Cave (Bottom) Enemy #2 (RedZazak): Arrows (10) (Player 1)
+Superbunny Cave (Bottom) Enemy #3 (BlueZazak): Rupees (5)
+Dark Death Mountain Shop - Left: Map (Thieves Town)
+Dark Death Mountain Shop - Middle: Small Magic
+Dark Death Mountain Shop - Right: Rupees (20)
+Bumper Cave (bottom) Pot #2: Rupees (50) (Player 1)
+Bumper Cave (bottom) Pot #4: Moon Pearl
+Bumper Cave (bottom) Enemy #1 (GreenMimic): Small Heart
+Bumper Cave (bottom) Enemy #2 (Popo): Small Magic
+Bumper Cave (bottom) Enemy #3 (Popo2): Rupees (5) (Player 1)
+Dark Potion Shop - Left: Rupees (5) (Player 1)
+Dark Potion Shop - Middle: Red Potion
+Dark Potion Shop - Right: Bottle (Bee)
+Chest Game: Single Bomb
+C-Shaped House: Small Heart
+Brewery: Rupees (300)
+Village of Outcasts Shop - Left: Small Magic
+Village of Outcasts Shop - Middle: Small Heart
+Village of Outcasts Shop - Right: Green Potion
+Red Shield Shop - Left: Small Heart
+Red Shield Shop - Middle: Small Magic
+Red Shield Shop - Right: Arrows (10)
+Pyramid Fairy - Left: Small Key (Thieves Town)
+Pyramid Fairy - Right: Small Heart
+Ganon: Triforce
+Peg Cave: Rupees (5) (Player 1)
+Mire Shed - Left: Single Bomb
+Mire Shed - Right: Big Magic
+Mire Shed Enemy #2 (Ropa): Small Heart
+Mire Hint Pot #2: Bombs (10)
+Mire Hint Pot #4: Small Key (Agahnims Tower)
+Hype Cave - Top: Small Magic
+Hype Cave - Middle Right: Small Heart
+Hype Cave - Middle Left: Small Key (Ganons Tower)
+Hype Cave - Bottom: Rupees (5)
+Hype Cave - Generous Guy: Single Bomb
+Dark Lake Hylia Shop - Left: Single Bomb
+Dark Lake Hylia Shop - Middle: Piece of Heart
+Dark Lake Hylia Shop - Right: Rupees (5) (Player 1)
+Dark Lake Hylia Ledge Spike Cave Pot #6: Fairy
+Sewers Water Enemy #1 @ Hyrule Castle (Debirando): Rupee (1)
+Sewers Water Enemy #4 @ Hyrule Castle (Pokey): Small Magic
+Sewers Rat Path Enemy #1 @ Hyrule Castle (BluesainBolt): Big Magic
+Sewers Rat Path Enemy #2 @ Hyrule Castle (Tektite): Single Bomb
+Sewers Rat Path Enemy #3 @ Hyrule Castle (Stal): Rupees (5) (Player 1)
+Sewers Rat Path Enemy #4 @ Hyrule Castle (BluesainBolt): Small Heart
+Sewers Rat Path Enemy #5 @ Hyrule Castle (RedBushGuard): Single Bomb
+Sewers Rat Path Enemy #6 @ Hyrule Castle (BallNChain): Rupee (1)
+Sewers Rat Path Enemy #7 @ Hyrule Castle (ArmosStatue): Rupees (5)
+Sewers Rat Path Enemy #8 @ Hyrule Castle (BluesainBolt): Boss Heart Container
+Sewers - Secret Room - Left @ Hyrule Castle: Rupees (5)
+Sewers - Secret Room - Middle @ Hyrule Castle: Piece of Heart
+Sewers - Secret Room - Right @ Hyrule Castle: Small Heart
+Sewers Secret Room Pot #5 @ Hyrule Castle: Boss Heart Container
+Desert Sandworm Corner Enemy #1 @ Hyrule Castle (StalfosKnight): Single Bomb
+Desert Sandworm Corner Enemy #6 @ Hyrule Castle (Zoro): Small Heart
+Desert Palace - Torch @ Hyrule Castle: Small Magic
+Desert Bonk Torch Enemy #2 @ Hyrule Castle (Moblin): Rupee (1)
+Desert Circle of Pots Pot #7 @ Hyrule Castle: Small Key (Desert Palace)
+Desert Circle of Pots Enemy #5 @ Hyrule Castle (Hinox): Arrows (10) (Player 1)
+Desert Palace - Big Chest @ Hyrule Castle: Piece of Heart
+Palace of Darkness - Shooter Room @ Hyrule Castle: Arrows (10) (Player 1)
+PoD Shooter Room Pot #1 @ Hyrule Castle: Rupees (20)
+PoD Falling Bridge Mid Enemy #1 @ Hyrule Castle (Pengator): Small Heart
+Palace of Darkness - Compass Chest @ Hyrule Castle: Small Heart
+PoD Compass Room Enemy #2 @ Hyrule Castle (Pengator): Small Magic
+PoD Compass Room Enemy #4 @ Hyrule Castle (Pengator): Small Key (Skull Woods)
+PoD Compass Room Enemy #5 @ Hyrule Castle (BlueBari): Hookshot
+Palace of Darkness - Harmless Hellway @ Hyrule Castle: Small Key (Palace of Darkness)
+PoD Harmless Hellway Enemy #7 @ Hyrule Castle (Pengator): Small Heart
+Swamp Palace - Entrance @ Hyrule Castle: Rupees (5)
+Swamp Entrance Enemy #1 @ Hyrule Castle (Ropa): Piece of Heart
+Swamp Entrance Enemy #2 @ Hyrule Castle (GreenMimic): Rupees (5) (Player 1)
+Swamp Entrance Enemy #4 @ Hyrule Castle (Ropa): Small Heart
+Swamp Entrance Enemy #5 @ Hyrule Castle (Popo2): Progressive Sword
+Swamp Drain Right Pot #1 @ Hyrule Castle: Cane of Byrna
+Swamp Flooded Room Enemy #5 @ Hyrule Castle (GreenMimic): Arrows (10) (Player 1)
+Swamp Palace - Flooded Room - Left @ Hyrule Castle: Rupee (1)
+Swamp Palace - Flooded Room - Right @ Hyrule Castle: Rupees (20)
+Swamp Basement Shallows Enemy #2 @ Hyrule Castle (RedMimic): Small Magic
+Thieves' Town - Map Chest @ Hyrule Castle: Rupees (5) (Player 1)
+Thieves Lobby Pot #4 @ Hyrule Castle: Arrows (10)
+Thieves Lobby Enemy #1 @ Hyrule Castle (Sluggula): Small Heart
+Thieves Lobby Enemy #2 @ Hyrule Castle (DebirandoPit): Map (Desert Palace)
+Thieves Lobby Enemy #4 @ Hyrule Castle (Babasu): Small Heart
+Thieves Lobby Enemy #5 @ Hyrule Castle (Hoarder): Small Heart
+Thieves Lobby Enemy #6 @ Hyrule Castle (Leever): Small Key (Swamp Palace)
+Thieves Lobby Enemy #7 @ Hyrule Castle (Debirando): Rupees (5) (Player 1)
+Mire Firesnake Skip Enemy #3 @ Hyrule Castle (GreenMimic): Rupees (5)
+Turtle Rock - Roller Room - Left @ Hyrule Castle: Big Key (Agahnims Tower)
+Turtle Rock - Roller Room - Right @ Hyrule Castle: Small Heart
+TR Roller Room Enemy #1 @ Hyrule Castle (MiniHelmasaur): Rupees (20)
+TR Roller Room Enemy #2 @ Hyrule Castle (MiniHelmasaur): Rupee (1)
+TR Twin Pokeys Pot #2 @ Hyrule Castle: Small Key (Skull Woods)
+TR Twin Pokeys Enemy #4 @ Hyrule Castle (BluesainBolt): Rupees (5)
+TR Twin Pokeys Enemy #6 @ Hyrule Castle (CannonTrooper): Rupees (5) (Player 1)
+TR Twin Pokeys Enemy #7 @ Hyrule Castle (BallNChain): Single Bomb
+TR Dodgers Enemy #3 @ Hyrule Castle (UsainBolt): Rupees (5) (Player 1)
+Turtle Rock - Big Chest @ Hyrule Castle: Rupees (5)
+TR Dark Ride Ledges Enemy #3 @ Hyrule Castle (CannonTrooper): Small Heart
+Hyrule Castle - Big Key Drop @ Eastern Palace (HardhatBeetle): Rupees (5)
+Hyrule Dungeon Cellblock Pot #2 @ Eastern Palace: Small Key (Ganons Tower)
+Hyrule Dungeon Cellblock Enemy #2 @ Eastern Palace (FloatingSkull): Rupees (5) (Player 1)
+Hyrule Castle - Zelda's Chest @ Eastern Palace: Arrows (10)
+Sewers Rope Room Enemy #1 @ Eastern Palace (MiniHelmasaur): Small Heart
+Sewers Rope Room Enemy #3 @ Eastern Palace (Buzzblob): Big Magic
+Sewers Rope Room Enemy #5 @ Eastern Palace (MiniMoldorm): Boss Heart Container
+Sewers Rope Room Enemy #6 @ Eastern Palace (Buzzblob): Rupees (5) (Player 1)
+Eastern Palace - Boss @ Eastern Palace: Compass (Agahnims Tower)
+Eastern Palace - Prize @ Eastern Palace: Red Pendant
+Palace of Darkness - Map Chest @ Eastern Palace: Small Magic
+PoD Map Balcony Pot #8 @ Eastern Palace: Bombs (10)
+PoD Map Balcony Enemy #3 @ Eastern Palace (MiniMoldorm): Small Heart
+PoD Fairy Pool Enemy #4 @ Eastern Palace (HardhatBeetle): Rupees (5)
+PoD Fairy Pool Enemy #8 @ Eastern Palace (HardhatBeetle): Rupees (5) (Player 1)
+Swamp Trench 1 Approach Enemy #7 @ Eastern Palace (Moblin): Rupees (5)
+Swamp Trench 1 Approach Enemy #8 @ Eastern Palace (Stal): Rupee (1)
+Swamp Hammer Switch Enemy #5 @ Eastern Palace (Babasu): Rupee (1)
+Skull Woods - Pot Prison @ Eastern Palace: Rupees (5)
+Skull Pot Prison Pot #5 @ Eastern Palace: Ice Rod
+Skull Pot Prison Pot #6 @ Eastern Palace: Rupees (20)
+Skull Pot Prison Enemy #10 @ Eastern Palace (BallNChain): Small Heart
+Skull Pot Prison Enemy #11 @ Eastern Palace (BallNChain): Single Bomb
+Skull Pot Prison Enemy #12 @ Eastern Palace (BallNChain): Rupees (5) (Player 1)
+Skull Pot Prison Enemy #13 @ Eastern Palace (BallNChain): Rupee (1)
+Ice Narrow Corridor Pot #5 @ Eastern Palace: Magic Upgrade (1/2)
+Mire Falling Foes Pot #1 @ Eastern Palace: Rupees (20)
+Mire Falling Foes Pot #2 @ Eastern Palace: Arrows (10)
+Mire Falling Foes Enemy #2 @ Eastern Palace (StalfosKnight): Rupees (5)
+Mire Falling Foes Enemy #5 @ Eastern Palace (Hover): Small Heart
+GT Hookshot Mid Platform Enemy #5 @ Eastern Palace (UsainBolt): Rupees (5)
+GT Hookshot South Platform Pot #3 @ Eastern Palace: Small Key (Skull Woods)
+GT Hookshot South Platform Enemy #6 @ Eastern Palace (BlueBari): Small Magic
+Ganons Tower - Map Chest @ Eastern Palace: Rupees (50)
+GT Map Room Enemy #7 @ Eastern Palace (Pengator): Small Key (Palace of Darkness)
+GT Gauntlet 2 Pot #4 @ Eastern Palace: Map (Ganons Tower)
+GT Gauntlet 2 Enemy #8 @ Eastern Palace (Geldman): Rupees (5) (Player 1)
+GT Gauntlet 3 Pot #8 @ Eastern Palace: Rupees (20)
+GT Gauntlet 3 Enemy #9 @ Eastern Palace (Geldman): Rupee (1)
+GT Gauntlet 3 Enemy #10 @ Eastern Palace (Geldman): Arrows (10)
+GT Gauntlet 3 Enemy #13 @ Eastern Palace (Ropa): Big Key (Misery Mire)
+Hyrule Dungeon Armory Main Enemy #1 @ Desert Palace (Debirando): Rupees (5)
+Hyrule Castle - Boomerang Chest @ Desert Palace: Piece of Heart
+Hyrule Castle - Boomerang Guard Key Drop @ Desert Palace (Hoarder2): Rupees (5) (Player 1)
+Sewers - Dark Cross @ Desert Palace: Rupees (5)
+Sewers Dark Cross Enemy #3 @ Desert Palace (Popo2): Fairy
+Sewers Dark Cross Enemy #4 @ Desert Palace (Popo2): Red Shield
+Sewers Dark Cross Enemy #5 @ Desert Palace (GreenMimic): Small Heart
+Desert West Wing Pot #2 @ Desert Palace: Rupees (20)
+Desert West Wing Enemy #2 @ Desert Palace (Hinox): Rupees (5)
+Desert West Wing Enemy #3 @ Desert Palace (UsainBolt): Arrows (10)
+Desert Fairy Fountain Enemy #4 @ Desert Palace (Ropa): Boss Heart Container
+Desert Fairy Fountain Enemy #5 @ Desert Palace (Geldman): Rupees (5)
+Desert Four Statues Enemy #7 @ Desert Palace (RedBari): Rupees (5) (Player 1)
+Desert Four Statues Enemy #9 @ Desert Palace (HardhatBeetle): Rupees (5) (Player 1)
+Desert Four Statues Enemy #10 @ Desert Palace (FloatingSkull): Small Heart
+Desert Beamos Hall Enemy #2 @ Desert Palace (Octorok): Rupees (5) (Player 1)
+Desert Beamos Hall Enemy #4 @ Desert Palace (Octorok): Big Key (Desert Palace)
+Desert Beamos Hall Enemy #5 @ Desert Palace (MiniMoldorm): Rupees (5)
+Desert Beamos Hall Enemy #8 @ Desert Palace (MiniMoldorm): Cape
+Desert Beamos Hall Enemy #13 @ Desert Palace (RedBari): Small Magic
+Desert Palace - Boss @ Desert Palace: Small Heart
+Desert Palace - Prize @ Desert Palace: Crystal 1
+PoD Arena Main Pot #2 @ Desert Palace: Fairy
+PoD Arena Main Enemy #2 @ Desert Palace (Snapdragon): Rupee (1)
+PoD Arena Main Enemy #4 @ Desert Palace (Snapdragon): Rupees (5) (Player 1)
+PoD Arena Main Enemy #5 @ Desert Palace (Snapdragon): Arrows (10) (Player 1)
+PoD Arena Main Enemy #7 @ Desert Palace (Blob): Rupee (1)
+PoD Arena Main Enemy #8 @ Desert Palace (Moblin): Bombs (3)
+PoD Arena North Enemy #3 @ Desert Palace (Blob): Arrows (10) (Player 1)
+Palace of Darkness - The Arena - Bridge @ Desert Palace: Small Heart
+Palace of Darkness - Dark Basement - Left @ Desert Palace: Small Heart
+Palace of Darkness - Dark Basement - Right @ Desert Palace: Small Heart
+PoD Dark Basement Enemy #3 @ Desert Palace (Snake): Rupees (5) (Player 1)
+PoD Dark Basement Enemy #4 @ Desert Palace (CricketRat): Rupee (1)
+Swamp Palace - Big Key Chest @ Desert Palace: Rupees (5)
+Swamp Big Key Ledge Pot #5 @ Desert Palace: Rupees (20)
+Swamp Big Key Ledge Pot #6 @ Desert Palace: Bombs (10)
+Thieves Attic Enemy #7 @ Desert Palace (UsainBolt): Rupees (5) (Player 1)
+Thieves Attic Hint Enemy #3 @ Desert Palace (FloatingSkull): Compass (Palace of Darkness)
+Thieves Attic Hint Enemy #4 @ Desert Palace (CricketRat): Rupees (5) (Player 1)
+Thieves Cricket Hall Left Enemy #5 @ Desert Palace (CricketRat): Map (Agahnims Tower)
+Thieves Cricket Hall Left Enemy #6 @ Desert Palace (BlueBari): Small Magic
+Thieves Basement Block Enemy #2 @ Desert Palace (MiniMoldorm): Rupees (5)
+Thieves Basement Block Enemy #3 @ Desert Palace (HardhatBeetle): Rupee (1)
+Thieves Basement Block Enemy #4 @ Desert Palace (Stalfos): Small Heart
+Thieves Blind's Cell Enemy #9 @ Desert Palace (MiniMoldorm): Rupees (20)
+Thieves' Town - Blind's Cell @ Desert Palace: Small Heart
+Thieves Blind's Cell Interior Pot #4 @ Desert Palace: Piece of Heart
+Thieves Blind's Cell Interior Enemy #5 @ Desert Palace (Octorok): Small Heart
+Ice Palace - Freezor Chest @ Desert Palace: Progressive Sword
+Ice Tall Hint Pot #1 @ Desert Palace: Compass (Thieves Town)
+Ice Tall Hint Enemy #3 @ Desert Palace (UsainBolt): Rupee (1)
+Ice Tall Hint Enemy #6 @ Desert Palace (Pengator): Rupees (5)
+Ice Tall Hint Enemy #7 @ Desert Palace (FloatingSkull): Rupee (1)
+Ice Lonely Freezor Enemy #3 @ Desert Palace (Pengator): Small Heart
+Ice Lonely Freezor Enemy #4 @ Desert Palace (UsainBolt): Single Bomb
+Ice Lonely Freezor Enemy #5 @ Desert Palace (Pengator): Rupee (1)
+Ice Lonely Freezor Enemy #8 @ Desert Palace (FloatingSkull): Fairy
+Ice Palace - Many Pots Pot Key @ Desert Palace: Rupees (20)
+Ice Many Pots Pot #2 @ Desert Palace: Rupees (20)
+Ice Many Pots Pot #3 @ Desert Palace: Compass (Skull Woods)
+Ice Many Pots Pot #8 @ Desert Palace: Compass (Swamp Palace)
+Ice Many Pots Pot #13 @ Desert Palace: Magic Mirror
+Ice Many Pots Enemy #1 @ Desert Palace (Babasu): Small Heart
+Ice Many Pots Enemy #2 @ Desert Palace (Babasu): Single Bomb
+Ice Many Pots Enemy #3 @ Desert Palace (Babasu): Rupees (5)
+Ice Many Pots Enemy #4 @ Desert Palace (Babasu): Arrows (10) (Player 1)
+Ice Many Pots Enemy #5 @ Desert Palace (Octorok): Small Heart
+Ice Many Pots Enemy #6 @ Desert Palace (Zoro): Small Heart
+Ice Palace - Big Chest @ Desert Palace: Arrows (10) (Player 1)
+Ice Switch Room Enemy #4 @ Desert Palace (UsainBolt): Arrows (10)
+Ice Switch Room Enemy #5 @ Desert Palace (Pengator): Map (Eastern Palace)
+Ice Switch Room Enemy #7 @ Desert Palace (Pengator): Small Heart
+Ice Fairy Enemy #1 @ Desert Palace (RedMimic): Single Bomb
+Ice Fairy Enemy #2 @ Desert Palace (Hinox): Small Heart
+Ice Fairy Enemy #3 @ Desert Palace (Hinox): Small Magic
+TR Pipe Pit Pot #1 @ Desert Palace: Arrows (10)
+TR Pipe Pit Pot #2 @ Desert Palace: Fairy
+TR Pipe Pit Pot #3 @ Desert Palace: Bombs (3)
+TR Pipe Pit Pot #8 @ Desert Palace: Small Key (Swamp Palace)
+TR Pipe Pit Enemy #5 @ Desert Palace (GreenBushGuard): Small Heart
+TR Pipe Pit Enemy #7 @ Desert Palace (GreenBushGuard): Arrows (10) (Player 1)
+TR Pipe Pit Enemy #8 @ Desert Palace (Hover): Rupees (5)
+TR Pipe Pit Enemy #9 @ Desert Palace (Buzzblob): Fairy
+TR Pipe Pit Enemy #10 @ Desert Palace (Hover): Small Heart
+Eastern Single Eyegore Pot #8 @ Tower of Hera: Rupees (20)
+Eastern Single Eyegore Enemy #10 @ Tower of Hera (MiniMoldorm): Big Magic
+Eastern Duo Eyegores Pot #4 @ Tower of Hera: Rupees (20)
+Eastern Duo Eyegores Enemy #1 @ Tower of Hera (HardhatBeetle): Small Heart
+Eastern Duo Eyegores Enemy #2 @ Tower of Hera (Leever): Small Key (Eastern Palace)
+Eastern Duo Eyegores Enemy #3 @ Tower of Hera (Leever): Arrows (10) (Player 1)
+Eastern Duo Eyegores Enemy #4 @ Tower of Hera (DebirandoPit): Rupees (20)
+Eastern Duo Eyegores Enemy #5 @ Tower of Hera (MiniMoldorm): Rupees (5)
+Eastern Duo Eyegores Enemy #6 @ Tower of Hera (DebirandoPit): Small Key (Skull Woods)
+Eastern Duo Eyegores Enemy #8 @ Tower of Hera (MiniMoldorm): Big Magic
+Tower of Hera - Map Chest @ Tower of Hera: Small Heart
+Tower of Hera - Basement Cage @ Tower of Hera: Small Key (Ice Palace)
+Hera Basement Cage Enemy #4 @ Tower of Hera (Moblin): Rupees (20)
+Hera Basement Cage Enemy #11 @ Tower of Hera (Ropa): Rupees (20)
+Hera Beetles Enemy #8 @ Tower of Hera (MiniHelmasaur): Rupees (5)
+Hera Beetles Enemy #9 @ Tower of Hera (HardhatBeetle): Rupees (5)
+Hera Beetles Enemy #11 @ Tower of Hera (Hinox): Small Heart
+Hera Startile Corner Enemy #7 @ Tower of Hera (Gibdo): Rupees (300)
+Hera Startile Corner Enemy #10 @ Tower of Hera (MiniHelmasaur): Arrows (10) (Player 1)
+Hera Startile Corner Enemy #12 @ Tower of Hera (Ropa): Rupees (5) (Player 1)
+Hera Startile Wide Enemy #3 @ Tower of Hera (Stal): Small Heart
+Hera Startile Wide Enemy #5 @ Tower of Hera (Hinox): Bombs (3)
+Hera Startile Wide Enemy #6 @ Tower of Hera (Hinox): Rupees (5)
+Tower of Hera - Compass Chest @ Tower of Hera: Rupees (5) (Player 1)
+Hera 4F Pot #12 @ Tower of Hera: Arrows (10)
+Hera 4F Pot #15 @ Tower of Hera: Boss Heart Container
+Hera 4F Enemy #1 @ Tower of Hera (MiniHelmasaur): Bombs (3)
+Hera 4F Enemy #2 @ Tower of Hera (Octorok4Way): Rupee (1)
+Hera 4F Enemy #3 @ Tower of Hera (Deadrock): Rupees (5) (Player 1)
+Hera 4F Enemy #4 @ Tower of Hera (Tektite): Bombs (10)
+Hera 4F Enemy #6 @ Tower of Hera (Crab): Bombs (3)
+Hera 4F Enemy #7 @ Tower of Hera (Deadrock): Fairy
+Tower of Hera - Big Chest @ Tower of Hera: Arrows (10) (Player 1)
+Hera 5F Enemy #3 @ Tower of Hera (RedBari): Bombs (3)
+Hera 5F Enemy #4 @ Tower of Hera (GreenEyegore): Piece of Heart
+Hera 5F Enemy #6 @ Tower of Hera (RedBari): Arrows (10) (Player 1)
+Hera 5F Enemy #8 @ Tower of Hera (GreenEyegore): Rupee (1)
+Hera 5F Enemy #9 @ Tower of Hera (MiniMoldorm): Big Magic
+Hera 5F Pot Block Pot #4 @ Tower of Hera: Small Key (Ganons Tower)
+Hera 5F Pot Block Pot #6 @ Tower of Hera: Small Key (Misery Mire)
+Hera 5F Pot Block Pot #11 @ Tower of Hera: Arrows (10)
+Hera Fairies Enemy #1 @ Tower of Hera (Blob): Map (Turtle Rock)
+Hera Fairies Enemy #2 @ Tower of Hera (StalfosKnight): Single Bomb
+Tower of Hera - Boss @ Tower of Hera: Rupees (5) (Player 1)
+Tower of Hera - Prize @ Tower of Hera: Crystal 6
+PoD Left Cage Pot #3 @ Tower of Hera: Small Key (Turtle Rock)
+PoD Middle Cage Pot #5 @ Tower of Hera: Small Key (Swamp Palace)
+PoD Middle Cage Pot #7 @ Tower of Hera: Rupees (20)
+PoD Middle Cage Enemy #3 @ Tower of Hera (MiniMoldorm): Small Heart
+Swamp Palace - Big Chest @ Tower of Hera: Rupee (1)
+Swamp Hub Enemy #3 @ Tower of Hera (Babasu): Big Magic
+Swamp Hub Enemy #6 @ Tower of Hera (Hover): Rupees (20)
+Swamp Hub Side Ledges Pot #3 @ Tower of Hera: Small Key (Turtle Rock)
+Thieves' Town - Hallway Pot Key @ Tower of Hera: Bottle
+Thieves Hallway Enemy #7 @ Tower of Hera (BombGuard): Small Heart
+Thieves Hallway Enemy #8 @ Tower of Hera (BluesainBolt): Rupees (20)
+Thieves Hallway Enemy #9 @ Tower of Hera (CannonTrooper): Rupees (20)
+Thieves Pot Alcove Mid Pot #8 @ Tower of Hera: Progressive Shield
+Thieves Pot Alcove Mid Enemy #10 @ Tower of Hera (RedBushGuard): Rupees (5)
+Thieves Pot Alcove Mid Enemy #11 @ Tower of Hera (RedBushGuard): Rupees (5)
+Thieves Pot Alcove Mid Enemy #12 @ Tower of Hera (RedBushGuard): Single Bomb
+Thieves Pot Alcove Top Pot #12 @ Tower of Hera: Rupees (20)
+Thieves Conveyor Maze Pot #3 @ Tower of Hera: Arrows (10)
+Thieves Conveyor Maze Pot #6 @ Tower of Hera: Arrows (10)
+Thieves Conveyor Maze Enemy #1 @ Tower of Hera (Gibdo): Rupees (5)
+Thieves Conveyor Maze Enemy #2 @ Tower of Hera (BluesainBolt): Single Bomb
+Thieves Conveyor Maze Enemy #3 @ Tower of Hera (BombGuard): Small Heart
+Thieves Conveyor Maze Enemy #5 @ Tower of Hera (RedJavelinGuard): Small Heart
+Thieves Conveyor Maze Enemy #6 @ Tower of Hera (Stal): Rupees (5)
+Ice Refill Pot #4 @ Tower of Hera: Progressive Glove
+Ice Refill Pot #6 @ Tower of Hera: Arrows (10)
+GT Quad Pot Pot #4 @ Tower of Hera: Bombs (3)
+GT Conveyor Bridge Enemy #1 @ Tower of Hera (Crab): Rupees (5) (Player 1)
+GT Conveyor Bridge Enemy #4 @ Tower of Hera (RedBari): Single Bomb
+GT Frozen Over Enemy #1 @ Tower of Hera (Stal): Piece of Heart
+GT Frozen Over Enemy #5 @ Tower of Hera (MiniHelmasaur): Big Key (Swamp Palace)
+GT Frozen Over Enemy #6 @ Tower of Hera (Hinox): Rupees (5) (Player 1)
+GT Frozen Over Enemy #7 @ Tower of Hera (HardhatBeetle): Rupees (20)
+GT Frozen Over Enemy #8 @ Tower of Hera (HardhatBeetle): Rupee (1)
+Hyrule Castle West Lobby Enemy #1 @ Agahnims Tower (Stal): Small Magic
+Tower Gold Knights Enemy #1 @ Agahnims Tower (Debirando): Rupees (20)
+Tower Gold Knights Enemy #2 @ Agahnims Tower (Leever): Rupees (5)
+Castle Tower - Room 03 @ Agahnims Tower: Rupees (5) (Player 1)
+Tower Room 03 Enemy #3 @ Agahnims Tower (Wizzrobe): Single Bomb
+Tower Room 03 Enemy #4 @ Agahnims Tower (Wizzrobe): Rupees (20)
+Agahnim 1 @ Agahnims Tower: Beat Agahnim 1
+Skull 3 Lobby Enemy #1 @ Agahnims Tower (HardhatBeetle): Small Heart
+Skull 3 Lobby Enemy #2 @ Agahnims Tower (Ropa): Arrows (10)
+Skull 3 Lobby Enemy #6 @ Agahnims Tower (Hinox): Boss Heart Container
+Skull 3 Lobby Enemy #8 @ Agahnims Tower (MiniMoldorm): Small Heart
+Skull East Bridge Pot #4 @ Agahnims Tower: Bombs (10)
+Skull East Bridge Enemy #5 @ Agahnims Tower (MiniMoldorm): Arrows (10)
+Skull East Bridge Enemy #7 @ Agahnims Tower (Ropa): Rupees (5) (Player 1)
+Skull East Bridge Enemy #10 @ Agahnims Tower (Gibdo): Single Bomb
+Skull East Bridge Enemy #11 @ Agahnims Tower (Ropa): Rupee (1)
+Skull East Bridge Enemy #12 @ Agahnims Tower (Ropa): Small Heart
+Skull Woods - Bridge Room @ Agahnims Tower: Arrows (10) (Player 1)
+Thieves Rail Ledge Pot #1 @ Agahnims Tower: Map (Swamp Palace)
+Thieves BK Corner Enemy #2 @ Agahnims Tower (UsainBolt): Rupee (1)
+Thieves BK Corner Enemy #3 @ Agahnims Tower (Buzzblob): Small Heart
+Thieves BK Corner Enemy #4 @ Agahnims Tower (GreenBushGuard): Rupee (1)
+Thieves BK Corner Enemy #5 @ Agahnims Tower (BlueArcher): Rupees (5) (Player 1)
+Thieves BK Corner Enemy #9 @ Agahnims Tower (GreenBushGuard): Rupees (5) (Player 1)
+Thieves BK Corner Enemy #13 @ Agahnims Tower (Octorok): Small Heart
+Thieves' Town - Big Key Chest @ Agahnims Tower: Small Heart
+Ice Right H Enemy #2 @ Agahnims Tower (Hinox): Rupees (5) (Player 1)
+Ice Palace - Hammer Block Key Drop @ Agahnims Tower: Small Key (Desert Palace)
+Ice Palace - Map Chest @ Agahnims Tower: Small Heart
+Ice Hammer Block Pot #3 @ Agahnims Tower: Piece of Heart
+Ice Hammer Block Enemy #4 @ Agahnims Tower (Ropa): Small Magic
+Ice Hammer Block Enemy #5 @ Agahnims Tower (MiniMoldorm): Small Magic
+GT Invisible Bridges Enemy #8 @ Agahnims Tower (Gibdo): Small Heart
+GT Invisible Bridges Enemy #9 @ Agahnims Tower (Gibdo): Single Bomb
+GT Hidden Star Enemy #8 @ Agahnims Tower (BombGuard): Rupee (1)
+Eastern Palace - Cannonball Chest @ Palace of Darkness: Small Heart
+Eastern Cannonball Pot #3 @ Palace of Darkness: Map (Palace of Darkness)
+Eastern Cannonball Pot #4 @ Palace of Darkness: Bombs (10)
+Eastern Palace - Big Chest @ Palace of Darkness: Map (Skull Woods)
+Eastern Courtyard Pot #1 @ Palace of Darkness: Fairy
+Eastern Courtyard Enemy #7 @ Palace of Darkness (GreenMimic): Rupees (5) (Player 1)
+Eastern Courtyard Enemy #8 @ Palace of Darkness (Popo2): Small Heart
+Eastern Fairies Enemy #1 @ Palace of Darkness (GreenMimic): Single Bomb
+Eastern Fairies Enemy #2 @ Palace of Darkness (Snapdragon): Rupees (5)
+Desert Palace - Map Chest @ Palace of Darkness: Small Heart
+Desert Map Room Pot #4 @ Palace of Darkness: Boss Heart Container
+Desert Map Room Pot #6 @ Palace of Darkness: Small Key (Turtle Rock)
+Desert Map Room Enemy #6 @ Palace of Darkness (Stalfos): Small Heart
+Tower Lone Statue Enemy #4 @ Palace of Darkness (Octorok): Single Bomb
+Castle Tower - Dark Maze @ Palace of Darkness: Arrows (10) (Player 1)
+Tower Dark Maze Pot #1 @ Palace of Darkness: Ether
+Tower Dark Maze Enemy #1 @ Palace of Darkness (GreenBushGuard): Big Magic
+Tower Dark Maze Enemy #2 @ Palace of Darkness (Hoarder): Arrows (10) (Player 1)
+Tower Dark Maze Enemy #5 @ Palace of Darkness (Hoarder2): Big Magic
+Tower Dark Maze Enemy #6 @ Palace of Darkness (GreenBushGuard): Small Magic
+Tower Dark Maze Enemy #7 @ Palace of Darkness (Hoarder): Small Heart
+Tower Dark Maze Enemy #8 @ Palace of Darkness (Crab): Arrows (10) (Player 1)
+Tower Dark Maze Enemy #10 @ Palace of Darkness (BlueArcher): Blue Shield
+Tower Dark Chargers Enemy #11 @ Palace of Darkness (Octorok): Rupees (5) (Player 1)
+Tower Red Spears Enemy #2 @ Palace of Darkness (CricketRat): Bombs (3)
+Castle Tower - Circle of Pots Key Drop @ Palace of Darkness (Snake): Rupees (20)
+Tower Circle of Pots Pot #2 @ Palace of Darkness: Small Key (Misery Mire)
+Tower Circle of Pots Pot #5 @ Palace of Darkness: Piece of Heart
+Tower Circle of Pots Pot #6 @ Palace of Darkness: Piece of Heart
+Tower Circle of Pots Pot #7 @ Palace of Darkness: Compass (Turtle Rock)
+Tower Circle of Pots Pot #10 @ Palace of Darkness: Small Key (Misery Mire)
+Tower Circle of Pots Enemy #9 @ Palace of Darkness (CricketRat): Rupees (5) (Player 1)
+Tower Circle of Pots Enemy #10 @ Palace of Darkness (CricketRat): Mushroom
+Tower Pacifist Run Enemy #7 @ Palace of Darkness (Snake): Arrows (10) (Player 1)
+Tower Pacifist Run Enemy #12 @ Palace of Darkness (Snake): Rupees (20)
+Palace of Darkness - Boss @ Palace of Darkness: Arrows (10)
+Palace of Darkness - Prize @ Palace of Darkness: Crystal 7
+Swamp Trench 2 Pots Enemy #7 @ Palace of Darkness (StalfosKnight): Rupee (1)
+Swamp Trench 2 Pots Enemy #8 @ Palace of Darkness (RedBari): Big Magic
+Swamp Palace - Trench 2 Pot Key @ Palace of Darkness: Arrows (10)
+Swamp Trench 2 Departure Enemy #6 @ Palace of Darkness (BlueBari): Single Bomb
+Swamp Push Statue Enemy #9 @ Palace of Darkness (Gibdo): Small Heart
+Swamp Push Statue Enemy #11 @ Palace of Darkness (MiniHelmasaur): Rupee (1)
+Swamp Push Statue Enemy #12 @ Palace of Darkness (Gibdo): Rupee (1)
+Swamp Right Elbow Enemy #2 @ Palace of Darkness (HardhatBeetle): Arrows (10) (Player 1)
+Skull Star Pits Pot #6 @ Palace of Darkness: Arrows (10)
+Skull Star Pits Pot #8 @ Palace of Darkness: Big Key (Turtle Rock)
+Skull Star Pits Pot #9 @ Palace of Darkness: Small Key (Skull Woods)
+Skull Star Pits Pot #11 @ Palace of Darkness: Rupees (20)
+Skull Star Pits Enemy #10 @ Palace of Darkness (RedBushGuard): Rupees (5)
+Skull Star Pits Enemy #11 @ Palace of Darkness (Gibdo): Blue Shield
+Skull Star Pits Enemy #12 @ Palace of Darkness (BallNChain): Single Bomb
+Skull Torch Room Pot #1 @ Palace of Darkness: Rupees (20)
+Skull Torch Room Enemy #9 @ Palace of Darkness (RedBushGuard): Rupee (1)
+Skull Torch Room Enemy #13 @ Palace of Darkness (Gibdo): Rupees (5) (Player 1)
+Skull Vines Enemy #1 @ Palace of Darkness (BombGuard): Rupees (5) (Player 1)
+Skull Vines Enemy #3 @ Palace of Darkness (RedJavelinGuard): Rupees (5)
+Skull Vines Enemy #4 @ Palace of Darkness (Gibdo): Small Heart
+Mire Lobby Enemy #1 @ Palace of Darkness (Blob): Small Heart
+Mire Lobby Enemy #4 @ Palace of Darkness (Zoro): Small Magic
+Mire Lobby Enemy #5 @ Palace of Darkness (StalfosKnight): Rupees (5)
+Turtle Rock - Big Key Chest @ Palace of Darkness: Rupees (5)
+Ganons Tower - Tile Room @ Palace of Darkness: Small Heart
+GT Tile Room Enemy #3 @ Palace of Darkness (MiniMoldorm): Single Bomb
+GT Tile Room Enemy #4 @ Palace of Darkness (Gibdo): Rupees (20)
+GT Speed Torch Enemy #8 @ Palace of Darkness (Gibdo): Arrows (10) (Player 1)
+GT Speed Torch Enemy #9 @ Palace of Darkness (HardhatBeetle): Small Heart
+GT Speed Torch Enemy #11 @ Palace of Darkness (Ropa): Small Heart
+GT Speed Torch Enemy #13 @ Palace of Darkness (MiniHelmasaur): Small Magic
+GT Speed Torch Upper Pot #1 @ Palace of Darkness: Arrows (10)
+GT Speed Torch Upper Enemy #6 @ Palace of Darkness (Gibdo): Small Heart
+GT Pots n Blocks Pot #4 @ Palace of Darkness: Small Key (Ganons Tower)
+GT Pots n Blocks Enemy #10 @ Palace of Darkness (Hinox): Small Heart
+GT Invisible Catwalk Enemy #1 @ Palace of Darkness (Zoro): Small Heart
+GT Invisible Catwalk Enemy #2 @ Palace of Darkness (Blob): Small Heart
+GT Invisible Catwalk Enemy #3 @ Palace of Darkness (Zoro): Arrows (10) (Player 1)
+GT Invisible Catwalk Enemy #4 @ Palace of Darkness (Blob): Rupees (5)
+GT Invisible Catwalk Enemy #5 @ Palace of Darkness (Zoro): Small Heart
+GT Invisible Catwalk Enemy #6 @ Palace of Darkness (Hover): Small Key (Palace of Darkness)
+GT Invisible Catwalk Enemy #7 @ Palace of Darkness (Hinox): Bombs (3)
+Ganons Tower - Double Switch Pot Key @ Palace of Darkness: Rupees (20)
+GT Spike Crystal Right Enemy #5 @ Palace of Darkness (GreenEyegore): Small Heart
+GT Spike Crystal Right Enemy #6 @ Palace of Darkness (GreenEyegore): Rupee (1)
+GT Spike Crystal Right Enemy #8 @ Palace of Darkness (FloatingSkull): Arrows (10) (Player 1)
+GT Spike Crystal Right Enemy #10 @ Palace of Darkness (HardhatBeetle): Single Bomb
+GT Spike Crystal Right Enemy #11 @ Palace of Darkness (BlueBari): Big Magic
+GT Warp Maze - Mid Section Pot #3 @ Palace of Darkness: Bottle (Green Potion)
+GT Warp Maze - Pit Section Enemy #12 @ Palace of Darkness (GreenEyegore): Rupees (5) (Player 1)
+GT Warp Maze - Pit Section Enemy #13 @ Palace of Darkness (GreenEyegore): Big Key (Palace of Darkness)
+GT Firesnake Room Pot #1 @ Palace of Darkness: Bombs (3)
+GT Firesnake Room Pot #2 @ Palace of Darkness: Rupees (100)
+GT Firesnake Room Enemy #1 @ Palace of Darkness (MiniHelmasaur): Small Heart
+GT Firesnake Room Enemy #2 @ Palace of Darkness (MiniHelmasaur): Rupee (1)
+GT Firesnake Room Enemy #3 @ Palace of Darkness (MiniMoldorm): Small Heart
+GT Firesnake Room Enemy #4 @ Palace of Darkness (RedEyegore): Rupees (50)
+Ganons Tower - Firesnake Room @ Palace of Darkness: Rupee (1)
+Sewers Dark Aquabats Pot #2 @ Thieves Town: Rupees (50)
+Sewers Dark Aquabats Pot #4 @ Thieves Town: Rupees (20)
+Sewers Dark Aquabats Enemy #7 @ Thieves Town (Moblin): Single Bomb
+Sewers Dark Aquabats Enemy #8 @ Thieves Town (Snapdragon): Rupees (5)
+Sewers Dark Aquabats Enemy #9 @ Thieves Town (Moblin): Small Heart
+Sewers Dark Aquabats Enemy #10 @ Thieves Town (Snapdragon): Bombs (10)
+Hyrule Castle - Key Rat Key Drop @ Thieves Town (Snapdragon): Arrows (10)
+Sewers Key Rat Enemy #2 @ Thieves Town (Hinox): Small Heart
+Sewers Key Rat Enemy #3 @ Thieves Town (Moblin): Small Heart
+Sewers Key Rat Enemy #4 @ Thieves Town (Snapdragon): Big Magic
+Sewers Key Rat Enemy #5 @ Thieves Town (Hinox): Small Magic
+Desert Main Lobby Pot #1 @ Thieves Town: Small Key (Agahnims Tower)
+Desert Main Lobby Pot #4 @ Thieves Town: Bombs (10)
+Desert Main Lobby Enemy #5 @ Thieves Town (RedJavelinGuard): Rupees (5) (Player 1)
+Desert Main Lobby Enemy #6 @ Thieves Town (CannonTrooper): Small Heart
+Desert Main Lobby Enemy #7 @ Thieves Town (CannonTrooper): Small Heart
+Desert Left Alcove Enemy #1 @ Thieves Town (BallNChain): Small Magic
+Desert Right Alcove Enemy #2 @ Thieves Town (CannonTrooper): Rupee (1)
+Desert Palace - Big Key Chest @ Thieves Town: Rupees (5) (Player 1)
+Desert Arrow Pot Corner Pot #1 @ Thieves Town: Small Key (Skull Woods)
+Desert Arrow Pot Corner Enemy #2 @ Thieves Town (RedMimic): Small Heart
+Desert Arrow Pot Corner Enemy #9 @ Thieves Town (Debirando): Small Heart
+Desert Trap Room Enemy #1 @ Thieves Town (GreenMimic): Rupees (5) (Player 1)
+Desert Trap Room Enemy #3 @ Thieves Town (RedEyegore): Small Heart
+Desert Trap Room Enemy #4 @ Thieves Town (Popo2): Single Bomb
+Desert Trap Room Enemy #5 @ Thieves Town (GreenEyegore): Single Bomb
+Desert Trap Room Enemy #6 @ Thieves Town (RedEyegore): Rupees (20)
+Desert Wall Slide Pot #1 @ Thieves Town: Arrow Upgrade (+5)
+Desert Wall Slide Enemy #1 @ Thieves Town (Ropa): Arrows (10) (Player 1)
+Tower Push Statue Enemy #4 @ Thieves Town (Blob): Small Magic
+Tower Push Statue Enemy #5 @ Thieves Town (Zoro): Rupees (20)
+Swamp Palace - Waterfall Room @ Thieves Town: Rupees (20)
+Swamp Waterfall Room Enemy #9 @ Thieves Town (Stal): Rupee (1)
+Swamp Waterfall Room Enemy #12 @ Thieves Town (StalfosKnight): Small Key (Turtle Rock)
+Swamp Refill Pot #1 @ Thieves Town: Pegasus Boots
+Swamp Refill Pot #2 @ Thieves Town: Rupees (20)
+Swamp Refill Enemy #1 @ Thieves Town (Stalfos): Arrows (10)
+Thieves' Town - Boss @ Thieves Town: Rupees (5) (Player 1)
+Thieves' Town - Prize @ Thieves Town: Crystal 4
+Ice Hookshot Ledge Enemy #1 @ Thieves Town (Crab): Small Heart
+Ice Hookshot Ledge Enemy #2 @ Thieves Town (Crab): Rupee (1)
+Ice Hookshot Ledge Enemy #3 @ Thieves Town (BlueBari): Small Heart
+Ice Hookshot Ledge Enemy #4 @ Thieves Town (Stalfos): Single Bomb
+Ice Spikeball Enemy #6 @ Thieves Town (Zoro): Bombs (3)
+Ice Spikeball Enemy #8 @ Thieves Town (ArmosStatue): Small Magic
+Mire Fishbone Enemy #3 @ Thieves Town (MiniHelmasaur): Small Heart
+Mire Fishbone Enemy #4 @ Thieves Town (MiniHelmasaur): Fairy
+Mire South Fish Enemy #7 @ Thieves Town (MiniMoldorm): Rupees (5) (Player 1)
+GT Refill Pot #2 @ Thieves Town: Rupees (20)
+GT Refill Enemy #4 @ Thieves Town (Leever): Small Heart
+GT Refill Enemy #5 @ Thieves Town (Popo): Rupees (50) (Player 1)
+Hyrule Castle East Hall Pot #2 @ Skull Woods: Rupees (20)
+Hyrule Castle East Hall Enemy #1 @ Skull Woods (RedBari): Rupees (20)
+Hyrule Castle East Hall Enemy #2 @ Skull Woods (Stalfos): Piece of Heart
+Hyrule Castle East Hall Enemy #3 @ Skull Woods (Stal): Progressive Bow
+PoD Pit Room Enemy #2 @ Skull Woods (RedMimic): Rupee (1)
+PoD Pit Room Enemy #4 @ Skull Woods (Popo2): Small Heart
+PoD Pit Room Enemy #5 @ Skull Woods (RedMimic): Compass (Escape)
+PoD Conveyor Enemy #1 @ Skull Woods (Crab): Rupee (1)
+PoD Conveyor Enemy #2 @ Skull Woods (HardhatBeetle): Piece of Heart
+PoD Conveyor Enemy #3 @ Skull Woods (HardhatBeetle): Rupees (5)
+PoD Conveyor Enemy #4 @ Skull Woods (Octorok): Rupees (5) (Player 1)
+PoD Conveyor Enemy #6 @ Skull Woods (Crab): Small Heart
+PoD Conveyor Enemy #7 @ Skull Woods (FloatingSkull): Rupee (1)
+PoD Mimics 1 Pot #1 @ Skull Woods: Arrows (10)
+PoD Mimics 1 Pot #2 @ Skull Woods: Rupees (20)
+PoD Mimics 1 Enemy #4 @ Skull Woods (Octorok4Way): Small Heart
+PoD Mimics 1 Enemy #5 @ Skull Woods (Stalfos): Rupees (5) (Player 1)
+PoD Jelly Hall Enemy #6 @ Skull Woods (GreenMimic): Rupees (5) (Player 1)
+PoD Jelly Hall Enemy #7 @ Skull Woods (Popo2): Rupees (5) (Player 1)
+PoD Jelly Hall Enemy #8 @ Skull Woods (RedBari): Rupee (1)
+PoD Warp Hint Enemy #3 @ Skull Woods (Popo): Rupees (5)
+PoD Warp Room Enemy #3 @ Skull Woods (Hover): Rupee (1)
+Palace of Darkness - Stalfos Basement @ Skull Woods: Piece of Heart
+PoD Basement Ledge Pot #6 @ Skull Woods: Rupees (20)
+Palace of Darkness - Big Key Chest @ Skull Woods: Small Heart
+PoD Dark Pegs Right Enemy #4 @ Skull Woods (Hover): Rupees (5)
+PoD Turtle Party Enemy #6 @ Skull Woods (GreenMimic): Rupees (5) (Player 1)
+PoD Turtle Party Enemy #7 @ Skull Woods (Popo): Small Magic
+PoD Turtle Party Enemy #8 @ Skull Woods (RedBari): Rupee (1)
+PoD Turtle Party Enemy #9 @ Skull Woods (GreenMimic): Rupees (5)
+PoD Dark Alley Enemy #6 @ Skull Woods (Snake): Small Heart
+Skull 1 Lobby Enemy #9 @ Skull Woods (Pokey): Big Magic
+Skull Woods - Map Chest @ Skull Woods: Rupee (1)
+Skull Pot Circle Pot #8 @ Skull Woods: Bombs (10)
+Skull Pot Circle Pot #11 @ Skull Woods: Arrows (10)
+Skull Pot Circle Pot #14 @ Skull Woods: Shovel
+Skull Pot Circle Enemy #7 @ Skull Woods (Pokey): Big Magic
+Skull Pull Switch Pot #1 @ Skull Woods: Progressive Sword
+Skull Pull Switch Pot #2 @ Skull Woods: Rupees (20)
+Skull Pull Switch Pot #4 @ Skull Woods: Small Key (Misery Mire)
+Skull Woods - Big Chest @ Skull Woods: Piece of Heart
+Skull Big Chest Enemy #1 @ Skull Woods (BallNChain): Rupees (5)
+Skull Woods - Pinball Room @ Skull Woods: Rupee (1)
+Skull Pinball Enemy #5 @ Skull Woods (MiniMoldorm): Small Heart
+Skull Woods - Compass Chest @ Skull Woods: Arrows (10) (Player 1)
+Skull Compass Room Enemy #5 @ Skull Woods (Stalfos): Small Heart
+Skull Left Drop Pot #1 @ Skull Woods: Rupees (20)
+Skull Left Drop Pot #4 @ Skull Woods: Rupees (50)
+Skull Left Drop Enemy #7 @ Skull Woods (FloatingSkull): Fairy
+Skull Small Hall Enemy #3 @ Skull Woods (Gibdo): Small Heart
+Skull Small Hall Enemy #12 @ Skull Woods (Stal): Rupees (5)
+Skull Small Hall Enemy #13 @ Skull Woods (Gibdo): Rupee (1)
+Skull Back Drop Enemy #5 @ Skull Woods (MiniMoldorm): Rupee (1)
+Skull Back Drop Enemy #9 @ Skull Woods (MiniMoldorm): Progressive Glove
+Skull 2 West Lobby Enemy #11 @ Skull Woods (MiniMoldorm): Rupees (5) (Player 1)
+Skull X Room Pot #8 @ Skull Woods: Rupees (20)
+Skull X Room Pot #9 @ Skull Woods: Ocarina
+Skull X Room Pot #10 @ Skull Woods: Rupees (20)
+Skull X Room Pot #11 @ Skull Woods: Piece of Heart
+Skull X Room Enemy #7 @ Skull Woods (HardhatBeetle): Small Heart
+Skull Woods - Spike Corner Key Drop @ Skull Woods (RedJavelinGuard): Boss Heart Container
+Skull Spike Corner Pot #1 @ Skull Woods: Bottle (Green Potion)
+Skull Spike Corner Enemy #1 @ Skull Woods (BallNChain): Lamp
+Skull Spike Corner Enemy #6 @ Skull Woods (BallNChain): Rupees (5)
+Skull Final Drop Enemy #5 @ Skull Woods (RedJavelinGuard): Small Heart
+Skull Final Drop Enemy #7 @ Skull Woods (Stal): Bombs (10)
+Skull Woods - Boss @ Skull Woods: Rupees (300)
+Skull Woods - Prize @ Skull Woods: Crystal 2
+Ice Palace - Jelly Key Drop @ Skull Woods (Pengator): Small Key (Desert Palace)
+Ice Jelly Key Enemy #3 @ Skull Woods (Stalfos): Small Heart
+Ice Floor Switch Enemy #7 @ Skull Woods (RedBari): Small Heart
+Ice Bomb Drop Enemy #5 @ Skull Woods (Stal): Bombs (10)
+Ice Stalfos Hint Pot #2 @ Skull Woods: Red Boomerang
+Ice Stalfos Hint Enemy #2 @ Skull Woods (Zoro): Single Bomb
+Ice Stalfos Hint Enemy #3 @ Skull Woods (Ropa): Single Bomb
+Ice Palace - Conveyor Key Drop @ Skull Woods (StalfosKnight): Rupees (5) (Player 1)
+Ice Conveyor Enemy #4 @ Skull Woods (Babasu): Rupees (5) (Player 1)
+Ice Conveyor Enemy #5 @ Skull Woods (Babasu): Small Key (Escape)
+Ice Conveyor Enemy #7 @ Skull Woods (Babasu): Compass (Ice Palace)
+Ice Conveyor Enemy #8 @ Skull Woods (Babasu): Small Heart
+Ice Conveyor Enemy #9 @ Skull Woods (Hover): Small Heart
+Turtle Rock - Pokey 1 Key Drop @ Skull Woods (MiniHelmasaur): Rupees (5)
+TR Pokey 1 Enemy #8 @ Skull Woods (BlueBari): Rupees (20)
+Turtle Rock - Chain Chomps @ Skull Woods: Single Bomb
+GT Crystal Conveyor Enemy #4 @ Skull Woods (Ropa): Rupees (5) (Player 1)
+GT Crystal Conveyor Corner Enemy #6 @ Skull Woods (Ropa): Rupees (5)
+GT Crystal Conveyor Left Enemy #3 @ Skull Woods (Ropa): Small Heart
+Ganons Tower - Compass Room - Top Left @ Skull Woods: Rupees (20)
+Ganons Tower - Compass Room - Top Right @ Skull Woods: Arrows (10) (Player 1)
+Ganons Tower - Compass Room - Bottom Left @ Skull Woods: Small Heart
+Ganons Tower - Compass Room - Bottom Right @ Skull Woods: Rupees (5)
+GT Compass Room Pot #3 @ Skull Woods: Arrows (10)
+GT Compass Room Enemy #5 @ Skull Woods (Gibdo): Small Heart
+GT Conveyor Star Pits Enemy #1 @ Skull Woods (BallNChain): Small Heart
+Ganons Tower - DMs Room - Top Left @ Skull Woods: Rupees (5) (Player 1)
+Ganons Tower - DMs Room - Top Right @ Skull Woods: Rupees (5)
+Ganons Tower - DMs Room - Bottom Left @ Skull Woods: Small Heart
+Ganons Tower - DMs Room - Bottom Right @ Skull Woods: Book of Mudora
+GT DMs Room Enemy #4 @ Skull Woods (BluesainBolt): Single Bomb
+GT DMs Room Enemy #5 @ Skull Woods (BallNChain): Rupees (5) (Player 1)
+GT Wizzrobes 1 Enemy #4 @ Skull Woods (BlueBari): Single Bomb
+GT Wizzrobes 2 Enemy #1 @ Skull Woods (RedBari): Small Heart
+GT Wizzrobes 2 Enemy #2 @ Skull Woods (BlueBari): Rupee (1)
+GT Wizzrobes 2 Enemy #5 @ Skull Woods (RedBari): Rupees (5) (Player 1)
+Hyrule Dungeon Guardroom Enemy #1 @ Swamp Palace (MiniMoldorm): Rupees (20)
+Hyrule Dungeon Guardroom Enemy #2 @ Swamp Palace (MiniHelmasaur): Bombs (10)
+Sewers Behind Tapestry Pot #1 @ Swamp Palace: Arrows (10)
+Sewers Behind Tapestry Pot #2 @ Swamp Palace: Boss Heart Container
+Sewers Behind Tapestry Pot #3 @ Swamp Palace: Arrows (10)
+Sewers Behind Tapestry Enemy #1 @ Swamp Palace (Snapdragon): Big Magic
+Sewers Behind Tapestry Enemy #2 @ Swamp Palace (Snapdragon): Single Bomb
+Sewers Behind Tapestry Enemy #4 @ Swamp Palace (Hoarder): Small Heart
+Sewers Yet More Rats Pot #2 @ Swamp Palace: Rupees (20)
+Sewers Yet More Rats Enemy #1 @ Swamp Palace (RedBari): Bombs (10)
+Sewers Yet More Rats Enemy #2 @ Swamp Palace (RedBari): Small Heart
+Sewers Yet More Rats Enemy #3 @ Swamp Palace (FloatingSkull): Small Magic
+Swamp Palace - Boss @ Swamp Palace: Single Bomb
+Swamp Palace - Prize @ Swamp Palace: Blue Pendant
+Skull 2 East Lobby Enemy #9 @ Swamp Palace (BluesainBolt): Small Heart
+Skull 2 East Lobby Enemy #14 @ Swamp Palace (CannonTrooper): Small Key (Skull Woods)
+Skull 2 East Lobby Enemy #15 @ Swamp Palace (CannonTrooper): Small Heart
+Skull Woods - Big Key Chest @ Swamp Palace: Small Heart
+Skull Big Key Pot #2 @ Swamp Palace: Rupees (20)
+Skull Big Key Enemy #1 @ Swamp Palace (BallNChain): Rupees (5) (Player 1)
+Skull Big Key Enemy #2 @ Swamp Palace (BallNChain): Rupees (5)
+Skull Big Key Enemy #3 @ Swamp Palace (CannonTrooper): Rupees (5)
+Skull Big Key Enemy #4 @ Swamp Palace (CannonTrooper): Small Heart
+Skull Big Key Enemy #5 @ Swamp Palace (CannonTrooper): Rupees (5) (Player 1)
+Skull Big Key Enemy #6 @ Swamp Palace (RedBushGuard): Single Bomb
+Thieves' Town - Compass Chest @ Swamp Palace: Rupees (5) (Player 1)
+Thieves Compass Room Enemy #1 @ Swamp Palace (Hinox): Small Heart
+Thieves Compass Room Enemy #5 @ Swamp Palace (Snake): Rupees (5) (Player 1)
+Thieves Compass Room Enemy #6 @ Swamp Palace (UsainBolt): Big Magic
+Thieves Compass Room Enemy #7 @ Swamp Palace (Hoarder2): Big Key (Ganons Tower)
+Thieves Compass Room Enemy #9 @ Swamp Palace (Ropa): Small Heart
+Thieves Compass Room Enemy #10 @ Swamp Palace (Hinox): Rupees (5)
+Thieves Compass Room Enemy #11 @ Swamp Palace (Hoarder): Single Bomb
+Ice Palace - Iced T Room @ Swamp Palace: Piece of Heart
+Iced T Enemy #1 @ Swamp Palace (Pokey): Small Heart
+Iced T Enemy #2 @ Swamp Palace (Stalfos): Rupees (20)
+Mire Hidden Shooters Enemy #14 @ Swamp Palace (Leever): Small Magic
+Mire Cross Enemy #6 @ Swamp Palace (Leever): Rupee (1)
+Mire Cross Enemy #8 @ Swamp Palace (Leever): Rupees (5) (Player 1)
+Mire Cross Enemy #11 @ Swamp Palace (Leever): Rupees (20)
+Mire Cross Enemy #12 @ Swamp Palace (Hoarder): Rupee (1)
+Mire BK Door Room Pot #2 @ Swamp Palace: Small Key (Turtle Rock)
+Mire BK Door Room Pot #6 @ Swamp Palace: Small Key (Tower of Hera)
+Mire BK Door Room Enemy #1 @ Swamp Palace (Leever): Rupees (5) (Player 1)
+Mire BK Door Room Enemy #3 @ Swamp Palace (Wizzrobe): Small Heart
+Mire BK Door Room Enemy #4 @ Swamp Palace (Hoarder2): Rupees (5) (Player 1)
+Mire BK Door Room Enemy #5 @ Swamp Palace (Stal): Rupee (1)
+Mire Spike Barrier Pot #1 @ Swamp Palace: Big Key (Ice Palace)
+Mire Spike Barrier Enemy #3 @ Swamp Palace (Gibo): Rupees (5) (Player 1)
+Mire Spike Barrier Enemy #4 @ Swamp Palace (Gibo): Small Heart
+Mire Square Rail Enemy #5 @ Swamp Palace (BlueZazak): Small Magic
+Mire Square Rail Enemy #8 @ Swamp Palace (RedZazak): Bombs (10)
+Mire Square Rail Enemy #10 @ Swamp Palace (BlueZazak): Small Heart
+Mire Conveyor Barrier Enemy #4 @ Swamp Palace (Ropa): Rupees (20)
+Mire Conveyor Barrier Enemy #6 @ Swamp Palace (CricketRat): Small Heart
+Misery Mire - Big Key Chest @ Swamp Palace: Small Heart
+Mire Dark Shooters Enemy #5 @ Swamp Palace (Leever): Small Magic
+Mire Block X Enemy #6 @ Swamp Palace (Octorok): Rupees (5)
+Mire Block X Enemy #7 @ Swamp Palace (Octorok): Rupees (5)
+Mire Block X Enemy #8 @ Swamp Palace (Stal): Rupees (50)
+GT Torch Cross Pot #3 @ Swamp Palace: Piece of Heart
+GT Torch Cross Pot #5 @ Swamp Palace: Rupees (50) (Player 1)
+GT Torch Cross Enemy #1 @ Swamp Palace (Babasu): Rupees (300)
+GT Falling Torches Enemy #10 @ Swamp Palace (CannonTrooper): Single Bomb
+GT Falling Torches Enemy #11 @ Swamp Palace (Pokey): Big Magic
+Ganons Tower - Mini Helmasaur Room - Left @ Swamp Palace: Small Magic
+Ganons Tower - Mini Helmasaur Room - Right @ Swamp Palace: Bombs (3)
+Ganons Tower - Mini Helmasaur Key Drop @ Swamp Palace (BluesainBolt): Rupees (20)
+GT Bomb Conveyor Enemy #7 @ Swamp Palace (BombGuard): Rupees (20)
+Ganons Tower - Pre-Moldorm Chest @ Swamp Palace: Small Heart
+GT Crystal Inner Circle Pot #5 @ Swamp Palace: Arrows (10)
+GT Crystal Inner Circle Enemy #14 @ Swamp Palace (Pokey): Small Magic
+Hyrule Castle Lobby Enemy #1 @ Ice Palace (Stalfos): Big Magic
+Hyrule Castle Lobby Enemy #2 @ Ice Palace (CricketRat): Rupee (1)
+Hyrule Castle West Hall Pot #2 @ Ice Palace: Bombs (10)
+Hyrule Castle West Hall Enemy #1 @ Ice Palace (Hinox): Arrows (10) (Player 1)
+Hyrule Castle West Hall Enemy #2 @ Ice Palace (Gibdo): Small Magic
+Hyrule Castle West Hall Enemy #3 @ Ice Palace (Ropa): Piece of Heart
+Hyrule Castle Throne Room Enemy #2 @ Ice Palace (Hoarder2): Rupees (5)
+Eastern East Wing Enemy #2 @ Ice Palace (GreenEyegore): Single Bomb
+Eastern East Wing Enemy #3 @ Ice Palace (HardhatBeetle): Small Heart
+Eastern East Wing Enemy #4 @ Ice Palace (RedEyegore): Rupees (5) (Player 1)
+Eastern East Wing Enemy #5 @ Ice Palace (GreenEyegore): Rupee (1)
+Eastern East Wing Enemy #6 @ Ice Palace (GreenEyegore): Single Bomb
+Eastern Pot Switch Pot #3 @ Ice Palace: Small Key (Desert Palace)
+Eastern Pot Switch Enemy #1 @ Ice Palace (GreenEyegore): Small Heart
+Eastern Map Balcony Pot #7 @ Ice Palace: Bombs (10)
+Eastern Palace - Map Chest @ Ice Palace: Rupees (5)
+Eastern West Wing Enemy #1 @ Ice Palace (FloatingSkull): Rupees (5)
+Eastern West Wing Enemy #2 @ Ice Palace (RedMimic): Small Magic
+Eastern West Wing Enemy #3 @ Ice Palace (RedMimic): Rupees (5) (Player 1)
+Eastern West Wing Enemy #4 @ Ice Palace (GreenMimic): Small Heart
+Eastern Stalfos Spawn Pot #1 @ Ice Palace: Arrows (10)
+Eastern Stalfos Spawn Pot #3 @ Ice Palace: Small Key (Escape)
+Eastern Palace - Compass Chest @ Ice Palace: Bombs (10)
+Eastern Attic Start Pot #2 @ Ice Palace: Map (Escape)
+Eastern Attic Start Enemy #1 @ Ice Palace (Gibdo): Rupees (5)
+Eastern False Switches Pot #2 @ Ice Palace: Small Key (Palace of Darkness)
+Eastern False Switches Enemy #2 @ Ice Palace (Popo): Bombs (10)
+Eastern False Switches Enemy #4 @ Ice Palace (RedEyegore): Single Bomb
+Hera Tile Room Pot #5 @ Ice Palace: Arrows (10)
+Hera Tridorm Enemy #1 @ Ice Palace (Snapdragon): Rupees (20)
+Hera Tridorm Enemy #2 @ Ice Palace (Snapdragon): Bug Catching Net
+Hera Tridorm Enemy #3 @ Ice Palace (Zoro): Rupees (5) (Player 1)
+Tower of Hera - Big Key Chest @ Ice Palace: Big Key (Escape)
+Hera Torches Enemy #10 @ Ice Palace (Snapdragon): Small Heart
+Hera Torches Enemy #13 @ Ice Palace (StalfosKnight): Small Magic
+Ice Antechamber Enemy #1 @ Ice Palace (Babasu): Piece of Heart
+Ice Antechamber Enemy #2 @ Ice Palace (FloatingSkull): Map (Misery Mire)
+Ice Antechamber Enemy #5 @ Ice Palace (StalfosKnight): Small Heart
+Ice Antechamber Enemy #6 @ Ice Palace (Hover): Rupees (5) (Player 1)
+Ice Antechamber Enemy #7 @ Ice Palace (Zoro): Rupees (5) (Player 1)
+Ice Antechamber Enemy #8 @ Ice Palace (Hover): Small Heart
+Ice Palace - Boss @ Ice Palace: Rupees (5) (Player 1)
+Ice Palace - Prize @ Ice Palace: Crystal 3
+Mire Lone Shooter Enemy #7 @ Ice Palace (BlueBari): Rupees (5)
+Misery Mire - Big Chest @ Ice Palace: Single Bomb
+Misery Mire - Map Chest @ Ice Palace: Small Key (Ganons Tower)
+Mire Wizzrobe Bypass Enemy #5 @ Ice Palace (GreenMimic): Arrows (10)
+Misery Mire - Conveyor Crystal Key Drop @ Ice Palace (Stalfos): Progressive Shield
+Mire Conveyor Crystal Enemy #6 @ Ice Palace (RedBari): Rupees (300)
+Mire Conveyor Crystal Enemy #9 @ Ice Palace (Popo2): Single Bomb
+Mire Compass Room Enemy #4 @ Ice Palace (GreenMimic): Small Heart
+Misery Mire - Compass Chest @ Ice Palace: Single Bomb
+Turtle Rock - Compass Chest @ Ice Palace: Small Heart
+Ganons Tower - Randomizer Room - Top Left @ Ice Palace: Rupees (20)
+Ganons Tower - Randomizer Room - Top Right @ Ice Palace: Small Heart
+Ganons Tower - Randomizer Room - Bottom Left @ Ice Palace: Big Key (Thieves Town)
+Ganons Tower - Randomizer Room - Bottom Right @ Ice Palace: Rupees (5)
+Eastern Palace - Dark Eyegore Key Drop @ Misery Mire (Hoarder): Single Bomb
+Eastern Darkness Pot #2 @ Misery Mire: Fairy
+Eastern Darkness Enemy #3 @ Misery Mire (Sluggula): Fire Rod
+Eastern Darkness Enemy #5 @ Misery Mire (DebirandoPit): Rupees (5) (Player 1)
+Eastern Darkness Enemy #6 @ Misery Mire (Sluggula): Rupees (5)
+Eastern Darkness Enemy #7 @ Misery Mire (Zoro): Single Bomb
+Eastern Darkness Enemy #8 @ Misery Mire (Wizzrobe): Rupees (20)
+Eastern Darkness Enemy #10 @ Misery Mire (Wizzrobe): Bombs (3)
+Eastern Rupees Enemy #1 @ Misery Mire (Wizzrobe): Small Magic
+Eastern Rupees Enemy #2 @ Misery Mire (Babasu): Rupees (5)
+Desert Dead End Enemy #8 @ Misery Mire (Stalfos): Small Heart
+Palace of Darkness - Dark Maze - Top @ Misery Mire: Arrows (10) (Player 1)
+Palace of Darkness - Dark Maze - Bottom @ Misery Mire: Rupees (50)
+PoD Dark Maze Enemy #2 @ Misery Mire (Geldman): Single Bomb
+PoD Dark Maze Enemy #4 @ Misery Mire (Geldman): Map (Tower of Hera)
+Swamp Donut Top Enemy #1 @ Misery Mire (RedBari): Small Heart
+Swamp Donut Bottom Enemy #3 @ Misery Mire (FloatingSkull): Arrows (10)
+Swamp Palace - Compass Chest @ Misery Mire: Rupee (1)
+Swamp C Enemy #2 @ Misery Mire (Hover): Quake
+Swamp I Pot #5 @ Misery Mire: Small Key (Tower of Hera)
+Swamp I Enemy #4 @ Misery Mire (Buzzblob): Small Heart
+Thieves Cricket Hall Right Enemy #2 @ Misery Mire (Hover): Rupees (5)
+Thieves Cricket Hall Right Enemy #3 @ Misery Mire (Stalfos): Rupees (50)
+Thieves' Town - Attic @ Misery Mire: Rupees (5)
+Thieves Attic Window Pot #2 @ Misery Mire: Bombs (3)
+Thieves Attic Window Enemy #1 @ Misery Mire (Zoro): Small Heart
+Thieves Attic Window Enemy #4 @ Misery Mire (Hover): Rupees (5)
+Thieves Attic Window Enemy #5 @ Misery Mire (StalfosKnight): Rupees (50) (Player 1)
+Ice Palace - Spike Room @ Misery Mire: Small Heart
+Ice Spike Room Enemy #1 @ Misery Mire (Snapdragon): Small Heart
+Ice Spike Room Enemy #2 @ Misery Mire (Moblin): Arrows (10) (Player 1)
+Ice Spike Room Enemy #3 @ Misery Mire (Hoarder): Rupees (5)
+Misery Mire - Boss @ Misery Mire: Small Heart
+Misery Mire - Prize @ Misery Mire: Green Pendant
+TR Pokey 2 Top Enemy #5 @ Misery Mire (RedBari): Small Heart
+Turtle Rock - Pokey 2 Key Drop @ Misery Mire (BlueBari): Rupees (20)
+TR Dash Bridge Enemy #7 @ Misery Mire (RedJavelinGuard): Single Bomb
+TR Crystal Maze Interior Pot #4 @ Misery Mire: Rupees (20)
+Ganons Tower - Bob's Torch @ Misery Mire: Rupee (1)
+GT Bob's Torch Enemy #9 @ Misery Mire (CricketRat): Rupee (1)
+GT Bob's Torch Enemy #10 @ Misery Mire (CricketRat): Small Heart
+Ganons Tower - Hope Room - Left @ Misery Mire: Rupees (5)
+Ganons Tower - Hope Room - Right @ Misery Mire: Small Magic
+GT Hope Room Pot #2 @ Misery Mire: Small Key (Escape)
+Ganons Tower - Big Chest @ Misery Mire: Small Magic
+GT Petting Zoo Pot #6 @ Misery Mire: Piece of Heart
+GT Petting Zoo Enemy #5 @ Misery Mire (MiniMoldorm): Small Magic
+GT Petting Zoo Enemy #7 @ Misery Mire (RedEyegore): Small Magic
+GT Petting Zoo Enemy #9 @ Misery Mire (MiniHelmasaur): Small Key (Ganons Tower)
+Hyrule Dungeon South Abyss Enemy #1 @ Turtle Rock (Buzzblob): Rupee (1)
+Hyrule Dungeon South Abyss Enemy #3 @ Turtle Rock (Debirando): Rupee (1)
+Eastern Lobby Bridge Enemy #1 @ Turtle Rock (BlueArcher): Small Heart
+Eastern Lobby Bridge Enemy #2 @ Turtle Rock (RedZazak): Rupees (5)
+Eastern Lobby Bridge Enemy #3 @ Turtle Rock (RedZazak): Rupee (1)
+Eastern Dark Square Enemy #2 @ Turtle Rock (Hinox): Rupees (5)
+Eastern Dark Square Enemy #4 @ Turtle Rock (Hover): Rupees (5) (Player 1)
+Eastern Dark Square Enemy #5 @ Turtle Rock (Babasu): Rupee (1)
+Eastern Dark Square Enemy #7 @ Turtle Rock (Zoro): Rupees (5) (Player 1)
+Eastern Dark Pots Enemy #1 @ Turtle Rock (Hinox): Small Heart
+Eastern Dark Pots Enemy #6 @ Turtle Rock (Hover): Small Magic
+Eastern Palace - Big Key Chest @ Turtle Rock: Rupees (5) (Player 1)
+Eastern Big Key Pot #2 @ Turtle Rock: Rupees (50) (Player 1)
+Eastern Big Key Enemy #1 @ Turtle Rock (BombGuard): Rupees (20)
+Eastern Big Key Enemy #2 @ Turtle Rock (Pokey): Small Heart
+Eastern Big Key Enemy #3 @ Turtle Rock (RedJavelinGuard): Small Heart
+Eastern Big Key Enemy #4 @ Turtle Rock (RedJavelinGuard): Rupees (5) (Player 1)
+Eastern Big Key Enemy #5 @ Turtle Rock (BallNChain): Rupees (5)
+Eastern Big Key Enemy #6 @ Turtle Rock (RedBushGuard): Small Key (Escape)
+Desert Back Lobby Enemy #2 @ Turtle Rock (Zoro): Rupees (5) (Player 1)
+Desert Tiles 1 Pot #2 @ Turtle Rock: Progressive Armor
+PoD Mimics 2 Enemy #4 @ Turtle Rock (Hover): Small Heart
+PoD Mimics 2 Enemy #6 @ Turtle Rock (RedBari): Big Key (Eastern Palace)
+PoD Bow Statue Left Enemy #3 @ Turtle Rock (FloatingSkull): Small Key (Skull Woods)
+Swamp Pot Row Enemy #1 @ Turtle Rock (Crab): Rupees (5) (Player 1)
+Swamp Pot Row Enemy #2 @ Turtle Rock (BlueBari): Small Key (Turtle Rock)
+Swamp Pot Row Enemy #3 @ Turtle Rock (MiniMoldorm): Rupees (5) (Player 1)
+Swamp Pot Row Enemy #6 @ Turtle Rock (Octorok): Arrows (10) (Player 1)
+Swamp Pot Row Enemy #7 @ Turtle Rock (Stalfos): Rupees (20)
+Swamp West Shallows Enemy #1 @ Turtle Rock (MiniMoldorm): Arrows (10) (Player 1)
+Swamp West Shallows Enemy #2 @ Turtle Rock (Gibdo): Rupee (1)
+Swamp West Shallows Enemy #3 @ Turtle Rock (HardhatBeetle): Single Bomb
+Swamp West Shallows Enemy #7 @ Turtle Rock (MiniHelmasaur): Small Magic
+Swamp West Block Path Enemy #5 @ Turtle Rock (MiniHelmasaur): Small Heart
+Swamp Palace - West Chest @ Turtle Rock: Small Heart
+Swamp Barrier Ledge Pot #2 @ Turtle Rock: Small Key (Palace of Darkness)
+Swamp Attic Enemy #1 @ Turtle Rock (RedJavelinGuard): Bombos
+Swamp Attic Enemy #4 @ Turtle Rock (RedJavelinGuard): Small Key (Eastern Palace)
+Swamp Attic Enemy #5 @ Turtle Rock (Gibdo): Big Magic
+Swamp Attic Enemy #7 @ Turtle Rock (RedBushGuard): Small Heart
+Swamp Attic Enemy #8 @ Turtle Rock (CannonTrooper): Small Heart
+Thieves' Town - Ambush Chest @ Turtle Rock: Small Magic
+Thieves Ambush Enemy #2 @ Turtle Rock (MiniHelmasaur): Small Heart
+Thieves Ambush Enemy #5 @ Turtle Rock (Hoarder): Rupees (5)
+Thieves Ambush Enemy #6 @ Turtle Rock (Hoarder): Rupees (5)
+Thieves Ambush Enemy #8 @ Turtle Rock (MiniHelmasaur): Rupees (5)
+Thieves Ambush Enemy #9 @ Turtle Rock (BlueBari): Small Magic
+Thieves Ambush Enemy #10 @ Turtle Rock (Buzzblob): Single Bomb
+Thieves' Town - Spike Switch Pot Key @ Turtle Rock: Map (Ice Palace)
+Thieves Spike Switch Enemy #3 @ Turtle Rock (RedBushGuard): Single Bomb
+Thieves Spike Switch Enemy #4 @ Turtle Rock (BallNChain): Small Magic
+Thieves Spike Switch Enemy #5 @ Turtle Rock (RedBushGuard): Rupee (1)
+Thieves Spike Switch Enemy #7 @ Turtle Rock (RedBushGuard): Rupees (5)
+Thieves Spike Switch Enemy #8 @ Turtle Rock (CannonTrooper): Arrows (10)
+Thieves Conveyor Bridge Enemy #5 @ Turtle Rock (Pengator): Bombs (10)
+Thieves Conveyor Bridge Enemy #9 @ Turtle Rock (Pengator): Rupees (20)
+Thieves' Town - Big Chest @ Turtle Rock: Small Heart
+Thieves Trap Enemy #1 @ Turtle Rock (Pengator): Chicken
+Thieves Trap Enemy #2 @ Turtle Rock (UsainBolt): Rupees (20)
+Ice Pengator Switch Enemy #1 @ Turtle Rock (Snapdragon): Arrows (10)
+Ice Pengator Switch Enemy #2 @ Turtle Rock (Ropa): Small Heart
+Ice Pengator Switch Enemy #3 @ Turtle Rock (Snapdragon): Small Heart
+Ice Pengator Switch Enemy #4 @ Turtle Rock (Blob): Small Magic
+Ice Pengator Switch Enemy #5 @ Turtle Rock (Snapdragon): Rupees (20)
+Ice Pengator Switch Enemy #7 @ Turtle Rock (StalfosKnight): Rupees (5) (Player 1)
+Ice Pengator Switch Enemy #8 @ Turtle Rock (Snapdragon): Arrows (10)
+Ice Palace - Big Key Chest @ Turtle Rock: Single Bomb
+Mire Hub Enemy #2 @ Turtle Rock (MiniHelmasaur): Rupees (5)
+Mire Hub Enemy #4 @ Turtle Rock (BlueBari): Rupees (5)
+Mire Hub Enemy #5 @ Turtle Rock (MiniHelmasaur): Small Heart
+Mire Hub Enemy #6 @ Turtle Rock (HardhatBeetle): Rupees (20)
+Mire Hub Enemy #7 @ Turtle Rock (Stalfos): Single Bomb
+Mire Hub Enemy #8 @ Turtle Rock (HardhatBeetle): Small Heart
+Misery Mire - Main Lobby @ Turtle Rock: Small Heart
+Misery Mire - Spike Chest @ Turtle Rock: Small Heart
+Misery Mire - Spikes Pot Key @ Turtle Rock: Rupees (20)
+Mire Spikes Enemy #1 @ Turtle Rock (RedEyegore): Fairy
+Mire Spikes Enemy #2 @ Turtle Rock (RedEyegore): Piece of Heart
+Mire Spikes Enemy #3 @ Turtle Rock (MiniHelmasaur): Small Heart
+Mire Neglected Room Enemy #1 @ Turtle Rock (Ropa): Small Heart
+Mire Neglected Room Enemy #2 @ Turtle Rock (CricketRat): Magic Powder
+Mire Neglected Room Enemy #8 @ Turtle Rock (Snake): Rupee (1)
+TR Hub Ledges Pot #2 @ Turtle Rock: Small Key (Turtle Rock)
+TR Hub Ledges Enemy #4 @ Turtle Rock (BallNChain): Rupees (5) (Player 1)
+TR Hub Ledges Enemy #5 @ Turtle Rock (Pokey): Arrows (10) (Player 1)
+TR Hub Ledges Enemy #6 @ Turtle Rock (Pokey): Rupees (5) (Player 1)
+TR Hub Ledges Enemy #7 @ Turtle Rock (BallNChain): Small Heart
+TR Lazy Eyes Pot #1 @ Turtle Rock: Small Key (Ice Palace)
+TR Lazy Eyes Pot #3 @ Turtle Rock: Small Key (Ganons Tower)
+TR Lazy Eyes Pot #4 @ Turtle Rock: Rupees (20)
+TR Dash Room Pot #2 @ Turtle Rock: Sanctuary Heart Container
+TR Dash Room Pot #4 @ Turtle Rock: Compass (Desert Palace)
+TR Dash Room Enemy #16 @ Turtle Rock (Zoro): Arrows (10) (Player 1)
+TR Tongue Pull Enemy #10 @ Turtle Rock (Zoro): Rupees (5) (Player 1)
+TR Tongue Pull Enemy #14 @ Turtle Rock (Pokey): Small Magic
+TR Tongue Pull Enemy #15 @ Turtle Rock (Pokey): Small Key (Agahnims Tower)
+TR Rupees Enemy #3 @ Turtle Rock (RedBari): Rupees (20)
+TR Crystaroller Middle Enemy #4 @ Turtle Rock (Zoro): Small Heart
+Turtle Rock - Crystaroller Room @ Turtle Rock: Rupees (5)
+Turtle Rock - Eye Bridge - Bottom Left @ Turtle Rock: Small Heart
+Turtle Rock - Eye Bridge - Bottom Right @ Turtle Rock: Small Heart
+Turtle Rock - Eye Bridge - Top Left @ Turtle Rock: Rupees (5)
+Turtle Rock - Eye Bridge - Top Right @ Turtle Rock: Small Magic
+Turtle Rock - Boss @ Turtle Rock: Rupees (5)
+Turtle Rock - Prize @ Turtle Rock: Crystal 5
+GT Gauntlet 4 Enemy #1 @ Turtle Rock (GreenEyegore): Rupee (1)
+GT Gauntlet 4 Enemy #2 @ Turtle Rock (MiniHelmasaur): Compass (Ganons Tower)
+GT Gauntlet 4 Enemy #3 @ Turtle Rock (RedEyegore): Arrows (10)
+GT Gauntlet 4 Enemy #4 @ Turtle Rock (MiniMoldorm): Progressive Armor
+GT Gauntlet 5 Pot #2 @ Turtle Rock: Boss Heart Container
+GT Gauntlet 5 Enemy #6 @ Turtle Rock (RedEyegore): Rupees (5)
+GT Gauntlet 5 Enemy #7 @ Turtle Rock (MiniMoldorm): Small Heart
+GT Gauntlet 5 Enemy #8 @ Turtle Rock (GreenEyegore): Rupee (1)
+GT Gauntlet 5 Enemy #9 @ Turtle Rock (MiniMoldorm): Rupee (1)
+GT Moldorm Pit Enemy #2 @ Turtle Rock (Hoarder2): Single Bomb
+Ganons Tower - Validation Chest @ Turtle Rock: Small Magic
+Hyrule Castle East Lobby Enemy #3 @ Ganons Tower (MiniMoldorm): Rupees (5)
+Hyrule Castle - Map Chest @ Ganons Tower: Rupees (5)
+Hyrule Castle - Map Guard Key Drop @ Ganons Tower (MiniMoldorm): Small Heart
+Sanctuary @ Ganons Tower: Rupees (5) (Player 1)
+Desert East Lobby Enemy #9 @ Ganons Tower (Zoro): Bombs (10)
+Desert East Wing Pot #2 @ Ganons Tower: Bombs (10)
+Desert East Wing Enemy #1 @ Ganons Tower (Hover): Rupee (1)
+Desert East Wing Enemy #2 @ Ganons Tower (Ropa): Small Magic
+Desert Palace - Compass Chest @ Ganons Tower: Single Bomb
+Desert Compass Room Enemy #3 @ Ganons Tower (Ropa): Rupees (5) (Player 1)
+Desert Compass Room Enemy #4 @ Ganons Tower (Zoro): Arrows (10) (Player 1)
+Desert Compass Room Enemy #6 @ Ganons Tower (Ropa): Rupee (1)
+Tower Dual Statues Enemy #7 @ Ganons Tower (Stalfos): Single Bomb
+Tower Dual Statues Enemy #8 @ Ganons Tower (Tektite): Arrows (10)
+Tower Dark Pits Enemy #3 @ Ganons Tower (Hover): Single Bomb
+Tower Dark Pits Enemy #5 @ Ganons Tower (Hover): Single Bomb
+Tower Dark Pits Enemy #6 @ Ganons Tower (MiniHelmasaur): Rupees (5)
+Castle Tower - Dark Archer Key Drop @ Ganons Tower (MiniHelmasaur): Small Heart
+Tower Dark Archers Enemy #1 @ Ganons Tower (Hover): Rupees (5)
+Tower Dark Archers Enemy #2 @ Ganons Tower (BlueBari): Small Heart
+Palace of Darkness - The Arena - Ledge @ Ganons Tower: Small Heart
+Palace of Darkness - Big Chest @ Ganons Tower: Rupees (5)
+Swamp Palace - Map Chest @ Ganons Tower: Rupee (1)
+Swamp Map Ledge Enemy #3 @ Ganons Tower (Snapdragon): Rupees (5) (Player 1)
+Thieves Spike Track Enemy #10 @ Ganons Tower (BlueZazak): Small Heart
+Thieves Hellway Enemy #2 @ Ganons Tower (Stalfos): Small Heart
+Thieves Hellway Enemy #5 @ Ganons Tower (RedZazak): Single Bomb
+Thieves Hellway Enemy #6 @ Ganons Tower (Stalfos): Bombs (10)
+Thieves Triple Bypass Enemy #1 @ Ganons Tower (RedBari): Small Key (Misery Mire)
+Ice Palace - Compass Chest @ Ganons Tower: Single Bomb
+Ice Compass Room Enemy #1 @ Ganons Tower (GreenKnifeGuard): Small Heart
+Ice Compass Room Enemy #2 @ Ganons Tower (GreenKnifeGuard): Small Heart
+Ice Compass Room Enemy #3 @ Ganons Tower (GreenKnifeGuard): Rupee (1)
+Ice Compass Room Enemy #4 @ Ganons Tower (GreenKnifeGuard): Bombs (10)
+Ice Compass Room Enemy #5 @ Ganons Tower (GreenKnifeGuard): Single Bomb
+Ice Pengator Trap Enemy #1 @ Ganons Tower (Gibo): Small Heart
+Ice Pengator Trap Enemy #2 @ Ganons Tower (RedZazak): Rupees (5)
+Ice Pengator Trap Enemy #3 @ Ganons Tower (RedZazak): Rupees (5)
+Ice Pengator Trap Enemy #4 @ Ganons Tower (Gibo): Bombs (10)
+Ice Pengator Trap Enemy #5 @ Ganons Tower (RedZazak): Small Magic
+Mire 2 Enemy #1 @ Ganons Tower (CricketRat): Small Heart
+Mire 2 Enemy #2 @ Ganons Tower (Snake): Big Magic
+Mire 2 Enemy #4 @ Ganons Tower (Snake): Arrows (10) (Player 1)
+Mire 2 Enemy #5 @ Ganons Tower (Snake): Rupees (5)
+Mire 2 Enemy #6 @ Ganons Tower (CricketRat): Small Heart
+Mire 2 Enemy #7 @ Ganons Tower (CricketRat): Small Heart
+Mire 2 Enemy #8 @ Ganons Tower (Stalfos): Small Key (Thieves Town)
+Mire 2 Enemy #9 @ Ganons Tower (Snake): Rupees (5) (Player 1)
+Mire 2 Enemy #10 @ Ganons Tower (CricketRat): Rupees (5) (Player 1)
+Misery Mire - Bridge Chest @ Ganons Tower: Small Heart
+Mire Left Bridge Pot #1 @ Ganons Tower: Progressive Bow
+Mire Tall Dark and Roomy Pot #1 @ Ganons Tower: Cane of Somaria
+Mire Tall Dark and Roomy Enemy #3 @ Ganons Tower (StalfosKnight): Small Magic
+Mire Tall Dark and Roomy Enemy #9 @ Ganons Tower (RedBari): Rupees (5) (Player 1)
+Mire Shooter Rupees Enemy #5 @ Ganons Tower (BlueBari): Rupees (5) (Player 1)
+Ganons Tower - Bob's Chest @ Ganons Tower: Big Magic
+GT Bob's Room Enemy #15 @ Ganons Tower (Snake): Rupees (5) (Player 1)
+GT Falling Bridge Pot #1 @ Ganons Tower: Arrows (10)
+GT Falling Bridge Pot #3 @ Ganons Tower: Small Key (Palace of Darkness)
+GT Falling Bridge Enemy #4 @ Ganons Tower (Pengator): Arrows (10) (Player 1)
+Ganons Tower - Big Key Room - Left @ Ganons Tower: Small Key (Thieves Town)
+Ganons Tower - Big Key Room - Right @ Ganons Tower: Small Heart
+Ganons Tower - Big Key Chest @ Ganons Tower: Small Heart
+GT Crystal Paths Enemy #3 @ Ganons Tower (StalfosKnight): Single Bomb
+GT Crystal Paths Enemy #5 @ Ganons Tower (Snapdragon): Small Heart
+GT Mimics 1 Enemy #7 @ Ganons Tower (Snapdragon): Rupee (1)
+GT Mimics 1 Enemy #8 @ Ganons Tower (Snapdragon): Rupee (1)
+GT Mimics 1 Enemy #9 @ Ganons Tower (Snapdragon): Small Heart
+GT Mimics 1 Enemy #10 @ Ganons Tower (Ropa): Small Heart
+GT Mimics 2 Pot #7 @ Ganons Tower: Compass (Misery Mire)
+GT Mimics 2 Enemy #11 @ Ganons Tower (Blob): Rupees (5)
+GT Mimics 2 Enemy #12 @ Ganons Tower (Moblin): Single Bomb
+GT Mimics 2 Enemy #13 @ Ganons Tower (Snapdragon): Single Bomb
+GT Mimics 2 Enemy #14 @ Ganons Tower (Ropa): Chicken
+GT Hidden Spikes Enemy #3 @ Ganons Tower (RedJavelinGuard): Bombs (3)
+GT Hidden Spikes Enemy #4 @ Ganons Tower (Gibdo): Single Bomb
+GT Hidden Spikes Enemy #5 @ Ganons Tower (BombGuard): Rupee (1)
+GT Hidden Spikes Enemy #6 @ Ganons Tower (BluesainBolt): Rupees (20)
+GT Hidden Spikes Enemy #8 @ Ganons Tower (BallNChain): Single Bomb
+GT Hidden Spikes Enemy #9 @ Ganons Tower (BombGuard): Small Heart
+Agahnim 2 @ Ganons Tower: Beat Agahnim 2
+
+Shops:
+
+Dark Death Mountain Shop [Shop]
+    Map (Thieves Town) — 10
+    Small Magic — 5
+    Rupees (20) — 10
+Red Shield Shop [Shop]
+    Small Heart — 20
+    Small Magic — 10
+    Arrows (10) — 60
+Dark Lake Hylia Shop [Shop]
+    Single Bomb — 10
+    Piece of Heart — 20
+    Rupees (5) — 4
+Dark Lumberjack Shop [Shop]
+    Rupees (5) — 4
+    Rupees (5) — 4
+    Arrows (10) — 60
+Village of Outcasts Shop [Shop]
+    Small Magic — 10
+    Small Heart — 20
+    Green Potion — 120
+Dark Potion Shop [Shop]
+    Rupees (5) — 2
+    Red Potion — 85
+    Bottle (Bee) — 50
+Paradox Shop [Shop]
+    Small Heart — 10
+    Arrows (10) — 25
+    Blue Potion — 150
+Kakariko Shop [Shop]
+    Big Magic — 40
+    Rupee (1)
+    Arrow Upgrade (+5) — 65
+Lake Hylia Shop [Shop]
+    Rupees (5) — 2
+    Big Magic — 20
+    Single Bomb — 5
+Potion Shop [Shop]
+    Small Heart — 20
+    Small Heart — 20
+    Arrows (10) — 60
+Capacity Upgrade [Shop]
+    Single Bomb — 5
+    Small Heart — 10
+
+Bosses (Player 1):
+
+Eastern Palace: Armos Knights
+Desert Palace: Moldorm
+Tower Of Hera: Helmasaur King
+Palace Of Darkness: Trinexx
+Swamp Palace: Lanmolas
+Skull Woods: Arrghus
+Thieves Town: Vitreous
+Ice Palace: Trinexx
+Misery Mire: Armos Knights
+Turtle Rock: Blind
+Ganons Tower Basement: Mothula
+Ganons Tower Middle: Kholdstare
+Ganons Tower Top: Kholdstare
+
+Playthrough:
+
+0: {
+
+}
+1: {
+  Skull Back Drop Enemy #9 @ Skull Woods: Progressive Glove
+  Pyramid: Small Key (Misery Mire)
+  PoD Compass Room Enemy #5 @ Hyrule Castle: Hookshot
+  Dark Potion Shop - Right: Bottle (Bee)
+  GT Hookshot South Platform Pot #3 @ Eastern Palace: Small Key (Skull Woods)
+  PoD Compass Room Enemy #4 @ Hyrule Castle: Small Key (Skull Woods)
+  Palace of Darkness - Harmless Hellway @ Hyrule Castle: Small Key (Palace of Darkness)
+  GT Map Room Enemy #7 @ Eastern Palace: Small Key (Palace of Darkness)
+  Skull Pot Prison Pot #5 @ Eastern Palace: Ice Rod
+  Superbunny Cave (Bottom) Pot #1: Small Key (Skull Woods)
+  Links House Pot #1: Flippers
+  Light World Bomb Hut Pot #8: Small Key (Turtle Rock)
+}
+2: {
+  Ice Many Pots Pot #13 @ Desert Palace: Magic Mirror
+  Bumper Cave (bottom) Pot #4: Moon Pearl
+  King Zora: Small Key (Turtle Rock)
+  Skull Star Pits Pot #9 @ Palace of Darkness: Small Key (Skull Woods)
+}
+3: {
+  Pyramid Fairy - Left: Small Key (Thieves Town)
+  Floodgate: Open Floodgate
+  PoD Bow Statue Left Enemy #3 @ Turtle Rock: Small Key (Skull Woods)
+  Skull Spike Corner Enemy #1 @ Skull Woods: Lamp
+  Hype Cave - Middle Left: Small Key (Ganons Tower)
+}
+4: {
+  Swamp Entrance Enemy #5 @ Hyrule Castle: Progressive Sword
+  Misery Mire - Map Chest @ Ice Palace: Small Key (Ganons Tower)
+  Mire Tall Dark and Roomy Pot #1 @ Ganons Tower: Cane of Somaria
+  Mire BK Door Room Pot #2 @ Swamp Palace: Small Key (Turtle Rock)
+  Eastern False Switches Pot #2 @ Ice Palace: Small Key (Palace of Darkness)
+  TR Twin Pokeys Pot #2 @ Hyrule Castle: Small Key (Skull Woods)
+  Thieves Compass Room Enemy #7 @ Swamp Palace: Big Key (Ganons Tower)
+  Skull 2 East Lobby Enemy #14 @ Swamp Palace: Small Key (Skull Woods)
+}
+5: {
+  TR Hub Ledges Pot #2 @ Turtle Rock: Small Key (Turtle Rock)
+  Turtle Rock - Prize @ Turtle Rock: Crystal 5
+  Eastern Darkness Enemy #3 @ Misery Mire: Fire Rod
+  Swamp Waterfall Room Enemy #12 @ Thieves Town: Small Key (Turtle Rock)
+  Desert Beamos Hall Enemy #4 @ Desert Palace: Big Key (Desert Palace)
+  Desert Palace - Prize @ Desert Palace: Crystal 1
+  Desert Beamos Hall Enemy #8 @ Desert Palace: Cape
+  Spectacle Rock Cave (Bottom) Enemy #4: Hammer
+  Swamp Pot Row Enemy #2 @ Turtle Rock: Small Key (Turtle Rock)
+}
+6: {
+  Trench 1 Switch @ Eastern Palace: Trench 1 Filled
+  Suspicious Maiden @ Desert Palace: Maiden Rescued
+  Ice Palace - Prize @ Ice Palace: Crystal 3
+  Spike Cave: Progressive Sword
+  Desert Map Room Pot #6 @ Palace of Darkness: Small Key (Turtle Rock)
+  Tower Circle of Pots Pot #2 @ Palace of Darkness: Small Key (Misery Mire)
+  Tower Circle of Pots Pot #10 @ Palace of Darkness: Small Key (Misery Mire)
+  GT Pots n Blocks Pot #4 @ Palace of Darkness: Small Key (Ganons Tower)
+  GT Invisible Catwalk Enemy #6 @ Palace of Darkness: Small Key (Palace of Darkness)
+  Tower Dark Maze Pot #1 @ Palace of Darkness: Ether
+}
+7: {
+  Hyrule Dungeon Cellblock Pot #2 @ Eastern Palace: Small Key (Ganons Tower)
+  Hera 5F Pot Block Pot #4 @ Tower of Hera: Small Key (Ganons Tower)
+  PoD Left Cage Pot #3 @ Tower of Hera: Small Key (Turtle Rock)
+  Hera 5F Pot Block Pot #6 @ Tower of Hera: Small Key (Misery Mire)
+  Eastern Duo Eyegores Enemy #6 @ Tower of Hera: Small Key (Skull Woods)
+  Swamp Hub Side Ledges Pot #3 @ Tower of Hera: Small Key (Turtle Rock)
+  Tower of Hera - Prize @ Tower of Hera: Crystal 6
+}
+8: {
+  TR Lazy Eyes Pot #3 @ Turtle Rock: Small Key (Ganons Tower)
+  Swamp Barrier Ledge Pot #2 @ Turtle Rock: Small Key (Palace of Darkness)
+}
+9: {
+  GT Falling Bridge Pot #3 @ Ganons Tower: Small Key (Palace of Darkness)
+  Ganons Tower - Big Key Room - Left @ Ganons Tower: Small Key (Thieves Town)
+  Thieves Triple Bypass Enemy #1 @ Ganons Tower: Small Key (Misery Mire)
+  Agahnim 2 @ Ganons Tower: Beat Agahnim 2
+}
+10: {
+  Desert Arrow Pot Corner Pot #1 @ Thieves Town: Small Key (Skull Woods)
+  Palace of Darkness - Prize @ Palace of Darkness: Crystal 7
+}
+11: {
+  Skull Woods - Prize @ Skull Woods: Crystal 2
+  Skull Pull Switch Pot #4 @ Skull Woods: Small Key (Misery Mire)
+}
+12: {
+  Attic Cracked Floor @ Misery Mire: Shining Light
+}
+13: {
+  Revealing Light @ Thieves Town: Maiden Unmasked
+}
+14: {
+  Thieves' Town - Prize @ Thieves Town: Crystal 4
+}
+15: {
+  Ganon: Triforce
+}
+
+Paths:
+
+Agahnim 2 @ Ganons Tower
+        Sanctuary -> Sanctuary Mirror Route
+   =>   Hyrule Castle East Lobby -> Hyrule Castle East Lobby W
+   =>   Mire Tall Dark and Roomy -> Mire Tall Dark and Roomy to Ranged Crystal
+   =>   Mire Tall Dark and Roomy - Ranged Crystal -> Mire Tall Dark and Roomy Ranged Crystal Exit
+   =>   Mire Tall Dark and Roomy -> Mire Tall Dark and Roomy WS
+   =>   Mire Crystal Right -> Mire Crystal Right Orange Barrier
+   =>   Mire Crystal Mid -> Mire Crystal Mid NW
+   =>   Mire Crystal Top -> Mire Crystal Top SW
+   =>   Mire Crystal Mid -> Mire Crystal Mid Blue Barrier
+   =>   Mire Crystal Left -> Mire Crystal Left WS
+   =>   Thieves Spike Track -> Thieves Spike Track NE
+   =>   Thieves Triple Bypass -> Thieves Triple Bypass EN
+   =>   GT Falling Bridge -> GT Falling Bridge WN
+   =>   GT Hidden Spikes -> GT Hidden Spikes SE
+   =>   Mire 2 -> Mire 2 Up Stairs
+   =>   Tower Dual Statues -> Tower Dual Statues WS
+   =>   Tower Dark Pits -> Tower Dark Pits EN
+   =>   Tower Dark Archers -> Tower Dark Archers Up Stairs
+   =>   GT Crystal Paths -> GT Crystal Paths SW
+   =>   GT Mimics 1 -> GT Mimics 1 ES
+   =>   GT Mimics 2 -> GT Mimics 2 NE
+   =>   GT Dash Hall -> GT Dash Hall NE
+   =>   TR Main Lobby -> TR Main Lobby Gap
+   =>   TR Lobby Ledge -> TR Lobby Ledge NE
+   =>   GT Agahnim 2
+Attic Cracked Floor @ Misery Mire
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Light Hype Fairy
+   =>   Old Man House -> Old Man House Exit (Bottom)
+   =>   Tree Line Area -> Lake Hylia Fairy
+   =>   Fairy Ascension Cave (Top) -> Fairy Ascension Cave Exit (Top)
+   =>   Pyramid Exit Ledge -> Pyramid Exit Ledge Drop
+   =>   Pyramid Area -> Pyramid ES
+   =>   Dark Dunes Area -> Dark Dunes SC
+   =>   Hammer Bridge North Area -> Hammer Bridge EN
+   =>   Dark Tree Line Area -> Dark Tree Line NW
+   =>   Palace of Darkness Area -> Palace of Darkness Hint
+   =>   Mire Portal -> Enter Misery Mire
+   =>   Eastern Darkness -> Eastern Darkness Up Stairs
+   =>   Ice Spike Room -> Ice Spike Room Up Stairs
+   =>   GT Hope Room -> GT Hope Room WN
+   =>   GT Bob's Torch -> GT Torch WN
+   =>   TR Crystal Maze Start -> TR Crystal Maze Start to Crystal
+   =>   TR Crystal Maze Start - Crystal -> TR Crystal Maze Start Crystal Exit
+   =>   TR Crystal Maze Start -> TR Crystal Maze Start to Interior Barrier - Blue
+   =>   TR Crystal Maze Interior -> TR Crystal Maze Interior to End Barrier - Blue
+   =>   TR Crystal Maze End -> TR Crystal Maze North Stairs
+   =>   TR Dash Bridge -> TR Dash Bridge WS
+   =>   TR Pokey 2 Top -> TR Pokey 2 Top to Bottom Barrier - Blue
+   =>   TR Pokey 2 Bottom -> TR Pokey 2 ES
+   =>   Thieves Cricket Hall Right -> Thieves Cricket Hall Right ES
+   =>   Thieves Attic Window
+Bumper Cave (bottom) Pot #4
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Statues WN
+   =>   C Whirlpool Area -> C Whirlpool SC
+   =>   Dam Area -> Dam
+   =>   Thieves Town Portal -> Thieves Town Exit
+   =>   Mire Area -> Mire Shed
+   =>   Bumper Cave (bottom)
+Dark Potion Shop - Right
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Light Hype Fairy
+   =>   Old Man House -> Old Man House Exit (Bottom)
+   =>   Tree Line Area -> Tree Line NW
+   =>   Eastern Palace Area -> Eastern Palace SE
+   =>   Eastern Nook Area -> Long Fairy Cave
+   =>   Dark Potion Shop
+Desert Arrow Pot Corner Pot #1 @ Thieves Town
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Statues WN
+   =>   C Whirlpool Area -> C Whirlpool SC
+   =>   Dam Area -> Dam
+   =>   Thieves Town Portal -> Enter Thieves Town
+   =>   Swamp Waterfall Room -> Swamp Waterfall Room NE
+   =>   Swamp Behind Waterfall -> Swamp Behind Waterfall Up Stairs
+   =>   GT Cannonball Bridge -> GT Cannonball Bridge WN
+   =>   Sewers Dark Aquabats -> Sewers Dark Aquabats N
+   =>   Sewers Key Rat -> Sewers Key Rat NE
+   =>   Desert Main Lobby -> Desert Main Lobby Right Path
+   =>   Desert Right Alcove -> Desert Main Lobby NE Edge
+   =>   Desert Arrow Pot Corner -> Desert Arrow Pot Corner W Edge
+   =>   Mire Fishbone -> Mire Fishbone E
+   =>   Desert Arrow Pot Corner
+Desert Beamos Hall Enemy #4 @ Desert Palace
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Statues WN
+   =>   C Whirlpool Area -> C Whirlpool SC
+   =>   Dam Area -> Dam WC
+   =>   Desert Pass Area -> 50 Rupee Cave
+   =>   Desert West Portal -> Enter Desert (West)
+   =>   PoD Arena Main -> PoD Arena Main to Landing Bypass
+   =>   PoD Arena Landing -> PoD Arena Landing to North Barrier - Orange
+   =>   PoD Arena North -> PoD Arena Main NE
+   =>   Hyrule Dungeon Armory Main -> Hyrule Dungeon Armory Interior Key Door N
+   =>   Hyrule Dungeon Armory North Branch -> Hyrule Dungeon Armory Down Stairs
+   =>   Thieves Attic -> Thieves Attic ES
+   =>   Thieves Cricket Hall Left -> Thieves Cricket Hall Left Edge
+   =>   TR Pipe Ledge -> TR Pipe Ledge Drop Down
+   =>   TR Pipe Pit -> TR Pipe Pit Up Stairs
+   =>   Thieves Basement Block -> Thieves Basement Block WN
+   =>   Ice Spike Cross -> Ice Spike Cross WS
+   =>   Ice Firebar -> Ice Firebar Down Ladder
+   =>   Desert Beamos Hall
+Desert Beamos Hall Enemy #8 @ Desert Palace
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Statues WN
+   =>   C Whirlpool Area -> C Whirlpool SC
+   =>   Dam Area -> Dam WC
+   =>   Desert Pass Area -> 50 Rupee Cave
+   =>   Desert West Portal -> Enter Desert (West)
+   =>   PoD Arena Main -> PoD Arena Main to Landing Bypass
+   =>   PoD Arena Landing -> PoD Arena Landing to North Barrier - Orange
+   =>   PoD Arena North -> PoD Arena Main NE
+   =>   Hyrule Dungeon Armory Main -> Hyrule Dungeon Armory Interior Key Door N
+   =>   Hyrule Dungeon Armory North Branch -> Hyrule Dungeon Armory Down Stairs
+   =>   Thieves Attic -> Thieves Attic ES
+   =>   Thieves Cricket Hall Left -> Thieves Cricket Hall Left Edge
+   =>   TR Pipe Ledge -> TR Pipe Ledge Drop Down
+   =>   TR Pipe Pit -> TR Pipe Pit Up Stairs
+   =>   Thieves Basement Block -> Thieves Basement Block WN
+   =>   Ice Spike Cross -> Ice Spike Cross WS
+   =>   Ice Firebar -> Ice Firebar Down Ladder
+   =>   Desert Beamos Hall
+Desert Map Room Pot #6 @ Palace of Darkness
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Light Hype Fairy
+   =>   Old Man House -> Old Man House Exit (Bottom)
+   =>   Tree Line Area -> Lake Hylia Fairy
+   =>   Fairy Ascension Cave (Top) -> Fairy Ascension Cave Exit (Top)
+   =>   Pyramid Exit Ledge -> Pyramid Exit Ledge Drop
+   =>   Pyramid Area -> Pyramid ES
+   =>   Dark Dunes Area -> Dark Dunes SC
+   =>   Hammer Bridge North Area -> Hammer Bridge EN
+   =>   Dark Tree Line Area -> Dark Lake Hylia Fairy
+   =>   Agahnims Tower Portal -> Agahnims Tower Exit
+   =>   Desert Ledge Keep -> Desert Ledge Rocks (Inner)
+   =>   Desert Ledge -> Desert Palace Entrance (West)
+   =>   Palace of Darkness Portal -> Enter Palace of Darkness
+   =>   Skull Star Pits -> Skull Star Pits ES
+   =>   Skull Torch Room -> Skull Torch Room WN
+   =>   Skull Vines -> Skull Vines NW
+   =>   Mire Lobby -> Mire Lobby Gap
+   =>   Mire Post-Gap -> Mire Post-Gap Down Stairs
+   =>   Tower Lone Statue -> Tower Lone Statue WN
+   =>   Tower Dark Maze -> Tower Dark Maze ES
+   =>   Tower Dark Chargers -> Tower Dark Chargers Up Stairs
+   =>   Swamp Push Statue -> Swamp Push Statue S
+   =>   GT Double Switch Entry -> GT Double Switch Entry to Left Barrier - Orange
+   =>   GT Double Switch Left -> GT Double Switch Left to Crystal
+   =>   GT Double Switch Left - Crystal -> GT Double Switch Left Crystal Exit
+   =>   GT Double Switch Left -> GT Double Switch Left to Pot Corners Bypass
+   =>   GT Double Switch Pot Corners -> GT Double Switch Pot Corners to Exit Barrier - Blue
+   =>   GT Double Switch Exit -> GT Double Switch EN
+   =>   GT Spike Crystal Left -> GT Spike Crystal Left to Right Bypass
+   =>   GT Spike Crystal Right -> GT Spike Crystals Warp
+   =>   GT Firesnake Room -> GT Firesnake Room Hook Path
+   =>   GT Firesnake Room Ledge -> GT Firesnake Room SW
+   =>   GT Warp Maze - Rail Choice -> GT Warp Maze - Rail Choice Left Warp
+   =>   GT Warp Maze - Left Section -> GT Warp Maze - Left Section Warp
+   =>   GT Warp Maze - Rando Rail -> GT Warp Maze (Rails) WS
+   =>   Eastern Courtyard -> Eastern Courtyard WN
+   =>   Desert North Hall -> Desert North Hall NE
+   =>   Desert Map Room
+Desert Palace - Prize @ Desert Palace
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House NE
+   =>   Hyrule Castle Area -> Hyrule Castle WN
+   =>   Forgotten Forest Area -> Forgotten Forest NW
+   =>   Kakariko Pond Area -> Kakariko Pond NE
+   =>   Mountain Pass Area -> Mountain Pass Rock (Outer)
+   =>   Mountain Pass Entry -> Old Man Cave (West)
+   =>   Desert East Portal -> Enter Desert (East)
+   =>   Desert Boss
+Eastern Darkness Enemy #3 @ Misery Mire
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Light Hype Fairy
+   =>   Old Man House -> Old Man House Exit (Bottom)
+   =>   Tree Line Area -> Lake Hylia Fairy
+   =>   Fairy Ascension Cave (Top) -> Fairy Ascension Cave Exit (Top)
+   =>   Pyramid Exit Ledge -> Pyramid Exit Ledge Drop
+   =>   Pyramid Area -> Pyramid ES
+   =>   Dark Dunes Area -> Dark Dunes SC
+   =>   Hammer Bridge North Area -> Hammer Bridge EN
+   =>   Dark Tree Line Area -> Dark Tree Line NW
+   =>   Palace of Darkness Area -> Palace of Darkness Hint
+   =>   Mire Portal -> Enter Misery Mire
+   =>   Eastern Darkness -> Eastern Darkness Up Stairs
+   =>   Ice Spike Room -> Ice Spike Room Up Stairs
+   =>   GT Hope Room -> GT Hope Room WN
+   =>   GT Bob's Torch -> GT Torch WN
+   =>   TR Crystal Maze Start -> TR Crystal Maze Start to Crystal
+   =>   TR Crystal Maze Start - Crystal -> TR Crystal Maze Start Crystal Exit
+   =>   TR Crystal Maze Start -> TR Crystal Maze ES
+   =>   GT Bob's Torch -> GT Torch EN
+   =>   GT Hope Room -> GT Hope Room Up Stairs
+   =>   Ice Spike Room -> Ice Spike Room Down Stairs
+   =>   Eastern Darkness
+Eastern Duo Eyegores Enemy #6 @ Tower of Hera
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Statues WN
+   =>   C Whirlpool Area -> C Whirlpool SC
+   =>   Dam Area -> Dam
+   =>   Thieves Town Portal -> Thieves Town Exit
+   =>   Mire Area -> Misery Mire
+   =>   Hera Portal -> Enter Hera
+   =>   Swamp Hub -> Swamp Hub ES
+   =>   Thieves Conveyor Maze -> Thieves Conveyor Maze Down Stairs
+   =>   Hera Back -> Hera Back to Front Barrier - Orange
+   =>   Hera Front -> Hera Front to Crystal
+   =>   Hera Front - Crystal -> Hera Front Crystal Exit
+   =>   Hera Front -> Hera Front to Lobby Barrier - Blue
+   =>   Hera Lobby -> Hera Lobby S
+   =>   PoD Middle Cage -> PoD Middle Cage SE
+   =>   PoD Lobby -> PoD Lobby S
+   =>   Eastern Duo Eyegores
+Eastern False Switches Pot #2 @ Ice Palace
+        Sanctuary -> Sanctuary Mirror Route
+   =>   Hyrule Castle East Lobby -> Hyrule Castle East Lobby S
+   =>   Ganons Tower Portal -> Ganons Tower Exit
+   =>   West Death Mountain (Bottom) -> Spectacle Rock Cave (Bottom)
+   =>   Spectacle Rock Cave (Top) -> Spectacle Rock Cave Exit (Top)
+   =>   Kakariko Village -> Sick Kids House
+   =>   Hookshot Cave (Back) -> Hookshot Cave Back to Middle
+   =>   Hookshot Cave (Middle) -> Hookshot Cave Middle to Front
+   =>   Hookshot Cave (Front) -> Hookshot Cave Front Exit
+   =>   Village of Outcasts -> Village of Outcasts SE
+   =>   Frog Area -> Frog Ledge Drop
+   =>   Archery Game Area -> Archery Game
+   =>   Skull 2 West Portal -> Skull Woods Second Section Exit (West)
+   =>   Hype Cave Area -> Hype Cave
+   =>   Ice Portal -> Enter Ice Palace
+   =>   Mire Conveyor Crystal -> Mire Conveyor Crystal WS
+   =>   Mire Tile Room -> Mire Tile Room NW
+   =>   Mire Compass Room -> Mire Compass Room EN
+   =>   Mire Wizzrobe Bypass -> Mire Wizzrobe Bypass EN
+   =>   Hyrule Castle Lobby -> Hyrule Castle Lobby North Stairs
+   =>   Eastern Hint Tile Blocked Path -> Eastern Hint Tile Push Block
+   =>   Eastern Hint Tile -> Eastern Hint Tile EN
+   =>   Mire Lone Shooter -> Mire Lone Shooter ES
+   =>   Mire Falling Bridge - Primary -> Mire Falling Bridge Hook Path
+   =>   Mire Falling Bridge - Chest -> Mire Falling Bridge WN
+   =>   Mire Map Spike Side -> Mire Map Spike Side Blue Barrier
+   =>   Mire Crystal Dead End -> Mire Crystal Dead End Left Barrier
+   =>   Mire Map Spot -> Mire Map Spot WN
+   =>   Eastern False Switches
+Floodgate
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House NE
+   =>   Hyrule Castle Area -> Hyrule Castle WN
+   =>   Forgotten Forest Area -> Forgotten Forest NW
+   =>   Kakariko Pond Area -> Kakariko Pond NE
+   =>   Mountain Pass Area -> Mountain Pass NW
+   =>   Lumberjack Area -> Lumberjack House
+   =>   Superbunny Cave (Bottom) -> Superbunny Cave Exit (Bottom)
+   =>   Dark Lumberjack Area -> Dark Lumberjack SW
+   =>   Bumper Cave Area -> Bumper Cave SE
+   =>   Outcast Pond Area -> Outcast Pond EN
+   =>   Dark Chapel Area -> Dark Chapel EC
+   =>   Dark Graveyard Area -> Dark Graveyard Bush (South)
+   =>   Dark Graveyard North -> Mirror To Graveyard Ledge
+   =>   Graveyard Ledge -> Graveyard Cave
+   =>   Dam
+GT Falling Bridge Pot #3 @ Ganons Tower
+        Sanctuary -> Sanctuary Mirror Route
+   =>   Hyrule Castle East Lobby -> Hyrule Castle East Lobby W
+   =>   Mire Tall Dark and Roomy -> Mire Tall Dark and Roomy to Ranged Crystal
+   =>   Mire Tall Dark and Roomy - Ranged Crystal -> Mire Tall Dark and Roomy Ranged Crystal Exit
+   =>   Mire Tall Dark and Roomy -> Mire Tall Dark and Roomy WS
+   =>   Mire Crystal Right -> Mire Crystal Right Orange Barrier
+   =>   Mire Crystal Mid -> Mire Crystal Mid NW
+   =>   Mire Crystal Top -> Mire Crystal Top SW
+   =>   Mire Crystal Mid -> Mire Crystal Mid Blue Barrier
+   =>   Mire Crystal Left -> Mire Crystal Left WS
+   =>   Thieves Spike Track -> Thieves Spike Track NE
+   =>   Thieves Triple Bypass -> Thieves Triple Bypass EN
+   =>   GT Falling Bridge -> GT Falling Bridge WN
+   =>   GT Hidden Spikes -> GT Hidden Spikes EN
+   =>   GT Falling Bridge
+GT Hookshot South Platform Pot #3 @ Eastern Palace
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Light Hype Fairy
+   =>   Old Man House -> Old Man House Exit (Bottom)
+   =>   Tree Line Area -> Lake Hylia Fairy
+   =>   Fairy Ascension Cave (Top) -> Fairy Ascension Cave Exit (Top)
+   =>   Pyramid Exit Ledge -> Pyramid Exit Ledge Drop
+   =>   Pyramid Area -> Pyramid ES
+   =>   Dark Dunes Area -> Dark Dunes SC
+   =>   Hammer Bridge North Area -> Hammer Bridge EN
+   =>   Dark Tree Line Area -> Dark Lake Hylia Fairy
+   =>   Agahnims Tower Portal -> Agahnims Tower Exit
+   =>   Desert Ledge Keep -> Desert Palace Entrance (North)
+   =>   Eastern Portal -> Enter Eastern Palace
+   =>   Skull Pot Prison -> Skull Pot Prison ES
+   =>   PoD Sexy Statue -> PoD Sexy Statue NW
+   =>   GT Hookshot South Entry -> GT Hookshot Entry Blue Barrier
+   =>   GT Hookshot South Platform -> GT Hookshot ES
+   =>   GT Map Room -> GT Map Room WS
+   =>   GT Hookshot South Platform
+GT Invisible Catwalk Enemy #6 @ Palace of Darkness
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Light Hype Fairy
+   =>   Old Man House -> Old Man House Exit (Bottom)
+   =>   Tree Line Area -> Lake Hylia Fairy
+   =>   Fairy Ascension Cave (Top) -> Fairy Ascension Cave Exit (Top)
+   =>   Pyramid Exit Ledge -> Pyramid Exit Ledge Drop
+   =>   Pyramid Area -> Pyramid ES
+   =>   Dark Dunes Area -> Dark Dunes SC
+   =>   Hammer Bridge North Area -> Hammer Bridge EN
+   =>   Dark Tree Line Area -> Dark Lake Hylia Fairy
+   =>   Agahnims Tower Portal -> Agahnims Tower Exit
+   =>   Desert Ledge Keep -> Desert Ledge Rocks (Inner)
+   =>   Desert Ledge -> Desert Palace Entrance (West)
+   =>   Palace of Darkness Portal -> Enter Palace of Darkness
+   =>   Skull Star Pits -> Skull Star Pits ES
+   =>   Skull Torch Room -> Skull Torch Room WN
+   =>   Skull Vines -> Skull Vines NW
+   =>   Mire Lobby -> Mire Lobby Gap
+   =>   Mire Post-Gap -> Mire Post-Gap Down Stairs
+   =>   Tower Lone Statue -> Tower Lone Statue WN
+   =>   Tower Dark Maze -> Tower Dark Maze ES
+   =>   Tower Dark Chargers -> Tower Dark Chargers Up Stairs
+   =>   Swamp Push Statue -> Swamp Push Statue S
+   =>   GT Double Switch Entry -> GT Double Switch Entry to Left Barrier - Orange
+   =>   GT Double Switch Left -> GT Double Switch Left to Crystal
+   =>   GT Double Switch Left - Crystal -> GT Double Switch Left Crystal Exit
+   =>   GT Double Switch Left -> GT Double Switch Left to Pot Corners Bypass
+   =>   GT Double Switch Pot Corners -> GT Double Switch Pot Corners to Exit Barrier - Blue
+   =>   GT Double Switch Exit -> GT Double Switch EN
+   =>   GT Spike Crystal Left -> GT Spike Crystal Left to Right Bypass
+   =>   GT Spike Crystal Right -> GT Spike Crystals Warp
+   =>   GT Firesnake Room -> GT Firesnake Room Hook Path
+   =>   GT Firesnake Room Ledge -> GT Firesnake Room SW
+   =>   GT Warp Maze - Rail Choice -> GT Warp Maze - Rail Choice Left Warp
+   =>   GT Warp Maze - Left Section -> GT Warp Maze - Left Section Warp
+   =>   GT Warp Maze - Rando Rail -> GT Warp Maze (Rails) WS
+   =>   Eastern Courtyard -> Eastern Courtyard WN
+   =>   Desert North Hall -> Desert North Hall SE Edge
+   =>   GT Invisible Catwalk
+GT Map Room Enemy #7 @ Eastern Palace
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Light Hype Fairy
+   =>   Old Man House -> Old Man House Exit (Bottom)
+   =>   Tree Line Area -> Lake Hylia Fairy
+   =>   Fairy Ascension Cave (Top) -> Fairy Ascension Cave Exit (Top)
+   =>   Pyramid Exit Ledge -> Pyramid Exit Ledge Drop
+   =>   Pyramid Area -> Pyramid ES
+   =>   Dark Dunes Area -> Dark Dunes SC
+   =>   Hammer Bridge North Area -> Hammer Bridge EN
+   =>   Dark Tree Line Area -> Dark Lake Hylia Fairy
+   =>   Agahnims Tower Portal -> Agahnims Tower Exit
+   =>   Desert Ledge Keep -> Desert Palace Entrance (North)
+   =>   Eastern Portal -> Enter Eastern Palace
+   =>   Skull Pot Prison -> Skull Pot Prison ES
+   =>   PoD Sexy Statue -> PoD Sexy Statue NW
+   =>   GT Hookshot South Entry -> GT Hookshot Entry Blue Barrier
+   =>   GT Hookshot South Platform -> GT Hookshot ES
+   =>   GT Map Room
+GT Pots n Blocks Pot #4 @ Palace of Darkness
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Light Hype Fairy
+   =>   Old Man House -> Old Man House Exit (Bottom)
+   =>   Tree Line Area -> Lake Hylia Fairy
+   =>   Fairy Ascension Cave (Top) -> Fairy Ascension Cave Exit (Top)
+   =>   Pyramid Exit Ledge -> Pyramid Exit Ledge Drop
+   =>   Pyramid Area -> Pyramid ES
+   =>   Dark Dunes Area -> Dark Dunes SC
+   =>   Hammer Bridge North Area -> Hammer Bridge EN
+   =>   Dark Tree Line Area -> Dark Lake Hylia Fairy
+   =>   Agahnims Tower Portal -> Agahnims Tower Exit
+   =>   Desert Ledge Keep -> Desert Ledge Rocks (Inner)
+   =>   Desert Ledge -> Desert Palace Entrance (West)
+   =>   Palace of Darkness Portal -> Enter Palace of Darkness
+   =>   Skull Star Pits -> Skull Star Pits ES
+   =>   Skull Torch Room -> Skull Torch Room WN
+   =>   Skull Vines -> Skull Vines NW
+   =>   Mire Lobby -> Mire Lobby Gap
+   =>   Mire Post-Gap -> Mire Post-Gap Down Stairs
+   =>   Tower Lone Statue -> Tower Lone Statue WN
+   =>   Tower Dark Maze -> Tower Dark Maze ES
+   =>   Tower Dark Chargers -> Tower Dark Chargers Up Stairs
+   =>   Swamp Push Statue -> Swamp Push Statue S
+   =>   GT Double Switch Entry -> GT Double Switch Entry to Left Barrier - Orange
+   =>   GT Double Switch Left -> GT Double Switch Left to Crystal
+   =>   GT Double Switch Left - Crystal -> GT Double Switch Left Crystal Exit
+   =>   GT Double Switch Left -> GT Double Switch Left to Pot Corners Bypass
+   =>   GT Double Switch Pot Corners -> GT Double Switch Pot Corners to Exit Barrier - Blue
+   =>   GT Double Switch Exit -> GT Double Switch EN
+   =>   GT Spike Crystal Left -> GT Spike Crystal Left to Right Bypass
+   =>   GT Spike Crystal Right -> GT Spike Crystals Warp
+   =>   GT Firesnake Room -> GT Firesnake Room Hook Path
+   =>   GT Firesnake Room Ledge -> GT Firesnake Room SW
+   =>   GT Warp Maze - Rail Choice -> GT Warp Maze - Rail Choice Left Warp
+   =>   GT Warp Maze - Left Section -> GT Warp Maze - Left Section Warp
+   =>   GT Warp Maze - Rando Rail -> GT Warp Maze (Rails) WS
+   =>   Eastern Courtyard -> Eastern Courtyard WN
+   =>   Desert North Hall -> Desert North Hall SE Edge
+   =>   GT Invisible Catwalk -> GT Invisible Catwalk NE
+   =>   GT Speed Torch -> GT Speed Torch WS
+   =>   GT Pots n Blocks
+Ganon
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Statues WN
+   =>   C Whirlpool Area -> C Whirlpool SC
+   =>   Dam Area -> Dam
+   =>   Thieves Town Portal -> Thieves Town Exit
+   =>   Mire Area -> Mire Hint
+   =>   Desert South Portal -> Desert Palace Exit (South)
+   =>   Skull Woods Forest -> Skull Woods First Section Hole (East)
+   =>   Pyramid
+Ganons Tower - Big Key Room - Left @ Ganons Tower
+        Sanctuary -> Sanctuary Mirror Route
+   =>   Hyrule Castle East Lobby -> Hyrule Castle East Lobby W
+   =>   Mire Tall Dark and Roomy -> Mire Tall Dark and Roomy to Ranged Crystal
+   =>   Mire Tall Dark and Roomy - Ranged Crystal -> Mire Tall Dark and Roomy Ranged Crystal Exit
+   =>   Mire Tall Dark and Roomy -> Mire Tall Dark and Roomy WS
+   =>   Mire Crystal Right -> Mire Crystal Right Orange Barrier
+   =>   Mire Crystal Mid -> Mire Crystal Mid NW
+   =>   Mire Crystal Top -> Mire Crystal Top SW
+   =>   Mire Crystal Mid -> Mire Crystal Mid Blue Barrier
+   =>   Mire Crystal Left -> Mire Crystal Left WS
+   =>   Thieves Spike Track -> Thieves Spike Track NE
+   =>   Thieves Triple Bypass -> Thieves Triple Bypass WN
+   =>   Thieves Hellway N Crystal -> Thieves Hellway Crystal Blue Barrier
+   =>   Thieves Hellway -> Thieves Hellway NW
+   =>   GT Bob's Room -> GT Bob's Room Hole
+   =>   GT Ice Armos -> GT Ice Armos NE
+   =>   GT Big Key Room
+Hera 5F Pot Block Pot #4 @ Tower of Hera
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Statues WN
+   =>   C Whirlpool Area -> C Whirlpool SC
+   =>   Dam Area -> Dam
+   =>   Thieves Town Portal -> Thieves Town Exit
+   =>   Mire Area -> Misery Mire
+   =>   Hera Portal -> Enter Hera
+   =>   Swamp Hub -> Swamp Hub WS
+   =>   Eastern Single Eyegore -> Eastern Single Eyegore NE
+   =>   Eastern Duo Eyegores -> Eastern Duo Eyegores NE
+   =>   PoD Lobby -> PoD Lobby NW
+   =>   PoD Left Cage -> PoD Left Cage Down Stairs
+   =>   Hera 5F -> Hera 5F Orange Path
+   =>   Hera 5F Pot Block
+Hera 5F Pot Block Pot #6 @ Tower of Hera
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Statues WN
+   =>   C Whirlpool Area -> C Whirlpool SC
+   =>   Dam Area -> Dam
+   =>   Thieves Town Portal -> Thieves Town Exit
+   =>   Mire Area -> Misery Mire
+   =>   Hera Portal -> Enter Hera
+   =>   Swamp Hub -> Swamp Hub WS
+   =>   Eastern Single Eyegore -> Eastern Single Eyegore NE
+   =>   Eastern Duo Eyegores -> Eastern Duo Eyegores NE
+   =>   PoD Lobby -> PoD Lobby NW
+   =>   PoD Left Cage -> PoD Left Cage Down Stairs
+   =>   Hera 5F -> Hera 5F Orange Path
+   =>   Hera 5F Pot Block
+Hype Cave - Middle Left
+        Sanctuary -> Sanctuary Mirror Route
+   =>   Hyrule Castle East Lobby -> Hyrule Castle East Lobby S
+   =>   Ganons Tower Portal -> Ganons Tower Exit
+   =>   West Death Mountain (Bottom) -> Spectacle Rock Cave (Bottom)
+   =>   Spectacle Rock Cave (Top) -> Spectacle Rock Cave Exit (Top)
+   =>   Kakariko Village -> Sick Kids House
+   =>   Hookshot Cave (Back) -> Hookshot Cave Back to Middle
+   =>   Hookshot Cave (Middle) -> Hookshot Cave Middle to Front
+   =>   Hookshot Cave (Front) -> Hookshot Cave Front Exit
+   =>   Village of Outcasts -> Village of Outcasts SE
+   =>   Frog Area -> Frog Ledge Drop
+   =>   Archery Game Area -> Frog ES
+   =>   Stumpy Pass -> Stumpy SW
+   =>   Stumpy Approach Area -> Mirror From Stumpy Approach Area
+   =>   Cave 45 Ledge -> Cave 45
+   =>   Hype Cave
+Hyrule Dungeon Cellblock Pot #2 @ Eastern Palace
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Light Hype Fairy
+   =>   Old Man House -> Old Man House Exit (Bottom)
+   =>   Tree Line Area -> Lake Hylia Fairy
+   =>   Fairy Ascension Cave (Top) -> Fairy Ascension Cave Exit (Top)
+   =>   Pyramid Exit Ledge -> Pyramid Exit Ledge Drop
+   =>   Pyramid Area -> Pyramid ES
+   =>   Dark Dunes Area -> Dark Dunes SC
+   =>   Hammer Bridge North Area -> Hammer Bridge EN
+   =>   Dark Tree Line Area -> Dark Lake Hylia Fairy
+   =>   Agahnims Tower Portal -> Agahnims Tower Exit
+   =>   Desert Ledge Keep -> Desert Palace Entrance (North)
+   =>   Eastern Portal -> Enter Eastern Palace
+   =>   Skull Pot Prison -> Skull Pot Prison ES
+   =>   PoD Sexy Statue -> PoD Sexy Statue NW
+   =>   GT Hookshot South Entry -> GT Hookshot Entry Blue Barrier
+   =>   GT Hookshot South Platform -> GT Hookshot ES
+   =>   GT Map Room -> GT Map Room WS
+   =>   GT Hookshot South Platform -> GT Hookshot South-Mid Path
+   =>   GT Hookshot Mid Platform -> GT Hookshot Mid-North Path
+   =>   GT Hookshot North Platform -> GT Hookshot NW
+   =>   PoD Map Balcony -> PoD Map Balcony WS
+   =>   Hyrule Castle Back Hall -> Hyrule Castle Back Hall W
+   =>   Swamp Trench 1 Approach -> Swamp Trench 1 Approach Swim Depart
+   =>   Swamp Trench 1 Departure -> Swamp Trench 1 Departure WS
+   =>   Mire Falling Foes -> Mire Falling Foes Up Stairs
+   =>   Ice Narrow Corridor -> Ice Narrow Corridor WN
+   =>   Ice Bomb Jump Catwalk -> Ice Bomb Jump Catwalk Orange Barrier
+   =>   Ice Bomb Jump Ledge -> Ice Bomb Jump NW
+   =>   GT Gauntlet 3 -> GT Gauntlet 3 NW
+   =>   GT Gauntlet 2 -> GT Gauntlet 2 EN
+   =>   GT Gauntlet 1 -> GT Gauntlet 1 Down Stairs
+   =>   Hyrule Dungeon Cellblock
+Ice Many Pots Pot #13 @ Desert Palace
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Statues WN
+   =>   C Whirlpool Area -> C Whirlpool SC
+   =>   Dam Area -> Dam WC
+   =>   Desert Pass Area -> 50 Rupee Cave
+   =>   Desert West Portal -> Enter Desert (West)
+   =>   PoD Arena Main -> PoD Arena Main to Right Bypass
+   =>   PoD Arena Right -> PoD Arena Crystals E
+   =>   Ice Many Pots
+Ice Palace - Prize @ Ice Palace
+        Sanctuary -> Sanctuary Mirror Route
+   =>   Hyrule Castle East Lobby -> Hyrule Castle East Lobby S
+   =>   Ganons Tower Portal -> Ganons Tower Exit
+   =>   West Death Mountain (Bottom) -> Spectacle Rock Cave (Bottom)
+   =>   Spectacle Rock Cave (Top) -> Spectacle Rock Cave Exit (Top)
+   =>   Kakariko Village -> Sick Kids House
+   =>   Hookshot Cave (Back) -> Hookshot Cave Back to Middle
+   =>   Hookshot Cave (Middle) -> Hookshot Cave Middle to Front
+   =>   Hookshot Cave (Front) -> Hookshot Cave Front Exit
+   =>   Village of Outcasts -> Village of Outcasts SE
+   =>   Frog Area -> Frog Ledge Drop
+   =>   Archery Game Area -> Archery Game
+   =>   Skull 2 West Portal -> Skull Woods Second Section Exit (West)
+   =>   Hype Cave Area -> Hype Cave
+   =>   Ice Portal -> Enter Ice Palace
+   =>   Mire Conveyor Crystal -> Mire Conveyor Crystal WS
+   =>   Mire Tile Room -> Mire Tile Room SW
+   =>   Ice Antechamber -> Ice Antechamber Hole
+   =>   Ice Boss
+King Zora
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House ES
+   =>   Stone Bridge South Area -> Stone Bridge SC
+   =>   Lake Hylia Northwest Bank -> Lake Hylia Water Drop
+   =>   Lake Hylia Water -> Lake Hylia Whirlpool
+   =>   Zora Waterfall Water -> Zora Waterfall Landing
+   =>   Zora Waterfall Area -> Zora Waterfall NE
+   =>   Zoras Domain
+Light World Bomb Hut Pot #8
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House WN
+   =>   Central Bonk Rocks Area -> Central Bonk Rocks SW
+   =>   C Whirlpool Outer Area -> C Whirlpool WC
+   =>   Flute Boy Approach Area -> Flute Boy Pass NW
+   =>   Flute Boy Pass -> Flute Boy WS
+   =>   Kakariko Suburb Area -> Library
+   =>   Light World Bomb Hut
+Links House Pot #1
+        Links House
+Mire BK Door Room Pot #2 @ Swamp Palace
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House NE
+   =>   Hyrule Castle Area -> Hyrule Castle WN
+   =>   Forgotten Forest Area -> Forgotten Forest NW
+   =>   Kakariko Pond Area -> Kakariko Pond NE
+   =>   Mountain Pass Area -> Mountain Pass NW
+   =>   Lumberjack Area -> Lumberjack Tree Cave
+   =>   Paradox Cave -> Paradox Cave Exit (Middle)
+   =>   Spiral Cave Ledge -> Spiral Cave
+   =>   Swamp Portal -> Enter Swamp
+   =>   Sewers Behind Tapestry -> Sewers Behind Tapestry Down Stairs
+   =>   Sewers Yet More Rats -> Sewers Yet More Rats S
+   =>   Sewers Pull Switch -> Sewers Pull Switch S
+   =>   Mire Conveyor Barrier -> Mire Conveyor Barrier Up Stairs
+   =>   Mire Torches Top -> Mire Torches Top SW
+   =>   Mire Torches Bottom -> Mire Torches Bottom Holes
+   =>   Mire Warping Pool -> Mire Warping Pool Warp
+   =>   Mire Square Rail -> Mire Square Rail WS
+   =>   Mire Spike Barrier -> Mire Spike Barrier SE
+   =>   Mire BK Door Room -> Mire BK Door Room EN
+   =>   Thieves Compass Room -> Thieves Compass Room NW Edge
+   =>   GT Crystal Circles -> GT Crystal Circles Barrier - Orange
+   =>   GT Crystal Inner Circle -> GT Crystal Inner Circle Barrier - Orange
+   =>   GT Crystal Circles -> GT Crystal Circles SW
+   =>   Thieves Compass Room -> Thieves Compass Room WS Edge
+   =>   Mire BK Door Room
+Mire Tall Dark and Roomy Pot #1 @ Ganons Tower
+        Sanctuary -> Sanctuary Mirror Route
+   =>   Hyrule Castle East Lobby -> Hyrule Castle East Lobby W
+   =>   Mire Tall Dark and Roomy -> Mire Tall Dark and Roomy to Ranged Crystal
+   =>   Mire Tall Dark and Roomy - Ranged Crystal -> Mire Tall Dark and Roomy Ranged Crystal Exit
+   =>   Mire Tall Dark and Roomy
+Misery Mire - Map Chest @ Ice Palace
+        Sanctuary -> Sanctuary Mirror Route
+   =>   Hyrule Castle East Lobby -> Hyrule Castle East Lobby S
+   =>   Ganons Tower Portal -> Ganons Tower Exit
+   =>   West Death Mountain (Bottom) -> Spectacle Rock Cave (Bottom)
+   =>   Spectacle Rock Cave (Top) -> Spectacle Rock Cave Exit (Top)
+   =>   Kakariko Village -> Sick Kids House
+   =>   Hookshot Cave (Back) -> Hookshot Cave Back to Middle
+   =>   Hookshot Cave (Middle) -> Hookshot Cave Middle to Front
+   =>   Hookshot Cave (Front) -> Hookshot Cave Front Exit
+   =>   Village of Outcasts -> Village of Outcasts SE
+   =>   Frog Area -> Frog Ledge Drop
+   =>   Archery Game Area -> Archery Game
+   =>   Skull 2 West Portal -> Skull Woods Second Section Exit (West)
+   =>   Hype Cave Area -> Hype Cave
+   =>   Ice Portal -> Enter Ice Palace
+   =>   Mire Conveyor Crystal -> Mire Conveyor Crystal WS
+   =>   Mire Tile Room -> Mire Tile Room NW
+   =>   Mire Compass Room -> Mire Compass Room EN
+   =>   Mire Wizzrobe Bypass -> Mire Wizzrobe Bypass EN
+   =>   Hyrule Castle Lobby -> Hyrule Castle Lobby North Stairs
+   =>   Eastern Hint Tile Blocked Path -> Eastern Hint Tile Push Block
+   =>   Eastern Hint Tile -> Eastern Hint Tile EN
+   =>   Mire Lone Shooter -> Mire Lone Shooter ES
+   =>   Mire Falling Bridge - Primary -> Mire Falling Bridge Hook Path
+   =>   Mire Falling Bridge - Chest -> Mire Falling Bridge WN
+   =>   Mire Map Spike Side -> Mire Map Spike Side Blue Barrier
+   =>   Mire Crystal Dead End -> Mire Crystal Dead End Left Barrier
+   =>   Mire Map Spot
+Palace of Darkness - Harmless Hellway @ Hyrule Castle
+        Sanctuary -> Sanctuary Mirror Route
+   =>   Hyrule Castle East Lobby -> Hyrule Castle East Lobby S
+   =>   Ganons Tower Portal -> Ganons Tower Exit
+   =>   West Death Mountain (Bottom) -> Spectacle Rock Cave (Bottom)
+   =>   Spectacle Rock Cave (Top) -> Spectacle Rock Cave Exit (Top)
+   =>   Kakariko Village -> Blinds Hideout
+   =>   Hyrule Castle West Portal -> Enter HC (West)
+   =>   PoD Harmless Hellway
+Palace of Darkness - Prize @ Palace of Darkness
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Light Hype Fairy
+   =>   Old Man House -> Old Man House Exit (Bottom)
+   =>   Tree Line Area -> Lake Hylia Fairy
+   =>   Fairy Ascension Cave (Top) -> Fairy Ascension Cave Exit (Top)
+   =>   Pyramid Exit Ledge -> Pyramid Exit Ledge Drop
+   =>   Pyramid Area -> Pyramid ES
+   =>   Dark Dunes Area -> Dark Dunes SC
+   =>   Hammer Bridge North Area -> Hammer Bridge EN
+   =>   Dark Tree Line Area -> Dark Lake Hylia Fairy
+   =>   Agahnims Tower Portal -> Agahnims Tower Exit
+   =>   Desert Ledge Keep -> Desert Ledge Rocks (Inner)
+   =>   Desert Ledge -> Desert Palace Entrance (West)
+   =>   Palace of Darkness Portal -> Enter Palace of Darkness
+   =>   Skull Star Pits -> Skull Star Pits ES
+   =>   Skull Torch Room -> Skull Torch Room WN
+   =>   Skull Vines -> Skull Vines NW
+   =>   Mire Lobby -> Mire Lobby Gap
+   =>   Mire Post-Gap -> Mire Post-Gap Down Stairs
+   =>   Tower Lone Statue -> Tower Lone Statue WN
+   =>   Tower Dark Maze -> Tower Dark Maze ES
+   =>   Tower Dark Chargers -> Tower Dark Chargers Up Stairs
+   =>   Swamp Push Statue -> Swamp Push Statue S
+   =>   GT Double Switch Entry -> GT Double Switch Entry to Left Barrier - Orange
+   =>   GT Double Switch Left -> GT Double Switch Left to Crystal
+   =>   GT Double Switch Left - Crystal -> GT Double Switch Left Crystal Exit
+   =>   GT Double Switch Left -> GT Double Switch Left to Pot Corners Bypass
+   =>   GT Double Switch Pot Corners -> GT Double Switch Pot Corners to Exit Barrier - Blue
+   =>   GT Double Switch Exit -> GT Double Switch EN
+   =>   GT Spike Crystal Left -> GT Spike Crystal Left to Right Bypass
+   =>   GT Spike Crystal Right -> GT Spike Crystals Warp
+   =>   GT Firesnake Room -> GT Firesnake Room Hook Path
+   =>   GT Firesnake Room Ledge -> GT Firesnake Room SW
+   =>   GT Warp Maze - Rail Choice -> GT Warp Maze - Rail Choice Left Warp
+   =>   GT Warp Maze - Left Section -> GT Warp Maze - Left Section Warp
+   =>   GT Warp Maze - Rando Rail -> GT Warp Maze (Rails) WS
+   =>   Eastern Courtyard -> Eastern Courtyard WN
+   =>   Desert North Hall -> Desert North Hall SE Edge
+   =>   GT Invisible Catwalk -> GT Invisible Catwalk NE
+   =>   GT Speed Torch -> GT Speed Torch North Path
+   =>   GT Speed Torch Upper -> GT Speed Torch NE
+   =>   Eastern Cannonball -> Eastern Cannonball N
+   =>   PoD Boss
+PoD Bow Statue Left Enemy #3 @ Turtle Rock
+        Sanctuary -> Sanctuary Mirror Route
+   =>   Hyrule Castle East Lobby -> Hyrule Castle East Lobby S
+   =>   Ganons Tower Portal -> Ganons Tower Exit
+   =>   West Death Mountain (Bottom) -> Spectacle Rock Cave (Bottom)
+   =>   Spectacle Rock Cave (Top) -> Spectacle Rock Cave Exit (Top)
+   =>   Kakariko Village -> Sick Kids House
+   =>   Hookshot Cave (Back) -> Hookshot Cave Back Exit
+   =>   Dark Death Mountain Isolated Ledge -> Mirror From Dark Death Mountain Isolated Ledge
+   =>   Fairy Ascension Ledge -> Fairy Ascension Cave (Top)
+   =>   Turtle Rock Lazy Eyes Portal -> Enter Turtle Rock (Lazy Eyes)
+   =>   Mire Hub -> Mire Hub E
+   =>   Hyrule Dungeon South Abyss -> Hyrule Dungeon South Abyss North Edge
+   =>   PoD Bow Statue Right -> PoD Bow Statue Right to Left Barrier - Orange
+   =>   PoD Bow Statue Left -> PoD Bow Statue Left to Crystal
+   =>   PoD Bow Statue Left - Crystal -> PoD Bow Statue Left Crystal Exit
+   =>   PoD Bow Statue Left
+PoD Compass Room Enemy #4 @ Hyrule Castle
+        Sanctuary -> Sanctuary Mirror Route
+   =>   Hyrule Castle East Lobby -> Hyrule Castle East Lobby S
+   =>   Ganons Tower Portal -> Ganons Tower Exit
+   =>   West Death Mountain (Bottom) -> Spectacle Rock Cave (Bottom)
+   =>   Spectacle Rock Cave (Top) -> Spectacle Rock Cave Exit (Top)
+   =>   Kakariko Village -> Blinds Hideout
+   =>   Hyrule Castle West Portal -> Enter HC (West)
+   =>   PoD Harmless Hellway -> PoD Harmless Hellway NE
+   =>   PoD Compass Room
+PoD Compass Room Enemy #5 @ Hyrule Castle
+        Sanctuary -> Sanctuary Mirror Route
+   =>   Hyrule Castle East Lobby -> Hyrule Castle East Lobby S
+   =>   Ganons Tower Portal -> Ganons Tower Exit
+   =>   West Death Mountain (Bottom) -> Spectacle Rock Cave (Bottom)
+   =>   Spectacle Rock Cave (Top) -> Spectacle Rock Cave Exit (Top)
+   =>   Kakariko Village -> Blinds Hideout
+   =>   Hyrule Castle West Portal -> Enter HC (West)
+   =>   PoD Harmless Hellway -> PoD Harmless Hellway NE
+   =>   PoD Compass Room
+PoD Left Cage Pot #3 @ Tower of Hera
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Statues WN
+   =>   C Whirlpool Area -> C Whirlpool SC
+   =>   Dam Area -> Dam
+   =>   Thieves Town Portal -> Thieves Town Exit
+   =>   Mire Area -> Misery Mire
+   =>   Hera Portal -> Enter Hera
+   =>   Swamp Hub -> Swamp Hub WS
+   =>   Eastern Single Eyegore -> Eastern Single Eyegore NE
+   =>   Eastern Duo Eyegores -> Eastern Duo Eyegores NE
+   =>   PoD Lobby -> PoD Lobby NW
+   =>   PoD Left Cage
+Pyramid
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Light Hype Fairy
+   =>   Old Man House -> Old Man House Exit (Bottom)
+   =>   Tree Line Area -> Lake Hylia Fairy
+   =>   Fairy Ascension Cave (Top) -> Fairy Ascension Cave Exit (Top)
+   =>   Pyramid Exit Ledge -> Pyramid Exit Ledge Drop
+   =>   Pyramid Area
+Pyramid Fairy - Left
+        Sanctuary -> Sanctuary Mirror Route
+   =>   Hyrule Castle East Lobby -> Hyrule Castle East Lobby S
+   =>   Ganons Tower Portal -> Ganons Tower Exit
+   =>   West Death Mountain (Bottom) -> Spectacle Rock Cave (Bottom)
+   =>   Spectacle Rock Cave (Top) -> Spectacle Rock Cave Exit (Top)
+   =>   Kakariko Village -> Sick Kids House
+   =>   Hookshot Cave (Back) -> Hookshot Cave Back Exit
+   =>   Dark Death Mountain Isolated Ledge -> Turtle Rock Isolated Ledge Entrance
+   =>   Pyramid Fairy
+Revealing Light @ Thieves Town
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Statues WN
+   =>   C Whirlpool Area -> C Whirlpool SC
+   =>   Dam Area -> Dam
+   =>   Thieves Town Portal -> Enter Thieves Town
+   =>   Swamp Waterfall Room -> Swamp Waterfall Room NE
+   =>   Swamp Behind Waterfall -> Swamp Behind Waterfall Up Stairs
+   =>   GT Cannonball Bridge -> GT Cannonball Bridge WN
+   =>   Sewers Dark Aquabats -> Sewers Dark Aquabats N
+   =>   Sewers Key Rat -> Sewers Key Rat NE
+   =>   Desert Main Lobby -> Desert Main Lobby Left Path
+   =>   Desert Left Alcove -> Desert Main Lobby NW Edge
+   =>   Thieves Boss
+Skull 2 East Lobby Enemy #14 @ Swamp Palace
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House NE
+   =>   Hyrule Castle Area -> Hyrule Castle WN
+   =>   Forgotten Forest Area -> Forgotten Forest NW
+   =>   Kakariko Pond Area -> Kakariko Pond NE
+   =>   Mountain Pass Area -> Mountain Pass NW
+   =>   Lumberjack Area -> Lumberjack Tree Cave
+   =>   Paradox Cave -> Paradox Cave Exit (Middle)
+   =>   Spiral Cave Ledge -> Spiral Cave
+   =>   Swamp Portal -> Enter Swamp
+   =>   Sewers Behind Tapestry -> Sewers Behind Tapestry Down Stairs
+   =>   Sewers Yet More Rats -> Sewers Yet More Rats S
+   =>   Sewers Pull Switch -> Sewers Pull Switch S
+   =>   Mire Conveyor Barrier -> Mire Conveyor Barrier Up Stairs
+   =>   Mire Torches Top -> Mire Torches Top SW
+   =>   Mire Torches Bottom -> Mire Torches Bottom Holes
+   =>   Mire Warping Pool -> Mire Warping Pool Warp
+   =>   Mire Square Rail -> Mire Square Rail WS
+   =>   Mire Spike Barrier -> Mire Spike Barrier SE
+   =>   Mire BK Door Room -> Mire BK Door Room EN
+   =>   Thieves Compass Room -> Thieves Compass Room N Edge
+   =>   Skull 2 East Lobby
+Skull Back Drop Enemy #9 @ Skull Woods
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House NE
+   =>   Hyrule Castle Area -> Hyrule Castle WN
+   =>   Forgotten Forest Area -> Forgotten Forest NW
+   =>   Kakariko Pond Area -> Kakariko Pond WN
+   =>   Kakariko Fortune Area -> Kakariko Fortune NE
+   =>   Lost Woods East Area -> Lost Woods Hideout Drop
+   =>   Skull Back Drop
+Skull Pot Prison Pot #5 @ Eastern Palace
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Light Hype Fairy
+   =>   Old Man House -> Old Man House Exit (Bottom)
+   =>   Tree Line Area -> Lake Hylia Fairy
+   =>   Fairy Ascension Cave (Top) -> Fairy Ascension Cave Exit (Top)
+   =>   Pyramid Exit Ledge -> Pyramid Exit Ledge Drop
+   =>   Pyramid Area -> Pyramid ES
+   =>   Dark Dunes Area -> Dark Dunes SC
+   =>   Hammer Bridge North Area -> Hammer Bridge EN
+   =>   Dark Tree Line Area -> Dark Lake Hylia Fairy
+   =>   Agahnims Tower Portal -> Agahnims Tower Exit
+   =>   Desert Ledge Keep -> Desert Palace Entrance (North)
+   =>   Eastern Portal -> Enter Eastern Palace
+   =>   Skull Pot Prison -> Skull Pot Prison ES
+   =>   PoD Sexy Statue -> PoD Sexy Statue W
+   =>   Skull Pot Prison
+Skull Pull Switch Pot #4 @ Skull Woods
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House ES
+   =>   Stone Bridge South Area -> Stone Bridge (Northbound)
+   =>   Stone Bridge North Area -> Stone Bridge NC
+   =>   Sand Dunes Area -> Sand Dunes NW
+   =>   Wooden Bridge Area -> Wooden Bridge NW
+   =>   River Bend Area -> North Fairy Cave Drop
+   =>   Skull Pot Circle -> Skull Pot Circle WN
+   =>   Skull Pull Switch
+Skull Spike Corner Enemy #1 @ Skull Woods
+        Sanctuary -> Sanctuary Mirror Route
+   =>   Hyrule Castle East Lobby -> Hyrule Castle East Lobby S
+   =>   Ganons Tower Portal -> Ganons Tower Exit
+   =>   West Death Mountain (Bottom) -> Spectacle Rock Cave (Bottom)
+   =>   Spectacle Rock Cave (Top) -> Spectacle Rock Cave Exit (Top)
+   =>   Kakariko Village -> Sick Kids House
+   =>   Hookshot Cave (Back) -> Hookshot Cave Back to Middle
+   =>   Hookshot Cave (Middle) -> Hookshot Cave Middle to Front
+   =>   Hookshot Cave (Front) -> Hookshot Cave Front Exit
+   =>   Village of Outcasts -> Village of Outcasts SE
+   =>   Frog Area -> Frog Ledge Drop
+   =>   Archery Game Area -> Archery Game
+   =>   Skull 2 West Portal -> Enter Skull Woods 2 (West)
+   =>   Skull Spike Corner
+Skull Star Pits Pot #9 @ Palace of Darkness
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Light Hype Fairy
+   =>   Old Man House -> Old Man House Exit (Bottom)
+   =>   Tree Line Area -> Lake Hylia Fairy
+   =>   Fairy Ascension Cave (Top) -> Fairy Ascension Cave Exit (Top)
+   =>   Pyramid Exit Ledge -> Pyramid Exit Ledge Drop
+   =>   Pyramid Area -> Pyramid ES
+   =>   Dark Dunes Area -> Dark Dunes SC
+   =>   Hammer Bridge North Area -> Hammer Bridge EN
+   =>   Dark Tree Line Area -> Dark Lake Hylia Fairy
+   =>   Agahnims Tower Portal -> Agahnims Tower Exit
+   =>   Desert Ledge Keep -> Desert Ledge Rocks (Inner)
+   =>   Desert Ledge -> Desert Palace Entrance (West)
+   =>   Palace of Darkness Portal -> Enter Palace of Darkness
+   =>   Skull Star Pits -> Skull Star Pits ES
+   =>   Skull Torch Room -> Skull Torch Room WS
+   =>   Skull Star Pits
+Skull Woods - Prize @ Skull Woods
+        Sanctuary -> Sanctuary Mirror Route
+   =>   Hyrule Castle East Lobby -> Hyrule Castle East Lobby S
+   =>   Ganons Tower Portal -> Ganons Tower Exit
+   =>   West Death Mountain (Bottom) -> Spectacle Rock Cave (Bottom)
+   =>   Spectacle Rock Cave (Top) -> Spectacle Rock Cave Exit (Top)
+   =>   Kakariko Village -> Sick Kids House
+   =>   Hookshot Cave (Back) -> Hookshot Cave Back to Middle
+   =>   Hookshot Cave (Middle) -> Hookshot Cave Middle to Front
+   =>   Hookshot Cave (Front) -> Hookshot Cave Front Exit
+   =>   Village of Outcasts -> Village of Outcasts SE
+   =>   Frog Area -> Frog Ledge Drop
+   =>   Archery Game Area -> Archery Game
+   =>   Skull 2 West Portal -> Enter Skull Woods 2 (West)
+   =>   Skull Spike Corner -> Skull Spike Corner ES
+   =>   Skull Final Drop -> Skull Final Drop Hole
+   =>   Skull Boss
+Spectacle Rock Cave (Bottom) Enemy #4
+        Sanctuary -> Sanctuary Mirror Route
+   =>   Hyrule Castle East Lobby -> Hyrule Castle East Lobby S
+   =>   Ganons Tower Portal -> Ganons Tower Exit
+   =>   West Death Mountain (Bottom) -> Spectacle Rock Cave (Bottom)
+   =>   Spectacle Rock Cave (Top) -> Spectacle Rock Cave Drop
+   =>   Spectacle Rock Cave Pool -> Spectacle Rock Cave West Edge
+   =>   Spectacle Rock Cave (Bottom)
+Spike Cave
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Light Hype Fairy
+   =>   Old Man House -> Old Man House Exit (Bottom)
+   =>   Tree Line Area -> Tree Line NW
+   =>   Eastern Palace Area -> Eastern Palace
+   =>   Spike Cave
+Superbunny Cave (Bottom) Pot #1
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House NE
+   =>   Hyrule Castle Area -> Hyrule Castle WN
+   =>   Forgotten Forest Area -> Forgotten Forest NW
+   =>   Kakariko Pond Area -> Kakariko Pond NE
+   =>   Mountain Pass Area -> Mountain Pass NW
+   =>   Lumberjack Area -> Lumberjack House
+   =>   Superbunny Cave (Bottom)
+Suspicious Maiden @ Desert Palace
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Statues WN
+   =>   C Whirlpool Area -> C Whirlpool SC
+   =>   Dam Area -> Dam WC
+   =>   Desert Pass Area -> 50 Rupee Cave
+   =>   Desert West Portal -> Enter Desert (West)
+   =>   PoD Arena Main -> PoD Arena Main to Landing Bypass
+   =>   PoD Arena Landing -> PoD Arena Landing to North Barrier - Orange
+   =>   PoD Arena North -> PoD Arena Main NE
+   =>   Hyrule Dungeon Armory Main -> Hyrule Dungeon Armory Interior Key Door N
+   =>   Hyrule Dungeon Armory North Branch -> Hyrule Dungeon Armory Down Stairs
+   =>   Thieves Attic -> Thieves Attic ES
+   =>   Thieves Cricket Hall Left -> Thieves Cricket Hall Left Edge
+   =>   TR Pipe Ledge -> TR Pipe Ledge Drop Down
+   =>   TR Pipe Pit -> TR Pipe Pit Up Stairs
+   =>   Thieves Basement Block -> Thieves Basement Block WN
+   =>   Ice Spike Cross -> Ice Spike Cross SE
+   =>   Ice Lonely Freezor -> Ice Lonely Freezor Down Stairs
+   =>   Hyrule Dungeon Staircase -> Hyrule Dungeon Staircase Down Stairs
+   =>   Ice Backwards Room -> Ice Backwards Room SE
+   =>   Ice Crystal Right -> Ice Crystal Right Blue Hole
+   =>   Ice Switch Room -> Ice Switch Room ES
+   =>   Thieves Lonely Zazak -> Thieves Lonely Zazak ES
+   =>   Thieves Blind's Cell -> Thieves Blind's Cell Door
+   =>   Thieves Blind's Cell Interior
+Swamp Barrier Ledge Pot #2 @ Turtle Rock
+        Sanctuary -> Sanctuary Mirror Route
+   =>   Hyrule Castle East Lobby -> Hyrule Castle East Lobby S
+   =>   Ganons Tower Portal -> Ganons Tower Exit
+   =>   West Death Mountain (Bottom) -> Spectacle Rock Cave (Bottom)
+   =>   Spectacle Rock Cave (Top) -> Spectacle Rock Cave Exit (Top)
+   =>   Kakariko Village -> Sick Kids House
+   =>   Hookshot Cave (Back) -> Hookshot Cave Back Exit
+   =>   Dark Death Mountain Isolated Ledge -> Mirror From Dark Death Mountain Isolated Ledge
+   =>   Fairy Ascension Ledge -> Fairy Ascension Cave (Top)
+   =>   Turtle Rock Lazy Eyes Portal -> Enter Turtle Rock (Lazy Eyes)
+   =>   Mire Hub -> Mire Hub ES
+   =>   Mire Spikes -> Mire Spikes NW
+   =>   Mire Ledgehop -> Mire Ledgehop WN
+   =>   TR Hub -> TR Hub NW
+   =>   Thieves Ambush -> Thieves Ambush E
+   =>   Eastern Dark Square -> Eastern Dark Square NW
+   =>   TR Dash Room -> TR Dash Room NW
+   =>   TR Crystaroller Bottom -> TR Crystaroller Bottom to Middle Barrier - Orange
+   =>   TR Crystaroller Middle -> TR Crystaroller Middle to Top Barrier - Orange
+   =>   TR Crystaroller Top -> TR Crystaroller Down Stairs
+   =>   Swamp Attic -> Swamp Attic Right Pit
+   =>   Swamp Barrier Ledge
+Swamp Entrance Enemy #5 @ Hyrule Castle
+        Sanctuary -> Sanctuary Mirror Route
+   =>   Hyrule Castle East Lobby -> Hyrule Castle East Lobby S
+   =>   Ganons Tower Portal -> Ganons Tower Exit
+   =>   West Death Mountain (Bottom) -> Spectacle Rock Cave (Bottom)
+   =>   Spectacle Rock Cave (Top) -> Spectacle Rock Cave Exit (Top)
+   =>   Kakariko Village -> Sick Kids House
+   =>   Hookshot Cave (Back) -> Hookshot Cave Back to Middle
+   =>   Hookshot Cave (Middle) -> Hookshot Cave Middle to Front
+   =>   Hookshot Cave (Front) -> Hookshot Cave Front Exit
+   =>   Village of Outcasts -> Village of Outcasts SE
+   =>   Frog Area -> Frog Ledge Drop
+   =>   Archery Game Area -> Frog WC
+   =>   Dig Game Ledge -> Mirror From Dig Game Ledge
+   =>   Maze Race Ledge -> Two Brothers House (West)
+   =>   Hyrule Castle South Portal -> Enter HC (South)
+   =>   Sewers Water -> Sewers Water W
+   =>   Desert Sandworm Corner -> Desert Sandworm Corner S Edge
+   =>   TR Dodgers -> TR Dodgers WN
+   =>   TR Twin Pokeys -> TR Twin Pokeys NW
+   =>   Swamp Lobby -> Swamp Lobby Moat
+   =>   Swamp Entrance
+Swamp Hub Side Ledges Pot #3 @ Tower of Hera
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Statues WN
+   =>   C Whirlpool Area -> C Whirlpool SC
+   =>   Dam Area -> Dam
+   =>   Thieves Town Portal -> Thieves Town Exit
+   =>   Mire Area -> Misery Mire
+   =>   Hera Portal -> Enter Hera
+   =>   Swamp Hub -> Swamp Hub Side Hook Path
+   =>   Swamp Hub Side Ledges
+Swamp Pot Row Enemy #2 @ Turtle Rock
+        Sanctuary -> Sanctuary Mirror Route
+   =>   Hyrule Castle East Lobby -> Hyrule Castle East Lobby S
+   =>   Ganons Tower Portal -> Ganons Tower Exit
+   =>   West Death Mountain (Bottom) -> Spectacle Rock Cave (Bottom)
+   =>   Spectacle Rock Cave (Top) -> Spectacle Rock Cave Exit (Top)
+   =>   Kakariko Village -> Sick Kids House
+   =>   Hookshot Cave (Back) -> Hookshot Cave Back Exit
+   =>   Dark Death Mountain Isolated Ledge -> Mirror From Dark Death Mountain Isolated Ledge
+   =>   Fairy Ascension Ledge -> Fairy Ascension Cave (Top)
+   =>   Turtle Rock Lazy Eyes Portal -> Enter Turtle Rock (Lazy Eyes)
+   =>   Mire Hub -> Mire Hub ES
+   =>   Mire Spikes -> Mire Spikes NW
+   =>   Mire Ledgehop -> Mire Ledgehop WN
+   =>   TR Hub -> TR Hub EN
+   =>   Swamp Pot Row -> Swamp Pot Row Up Stairs
+   =>   Thieves Spike Switch -> Thieves Spike Switch Up Stairs
+   =>   Swamp Pot Row
+Swamp Waterfall Room Enemy #12 @ Thieves Town
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Statues WN
+   =>   C Whirlpool Area -> C Whirlpool SC
+   =>   Dam Area -> Dam
+   =>   Thieves Town Portal -> Enter Thieves Town
+   =>   Swamp Waterfall Room -> Swamp Waterfall Room NE
+   =>   Swamp Behind Waterfall -> Swamp Behind Waterfall Up Stairs
+   =>   GT Cannonball Bridge -> GT Cannonball Bridge WN
+   =>   Sewers Dark Aquabats -> Sewers Dark Aquabats ES
+   =>   GT Cannonball Bridge -> GT Cannonball Bridge Up Stairs
+   =>   Swamp Behind Waterfall -> Swamp Behind Waterfall SE
+   =>   Swamp Waterfall Room
+TR Hub Ledges Pot #2 @ Turtle Rock
+        Sanctuary -> Sanctuary Mirror Route
+   =>   Hyrule Castle East Lobby -> Hyrule Castle East Lobby S
+   =>   Ganons Tower Portal -> Ganons Tower Exit
+   =>   West Death Mountain (Bottom) -> Spectacle Rock Cave (Bottom)
+   =>   Spectacle Rock Cave (Top) -> Spectacle Rock Cave Exit (Top)
+   =>   Kakariko Village -> Sick Kids House
+   =>   Hookshot Cave (Back) -> Hookshot Cave Back Exit
+   =>   Dark Death Mountain Isolated Ledge -> Mirror From Dark Death Mountain Isolated Ledge
+   =>   Fairy Ascension Ledge -> Fairy Ascension Cave (Top)
+   =>   Turtle Rock Lazy Eyes Portal -> Enter Turtle Rock (Lazy Eyes)
+   =>   Mire Hub -> Mire Hub ES
+   =>   Mire Spikes -> Mire Spikes NW
+   =>   Mire Ledgehop -> Mire Ledgehop WN
+   =>   TR Hub -> TR Hub Path
+   =>   TR Hub Ledges
+TR Lazy Eyes Pot #3 @ Turtle Rock
+        Sanctuary -> Sanctuary Mirror Route
+   =>   Hyrule Castle East Lobby -> Hyrule Castle East Lobby S
+   =>   Ganons Tower Portal -> Ganons Tower Exit
+   =>   West Death Mountain (Bottom) -> Spectacle Rock Cave (Bottom)
+   =>   Spectacle Rock Cave (Top) -> Spectacle Rock Cave Exit (Top)
+   =>   Kakariko Village -> Sick Kids House
+   =>   Hookshot Cave (Back) -> Hookshot Cave Back Exit
+   =>   Dark Death Mountain Isolated Ledge -> Mirror From Dark Death Mountain Isolated Ledge
+   =>   Fairy Ascension Ledge -> Fairy Ascension Cave (Top)
+   =>   Turtle Rock Lazy Eyes Portal -> Enter Turtle Rock (Lazy Eyes)
+   =>   Mire Hub -> Mire Hub ES
+   =>   Mire Spikes -> Mire Spikes NW
+   =>   Mire Ledgehop -> Mire Ledgehop SW
+   =>   Mire Spikes -> Mire Spikes WS
+   =>   Mire Hub -> Mire Hub WN
+   =>   TR Lazy Eyes
+TR Twin Pokeys Pot #2 @ Hyrule Castle
+        Sanctuary -> Sanctuary Mirror Route
+   =>   Hyrule Castle East Lobby -> Hyrule Castle East Lobby S
+   =>   Ganons Tower Portal -> Ganons Tower Exit
+   =>   West Death Mountain (Bottom) -> Spectacle Rock Cave (Bottom)
+   =>   Spectacle Rock Cave (Top) -> Spectacle Rock Cave Exit (Top)
+   =>   Kakariko Village -> Sick Kids House
+   =>   Hookshot Cave (Back) -> Hookshot Cave Back to Middle
+   =>   Hookshot Cave (Middle) -> Hookshot Cave Middle to Front
+   =>   Hookshot Cave (Front) -> Hookshot Cave Front Exit
+   =>   Village of Outcasts -> Village of Outcasts SE
+   =>   Frog Area -> Frog Ledge Drop
+   =>   Archery Game Area -> Frog WC
+   =>   Dig Game Ledge -> Mirror From Dig Game Ledge
+   =>   Maze Race Ledge -> Two Brothers House (West)
+   =>   Hyrule Castle South Portal -> Enter HC (South)
+   =>   Sewers Water -> Sewers Water W
+   =>   Desert Sandworm Corner -> Desert Sandworm Corner S Edge
+   =>   TR Dodgers -> TR Dodgers WN
+   =>   TR Twin Pokeys
+Thieves Compass Room Enemy #7 @ Swamp Palace
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House NE
+   =>   Hyrule Castle Area -> Hyrule Castle WN
+   =>   Forgotten Forest Area -> Forgotten Forest NW
+   =>   Kakariko Pond Area -> Kakariko Pond NE
+   =>   Mountain Pass Area -> Mountain Pass NW
+   =>   Lumberjack Area -> Lumberjack Tree Cave
+   =>   Paradox Cave -> Paradox Cave Exit (Middle)
+   =>   Spiral Cave Ledge -> Spiral Cave
+   =>   Swamp Portal -> Enter Swamp
+   =>   Sewers Behind Tapestry -> Sewers Behind Tapestry Down Stairs
+   =>   Sewers Yet More Rats -> Sewers Yet More Rats S
+   =>   Sewers Pull Switch -> Sewers Pull Switch S
+   =>   Mire Conveyor Barrier -> Mire Conveyor Barrier Up Stairs
+   =>   Mire Torches Top -> Mire Torches Top SW
+   =>   Mire Torches Bottom -> Mire Torches Bottom Holes
+   =>   Mire Warping Pool -> Mire Warping Pool Warp
+   =>   Mire Square Rail -> Mire Square Rail WS
+   =>   Mire Spike Barrier -> Mire Spike Barrier SE
+   =>   Mire BK Door Room -> Mire BK Door Room EN
+   =>   Thieves Compass Room -> Thieves Compass Room NW Edge
+   =>   GT Crystal Circles -> GT Crystal Circles Barrier - Orange
+   =>   GT Crystal Inner Circle -> GT Crystal Inner Circle Barrier - Orange
+   =>   GT Crystal Circles -> GT Crystal Circles SW
+   =>   Thieves Compass Room
+Thieves Triple Bypass Enemy #1 @ Ganons Tower
+        Sanctuary -> Sanctuary Mirror Route
+   =>   Hyrule Castle East Lobby -> Hyrule Castle East Lobby W
+   =>   Mire Tall Dark and Roomy -> Mire Tall Dark and Roomy to Ranged Crystal
+   =>   Mire Tall Dark and Roomy - Ranged Crystal -> Mire Tall Dark and Roomy Ranged Crystal Exit
+   =>   Mire Tall Dark and Roomy -> Mire Tall Dark and Roomy WS
+   =>   Mire Crystal Right -> Mire Crystal Right Orange Barrier
+   =>   Mire Crystal Mid -> Mire Crystal Mid NW
+   =>   Mire Crystal Top -> Mire Crystal Top SW
+   =>   Mire Crystal Mid -> Mire Crystal Mid Blue Barrier
+   =>   Mire Crystal Left -> Mire Crystal Left WS
+   =>   Thieves Spike Track -> Thieves Spike Track NE
+   =>   Thieves Triple Bypass -> Thieves Triple Bypass EN
+   =>   GT Falling Bridge -> GT Falling Bridge WN
+   =>   GT Hidden Spikes -> GT Hidden Spikes EN
+   =>   GT Falling Bridge -> GT Falling Bridge WS
+   =>   Thieves Triple Bypass
+Thieves' Town - Prize @ Thieves Town
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Statues WN
+   =>   C Whirlpool Area -> C Whirlpool SC
+   =>   Dam Area -> Dam
+   =>   Thieves Town Portal -> Enter Thieves Town
+   =>   Swamp Waterfall Room -> Swamp Waterfall Room NE
+   =>   Swamp Behind Waterfall -> Swamp Behind Waterfall Up Stairs
+   =>   GT Cannonball Bridge -> GT Cannonball Bridge WN
+   =>   Sewers Dark Aquabats -> Sewers Dark Aquabats N
+   =>   Sewers Key Rat -> Sewers Key Rat NE
+   =>   Desert Main Lobby -> Desert Main Lobby Left Path
+   =>   Desert Left Alcove -> Desert Main Lobby NW Edge
+   =>   Thieves Boss
+Tower Circle of Pots Pot #10 @ Palace of Darkness
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Light Hype Fairy
+   =>   Old Man House -> Old Man House Exit (Bottom)
+   =>   Tree Line Area -> Lake Hylia Fairy
+   =>   Fairy Ascension Cave (Top) -> Fairy Ascension Cave Exit (Top)
+   =>   Pyramid Exit Ledge -> Pyramid Exit Ledge Drop
+   =>   Pyramid Area -> Pyramid ES
+   =>   Dark Dunes Area -> Dark Dunes SC
+   =>   Hammer Bridge North Area -> Hammer Bridge EN
+   =>   Dark Tree Line Area -> Dark Lake Hylia Fairy
+   =>   Agahnims Tower Portal -> Agahnims Tower Exit
+   =>   Desert Ledge Keep -> Desert Ledge Rocks (Inner)
+   =>   Desert Ledge -> Desert Palace Entrance (West)
+   =>   Palace of Darkness Portal -> Enter Palace of Darkness
+   =>   Skull Star Pits -> Skull Star Pits ES
+   =>   Skull Torch Room -> Skull Torch Room WN
+   =>   Skull Vines -> Skull Vines NW
+   =>   Mire Lobby -> Mire Lobby Gap
+   =>   Mire Post-Gap -> Mire Post-Gap Down Stairs
+   =>   Tower Lone Statue -> Tower Lone Statue WN
+   =>   Tower Dark Maze -> Tower Dark Maze ES
+   =>   Tower Dark Chargers -> Tower Dark Chargers Up Stairs
+   =>   Swamp Push Statue -> Swamp Push Statue NW
+   =>   Swamp Shooters -> Swamp Shooters EN
+   =>   Swamp Left Elbow -> Swamp Left Elbow Down Stairs
+   =>   Tower Red Spears -> Tower Red Spears WN
+   =>   Tower Red Guards -> Tower Red Guards SW
+   =>   Tower Circle of Pots
+Tower Circle of Pots Pot #2 @ Palace of Darkness
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Light Hype Fairy
+   =>   Old Man House -> Old Man House Exit (Bottom)
+   =>   Tree Line Area -> Lake Hylia Fairy
+   =>   Fairy Ascension Cave (Top) -> Fairy Ascension Cave Exit (Top)
+   =>   Pyramid Exit Ledge -> Pyramid Exit Ledge Drop
+   =>   Pyramid Area -> Pyramid ES
+   =>   Dark Dunes Area -> Dark Dunes SC
+   =>   Hammer Bridge North Area -> Hammer Bridge EN
+   =>   Dark Tree Line Area -> Dark Lake Hylia Fairy
+   =>   Agahnims Tower Portal -> Agahnims Tower Exit
+   =>   Desert Ledge Keep -> Desert Ledge Rocks (Inner)
+   =>   Desert Ledge -> Desert Palace Entrance (West)
+   =>   Palace of Darkness Portal -> Enter Palace of Darkness
+   =>   Skull Star Pits -> Skull Star Pits ES
+   =>   Skull Torch Room -> Skull Torch Room WN
+   =>   Skull Vines -> Skull Vines NW
+   =>   Mire Lobby -> Mire Lobby Gap
+   =>   Mire Post-Gap -> Mire Post-Gap Down Stairs
+   =>   Tower Lone Statue -> Tower Lone Statue WN
+   =>   Tower Dark Maze -> Tower Dark Maze ES
+   =>   Tower Dark Chargers -> Tower Dark Chargers Up Stairs
+   =>   Swamp Push Statue -> Swamp Push Statue NW
+   =>   Swamp Shooters -> Swamp Shooters EN
+   =>   Swamp Left Elbow -> Swamp Left Elbow Down Stairs
+   =>   Tower Red Spears -> Tower Red Spears WN
+   =>   Tower Red Guards -> Tower Red Guards SW
+   =>   Tower Circle of Pots
+Tower Dark Maze Pot #1 @ Palace of Darkness
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Light Hype Fairy
+   =>   Old Man House -> Old Man House Exit (Bottom)
+   =>   Tree Line Area -> Lake Hylia Fairy
+   =>   Fairy Ascension Cave (Top) -> Fairy Ascension Cave Exit (Top)
+   =>   Pyramid Exit Ledge -> Pyramid Exit Ledge Drop
+   =>   Pyramid Area -> Pyramid ES
+   =>   Dark Dunes Area -> Dark Dunes SC
+   =>   Hammer Bridge North Area -> Hammer Bridge EN
+   =>   Dark Tree Line Area -> Dark Lake Hylia Fairy
+   =>   Agahnims Tower Portal -> Agahnims Tower Exit
+   =>   Desert Ledge Keep -> Desert Ledge Rocks (Inner)
+   =>   Desert Ledge -> Desert Palace Entrance (West)
+   =>   Palace of Darkness Portal -> Enter Palace of Darkness
+   =>   Skull Star Pits -> Skull Star Pits ES
+   =>   Skull Torch Room -> Skull Torch Room WN
+   =>   Skull Vines -> Skull Vines NW
+   =>   Mire Lobby -> Mire Lobby Gap
+   =>   Mire Post-Gap -> Mire Post-Gap Down Stairs
+   =>   Tower Lone Statue -> Tower Lone Statue WN
+   =>   Tower Dark Maze -> Tower Dark Maze ES
+   =>   Tower Dark Chargers -> Tower Dark Chargers Up Stairs
+   =>   Swamp Push Statue -> Swamp Push Statue S
+   =>   GT Double Switch Entry -> GT Double Switch Entry to Left Barrier - Orange
+   =>   GT Double Switch Left -> GT Double Switch Left to Crystal
+   =>   GT Double Switch Left - Crystal -> GT Double Switch Left Crystal Exit
+   =>   GT Double Switch Left -> GT Double Switch Left to Entry Bypass
+   =>   GT Double Switch Entry -> GT Double Switch NW
+   =>   Swamp Push Statue -> Swamp Push Statue Down Stairs
+   =>   Tower Dark Chargers -> Tower Dark Chargers WS
+   =>   Tower Dark Maze
+Tower of Hera - Prize @ Tower of Hera
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Statues WN
+   =>   C Whirlpool Area -> C Whirlpool SC
+   =>   Dam Area -> Dam
+   =>   Thieves Town Portal -> Thieves Town Exit
+   =>   Mire Area -> Misery Mire
+   =>   Hera Portal -> Enter Hera
+   =>   Swamp Hub -> Swamp Hub WS
+   =>   Eastern Single Eyegore -> Eastern Single Eyegore NE
+   =>   Eastern Duo Eyegores -> Eastern Duo Eyegores NE
+   =>   PoD Lobby -> PoD Lobby NW
+   =>   PoD Left Cage -> PoD Left Cage Down Stairs
+   =>   Hera 5F -> Hera 5F Up Stairs
+   =>   Hera Boss
+Trench 1 Switch @ Eastern Palace
+        Links House -> Links House Exit
+   =>   Links House Area -> Links House SC
+   =>   Statues Area -> Light Hype Fairy
+   =>   Old Man House -> Old Man House Exit (Bottom)
+   =>   Tree Line Area -> Lake Hylia Fairy
+   =>   Fairy Ascension Cave (Top) -> Fairy Ascension Cave Exit (Top)
+   =>   Pyramid Exit Ledge -> Pyramid Exit Ledge Drop
+   =>   Pyramid Area -> Pyramid ES
+   =>   Dark Dunes Area -> Dark Dunes SC
+   =>   Hammer Bridge North Area -> Hammer Bridge EN
+   =>   Dark Tree Line Area -> Dark Lake Hylia Fairy
+   =>   Agahnims Tower Portal -> Agahnims Tower Exit
+   =>   Desert Ledge Keep -> Desert Palace Entrance (North)
+   =>   Eastern Portal -> Enter Eastern Palace
+   =>   Skull Pot Prison -> Skull Pot Prison ES
+   =>   PoD Sexy Statue -> PoD Sexy Statue NW
+   =>   GT Hookshot South Entry -> GT Hookshot Entry Blue Barrier
+   =>   GT Hookshot South Platform -> GT Hookshot ES
+   =>   GT Map Room -> GT Map Room WS
+   =>   GT Hookshot South Platform -> GT Hookshot South-Mid Path
+   =>   GT Hookshot Mid Platform -> GT Hookshot Mid-East Path
+   =>   GT Hookshot East Platform -> GT Hookshot EN
+   =>   GT Conveyor Cross Across Pits -> GT Conveyor Cross Hookshot Path
+   =>   GT Conveyor Cross -> GT Conveyor Cross EN
+   =>   Swamp Hammer Switch
+Turtle Rock - Prize @ Turtle Rock
+        Sanctuary -> Sanctuary Mirror Route
+   =>   Hyrule Castle East Lobby -> Hyrule Castle East Lobby S
+   =>   Ganons Tower Portal -> Ganons Tower Exit
+   =>   West Death Mountain (Bottom) -> Spectacle Rock Cave (Bottom)
+   =>   Spectacle Rock Cave (Top) -> Spectacle Rock Cave Exit (Top)
+   =>   Kakariko Village -> Sick Kids House
+   =>   Hookshot Cave (Back) -> Hookshot Cave Back Exit
+   =>   Dark Death Mountain Isolated Ledge -> Mirror From Dark Death Mountain Isolated Ledge
+   =>   Fairy Ascension Ledge -> Fairy Ascension Cave (Top)
+   =>   Turtle Rock Lazy Eyes Portal -> Enter Turtle Rock (Lazy Eyes)
+   =>   Mire Hub -> Mire Hub ES
+   =>   Mire Spikes -> Mire Spikes NW
+   =>   Mire Ledgehop -> Mire Ledgehop SW
+   =>   Mire Spikes -> Mire Spikes WS
+   =>   Mire Hub -> Mire Hub Upper Blue Barrier
+   =>   Mire Hub Switch -> Mire Hub Switch Blue Barrier N
+   =>   Mire Hub Top -> Mire Hub Top NW
+   =>   TR Boss

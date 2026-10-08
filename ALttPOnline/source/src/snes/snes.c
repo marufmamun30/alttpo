@@ -274,6 +274,7 @@ void snes_writeBBus(Snes* snes, uint8_t adr, uint8_t val) {
   }
   if(adr < 0x80) {
     snes_catchupApu(snes); // catch up the apu before writing
+    if(snes->apuWriteHook) val = snes->apuWriteHook(adr & 0x3, val); // ALTTPO
     snes->apu->inPorts[adr & 0x3] = val;
     return;
   }

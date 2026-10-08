@@ -12,14 +12,15 @@
 #include <zlib.h>
 #include "app.h"
 #include "emu.h"
+#include "enemy.h"
 #include "snes/snes.h"
 #include "names.h"
 
-RoomSettings g_room = {1, 1, 1, 1, {0}};
+RoomSettings g_room = {1, 1, 1, 1, 1, {0}};
 
 // ------------------------------------------------------------------ messages
 enum {
-  M_STATE = 1, M_SRAM = 2,
+  M_STATE = 1, M_SRAM = 2, // 3 is M_ENEMY (enemy.h)
   M_HELLO = 16, M_TILES, M_PAL, M_BOMBS, M_KEYS, M_KEYREQ, M_KEYSNAP, M_PVP, M_ROMREQ, M_ROMDATA,
   M_TILEMAP, M_TILERESET, M_NOROM,
 };
@@ -58,6 +59,7 @@ typedef struct Remote {
   SprRec spr[MAX_SPR];
   uint16_t pal[8][16];
   bool palHave[8];
+  uint16_t sfxSeen;  // number of the last sound effect of theirs we played
   // save data mirror
   uint8_t sram[SRAM_SIZE];
   uint8_t sramHave[SRAM_SIZE / 16];
@@ -125,6 +127,21 @@ static int s_evPvpCount;
 static uint8_t s_code[200];
 static int s_codeLen;
 
+// sound effects: ours go out with the state packets, theirs wait for a free frame
+typedef struct SfxEv { uint16_t seq; uint8_t ch, val; uint32_t frame; } SfxEv;
+static SfxEv s_sfxOut[4];
+static uint16_t s_sfxSeq;
+static struct { uint8_t val, ttl, delay; } s_sfxIn[2][4];
+static struct { uint8_t id; uint32_t frame; } s_sfxOwn[2][4]; // what our own game played lately
+static int s_sfxOwnPos[2];
+
+// our own tunic: the game loads Link's colors from the ROM, so that is where they are changed
+#define MAIL_PALETTES 0x1BD308   // green, blue, red mail and the bunny: 15 colors each
+#define LOAD_MAIL_PALETTE 0x1BEDF9
+static uint8_t s_tunicOrig[4][8];
+static bool s_tunicKnown, s_tunicReload;
+static int s_tunicNow = -1;
+
 // sram chunk bookkeeping
 typedef struct Chunk { uint8_t space; uint16_t start, count; uint32_t lastHash; uint64_t lastSent; bool randoOnly, doorOnly; } Chunk;
 static Chunk s_chunks[] = {
@@ -155,7 +172,7 @@ static Note s_notes[6];
 // join / rom transfer
 static int s_joinState = JOIN_IDLE;
 static int s_joinProgress;
-static char s_joinError[96];
+static char s_joinError[160];
 static uint8_t *s_joinRom; static int s_joinRomLen; static char s_joinName[64];
 static uint32_t s_joinFrom, s_joinCrc;
 static uint64_t s_joinT;
@@ -1211,6 +1228,137 @@ static void tm_apply(void) {
   (void)changed;
 }
 
+// ------------------------------------------------------------------ sound effects of the other players
+static bool is_gameplay(void) {
+  return L.module == 0x07 || L.module == 0x09 || L.module == 0x0B;
+}
+
+// Interface sounds stay with the player who caused them.
+static bool sfx_shared(int ch, uint8_t id) {
+  if (ch == 0) return id != 0x29 && id != 0x2B && id != 0x2C && id != 0x2D; // rupee counter, low health, death menu, magic meter
+  switch (id) {
+    case 0x0C: case 0x0D: case 0x10: case 0x11: case 0x12: case 0x20: case 0x24: // text, heart meter, map, menu, cursor
+      return false;
+  }
+  return true;
+}
+
+// The game hands its two sound effect bytes to the sound CPU once per frame. Ours are noted for
+// the other players; when the game has nothing to play, a sound of another player goes out instead.
+static uint8_t on_apu_write(uint8_t port, uint8_t val) {
+  if (port < 2 || !s_running || !s_online || !L.inGame) return val;
+  static int log = -1; // test hook: ALTTPO_SFX_LOG=1 writes the shared sounds to the log
+  if (log < 0) log = getenv("ALTTPO_SFX_LOG") != NULL;
+  int ch = port - 2;
+  if (val & 0x3F) {
+    // A shared enemy makes its noises in every game that has it on screen: when ours plays a
+    // sound, the same sound waiting to be played for another player is the same event.
+    s_sfxOwnPos[ch] = (s_sfxOwnPos[ch] + 1) & 3;
+    s_sfxOwn[ch][s_sfxOwnPos[ch]].id = val & 0x3F;
+    s_sfxOwn[ch][s_sfxOwnPos[ch]].frame = L.frame;
+    for (int i = 0; i < 4; i++) if ((s_sfxIn[ch][i].val & 0x3F) == (val & 0x3F)) s_sfxIn[ch][i].ttl = 0;
+    if (is_gameplay() && sfx_shared(ch, val & 0x3F)) {
+      s_sfxSeq++;
+      SfxEv *e = &s_sfxOut[s_sfxSeq & 3];
+      e->seq = s_sfxSeq; e->ch = (uint8_t)ch; e->val = val; e->frame = L.frame;
+      if (log) app_log("sfx: ours, channel %d sound %02x", ch, val);
+    }
+    return val;
+  }
+  if (!is_gameplay()) return val;
+  for (int i = 0; i < 4; i++) {
+    if (!s_sfxIn[ch][i].ttl || s_sfxIn[ch][i].delay) continue;
+    val = s_sfxIn[ch][i].val;
+    s_sfxIn[ch][i].ttl = 0;
+    if (log) app_log("sfx: playing another player's, channel %d sound %02x", ch, val);
+    break;
+  }
+  return val;
+}
+
+// events: number (2 bytes), channel, sound, age in frames
+static void sfx_receive(Remote *r, const uint8_t *d, int count) {
+  int newest = 0;
+  for (int i = 0; i < count; i++, d += 5) {
+    int diff = (int16_t)(rd16(d) - r->sfxSeen);
+    int ch = d[2], age = d[4];
+    uint8_t val = d[3];
+    if (diff <= 0) continue;
+    if (diff > newest) newest = diff;
+    if (age > 20 || ch > 1 || !(val & 0x3F)) continue;
+    if (!g_cfg.playerSounds || !s_running || !L.inGame || !is_gameplay() || !can_see(r->location)) continue;
+    R = emu_ram();
+    // where it happened, roughly: at that player, shifted to the side they heard it on
+    int sx = r->x + 8 + ((val & 0x80) ? -56 : (val & 0x40) ? 56 : 0);
+    int dx = (int16_t)(sx - rd16(R + 0xE2)), dy = (int16_t)(r->y - rd16(R + 0xE8));
+    if (dx < -128 || dx > 384 || dy < -128 || dy > 352) continue;
+    val &= 0x3F;
+    bool own = false;
+    for (int k = 0; k < 4; k++) if (s_sfxOwn[ch][k].id == val && L.frame - s_sfxOwn[ch][k].frame < 10) own = true;
+    if (own) continue; // our game just played it itself
+    if (dx < 80) val |= 0x80;
+    else if (dx >= 160) val |= 0x40;
+    for (int k = 0; k < 4; k++) {
+      if (s_sfxIn[ch][k].ttl) continue;
+      s_sfxIn[ch][k].val = val;
+      s_sfxIn[ch][k].ttl = 15;
+      s_sfxIn[ch][k].delay = 3; // gives our own game the chance to play it first
+      break;
+    }
+  }
+  r->sfxSeen = (uint16_t)(r->sfxSeen + newest);
+}
+
+// ------------------------------------------------------------------ tunic colors
+static void tunic_shades(int color, uint16_t *light, uint16_t *dark) {
+  uint32_t c = g_playerColors[color % NUM_PLAYER_COLORS];
+  int cr = (c >> 19) & 31, cg = (c >> 11) & 31, cb = (c >> 3) & 31;
+  *light = (uint16_t)(cr | (cg << 5) | (cb << 10));
+  *dark = (uint16_t)((cr * 3 / 5) | ((cg * 3 / 5) << 5) | ((cb * 3 / 5) << 10));
+}
+
+// Puts our color into the ROM's copy of Link's palettes (tunic and cap are colors 9 to 12), or
+// the original colors back. The game uses them the next time it loads Link's palette.
+static void tunic_update(void) {
+  if (!s_tunicKnown) return;
+  int want = (s_online && g_cfg.tintTunic) ? g_cfg.color % NUM_PLAYER_COLORS : -1;
+  if (want == s_tunicNow) return;
+  s_tunicNow = want;
+  uint16_t light = 0, dark = 0;
+  if (want >= 0) tunic_shades(want, &light, &dark);
+  for (int m = 0; m < 4; m++) {
+    for (int j = 0; j < 4; j++) {
+      uint32_t a = MAIL_PALETTES + m * 30 + (8 + j) * 2;
+      uint16_t v = (j & 1) ? light : dark;
+      emu_rom_poke(a, want >= 0 ? (uint8_t)(v & 0xff) : s_tunicOrig[m][j * 2]);
+      emu_rom_poke(a + 1, want >= 0 ? (uint8_t)(v >> 8) : s_tunicOrig[m][j * 2 + 1]);
+    }
+  }
+  s_tunicReload = true;
+}
+
+// ------------------------------------------------------------------ enemies
+static void sync_enemies(void) {
+  static EnemyCtx c;
+  memset(&c, 0, sizeof(c));
+  c.ram = R;
+  c.frame = L.frame;
+  c.now = app_ms();
+  c.me = net_my_cid();
+  c.running = is_gameplay() && L.sub == 0x00 && R[0x0FC1] == 0; // no menu, text, transition or frozen sprites
+  c.rando = s_isDoor;
+  c.location = L.actual;
+  c.x = L.x; c.y = L.y;
+  for (int p = 0; p < MAX_PLAYERS; p++) {
+    const Remote *r = &s_rem[p];
+    if (!rem_playing(r) || !locations_equal(L.actual, r->location) || c.now - r->tState > 1500) continue;
+    EnemyPeer *ep = &c.peers[c.npeers++];
+    ep->cid = r->cid; ep->x = r->x; ep->y = r->y;
+    ep->direct = net_peer_direct(r->cid);
+  }
+  enemy_frame(&c);
+}
+
 // ------------------------------------------------------------------ sending
 static void send_hello(uint32_t cid) {
   uint8_t m[96];
@@ -1259,6 +1407,16 @@ static void send_state(void) {
     wr32(full + n, L.spr[i].key); n += 4;
     full[n++] = L.spr[i].flags;
   }
+  // our latest sound effects (repeated for a few frames, the receiver knows which it has played)
+  int sfxPos = n++, sfxCount = 0;
+  for (int i = 0; i < 4; i++) {
+    const SfxEv *e = &s_sfxOut[i];
+    if (!e->val || L.frame - e->frame > 40) continue;
+    wr16(full + n, e->seq); n += 2;
+    full[n++] = e->ch; full[n++] = e->val; full[n++] = (uint8_t)(L.frame - e->frame);
+    sfxCount++;
+  }
+  full[sfxPos] = (uint8_t)sfxCount;
   for (int p = 0; p < MAX_PLAYERS; p++) {
     Remote *r = &s_rem[p];
     if (!r->used || !r->hello) continue;
@@ -1359,6 +1517,16 @@ static void on_main(void) {
     L.keysInit = false;
     if (L.wasInGame) tm_reset();
   }
+  for (int ch = 0; ch < 2; ch++) {
+    for (int i = 0; i < 4; i++) {
+      if (s_sfxIn[ch][i].ttl) s_sfxIn[ch][i].ttl--;
+      if (s_sfxIn[ch][i].delay) s_sfxIn[ch][i].delay--;
+    }
+  }
+  if (s_tunicReload && L.inGame && is_gameplay() && L.sub == 0x00) {
+    s_tunicReload = false;
+    code_jsl(s_fast + LOAD_MAIL_PALETTE);
+  }
   if (s_online) {
     if (L.inGame) {
       capture_sprites();
@@ -1393,10 +1561,13 @@ static void on_main(void) {
         r->lastSeenLocation = r->location;
         if (here && !was && L.tmCount > 0 && L.tmStamp > 0) tm_send(r->cid);
       }
+      if (g_room.syncEnemies) sync_enemies();
+      else enemy_reset();
     } else {
       L.nspr = 0;
       L.hit.active = L.act.active = false;
       s_evPvpCount = 0;
+      enemy_reset();
     }
     send_state();
     send_sram();
@@ -1438,6 +1609,7 @@ static void recv_state(Remote *r, const uint8_t *d, int len) {
     r->spr[i].key = rd32(d + n); n += 4;
     r->spr[i].flags = d[n++];
   }
+  if (n < len && len >= n + 1 + d[n] * 5) sfx_receive(r, d + n + 1, d[n]);
   r->tState = app_ms();
   bool playing = (r->flags & 1) != 0;
   if (playing && !wasPlaying && r->hello && !r->wasInGame) {
@@ -1500,6 +1672,9 @@ void game_net_recv(uint32_t cid, const uint8_t *d, int len, bool reliable) {
     case M_STATE:
       recv_state(r, d, len);
       break;
+    case M_ENEMY:
+      if (s_running && g_room.syncEnemies) enemy_recv(cid, d, len);
+      break;
     case M_SRAM: {
       if (len < 6) break;
       int space = d[1], start = rd16(d + 2), count = rd16(d + 4);
@@ -1531,8 +1706,16 @@ void game_net_recv(uint32_t cid, const uint8_t *d, int len, bool reliable) {
       r->hello = true;
       r->tState = app_ms();
       if (proto != PROTO_VERSION) {
-        if (first) game_notify("%s runs a different version", r->name);
-        if (s_joinState == JOIN_WAIT_INFO) { s_joinState = JOIN_ERROR; snprintf(s_joinError, sizeof(s_joinError), "The room uses a different game version."); }
+        // (found through the matchmaking all the same, so that both sides are told)
+        if (first) {
+          app_log("%s uses protocol %d, this is %d (v" APP_VERSION ")", r->name, proto, PROTO_VERSION);
+          game_notify("%s has another version of the game (this is v" APP_VERSION ")", r->name);
+        }
+        if (s_joinState == JOIN_WAIT_INFO) {
+          s_joinState = JOIN_ERROR;
+          snprintf(s_joinError, sizeof(s_joinError), "This room is played with another version of the game. All players need the same version; "
+                   "this one is v" APP_VERSION " (shown at the bottom of the title screen).");
+        }
         break;
       }
       if (first && s_running) game_notify("%s joined the room", r->name);
@@ -1691,6 +1874,7 @@ void game_net_peer(uint32_t cid, bool joined) {
     if (!r) return;
     if (r->hello && s_running) game_notify("%s left the room", r->name);
     if (s_joinState == JOIN_DOWNLOADING && s_joinFrom == cid) { s_joinState = JOIN_WAIT_INFO; }
+    enemy_peer_left(cid);
     free(r->tmRuns);
     memset(r, 0, sizeof(*r));
   }
@@ -1789,6 +1973,18 @@ void game_start(bool online) {
   app_log("game: \"%s\" rando=%d door=%d fast=%d crc=%08x online=%d", title, s_isRando, s_isDoor, s_fast != 0, s_romCrc, online);
   s_running = emu_hooked();
   g_emuMainHook = on_main;
+  enemy_reset();
+  memset(s_sfxIn, 0, sizeof(s_sfxIn));
+  memset(s_sfxOut, 0, sizeof(s_sfxOut));
+  memset(s_sfxOwn, 0, sizeof(s_sfxOwn));
+  g_snes->apuWriteHook = online ? on_apu_write : NULL;
+  // our tunic color: the ROM was just loaded, so it holds the original palettes
+  s_tunicKnown = s_running;
+  for (int m = 0; m < 4; m++)
+    for (int j = 0; j < 8; j++) s_tunicOrig[m][j] = emu_rom8(MAIL_PALETTES + m * 30 + 16 + j);
+  s_tunicNow = -1;
+  tunic_update();
+  s_tunicReload = false;
   if (online) {
     for (int i = 0; i < MAX_PLAYERS; i++) {
       Remote *r = &s_rem[i];
@@ -1805,7 +2001,16 @@ void game_stop(void) {
   s_running = false;
   s_online = false;
   g_emuMainHook = NULL;
-  if (g_snes) g_snes->ppu->extraCount = 0;
+  enemy_reset();
+  if (g_snes) { g_snes->ppu->extraCount = 0; g_snes->apuWriteHook = NULL; }
+}
+
+// Name, color or the tunic option changed in the options menu.
+void game_profile_changed(void) {
+  if (!s_running) return;
+  tunic_update();
+  if (!s_online) return;
+  for (int i = 0; i < MAX_PLAYERS; i++) if (s_rem[i].used) send_hello(s_rem[i].cid);
 }
 
 // ------------------------------------------------------------------ drawing the other players
@@ -1829,10 +2034,8 @@ void game_pre_frame(void) {
       memcpy(s_extraPal[p][pal], r->pal[pal], 32);
     }
     if (g_cfg.tintTunic && r->palHave[7]) {
-      uint32_t c = g_playerColors[r->color % NUM_PLAYER_COLORS];
-      int cr = (c >> 19) & 31, cg = (c >> 11) & 31, cb = (c >> 3) & 31;
-      uint16_t light = cr | (cg << 5) | (cb << 10);
-      uint16_t dark = (cr * 3 / 5) | ((cg * 3 / 5) << 5) | ((cb * 3 / 5) << 10);
+      uint16_t light, dark;
+      tunic_shades(r->color, &light, &dark);
       s_extraPal[p][7][10] = light; s_extraPal[p][7][12] = light;
       s_extraPal[p][7][9] = dark; s_extraPal[p][7][11] = dark;
     }

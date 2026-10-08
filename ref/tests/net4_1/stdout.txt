@@ -2,5 +2,5 @@ Loaded LoROM rom (NTSC)
 "ZELDANODENSETSU      "
 32K banks: 32, ramsize: 8192
 Loaded LoROM rom (NTSC)
-"DR157_1_1_126024102.."
+"DR157_1_1_000012345.."
 32K banks: 64, ramsize: 32768

@@ -6,8 +6,8 @@
 #include <stdbool.h>
 #include <stddef.h>
 
-#define APP_VERSION "1.0"
-#define PROTO_VERSION 1
+#define APP_VERSION "1.1"
+#define PROTO_VERSION 2
 #define MAX_PLAYERS 8
 
 // ---------------------------------------------------------------- canvas / ui
@@ -60,7 +60,8 @@ typedef struct Config {
   bool fullscreen;
   bool smooth;
   bool showNames;
-  bool tintTunic;
+  bool tintTunic;    // players wear their chosen color (our own tunic included)
+  bool playerSounds; // play the sound effects of nearby players
   int keys[12];      // SDL scancodes: B Y Select Start Up Down Left Right A X L R
   int pad[12];       // SDL controller buttons
   char lastRoom[8];
@@ -138,7 +139,8 @@ typedef struct RoomSettings {
   uint8_t shareBombs;    // bomb pickups are given to everyone
   uint8_t shareKeys;     // small keys are shared
   uint8_t shareHearts;   // heart containers / pieces are shared
-  uint8_t reserved[4];
+  uint8_t syncEnemies;   // everybody fights the same enemies
+  uint8_t reserved[3];
 } RoomSettings;
 extern RoomSettings g_room;
 
@@ -161,6 +163,7 @@ void game_pre_frame(void);        // builds extra sprites for the frame about to
 void game_post_frame(void);
 void game_draw_overlay(void);     // labels + notifications, drawn on the canvas
 void game_notify(const char *fmt, ...);
+void game_profile_changed(void);  // name, color or tunic option changed
 int  game_players(PlayerView *out, int max);
 const char *game_location_name(uint32_t location);
 void game_net_recv(uint32_t cid, const uint8_t *data, int len, bool reliable);

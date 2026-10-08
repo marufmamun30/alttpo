@@ -1,0 +1,32 @@
+[       0] A Link to the Past Online 1.1
+[       0] base ROM: C:/Users/Maruf/Documents/Claude Code/ALTTP-Online/ALttPOnline/game-win64/alttp-jp.sfc
+[   11485] rando: "C:\Users\Maruf\Documents\Claude Code\ALTTP-Online\ALttPOnline\game-win64\randomizer\python\python.exe" -u DungeonRandomizer.py --settingsfile "C:/Users/Maruf/Documents/Claude Code/ALTTP-Online/ALttPOnline/game-win64/randomizer/work/settings.json" --rom "C:/Users/Maruf/Documents/Claude Code/ALTTP-Online/ALttPOnline/game-win64/randomizer/work/base.sfc" --outputpath "C:/Users/Maruf/Documents/Claude Code/ALTTP-Online/ALttPOnline/game-win64/randomizer/work/." --outputname seed --seed 490780163 --logic noglitches --algorithm balanced --swords random --progressive on --difficulty normal --item_functionality normal --accessibility items --keyshuffle none --restrict_boss_items none --dropshuffle none --pottery none --bow_mode progressive --flute_mode normal --take_any none --beemizer 0 --mode open --goal ganon --crystals_gt 7 --crystals_ganon 7 --openpyramid auto --timer none --spoiler full --shuffle vanilla --skullwoods original --linked_drops unset --overworld_map default --door_shuffle basic --intensity 2 --door_type_mode original --trap_door_mode optional --key_logic_algorithm partial --dungeon_counters on --mixed_travel prevent --standardize_palettes standardize --shufflebosses none --shuffleenemies none --enemy_health default --enemy_damage default --any_enemy_logic allow_all --fastmenu normal --heartbeep normal --heartcolor red --ow_palettes default --uw_palettes default
+[   11485] rando: Starting the randomizer...
+[   11501] rando: ALttP Door Randomizer Version 1.5.7-u : --seed 490780163 --code IAAAAoA8OAAAAAEACQA=
+[   11501] rando: Creating Meta Info
+[   11520] rando: Shuffling the World about
+[   11520] rando: Dungeon and Item prep
+[   11520] rando: Shuffling dungeons
+[   11523] rando: Generating dungeons
+[   11529] rando: Generating dungeons
+[   11537] rando: Lowering key door count because no valid layouts: Agahnims Tower
+[   11561] rando: Generating Item Pool
+[   11561] rando: Calculating Access Rules
+[   11562] rando: Placing Dungeon Prizes
+[   11563] rando: Placing Dungeon Items
+[   11576] rando: Fill the world
+[   11593] rando: Patching ROM
+[   11636] rando: Creating Spoiler
+[   11637] rando: Calculating Playthrough
+[   11649] rando: Creating Spoiler
+[   11649] rando: Done. Enjoy.
+[   11649] rando: Patched ROM:         Yes
+[   11649] rando: Printed Playthrough: Yes
+[   11649] rando: Printed Spoiler:     Yes
+[   11649] rando: Seed: 490780163
+[   11649] rando: Total Time: 2.4767674000468105
+[   11962] game: "DR157_1_1_490780163" rando=1 door=1 fast=1 crc=95721eac online=1
+[   11962] net: hosting room BVHGW (cid ace85afb, udp port 55980)
+[   23494] net: joining room 99ADQ (cid ace85afb, udp port 49565)
+[   25204] net: joining room 99ADQ (cid ace85afb, udp port 60011)
+[   27037] net: joining room 99ADQ (cid ace85afb, udp port 60644)

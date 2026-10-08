@@ -31,20 +31,29 @@ works" below.
 | Heart containers and pieces of heart (maximum health) | Arrows |
 | Pendants, crystals, bosses, story progress | Bombs you carry |
 | Opened chests, opened doors, overworld changes | |
+| The enemies around you, and what they drop | |
 
 * **Bombs:** when someone collects bombs, every player's bomb count goes up by
   the same amount. Placing a bomb only uses up your own.
 * **Small keys** are a team resource: a key found is a key for everyone, a key
   used is used for everyone (and the door it opened is open for everyone).
-* **Players in the same area see each other**, with their name and their tunic
-  in their color. Cut bushes, lifted pots and opened doors appear for everyone
-  in the room.
+* **Players in the same area see and hear each other**, with their name and
+  their tunic in their color (you see your own color on yourself too). Cut
+  bushes, lifted pots and opened doors appear for everyone in the room.
+* **Enemies are shared.** Players in the same room or area fight the same
+  enemies, in the same places: an enemy one player beats is beaten for
+  everyone, and what it drops goes to whoever picks it up first. An enemy goes
+  after the player nearest to it. Bosses are the exception: every player
+  fights their own copy.
 * **Players can fight:** sword, spin attack, hammer, arrows, rods, boomerang
   and hookshot hit other players. Mail reduces sword damage. The host can turn
   this off in the room rules.
 
-The host chooses the room rules (fighting, shared bombs, shared keys, shared
-heart containers) when opening the room.
+The host chooses the room rules (shared enemies, fighting, shared bombs, shared
+keys, shared heart containers) when opening the room.
+
+In **OPTIONS** you can turn off the other players' sound effects and the
+colored tunics (then everybody, you included, wears the game's own colors).
 
 ## The randomizer
 
@@ -92,7 +101,8 @@ preset: the normal game with English text.
 | Fullscreen / screenshot | F11 or Alt+Enter / F12 | |
 
 Everything can be rebound in **OPTIONS > CONTROLS**. Menus also work with the
-mouse.
+mouse. A button you press to open, use or close the menu is not passed on to
+the game: it counts again once you have let go of it.
 
 ## Saving
 
@@ -123,15 +133,23 @@ asks about the program the first time, allow it; direct links work best then.
   firewall blocks outbound TCP port 1883.
 * **"Room ... was not found"**: check the code; the room exists only while
   someone is in it.
+* **"another version of the game"**: all players in a room need the same
+  version of `ALttP Online.exe`. The version is shown at the bottom of the
+  title screen. When you update, send the new exe to everyone you play with.
 * **Another player is shown as "different game!"**: they loaded another seed.
   Everyone in a room must play the room's seed (joining through the code does
   this automatically).
 * **A door someone else opened still looks closed**: walk out of the room and
   back in. Changes are shown live for players who were in the room when they
   happened.
+* **Enemies behave strangely with other players around**: the host can turn
+  "Shared Enemies" off in the room rules; every player then has their own
+  enemies again.
 * **Sound crackles / game is slow**: the emulation needs roughly one third of
   a CPU core. Close other heavy programs.
-* `alttpo.log` next to the program records what happened in the last session.
+* `alttpo.log` next to the program records what happened in the last session
+  (`alttpo-previous.log` the one before): which matchmaking servers answered,
+  who was found, and whether a player is reached directly or through the relay.
 
 ## Credits
 

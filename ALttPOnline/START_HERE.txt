@@ -11,6 +11,9 @@ PLAY TOGETHER (up to 8 players, nobody forwards a port or runs a server)
      (Zelda no Densetsu - Kamigami no Triforce, Japan v1.0). To give the game
      to a friend, zip the game-win64 folder WITHOUT alttp-jp.sfc; on first start
      they drag their own ROM onto the window.
+     Everyone needs the SAME VERSION of the program (it is shown at the bottom
+     of the title screen). After an update, send the new "ALttP Online.exe" to
+     everybody you play with; it simply replaces the old one.
   2. One player: PLAY ONLINE > HOST A ROOM, pick a game, OPEN THE ROOM.
      A 5 letter room code appears at the top of the screen (and in the ESC menu).
   3. The others: PLAY ONLINE > JOIN A ROOM, type the code. The game or seed the
@@ -24,9 +27,12 @@ WHAT IS SHARED
            story progress. A message shows who found what.
   Yours:   health, magic, rupees, arrows, bombs. When anyone picks up bombs,
            everybody's bomb count goes up; placing a bomb only uses your own.
-  Players in the same area see each other, with names. Cut bushes, opened
-  doors and lifted pots show up for everyone in the room. Swords, arrows, rods
-  and the hammer hurt other players (the host can turn that off).
+  Players in the same area see and hear each other, with names and tunics in
+  their own colors. They fight the same enemies: an enemy one player beats is
+  beaten for everyone, and what it drops goes to whoever picks it up first
+  (bosses are separate for every player). Cut bushes, opened doors and lifted
+  pots show up for everyone in the room. Swords, arrows, rods and the hammer
+  hurt other players. The host can turn shared enemies and fighting off.
 
 THE GAMES YOU CAN PLAY
   "original-english"  The original adventure with every item in its original
