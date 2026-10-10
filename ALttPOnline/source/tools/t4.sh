@@ -1,7 +1,7 @@
 #!/bin/bash
 # Four players on one PC, everyone on a brand new file. Usage: tools/t4.sh <frames> <seed>
-R="/c/Users/Maruf/Documents/Claude Code/ALTTP-Online/ref/tests"
-S="/c/Users/Maruf/Documents/Claude Code/ALTTP-Online/ALttPOnline/source/tools"
+S="$(cd "$(dirname "$0")" && pwd)"
+R="$(cd "$S/../../.." && pwd)/ref/tests"
 frames=${1:-3000}; game=${2:-original-english}
 CODE=F$(printf "%04d" $((RANDOM % 10000)))
 NEWFILE="500:8,510:0,700:8,710:0,800:100,810:0,830:100,840:0,860:100,870:0,900:8,910:0,1100:8,1110:0,1300:8,1310:0,1500:100,1510:0,1600:100,1610:0,1700:100,1710:0,1800:100,1810:0,1900:100,1910:0,2000:100,2010:0"

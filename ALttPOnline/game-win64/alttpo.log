@@ -1,2 +1,7 @@
-[       0] A Link to the Past Online 1.1
-[       0] base ROM: C:/Users/Maruf/Documents/Claude Code/ALTTP-Online/ALttPOnline/game-win64/alttp-jp.sfc
+[       0] A Link to the Past Online 1.2
+[       0] base ROM: C:/Users/Maruf/Documents/Claude-Code/ALTTP-Online/ALttPOnline/game-win64/alttp-jp.sfc
+[    5105] game: "ZELDANODENSETSU      " rando=0 door=0 fast=0 crc=3322effc online=1
+[    5105] net: hosting room 7M2AM (cid 4482414f, udp port 59300)
+[    5108] net: public address known, 4 addresses to offer
+[    5118] net: matchmaking server broker.hivemq.com ready
+[    5131] net: matchmaking server broker.emqx.io ready

@@ -1,8 +1,8 @@
 #!/bin/bash
 # Four players fight the guards west of Link's house (shared enemies under load).
 # Usage: tools/t4e.sh <frames> [extra VAR=value for all].  Same seed and save as t2.sh.
-R="/c/Users/Maruf/Documents/Claude Code/ALTTP-Online/ref/tests"
-S="/c/Users/Maruf/Documents/Claude Code/ALTTP-Online/ALttPOnline/source/tools"
+S="$(cd "$(dirname "$0")" && pwd)"
+R="$(cd "$S/../../.." && pwd)/ref/tests"
 frames=${1:-4600}; shift
 CODE=E$(printf "%04d" $((RANDOM % 10000)))
 names=(Alice Bob Carol Dave)

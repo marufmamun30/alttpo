@@ -2,8 +2,8 @@
 # Two player online test on one PC. Usage: tools/t2.sh <frames> [extra VAR=value for both]
 # Needs a seed called "basic1" in game-win64/seeds and a save with a started file in ref/tests/solo1/saves/basic1.srm.
 # A_INPUTS / B_INPUTS, A_POKE / B_POKE and PEEK replace the default script; SHOTS sets the screenshot interval.
-R="/c/Users/Maruf/Documents/Claude Code/ALTTP-Online/ref/tests"
-S="/c/Users/Maruf/Documents/Claude Code/ALTTP-Online/ALttPOnline/source/tools"
+S="$(cd "$(dirname "$0")" && pwd)"
+R="$(cd "$S/../../.." && pwd)/ref/tests"
 frames=${1:-3600}; shift
 CODE=T$(printf "%04d" $((RANDOM % 10000)))
 for p in a b; do rm -rf "$R/net_$p"; mkdir -p "$R/net_$p/saves"; cp "$R/solo1/saves/basic1.srm" "$R/net_$p/saves/"; done

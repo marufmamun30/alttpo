@@ -1,21 +1,26 @@
-[       0] A Link to the Past Online 1.1
-[       0] base ROM: C:/Users/Maruf/Documents/Claude Code/ALTTP-Online/ref/testbin/../../Zelda no Densetsu - Kamigami no Triforce (Japan).sfc
-[       0] net: joining room E8734 (cid 9ed4811b, udp port 60759)
-[       9] net: new peer beb9c379
-[       9] net: peer beb9c379 connected
-[       9] net: new peer 9ef76df3
-[       9] net: peer 9ef76df3 connected
-[       9] net: new peer 7db1babf
-[       9] net: peer 7db1babf connected
-[      10] net: direct link to beb9c379
-[      10] net: direct link to 9ef76df3
-[      10] net: direct link to 7db1babf
-[      10] game: "DR157_1_1_000012345" rando=1 door=1 fast=1 crc=35fa643d online=1
+[       0] A Link to the Past Online 1.2
+[       0] base ROM: C:/Users/Maruf/Documents/Claude-Code/ALTTP-Online/ref/testbin/../../Zelda no Densetsu - Kamigami no Triforce (Japan).sfc
+[       0] net: joining room E1221 (cid bdbad5f5, udp port 61316)
+[       5] net: public address known, 4 addresses to offer
+[      14] net: matchmaking server broker.hivemq.com ready
+[      22] net: new peer 8f1951a7
+[      22] net: peer 8f1951a7 connected (through the relay so far)
+[      23] net: direct link to 8f1951a7
+[      23] game: "DR157_1_1_000012345" rando=1 door=1 fast=1 crc=35fa643d online=1
+[      25] net: matchmaking server broker.emqx.io ready
+[      36] net: new peer 8e9b5a6f
+[      36] net: new peer dc7167d3
+[      36] net: peer 8e9b5a6f connected (through the relay so far)
+[      36] net: peer dc7167d3 connected (through the relay so far)
+[      37] net: direct link to 8e9b5a6f
+[      37] note: Bob joined the room
+[      37] net: direct link to dc7167d3
+[      37] note: Alice joined the room
 [      60] peek 00010=00 00011=00 0008a=00 0f36d=00 
 [     120] peek 00010=00 00011=01 0008a=00 0f36d=00 
 [     180] peek 00010=00 00011=01 0008a=00 0f36d=00 
 [     240] peek 00010=00 00011=01 0008a=00 0f36d=00 
-[     300] peek 00010=00 00011=03 0008a=00 0f36d=00 
+[     300] peek 00010=00 00011=01 0008a=00 0f36d=00 
 [     360] peek 00010=00 00011=03 0008a=00 0f36d=00 
 [     420] peek 00010=00 00011=04 0008a=00 0f36d=00 
 [     480] peek 00010=00 00011=04 0008a=00 0f36d=00 
@@ -25,7 +30,7 @@
 [     720] peek 00010=00 00011=04 0008a=00 0f36d=00 
 [     780] peek 00010=00 00011=04 0008a=00 0f36d=00 
 [     840] peek 00010=00 00011=05 0008a=00 0f36d=00 
-[     886] note: Alice entered Hyrule
+[     868] note: Alice entered Hyrule
 [     900] peek 00010=00 00011=05 0008a=00 0f36d=00 
 [     960] peek 00010=00 00011=07 0008a=00 0f36d=00 
 [    1020] peek 00010=00 00011=07 0008a=00 0f36d=00 
@@ -37,14 +42,16 @@
 [    1380] peek 00010=1b 00011=02 0008a=00 0f36d=18 
 [    1440] peek 00010=1b 00011=02 0008a=00 0f36d=18 
 [    1500] peek 00010=1b 00011=02 0008a=00 0f36d=18 
-[    1559] note: Bob entered Hyrule
 [    1560] peek 00010=1b 00011=02 0008a=00 0f36d=18 
+[    1561] note: Bob entered Hyrule
 [    1620] peek 00010=1b 00011=02 0008a=00 0f36d=18 
-[    1666] note: Carol entered Hyrule
+[    1659] note: Carol entered Hyrule
 [    1680] peek 00010=1b 00011=02 0008a=00 0f36d=18 
 [    1740] peek 00010=05 00011=00 0008a=00 0f36d=18 
-[    1760] note: Alice found the Master Sword
-[    1760] note: Alice found a Heart Container
+[    1752] enemy: t=9279395 place 10104 waiting
+[    1754] note: Carol found the Master Sword
+[    1754] note: Carol found a Heart Container
+[    1792] enemy: t=9280061 place 10104 running
 [    1800] peek 00010=07 00011=00 0008a=00 0f36d=30 
 [    1860] peek 00010=07 00011=00 0008a=00 0f36d=60 
 [    1900] poke 0f36c=a0
@@ -53,69 +60,67 @@
 [    1920] peek 00010=07 00011=00 0008a=00 0f36d=a0 
 [    1980] peek 00010=07 00011=00 0008a=00 0f36d=a0 
 [    2040] peek 00010=07 00011=00 0008a=00 0f36d=a0 
+[    2073] enemy: t=9284736 place 10104 waiting
 [    2100] peek 00010=0f 00011=01 0008a=00 0f36d=a0 
+[    2145] enemy: t=9285934 place 0002c waiting
 [    2160] peek 00010=08 00011=02 0008a=2c 0f36d=a0 
+[    2218] enemy: t=9287149 place 0002c running
 [    2220] peek 00010=09 00011=00 0008a=2c 0f36d=a0 
-[    2252] enemy: t=2048008 slot 13 id 499  type 41 st  9 hp   6 at  2250, 2987 who 9ef76df3 claim 1
+[    2265] enemy: t=9287931 slot 13 id 499  type 41 st  9 hp   6 at  2229, 2988 who 8e9b5a6f claim 0
 [    2280] peek 00010=09 00011=00 0008a=2c 0f36d=a0 
 [    2340] peek 00010=09 00011=00 0008a=2c 0f36d=a0 
-[    2372] enemy: t=2050004 slot 13 id 499  type 41 st  9 hp   6 at  2165, 2966 who 9ef76df3 claim 1
+[    2385] enemy: t=9289928 slot 13 id 499  type 41 st  9 hp   6 at  2166, 2967 who 8e9b5a6f claim 0
+[    2388] enemy: slot 13 id 499 type 41: taking over (free), claim 1
 [    2400] peek 00010=09 00011=00 0008a=2c 0f36d=a0 
-[    2438] enemy: slot 13 id 499 type 41: taking over (free), claim 2
 [    2460] peek 00010=09 00011=00 0008a=2c 0f36d=9c 
-[    2492] enemy: t=2052001 slot 13 id 499  type 41 st  9 hp   6 at  2142, 2967 who 9ed4811b claim 2 (me)
+[    2505] enemy: t=9291924 slot 13 id 499  type 41 st  9 hp   6 at  2151, 2971 who bdbad5f5 claim 1 (me)
 [    2520] peek 00010=09 00011=00 0008a=2c 0f36d=9c 
+[    2526] enemy: t=9292274 place 0002b waiting
 [    2580] peek 00010=09 00011=06 0008a=2b 0f36d=9c 
-[    2617] enemy: slot 12 id 514: killed by another player
-[    2638] enemy: t=2054430 slot 11 id 554  type 42 st  9 hp   4 at  1900, 2930 who beb9c379 claim 0
+[    2602] enemy: t=9293538 place 0002b running
+[    2603] enemy: slot 12 id 514: killed by another player
 [    2640] peek 00010=09 00011=00 0008a=2b 0f36d=9c 
-[    2692] enemy: slot 11 id 554: left a da behind (says beb9c379)
+[    2651] enemy: t=9294354 slot 11 id 554  type 42 st  6 hp   0 at  1884, 2906 who dc7167d3 claim 0
+[    2674] enemy: slot 11 id 554: killed by another player
 [    2700] peek 00010=09 00011=00 0008a=2b 0f36d=94 
-[    2758] enemy: t=2056427 slot 11 id 554+ type da st  9 hp   0 at  1888, 2906 who 00000000 claim 0
-[    2760] peek 00010=09 00011=00 0008a=2b 0f36d=94 
-[    2820] peek 00010=09 00011=00 0008a=2b 0f36d=94 
-[    2878] enemy: t=2058424 slot 11 id 554+ type da st  9 hp   0 at  1888, 2906 who 00000000 claim 0
-[    2880] peek 00010=09 00011=00 0008a=2b 0f36d=94 
-[    2940] peek 00010=09 00011=00 0008a=2b 0f36d=94 
-[    2981] enemy: slot 13 id 570 type 42: brought in from 9ef76df3
-[    2998] enemy: t=2060421 slot 11 id 554+ type da st  9 hp   0 at  1888, 2906 who 00000000 claim 0
-[    2998] enemy: t=2060421 slot 13 id 570  type 42 st  9 hp   4 at  1759, 2974 who 9ef76df3 claim 2
-[    3000] peek 00010=09 00011=00 0008a=2b 0f36d=94 
-[    3060] peek 00010=09 00011=00 0008a=2b 0f36d=94 
-[    3071] enemy: slot 13 id 570: left a da behind (says 9ef76df3)
-[    3118] enemy: t=2062417 slot 11 id 554+ type da st  9 hp   0 at  1888, 2906 who 00000000 claim 0
-[    3118] enemy: t=2062417 slot 13 id 570+ type da st  9 hp   0 at  1756, 2979 who 00000000 claim 2
-[    3120] peek 00010=09 00011=00 0008a=2b 0f36d=94 
-[    3180] peek 00010=09 00011=00 0008a=2b 0f36d=94 
-[    3238] enemy: t=2064414 slot 13 id 570+ type da st  9 hp   0 at  1756, 2979 who 00000000 claim 2
-[    3240] peek 00010=09 00011=00 0008a=2b 0f36d=94 
-[    3300] peek 00010=09 00011=00 0008a=2b 0f36d=94 
-[    3358] enemy: t=2066411 slot 13 id 570+ type da st  9 hp   0 at  1756, 2979 who 00000000 claim 2
-[    3360] peek 00010=09 00011=00 0008a=2b 0f36d=94 
-[    3420] peek 00010=09 00011=00 0008a=2b 0f36d=94 
-[    3478] enemy: t=2068407 slot 13 id 570+ type da st  9 hp   0 at  1756, 2979 who 00000000 claim 2
-[    3480] peek 00010=09 00011=00 0008a=2b 0f36d=94 
-[    3540] peek 00010=09 00011=00 0008a=2b 0f36d=94 
-[    3600] peek 00010=09 00011=00 0008a=2b 0f36d=94 
-[    3660] peek 00010=09 00011=00 0008a=2b 0f36d=94 
-[    3720] peek 00010=09 00011=00 0008a=2b 0f36d=94 
-[    3780] peek 00010=09 00011=00 0008a=2b 0f36d=94 
-[    3840] peek 00010=09 00011=00 0008a=2b 0f36d=94 
-[    3900] peek 00010=09 00011=00 0008a=2b 0f36d=94 
-[    3960] peek 00010=09 00011=00 0008a=2b 0f36d=94 
-[    4020] peek 00010=09 00011=00 0008a=2b 0f36d=94 
-[    4080] peek 00010=09 00011=00 0008a=2b 0f36d=94 
-[    4140] peek 00010=09 00011=00 0008a=2b 0f36d=94 
-[    4200] peek 00010=09 00011=00 0008a=2b 0f36d=94 
-[    4260] peek 00010=09 00011=00 0008a=2b 0f36d=94 
-[    4320] peek 00010=09 00011=00 0008a=2b 0f36d=94 
-[    4333] net: peer beb9c379 dropped (left)
-[    4333] note: Alice left the room
-[    4380] peek 00010=09 00011=00 0008a=2b 0f36d=94 
-[    4408] net: peer 7db1babf dropped (left)
+[    2760] peek 00010=09 00011=00 0008a=2b 0f36d=8c 
+[    2820] peek 00010=09 00011=00 0008a=2b 0f36d=84 
+[    2880] peek 00010=09 00011=00 0008a=2b 0f36d=7c 
+[    2940] peek 00010=09 00011=00 0008a=2b 0f36d=74 
+[    2957] enemy: slot 13 id 570 type 42: brought in from 8f1951a7
+[    3000] peek 00010=09 00011=00 0008a=2b 0f36d=6c 
+[    3011] enemy: t=9300344 slot 13 id 570  type 42 st  6 hp   0 at  1731, 2991 who 8f1951a7 claim 1
+[    3027] enemy: slot 13 id 570: killed by another player
+[    3060] peek 00010=09 00011=00 0008a=2b 0f36d=64 
+[    3120] peek 00010=09 00011=00 0008a=2b 0f36d=64 
+[    3180] peek 00010=09 00011=00 0008a=2b 0f36d=5c 
+[    3240] peek 00010=09 00011=00 0008a=2b 0f36d=54 
+[    3300] peek 00010=09 00011=00 0008a=2b 0f36d=4c 
+[    3360] peek 00010=09 00011=00 0008a=2b 0f36d=44 
+[    3420] peek 00010=09 00011=00 0008a=2b 0f36d=3c 
+[    3480] peek 00010=09 00011=00 0008a=2b 0f36d=34 
+[    3540] peek 00010=09 00011=00 0008a=2b 0f36d=2c 
+[    3600] peek 00010=09 00011=00 0008a=2b 0f36d=24 
+[    3660] peek 00010=09 00011=00 0008a=2b 0f36d=1c 
+[    3720] peek 00010=09 00011=00 0008a=2b 0f36d=14 
+[    3780] peek 00010=09 00011=00 0008a=2b 0f36d=14 
+[    3840] peek 00010=09 00011=00 0008a=2b 0f36d=0c 
+[    3900] peek 00010=09 00011=00 0008a=2b 0f36d=04 
+[    3917] enemy: t=9315419 place 0002b waiting
+[    3960] peek 00010=12 00011=03 0008a=2b 0f36d=00 
+[    4020] peek 00010=12 00011=04 0008a=2b 0f36d=00 
+[    4080] peek 00010=12 00011=05 0008a=2b 0f36d=00 
+[    4140] peek 00010=12 00011=05 0008a=2b 0f36d=00 
+[    4200] peek 00010=12 00011=05 0008a=2b 0f36d=00 
+[    4260] peek 00010=12 00011=07 0008a=2b 0f36d=00 
+[    4315] net: peer dc7167d3 dropped (left)
+[    4315] note: Alice left the room
+[    4320] peek 00010=12 00011=07 0008a=2b 0f36d=00 
+[    4380] peek 00010=1b 00011=02 0008a=2b 0f36d=50 
+[    4408] net: peer 8e9b5a6f dropped (left)
 [    4408] note: Bob left the room
-[    4440] peek 00010=09 00011=00 0008a=2b 0f36d=94 
-[    4500] peek 00010=09 00011=00 0008a=2b 0f36d=94 
-[    4504] net: peer 9ef76df3 dropped (left)
+[    4440] peek 00010=1b 00011=02 0008a=2b 0f36d=50 
+[    4500] peek 00010=1b 00011=02 0008a=2b 0f36d=50 
+[    4504] net: peer 8f1951a7 dropped (left)
 [    4504] note: Carol left the room
-[    4560] peek 00010=09 00011=00 0008a=2b 0f36d=94 
+[    4560] peek 00010=1b 00011=02 0008a=2b 0f36d=50 

@@ -2,7 +2,7 @@
 # Version interop test: an older build hosts, the current build joins (and the other way round).
 # Usage: tools/tver.sh "<path to the old ALttP Online.exe>" [frames]
 # The old exe runs from its own folder but keeps its log, config and saves in ref/tests/ver_old.
-A="/c/Users/Maruf/Documents/Claude Code/ALTTP-Online"
+A="$(cd "$(dirname "$0")/../../.." && pwd)"   # the folder that holds ALttPOnline and ref
 S="$A/ALttPOnline/source/tools"
 OLD="$1"; frames=${2:-1500}
 for round in oldhost newhost; do

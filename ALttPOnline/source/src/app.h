@@ -6,7 +6,7 @@
 #include <stdbool.h>
 #include <stddef.h>
 
-#define APP_VERSION "1.1"
+#define APP_VERSION "1.2"
 #define PROTO_VERSION 2
 #define MAX_PLAYERS 8
 

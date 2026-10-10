@@ -2,8 +2,8 @@
 # Route finding helper: runs one player unthrottled with a movement script and prints where Link ends up.
 # Usage: tools/nav.sh <frames> <inputs after the file is loaded> [sheet frames...]
 # Uses seed "basic1" and the save in ref/tests/solo1 (see t2.sh).
-R="/c/Users/Maruf/Documents/Claude Code/ALTTP-Online/ref/tests"
-S="/c/Users/Maruf/Documents/Claude Code/ALTTP-Online/ALttPOnline/source/tools"
+S="$(cd "$(dirname "$0")" && pwd)"
+R="$(cd "$S/../../.." && pwd)/ref/tests"
 frames=$1; inputs=$2; shift 2
 rm -rf "$R/nav"; mkdir -p "$R/nav/saves"; cp "$R/solo1/saves/basic1.srm" "$R/nav/saves/"
 ALTTPO_FAST=1 bash "$S/t.sh" nav $frames 50 ALTTPO_AUTO=solo ALTTPO_GAME=basic1 \

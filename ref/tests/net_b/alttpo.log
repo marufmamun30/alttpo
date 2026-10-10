@@ -1,83 +1,66 @@
-[       0] A Link to the Past Online 1.1
-[       0] base ROM: C:/Users/Maruf/Documents/Claude Code/ALTTP-Online/ref/testbin/../../Zelda no Densetsu - Kamigami no Triforce (Japan).sfc
-[       0] net: joining room T6438 (cid f6fdba3d, udp port 59445)
-[       3] net: public address known, 4 addresses to offer
-[      14] net: matchmaking server broker.hivemq.com ready
-[      23] net: matchmaking server broker.emqx.io ready
-[      33] net: new peer 0969faa5
-[      33] net: peer 0969faa5 connected (through the relay so far)
-[      34] net: direct link to 0969faa5
-[      34] game: "DR157_1_1_000012345" rando=1 door=1 fast=1 crc=35fa643d online=1
-[      60] peek 00010=00 00011=00 0008a=00 0f36d=00 
-[     120] peek 00010=00 00011=01 0008a=00 0f36d=00 
-[     180] peek 00010=00 00011=01 0008a=00 0f36d=00 
-[     240] peek 00010=00 00011=01 0008a=00 0f36d=00 
-[     300] peek 00010=00 00011=01 0008a=00 0f36d=00 
-[     360] peek 00010=00 00011=03 0008a=00 0f36d=00 
-[     420] peek 00010=00 00011=04 0008a=00 0f36d=00 
-[     480] peek 00010=00 00011=04 0008a=00 0f36d=00 
-[     540] peek 00010=00 00011=04 0008a=00 0f36d=00 
-[     600] peek 00010=00 00011=04 0008a=00 0f36d=00 
-[     660] peek 00010=00 00011=04 0008a=00 0f36d=00 
-[     720] peek 00010=00 00011=04 0008a=00 0f36d=00 
-[     780] peek 00010=00 00011=04 0008a=00 0f36d=00 
-[     840] peek 00010=00 00011=05 0008a=00 0f36d=00 
-[     900] peek 00010=00 00011=05 0008a=00 0f36d=00 
-[     960] peek 00010=00 00011=06 0008a=00 0f36d=00 
-[    1020] peek 00010=00 00011=07 0008a=00 0f36d=00 
-[    1071] note: Alice entered Hyrule
-[    1080] peek 00010=00 00011=07 0008a=00 0f36d=00 
-[    1140] peek 00010=01 00011=01 0008a=00 0f36d=00 
-[    1200] peek 00010=01 00011=04 0008a=00 0f36d=00 
-[    1260] peek 00010=01 00011=04 0008a=00 0f36d=00 
-[    1320] peek 00010=05 00011=00 0008a=00 0f36d=18 
-[    1380] peek 00010=1b 00011=02 0008a=00 0f36d=18 
-[    1440] peek 00010=1b 00011=02 0008a=00 0f36d=18 
-[    1500] peek 00010=1b 00011=02 0008a=00 0f36d=18 
-[    1560] peek 00010=1b 00011=02 0008a=00 0f36d=18 
-[    1620] peek 00010=1b 00011=02 0008a=00 0f36d=18 
-[    1680] peek 00010=1b 00011=02 0008a=00 0f36d=18 
-[    1740] peek 00010=05 00011=00 0008a=00 0f36d=18 
-[    1774] note: Alice found the Master Sword
-[    1774] note: Alice found a Heart Container
-[    1800] peek 00010=07 00011=00 0008a=00 0f36d=28 
-[    1860] peek 00010=07 00011=00 0008a=00 0f36d=58 
-[    1900] poke 0f36c=a0
-[    1900] poke 0f36d=a0
-[    1900] poke 0f359=02
-[    1920] peek 00010=07 00011=00 0008a=00 0f36d=a0 
-[    1980] peek 00010=07 00011=00 0008a=00 0f36d=a0 
-[    2040] peek 00010=07 00011=00 0008a=00 0f36d=a0 
-[    2100] peek 00010=0f 00011=01 0008a=00 0f36d=a0 
-[    2160] peek 00010=08 00011=02 0008a=2c 0f36d=a0 
-[    2220] peek 00010=09 00011=00 0008a=2c 0f36d=a0 
-[    2280] peek 00010=09 00011=00 0008a=2c 0f36d=a0 
-[    2340] peek 00010=09 00011=00 0008a=2c 0f36d=a0 
-[    2400] peek 00010=09 00011=00 0008a=2c 0f36d=9c 
-[    2460] peek 00010=09 00011=00 0008a=2c 0f36d=9c 
-[    2520] peek 00010=09 00011=00 0008a=2c 0f36d=9c 
-[    2580] peek 00010=09 00011=06 0008a=2b 0f36d=9c 
-[    2619] enemy: slot 12 id 514: left a da behind (says 0969faa5)
-[    2640] peek 00010=09 00011=00 0008a=2b 0f36d=9c 
-[    2700] peek 00010=09 00011=00 0008a=2b 0f36d=9c 
-[    2760] peek 00010=09 00011=00 0008a=2b 0f36d=9c 
-[    2787] enemy: slot 11 id 554 type 42: taking over (hit), claim 1
-[    2820] peek 00010=09 00011=00 0008a=2b 0f36d=94 
-[    2834] enemy: slot 11 id 554: left a da behind
-[    2880] peek 00010=09 00011=00 0008a=2b 0f36d=94 
-[    2920] enemy: slot 13 id 570 type 42: taking over (nearer), claim 1
-[    2940] peek 00010=09 00011=00 0008a=2b 0f36d=8c 
-[    2988] enemy: slot 13 id 570 type 42: gone
-[    3000] peek 00010=09 00011=00 0008a=2b 0f36d=8c 
-[    3060] peek 00010=09 00011=00 0008a=2b 0f36d=8c 
-[    3120] peek 00010=09 00011=00 0008a=2b 0f36d=8c 
-[    3180] peek 00010=09 00011=00 0008a=2b 0f36d=8c 
-[    3240] peek 00010=09 00011=00 0008a=2b 0f36d=8c 
-[    3300] peek 00010=09 00011=00 0008a=2b 0f36d=8c 
-[    3360] peek 00010=09 00011=00 0008a=2b 0f36d=8c 
-[    3420] peek 00010=09 00011=00 0008a=2b 0f36d=8c 
-[    3480] peek 00010=09 00011=00 0008a=2b 0f36d=8c 
-[    3510] net: peer 0969faa5 dropped (left)
-[    3510] note: Alice left the room
-[    3540] peek 00010=09 00011=00 0008a=2b 0f36d=8c 
-[    3600] peek 00010=09 00011=00 0008a=2b 0f36d=8c 
+[       0] A Link to the Past Online 1.2
+[       0] base ROM: C:/Users/Maruf/Documents/Claude-Code/ALTTP-Online/ref/testbin/../../Zelda no Densetsu - Kamigami no Triforce (Japan).sfc
+[       0] net: joining room T1442 (cid 3146e3a9, udp port 51037)
+[       5] net: public address known, 4 addresses to offer
+[      15] net: matchmaking server broker.hivemq.com ready
+[      22] net: new peer 8fb952cb
+[      22] net: peer 8fb952cb connected (through the relay so far)
+[      23] net: direct link to 8fb952cb
+[      23] game: "DR157_1_1_000012345" rando=1 door=1 fast=1 crc=35fa643d online=1
+[      27] net: matchmaking server broker.emqx.io ready
+[      60] peek 00010=00 0f34a=00 0f359=00 0f343=00 0f36f=00 0f37c=00 0f36c=00 0f36d=00 
+[     120] peek 00010=00 0f34a=00 0f359=00 0f343=00 0f36f=00 0f37c=00 0f36c=00 0f36d=00 
+[     180] peek 00010=00 0f34a=00 0f359=00 0f343=00 0f36f=00 0f37c=00 0f36c=00 0f36d=00 
+[     240] peek 00010=00 0f34a=00 0f359=00 0f343=00 0f36f=00 0f37c=00 0f36c=00 0f36d=00 
+[     300] peek 00010=00 0f34a=00 0f359=00 0f343=00 0f36f=00 0f37c=00 0f36c=00 0f36d=00 
+[     360] peek 00010=00 0f34a=00 0f359=00 0f343=00 0f36f=00 0f37c=00 0f36c=00 0f36d=00 
+[     420] peek 00010=00 0f34a=00 0f359=00 0f343=00 0f36f=00 0f37c=00 0f36c=00 0f36d=00 
+[     480] peek 00010=00 0f34a=00 0f359=00 0f343=00 0f36f=00 0f37c=00 0f36c=00 0f36d=00 
+[     540] peek 00010=00 0f34a=00 0f359=00 0f343=00 0f36f=00 0f37c=00 0f36c=00 0f36d=00 
+[     600] peek 00010=00 0f34a=00 0f359=00 0f343=00 0f36f=00 0f37c=00 0f36c=00 0f36d=00 
+[     660] peek 00010=00 0f34a=00 0f359=00 0f343=00 0f36f=00 0f37c=00 0f36c=00 0f36d=00 
+[     720] peek 00010=00 0f34a=00 0f359=00 0f343=00 0f36f=00 0f37c=00 0f36c=00 0f36d=00 
+[     780] peek 00010=00 0f34a=00 0f359=00 0f343=00 0f36f=00 0f37c=00 0f36c=00 0f36d=00 
+[     840] peek 00010=00 0f34a=00 0f359=00 0f343=00 0f36f=00 0f37c=00 0f36c=00 0f36d=00 
+[     900] peek 00010=00 0f34a=00 0f359=00 0f343=00 0f36f=00 0f37c=00 0f36c=00 0f36d=00 
+[     960] peek 00010=00 0f34a=00 0f359=00 0f343=00 0f36f=00 0f37c=00 0f36c=00 0f36d=00 
+[    1020] peek 00010=00 0f34a=00 0f359=00 0f343=00 0f36f=00 0f37c=00 0f36c=00 0f36d=00 
+[    1044] note: Alice entered Hyrule
+[    1080] peek 00010=00 0f34a=00 0f359=00 0f343=00 0f36f=00 0f37c=00 0f36c=00 0f36d=00 
+[    1140] peek 00010=01 0f34a=00 0f359=00 0f343=00 0f36f=00 0f37c=00 0f36c=00 0f36d=00 
+[    1200] peek 00010=01 0f34a=00 0f359=00 0f343=00 0f36f=00 0f37c=00 0f36c=00 0f36d=00 
+[    1260] peek 00010=01 0f34a=00 0f359=00 0f343=00 0f36f=00 0f37c=00 0f36c=00 0f36d=00 
+[    1320] peek 00010=05 0f34a=00 0f359=00 0f343=00 0f36f=00 0f37c=00 0f36c=18 0f36d=18 
+[    1380] peek 00010=1b 0f34a=00 0f359=00 0f343=00 0f36f=00 0f37c=00 0f36c=18 0f36d=18 
+[    1440] peek 00010=1b 0f34a=00 0f359=00 0f343=00 0f36f=00 0f37c=00 0f36c=18 0f36d=18 
+[    1500] peek 00010=1b 0f34a=00 0f359=00 0f343=00 0f36f=00 0f37c=00 0f36c=18 0f36d=18 
+[    1560] peek 00010=1b 0f34a=00 0f359=00 0f343=00 0f36f=00 0f37c=00 0f36c=18 0f36d=18 
+[    1620] peek 00010=1b 0f34a=00 0f359=00 0f343=00 0f36f=00 0f37c=00 0f36c=18 0f36d=18 
+[    1680] peek 00010=1b 0f34a=00 0f359=00 0f343=00 0f36f=00 0f37c=00 0f36c=18 0f36d=18 
+[    1740] peek 00010=05 0f34a=00 0f359=00 0f343=00 0f36f=ff 0f37c=00 0f36c=18 0f36d=18 
+[    1800] peek 00010=07 0f34a=00 0f359=00 0f343=00 0f36f=ff 0f37c=00 0f36c=18 0f36d=18 
+[    1860] peek 00010=07 0f34a=00 0f359=00 0f343=00 0f36f=ff 0f37c=00 0f36c=18 0f36d=18 
+[    1920] peek 00010=07 0f34a=00 0f359=00 0f343=00 0f36f=ff 0f37c=00 0f36c=18 0f36d=18 
+[    1980] peek 00010=07 0f34a=00 0f359=00 0f343=00 0f36f=ff 0f37c=00 0f36c=18 0f36d=18 
+[    2040] peek 00010=07 0f34a=00 0f359=00 0f343=00 0f36f=ff 0f37c=00 0f36c=18 0f36d=18 
+[    2100] peek 00010=07 0f34a=00 0f359=00 0f343=00 0f36f=ff 0f37c=00 0f36c=18 0f36d=18 
+[    2160] peek 00010=07 0f34a=00 0f359=00 0f343=00 0f36f=ff 0f37c=00 0f36c=18 0f36d=18 
+[    2220] peek 00010=07 0f34a=00 0f359=00 0f343=00 0f36f=ff 0f37c=00 0f36c=18 0f36d=18 
+[    2280] peek 00010=07 0f34a=00 0f359=00 0f343=00 0f36f=ff 0f37c=00 0f36c=18 0f36d=18 
+[    2284] note: Alice found the Lamp
+[    2284] note: Alice found the Fighter's Sword
+[    2340] peek 00010=07 0f34a=01 0f359=01 0f343=00 0f36f=ff 0f37c=00 0f36c=18 0f36d=18 
+[    2348] note: Alice picked up 5 bombs for everyone
+[    2400] peek 00010=07 0f34a=01 0f359=01 0f343=05 0f36f=ff 0f37c=00 0f36c=18 0f36d=18 
+[    2460] peek 00010=07 0f34a=01 0f359=01 0f343=05 0f36f=ff 0f37c=00 0f36c=18 0f36d=18 
+[    2520] peek 00010=07 0f34a=01 0f359=01 0f343=05 0f36f=ff 0f37c=00 0f36c=18 0f36d=18 
+[    2580] peek 00010=07 0f34a=01 0f359=01 0f343=05 0f36f=ff 0f37c=00 0f36c=18 0f36d=18 
+[    2640] peek 00010=07 0f34a=01 0f359=01 0f343=05 0f36f=ff 0f37c=00 0f36c=18 0f36d=18 
+[    2700] peek 00010=07 0f34a=01 0f359=01 0f343=05 0f36f=ff 0f37c=00 0f36c=18 0f36d=18 
+[    2760] peek 00010=07 0f34a=01 0f359=01 0f343=05 0f36f=ff 0f37c=00 0f36c=18 0f36d=18 
+[    2820] peek 00010=07 0f34a=01 0f359=01 0f343=05 0f36f=ff 0f37c=00 0f36c=18 0f36d=18 
+[    2880] peek 00010=07 0f34a=01 0f359=01 0f343=05 0f36f=ff 0f37c=00 0f36c=18 0f36d=18 
+[    2883] net: peer 8fb952cb dropped (left)
+[    2883] note: Alice left the room
+[    2940] peek 00010=07 0f34a=01 0f359=01 0f343=05 0f36f=ff 0f37c=00 0f36c=18 0f36d=18 
+[    3000] peek 00010=07 0f34a=01 0f359=01 0f343=05 0f36f=ff 0f37c=00 0f36c=18 0f36d=18 

@@ -1,0 +1,213 @@
+[       0] A Link to the Past Online 1.2
+[       0] base ROM: C:/Users/Maruf/Documents/Claude-Code/ALTTP-Online/ref/testbin/../../Zelda no Densetsu - Kamigami no Triforce (Japan).sfc
+[       0] net: joining room D2223 (cid 24fe2383, udp port 59398)
+[       5] net: public address known, 4 addresses to offer
+[      24] net: matchmaking server broker.emqx.io ready
+[      35] net: new peer a1ab2efd
+[      35] net: peer a1ab2efd connected (through the relay so far)
+[      36] net: direct link to a1ab2efd
+[      36] game: "DR157_1_1_126024102" rando=1 door=1 fast=1 crc=fae57117 online=1
+[      60] peek 00010=00 00011=00 000a0=00 00dd0=00 00dd1=00 00dd2=00 00bc0=00 00bc1=00 00bc2=00 
+[     120] peek 00010=00 00011=01 000a0=00 00dd0=00 00dd1=00 00dd2=00 00bc0=00 00bc1=00 00bc2=00 
+[     180] peek 00010=00 00011=01 000a0=00 00dd0=00 00dd1=00 00dd2=00 00bc0=00 00bc1=00 00bc2=00 
+[     240] peek 00010=00 00011=01 000a0=00 00dd0=00 00dd1=00 00dd2=00 00bc0=00 00bc1=00 00bc2=00 
+[     300] peek 00010=00 00011=01 000a0=00 00dd0=00 00dd1=00 00dd2=00 00bc0=00 00bc1=00 00bc2=00 
+[     342] net: matchmaking server broker.hivemq.com ready
+[     360] peek 00010=00 00011=03 000a0=00 00dd0=00 00dd1=00 00dd2=00 00bc0=00 00bc1=00 00bc2=00 
+[     420] peek 00010=00 00011=04 000a0=00 00dd0=00 00dd1=00 00dd2=00 00bc0=00 00bc1=00 00bc2=00 
+[     480] peek 00010=00 00011=04 000a0=00 00dd0=00 00dd1=00 00dd2=00 00bc0=00 00bc1=00 00bc2=00 
+[     540] peek 00010=00 00011=04 000a0=00 00dd0=00 00dd1=00 00dd2=00 00bc0=00 00bc1=00 00bc2=00 
+[     600] peek 00010=00 00011=04 000a0=00 00dd0=00 00dd1=00 00dd2=00 00bc0=00 00bc1=00 00bc2=00 
+[     654] note: Alice entered Hyrule
+[     660] peek 00010=00 00011=04 000a0=00 00dd0=00 00dd1=00 00dd2=00 00bc0=00 00bc1=00 00bc2=00 
+[     720] peek 00010=00 00011=04 000a0=00 00dd0=00 00dd1=00 00dd2=00 00bc0=00 00bc1=00 00bc2=00 
+[     780] peek 00010=00 00011=04 000a0=00 00dd0=00 00dd1=00 00dd2=00 00bc0=00 00bc1=00 00bc2=00 
+[     840] peek 00010=00 00011=05 000a0=00 00dd0=00 00dd1=00 00dd2=00 00bc0=00 00bc1=00 00bc2=00 
+[     900] peek 00010=00 00011=05 000a0=00 00dd0=00 00dd1=00 00dd2=00 00bc0=00 00bc1=00 00bc2=00 
+[     960] peek 00010=00 00011=06 000a0=00 00dd0=00 00dd1=00 00dd2=00 00bc0=00 00bc1=00 00bc2=00 
+[    1020] peek 00010=00 00011=07 000a0=00 00dd0=00 00dd1=00 00dd2=00 00bc0=00 00bc1=00 00bc2=00 
+[    1080] peek 00010=00 00011=07 000a0=00 00dd0=00 00dd1=00 00dd2=00 00bc0=00 00bc1=00 00bc2=00 
+[    1140] peek 00010=01 00011=01 000a0=00 00dd0=00 00dd1=00 00dd2=00 00bc0=00 00bc1=00 00bc2=00 
+[    1200] peek 00010=01 00011=04 000a0=00 00dd0=00 00dd1=00 00dd2=00 00bc0=00 00bc1=00 00bc2=00 
+[    1260] peek 00010=01 00011=04 000a0=00 00dd0=00 00dd1=00 00dd2=00 00bc0=00 00bc1=00 00bc2=00 
+[    1320] peek 00010=05 00011=00 000a0=00 00dd0=00 00dd1=00 00dd2=00 00bc0=00 00bc1=00 00bc2=00 
+[    1371] enemy: t=9865453 place 10104 waiting
+[    1380] peek 00010=07 00011=0f 000a0=04 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
+[    1408] enemy: t=9866070 place 10104 running
+[    1440] peek 00010=07 00011=00 000a0=04 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
+[    1500] peek 00010=07 00011=00 000a0=04 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
+[    1560] peek 00010=07 00011=00 000a0=04 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
+[    1581] poke 0010e=05
+[    1581] poke 0010c=06
+[    1581] poke 00011=00
+[    1581] poke 000b0=00
+[    1581] poke 00010=0f
+[    1581] enemy: t=9868948 place 10104 waiting
+[    1620] peek 00010=06 00011=00 000a0=62 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
+[    1680] peek 00010=07 00011=0f 000a0=62 00dd0=08 00dd1=08 00dd2=08 00bc0=00 00bc1=01 00bc2=02 
+[    1691] enemy: t=9870778 place 10062 waiting
+[    1729] enemy: t=9871410 place 10062 running
+[    1740] peek 00010=07 00011=00 000a0=62 00dd0=09 00dd1=09 00dd2=09 00bc0=00 00bc1=01 00bc2=02 
+[    1748] enemy: t=9871726 slot  0 id 000  type 41 st  9 hp   6 at  1216, 3200 who 00000000 claim 0
+[    1748] enemy: t=9871726 slot  1 id 001  type 42 st  9 hp   4 at  1175, 3280 who 00000000 claim 0
+[    1748] enemy: t=9871726 slot  2 id 002  type 42 st  9 hp   4 at  1305, 3296 who 00000000 claim 0
+[    1754] enemy: slot 0 id 000 type 41: taking over (free), claim 1
+[    1754] enemy: slot 1 id 001 type 42: taking over (free), claim 1
+[    1754] enemy: slot 2 id 002 type 42: taking over (free), claim 1
+[    1778] enemy: t=9872225 slot  0 id 000  type 41 st  9 hp   6 at  1216, 3200 who 24fe2383 claim 1 (me)
+[    1778] enemy: t=9872225 slot  1 id 001  type 42 st  9 hp   4 at  1160, 3280 who 24fe2383 claim 1 (me)
+[    1778] enemy: t=9872225 slot  2 id 002  type 42 st  9 hp   4 at  1320, 3296 who 24fe2383 claim 1 (me)
+[    1800] peek 00010=07 00011=00 000a0=62 00dd0=09 00dd1=09 00dd2=09 00bc0=00 00bc1=01 00bc2=02 
+[    1808] enemy: t=9872725 slot  0 id 000  type 41 st  9 hp   6 at  1216, 3200 who 24fe2383 claim 1 (me)
+[    1808] enemy: t=9872725 slot  1 id 001  type 42 st  9 hp   4 at  1145, 3280 who 24fe2383 claim 1 (me)
+[    1808] enemy: t=9872725 slot  2 id 002  type 42 st  9 hp   4 at  1328, 3296 who 24fe2383 claim 1 (me)
+[    1831] poke 00dd0=00
+[    1831] poke 00dd1=00
+[    1831] poke 00dd2=00
+[    1831] enemy: slot 0 id 000 type 41: gone
+[    1831] enemy: slot 1 id 001 type 42: gone
+[    1831] enemy: slot 2 id 002 type 42: gone
+[    1860] peek 00010=07 00011=00 000a0=62 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
+[    1920] peek 00010=07 00011=00 000a0=62 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
+[    1980] peek 00010=07 00011=00 000a0=62 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
+[    2040] peek 00010=07 00011=00 000a0=62 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
+[    2100] peek 00010=07 00011=00 000a0=62 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
+[    2160] peek 00010=07 00011=00 000a0=62 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
+[    2220] peek 00010=07 00011=00 000a0=62 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
+[    2280] peek 00010=07 00011=00 000a0=62 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
+[    2340] peek 00010=07 00011=00 000a0=62 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
+[    2400] peek 00010=07 00011=00 000a0=62 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
+[    2460] peek 00010=07 00011=00 000a0=62 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
+[    2505] enemy: t=9884322 place 10052 waiting
+[    2520] peek 00010=07 00011=02 000a0=52 00dd0=09 00dd1=09 00dd2=09 00bc0=00 00bc1=01 00bc2=02 
+[    2551] poke 00468=00
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2551] poke 0037b=01
+[    2561] poke 0037b=01
+[    2571] poke 0037b=01
+[    2580] peek 00010=07 00011=02 000a0=52 00dd0=09 00dd1=09 00dd2=09 00bc0=00 00bc1=01 00bc2=02 
+[    2581] poke 0037b=01
+[    2591] poke 0037b=01
+[    2601] poke 0037b=01
+[    2602] enemy: t=9885936 place 10052 running
+[    2602] enemy: slot 0 id 000: killed by another player
+[    2602] enemy: slot 1 id 001: killed by another player
+[    2602] enemy: slot 2 id 002: killed by another player
+[    2611] poke 0037b=01
+[    2621] poke 0037b=01
+[    2631] poke 0037b=01
+[    2640] peek 00010=07 00011=00 000a0=52 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
+[    2641] poke 0037b=01
+[    2651] poke 0037b=01
+[    2661] poke 0037b=01
+[    2671] poke 0037b=01
+[    2681] poke 0037b=01
+[    2691] poke 0037b=01
+[    2700] peek 00010=07 00011=00 000a0=52 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
+[    2701] poke 0037b=01
+[    2711] poke 0037b=01
+[    2721] poke 0037b=01
+[    2731] poke 0037b=01
+[    2741] poke 0037b=01
+[    2751] poke 0037b=01
+[    2760] peek 00010=07 00011=00 000a0=52 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
+[    2761] poke 0037b=01
+[    2771] poke 0037b=01
+[    2781] poke 0037b=01
+[    2791] poke 0037b=01
+[    2801] poke 0037b=01
+[    2811] poke 0037b=01
+[    2820] peek 00010=07 00011=00 000a0=52 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
+[    2821] poke 0037b=01
+[    2831] poke 0037b=01
+[    2841] poke 0037b=01
+[    2851] poke 0037b=01
+[    2861] poke 0037b=01
+[    2871] poke 0037b=01
+[    2880] peek 00010=07 00011=00 000a0=52 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
+[    2881] poke 0037b=01
+[    2884] net: peer a1ab2efd dropped (left)
+[    2884] note: Alice left the room
+[    2940] peek 00010=07 00011=00 000a0=52 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
+[    3000] peek 00010=07 00011=00 000a0=52 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 

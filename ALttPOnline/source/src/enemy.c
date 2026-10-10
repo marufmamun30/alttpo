@@ -24,6 +24,9 @@
 //    (it disappears for everybody). Enemies that carry a key or a shuffled item
 //    die in every game on their own, so the game's (or the randomizer's) own code
 //    creates the item; only the pickup is shared.
+//    The list belongs to one place and is dropped the moment the game names another
+//    one, which is before the game runs there: sprite numbers start at 0 in every
+//    room, and the packets sent while still walking in already carry the new name.
 //  * Not shared: bosses, characters, the room's own traps, and projectiles (every
 //    game lets the shared enemy fire its own).
 #include <stdio.h>
@@ -42,6 +45,8 @@
 #define RF_PAUSED 1           // record flags: off the authority's screen (frozen there)
 #define RF_LOCAL 2            //   every game creates its drop itself
 #define RF_PRIZE 4            //   a plain pickup, can be copied
+#define PF_RUNNING 1          // packet flags: the sender's game is moving its sprites
+#define PF_OWN_LIST 2         //   its dead list was collected in the place the packet names
 #define MAX_DEAD 96
 #define PREC_MAX 24
 
@@ -100,6 +105,7 @@ typedef struct PRec { uint16_t id; uint16_t seq; uint8_t flags; uint32_t stamp; 
 
 typedef struct PeerEn {
   bool used, running;
+  bool ranHere;         // it has told us that it runs in the place it names
   uint32_t cid, loc, stamp, sentFrame;
   uint64_t rx;
   PRec rec[PREC_MAX];
@@ -577,7 +583,7 @@ static void send_packet(bool running, bool urgent) {
   uint8_t b[1280];
   int n = 0;
   b[n++] = M_ENEMY;
-  b[n++] = running ? 1 : 0;
+  b[n++] = (running ? PF_RUNNING : 0) | PF_OWN_LIST;
   wr32(b + n, C->location); n += 4;
   wr32(b + n, s_frame); n += 4;
   int nd = s_ndead > 48 ? 48 : s_ndead;
@@ -620,9 +626,14 @@ static void send_packet(bool running, bool urgent) {
 
 // test hook: ALTTPO_ENEMY_LOG=<frames> writes every tracked sprite to the log at that interval,
 // with a clock that is the same for all copies running on one PC
-static void debug_dump(void) {
+static int debug_every(void) {
   static int every = -1;
   if (every < 0) { const char *e = getenv("ALTTPO_ENEMY_LOG"); every = e ? atoi(e) : 0; }
+  return every;
+}
+
+static void debug_dump(void) {
+  int every = debug_every();
   if (!every || (s_frame % every) != 0) return;
   for (int k = 0; k < 16; k++) {
     const Ent *e = &s_ent[k];
@@ -632,21 +643,33 @@ static void debug_dump(void) {
   }
 }
 
+// ... and with the same hook, every time we get to another place or the game stops or starts moving
+static void debug_place(bool running) {
+  static uint32_t loc = ~0u;
+  static int was = -1;
+  if ((s_loc == loc && running == was) || !debug_every()) return;
+  loc = s_loc; was = running;
+  app_log("enemy: t=%07u place %05x %s", (unsigned)(s_now % 10000000), s_loc, running ? "running" : "waiting");
+}
+
 void enemy_frame(const EnemyCtx *c) {
   C = c; R = c->ram; s_now = c->now; s_frame = c->frame; s_me = c->me;
   if (!s_syncType[kSyncTypes[0]]) for (int i = 0; i < (int)sizeof(kSyncTypes); i++) s_syncType[kSyncTypes[i]] = 1;
-  if (!c->running) {
-    // menu, text, transition: our sprites stand still, the others take over what we were running
-    if (s_locValid) send_packet(false, false);
-    return;
-  }
-  s_indoors = (c->location & 0x010000) != 0;
   if (!s_locValid || c->location != s_loc) {
+    // Another place. What we know about the old one ends here and not when the game runs again:
+    // on the way in (stairs, a door that shuts behind Link) we already send packets with the new name.
     for (int k = 0; k < 16; k++) s_ent[k].id = NONE;
-    s_ndead = 0;
+    s_ndead = s_deadRot = 0;
     s_loc = c->location;
     s_locValid = true;
     s_lastRun = 0;
+  }
+  s_indoors = (s_loc & 0x010000) != 0;
+  debug_place(c->running);
+  if (!c->running) {
+    // menu, text, transition: our sprites stand still, the others take over what we were running
+    send_packet(false, false);
+    return;
   }
   bool resumed = c->frame - s_lastRun > 1;
   s_lastRun = c->frame;
@@ -676,17 +699,25 @@ void enemy_recv(uint32_t cid, const uint8_t *d, int len) {
   if (len < 12) return;
   PeerEn *p = peer_get(cid, true);
   if (!p) return;
-  bool running = (d[1] & 1) != 0;
+  bool running = (d[1] & PF_RUNNING) != 0;
   uint32_t loc = rd32(d + 2), stamp = rd32(d + 6);
   uint64_t now = app_ms();
   if (stamp <= p->stamp && now - p->rx < 500) return; // late or doubled packet
   if (loc != p->loc || !running) for (int j = 0; j < PREC_MAX; j++) p->rec[j].id = NONE;
+  // Whose place is the dead list from? Versions up to 1.1 do not say, and while they walk into a room
+  // they still send the list of the room they left under the new room's name. Their list is only
+  // believed once they run there, and for as long as we keep hearing from them without a break.
+  if (loc != p->loc || now - p->rx > 1000) p->ranHere = false;
+  if (running) p->ranHere = true;
+  bool ownList = (d[1] & PF_OWN_LIST) || p->ranHere;
+  if (!ownList && d[10] && debug_every()) app_log("enemy: t=%07u dead list of %08x (%d) not believed, it does not run in %05x yet", (unsigned)(now % 10000000), cid, d[10], loc);
   p->loc = loc; p->stamp = stamp; p->running = running;
   p->rx = now;
+  p->ndead = 0;
   int n = 10;
   int nd = d[n++];
   if (len < n + nd * 2 + 1) return;
-  p->ndead = nd > 64 ? 64 : nd;
+  if (ownList) p->ndead = nd > 64 ? 64 : nd;
   for (int i = 0; i < p->ndead; i++) p->dead[i] = rd16(d + n + i * 2);
   n += nd * 2;
   int nr = d[n++];

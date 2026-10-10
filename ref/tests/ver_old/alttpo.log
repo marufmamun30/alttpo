@@ -1,7 +1,12 @@
-[       0] A Link to the Past Online 1.0
-[       0] base ROM: C:/Users/Maruf/Desktop/ALttPOnline/game-win64/alttp-jp.sfc
-[       0] net: joining room V3376 (cid f6534e4b, udp port 55965)
-[      23] net: new peer 4e6cb28d
-[      23] net: peer 4e6cb28d connected
-[      24] net: direct link to 4e6cb28d
-[      24] note: New runs a different version
+[       0] A Link to the Past Online 1.1
+[       0] base ROM: C:/Users/Maruf/Documents/Claude-Code/ALTTP-Online/ref/oldbuilds/../../Zelda no Densetsu - Kamigami no Triforce (Japan).sfc
+[       0] net: joining room V9078 (cid 7e156f49, udp port 59762)
+[       5] net: matchmaking server broker.emqx.io ready
+[       5] net: public address known, 4 addresses to offer
+[       8] net: new peer 78163b8d
+[       8] net: peer 78163b8d connected (through the relay so far)
+[       9] net: direct link to 78163b8d
+[      14] net: matchmaking server broker.hivemq.com ready
+[      18] game: "DR157_1_1_126024102" rando=1 door=1 fast=1 crc=fae57117 online=1
+[    1391] net: peer 78163b8d dropped (left)
+[    1391] note: New left the room
