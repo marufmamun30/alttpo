@@ -52,6 +52,18 @@ works" below.
 The host chooses the room rules (shared enemies, fighting, shared bombs, shared
 keys, shared heart containers) when opening the room.
 
+### Finding each other
+
+* **The world map** (the game's own, button X) shows the other players as dots
+  in their color with their name, in both zoom levels and in the flute's map.
+  A player who is inside a building or a dungeon is shown at the door they
+  went in through. A ring instead of a dot means that player is in the other
+  world. The dungeon map does not show other players.
+* **Warp to Player** in the Esc menu takes Link to where another player is
+  standing: on the overworld, in a house or in the middle of a dungeon. Both
+  of you have to be on your feet (not swimming, falling or carrying something),
+  and nobody may be following you. Both players need version 1.3 or newer.
+
 In **OPTIONS** you can turn off the other players' sound effects and the
 colored tunics (then everybody, you included, wears the game's own colors).
 
@@ -106,7 +118,15 @@ the game: it counts again once you have let go of it.
 
 ## Saving
 
-Use the game's own **Save and Quit**. Save files are per game:
+Use the game's own **Save and Quit** (press Select). In an online game it also
+happens by itself when you choose LEAVE ROOM or close the program, so that you
+come back with the rupees, bombs and arrows you had: those are your own, and
+nobody else can give them back to you. As after every Save and Quit, you start
+again at one of the game's starting points, with the hearts the game gives you
+there. It is skipped at the title, in the file menu, on the "game over" screen
+and before Link has his sword. In single player nothing is saved for you.
+
+Save files are per game:
 `saves/<game name>.srm` (three file slots each, as in the original). A second
 copy of the program running on the same PC uses `saves-player2`, and so on, so
 you can try co-op on one PC without the copies overwriting each other.
@@ -139,6 +159,10 @@ asks about the program the first time, allow it; direct links work best then.
 * **Another player is shown as "different game!"**: they loaded another seed.
   Everyone in a room must play the room's seed (joining through the code does
   this automatically).
+* **"No answer" when warping**: the other player has a version before 1.3, or
+  their game is not running. **"can not be warped to right now"**: they are
+  swimming, falling, in a menu of the game, or in a place outside the map
+  (Zora's Domain, the Master Sword grove). Try again in a moment.
 * **A door someone else opened still looks closed**: walk out of the room and
   back in. Changes are shown live for players who were in the room when they
   happened.

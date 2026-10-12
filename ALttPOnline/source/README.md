@@ -111,6 +111,35 @@ Every player runs their own game. Once per game frame (`on_main`):
    running number, the receiver plays the ones it has not played yet (unless
    its own game just played the same sound, which is what a shared enemy makes
    happen).
+8. **Warp to Player** (since 1.3): the player who is asked answers, once Link
+   stands still, with where they are in the terms the game has for its doors.
+   Outdoors that is the block the game notes down when Link walks into a house
+   (`$7EC140`, 0x32 bytes: area, scroll, coordinates, camera), which it uses
+   to put him back at the same spot when he comes out. Indoors it is one entry
+   of the game's table of entrances (room, scroll, coordinates, camera, room
+   edges, tile set, floor, dungeon, layer, quadrants), filled in with their
+   live values, plus that block. The player who warps starts the game's
+   "walk through a door" (module 0F, then 08 or 06). Just before the game
+   loads, the block is written to WRAM with a room number that makes the game
+   take the "coming out of a house" path, or the entry is written over the one
+   of the same entrance in the ROM image for that single frame. Everything
+   else (graphics, palettes, sprites, music, keys) is the game's own loading.
+   Afterwards Link is on the entrance the other player came through, so a
+   defeat or the mirror takes him where it would take them.
+9. **Players on the world map**: every player sends where the map should show
+   them twice a second: Link's coordinates outdoors, otherwise the last place
+   he was outdoors (for a file that starts indoors, the exit of that room from
+   the game's exit table). The markers are drawn on our own canvas with the
+   arithmetic and the table the game uses for Link's marker
+   (`map_project`), so they follow both zoom levels and the scrolling.
+10. **Saving on leaving**: before an online game is closed, `game_save_before_exit`
+   lets the game run its own Save and Quit (module 17, the routine every
+   randomizer hooks) and runs the emulation until the file is written.
+
+All of that leans on where things are in the Japanese v1.0 ROM (the addresses
+are together near the top of that part of `game.c`). `check_rom` looks for the
+code and tables when a game starts and turns the three features off for a ROM
+that is laid out differently.
 
 The player's own tunic color is not painted over the picture: the four mail
 palettes in the loaded ROM image are changed (colors 9 to 12), so the game
@@ -138,9 +167,14 @@ ready-made one, two and four player runs, `tools/t4e.sh` is four players
 fighting the same guards, `tools/troom.sh` is two players walking from one
 castle room into the next a few frames apart (the guards of the second room
 must still be there; it can also run an older build as one of the players),
-`tools/nav.sh` helps to find a walking route and `tools/sheet.py` makes a
-contact sheet of the screenshots. The scripts run `alttpo.exe` from a folder
-of its own, so the installed game is left alone.
+`tools/twarp.sh` is one player warping to the other in ten situations
+(overworld, houses, a dungeon room, both worlds, as a bunny), `tools/tsave.sh`
+a player who leaves a room without saving and comes back, `tools/tmap.sh`
+puts a player on the other one's world map (checked by eye on the
+screenshots), `tools/nav.sh` helps to find a walking route and
+`tools/sheet.py` makes a contact sheet of the screenshots. The scripts run
+`alttpo.exe` from a folder of its own, so the installed game is left alone.
+Each script says at its top what it needs and what it prints.
 
 | Variable | Meaning |
 |---|---|
@@ -165,7 +199,15 @@ to `010c`, `00` to `11` and `b0` and `0f` to `10`. That is what the game does
 itself when Link walks into a door (entrance 03, 04 and 05 are the castle's
 west, front and east door). The file needs to be past the intro. Writing `01`
 to `037b` every few frames keeps sprites from hurting Link, so a scripted walk
-ends in the same place every time.
+ends in the same place every time. All writes of one `ALTTPO_POKE` list have to
+be in the order of their frames: an entry is not looked at before the ones in
+front of it are done.
+
+Two more of the game's own moves that the tests use: outdoors, `7b`=`00`,
+`2db`=`01`, `b0`=`00`, `5d`=`14` and `11`=`23` is what stepping on a warp tile
+does (Link goes to the other world, as a bunny without the moon pearl), and
+`10c`=`09`, `11`=`0a`, `200`=`00`, `10`=`0e` is the flute's bird bringing up its
+map. Select, Down, A is the game's Save and Quit.
 
 ## Licenses
 

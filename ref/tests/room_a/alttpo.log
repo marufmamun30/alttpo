@@ -1,16 +1,16 @@
-[       0] A Link to the Past Online 1.1
+[       0] A Link to the Past Online 1.3
 [       0] base ROM: C:/Users/Maruf/Documents/Claude-Code/ALTTP-Online/ref/testbin/../../Zelda no Densetsu - Kamigami no Triforce (Japan).sfc
 [       0] game: "DR157_1_1_126024102" rando=1 door=1 fast=1 crc=fae57117 online=1
-[       0] net: hosting room D2223 (cid a1ab2efd, udp port 59396)
+[       0] net: hosting room D6635 (cid 02911b0b, udp port 64648)
 [       5] net: public address known, 4 addresses to offer
 [      14] net: matchmaking server broker.hivemq.com ready
-[      23] net: matchmaking server broker.emqx.io ready
+[      22] net: matchmaking server broker.emqx.io ready
 [      60] peek 00010=00 00011=00 000a0=00 00dd0=00 00dd1=00 00dd2=00 00bc0=00 00bc1=00 00bc2=00 
 [     120] peek 00010=00 00011=01 000a0=00 00dd0=00 00dd1=00 00dd2=00 00bc0=00 00bc1=00 00bc2=00 
-[     152] net: new peer 24fe2383
-[     153] net: direct link to 24fe2383
-[     153] net: peer 24fe2383 connected (direct link)
-[     159] note: Bob joined the room
+[     141] net: new peer 0bd56683
+[     142] net: direct link to 0bd56683
+[     142] net: peer 0bd56683 connected (direct link)
+[     149] note: Bob joined the room
 [     180] peek 00010=00 00011=01 000a0=00 00dd0=00 00dd1=00 00dd2=00 00bc0=00 00bc1=00 00bc2=00 
 [     240] peek 00010=00 00011=01 000a0=00 00dd0=00 00dd1=00 00dd2=00 00bc0=00 00bc1=00 00bc2=00 
 [     300] peek 00010=00 00011=03 000a0=00 00dd0=00 00dd1=00 00dd2=00 00bc0=00 00bc1=00 00bc2=00 
@@ -21,7 +21,9 @@
 [     600] peek 00010=01 00011=04 000a0=00 00dd0=00 00dd1=00 00dd2=00 00bc0=00 00bc1=00 00bc2=00 
 [     660] peek 00010=01 00011=04 000a0=00 00dd0=00 00dd1=00 00dd2=00 00bc0=00 00bc1=00 00bc2=00 
 [     720] peek 00010=05 00011=00 000a0=00 00dd0=00 00dd1=00 00dd2=00 00bc0=00 00bc1=00 00bc2=00 
+[     771] enemy: t=5455520 place 10104 waiting
 [     780] peek 00010=07 00011=0f 000a0=04 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
+[     808] enemy: t=5456135 place 10104 running
 [     840] peek 00010=07 00011=00 000a0=04 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
 [     900] peek 00010=07 00011=00 000a0=04 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
 [     960] peek 00010=07 00011=00 000a0=04 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
@@ -33,7 +35,7 @@
 [    1320] peek 00010=07 00011=00 000a0=04 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
 [    1380] peek 00010=07 00011=00 000a0=04 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
 [    1440] peek 00010=07 00011=00 000a0=04 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
-[    1489] note: Bob entered Hyrule
+[    1490] note: Bob entered Hyrule
 [    1500] peek 00010=07 00011=00 000a0=04 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
 [    1560] peek 00010=07 00011=00 000a0=04 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
 [    1620] peek 00010=07 00011=00 000a0=04 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
@@ -43,170 +45,160 @@
 [    1700] poke 00011=00
 [    1700] poke 000b0=00
 [    1700] poke 00010=0f
+[    1700] enemy: t=5470978 place 10104 waiting
 [    1740] peek 00010=06 00011=00 000a0=62 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
 [    1800] peek 00010=07 00011=0f 000a0=62 00dd0=08 00dd1=08 00dd2=08 00bc0=00 00bc1=01 00bc2=02 
+[    1810] enemy: t=5472808 place 10062 waiting
+[    1848] enemy: t=5473440 place 10062 running
 [    1860] peek 00010=07 00011=00 000a0=62 00dd0=09 00dd1=09 00dd2=09 00bc0=00 00bc1=01 00bc2=02 
-[    1861] enemy: t=9871649 slot  0 id 000  type 41 st  9 hp   6 at  1216, 3200 who 00000000 claim 0
-[    1861] enemy: t=9871649 slot  1 id 001  type 42 st  9 hp   4 at  1178, 3280 who 00000000 claim 0
-[    1861] enemy: t=9871649 slot  2 id 002  type 42 st  9 hp   4 at  1302, 3296 who 00000000 claim 0
-[    1891] enemy: t=9872149 slot  0 id 000  type 41 st  9 hp   6 at  1216, 3200 who 24fe2383 claim 1
-[    1891] enemy: t=9872149 slot  1 id 001  type 42 st  9 hp   4 at  1162, 3280 who 24fe2383 claim 1
-[    1891] enemy: t=9872149 slot  2 id 002  type 42 st  9 hp   4 at  1317, 3296 who 24fe2383 claim 1
+[    1861] enemy: t=5473657 slot  0 id 000  type 41 st  9 hp   6 at  1216, 3200 who 00000000 claim 0
+[    1861] enemy: t=5473657 slot  1 id 001  type 42 st  9 hp   4 at  1178, 3280 who 00000000 claim 0
+[    1861] enemy: t=5473657 slot  2 id 002  type 42 st  9 hp   4 at  1302, 3296 who 00000000 claim 0
+[    1873] enemy: slot 0 id 000 type 41: taking over (free), claim 1
+[    1873] enemy: slot 1 id 001 type 42: taking over (free), claim 1
+[    1873] enemy: slot 2 id 002 type 42: taking over (free), claim 1
+[    1891] enemy: t=5474156 slot  0 id 000  type 41 st  9 hp   6 at  1216, 3200 who 02911b0b claim 1 (me)
+[    1891] enemy: t=5474156 slot  1 id 001  type 42 st  9 hp   4 at  1163, 3280 who 02911b0b claim 1 (me)
+[    1891] enemy: t=5474156 slot  2 id 002  type 42 st  9 hp   4 at  1317, 3296 who 02911b0b claim 1 (me)
 [    1920] peek 00010=07 00011=00 000a0=62 00dd0=09 00dd1=09 00dd2=09 00bc0=00 00bc1=01 00bc2=02 
-[    1921] enemy: t=9872648 slot  0 id 000  type 41 st  9 hp   6 at  1216, 3200 who 24fe2383 claim 1
-[    1921] enemy: t=9872648 slot  1 id 001  type 42 st  9 hp   4 at  1147, 3280 who 24fe2383 claim 1
-[    1921] enemy: t=9872648 slot  2 id 002  type 42 st  9 hp   4 at  1328, 3296 who 24fe2383 claim 1
-[    1949] enemy: slot 0 id 000: killed by another player
-[    1949] enemy: slot 1 id 001: killed by another player
-[    1949] enemy: slot 2 id 002: killed by another player
+[    1921] enemy: t=5474655 slot  0 id 000  type 41 st  9 hp   6 at  1216, 3200 who 02911b0b claim 1 (me)
+[    1921] enemy: t=5474655 slot  1 id 001  type 42 st  9 hp   4 at  1148, 3280 who 02911b0b claim 1 (me)
+[    1921] enemy: t=5474655 slot  2 id 002  type 42 st  9 hp   4 at  1328, 3296 who 02911b0b claim 1 (me)
 [    1950] poke 00dd0=00
 [    1950] poke 00dd1=00
 [    1950] poke 00dd2=00
+[    1950] enemy: slot 0 id 000 type 41: gone
+[    1950] enemy: slot 1 id 001 type 42: gone
+[    1950] enemy: slot 2 id 002 type 42: gone
 [    1980] peek 00010=07 00011=00 000a0=62 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
 [    2040] peek 00010=07 00011=00 000a0=62 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
 [    2100] peek 00010=07 00011=00 000a0=62 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
 [    2160] peek 00010=07 00011=00 000a0=62 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
 [    2220] peek 00010=07 00011=00 000a0=62 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
 [    2280] peek 00010=07 00011=00 000a0=62 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
+[    2324] enemy: t=5481361 place 10052 waiting
 [    2340] peek 00010=07 00011=02 000a0=52 00dd0=09 00dd1=09 00dd2=09 00bc0=00 00bc1=01 00bc2=02 
 [    2370] poke 00468=00
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2370] poke 0037b=01
+[    2380] poke 0037b=01
+[    2390] poke 0037b=01
+[    2400] poke 0037b=01
 [    2400] peek 00010=07 00011=02 000a0=52 00dd0=09 00dd1=09 00dd2=09 00bc0=00 00bc1=01 00bc2=02 
-[    2446] enemy: t=9881383 slot  0 id 000  type 42 st  9 hp   4 at  1124, 2768 who a1ab2efd claim 0 (me)
-[    2446] enemy: t=9881383 slot  1 id 001  type 4b st  9 hp   4 at  1144, 2800 who a1ab2efd claim 0 (me)
-[    2446] enemy: t=9881383 slot  2 id 002  type 4b st  9 hp   4 at  1136, 2840 who a1ab2efd claim 0 (me)
+[    2410] poke 0037b=01
+[    2420] poke 0037b=01
+[    2421] enemy: t=5482975 place 10052 running
+[    2430] poke 0037b=01
+[    2440] poke 0037b=01
+[    2446] enemy: t=5483391 slot  0 id 000  type 42 st  9 hp   4 at  1124, 2768 who 02911b0b claim 0 (me)
+[    2446] enemy: t=5483391 slot  1 id 001  type 4b st  9 hp   4 at  1144, 2800 who 02911b0b claim 0 (me)
+[    2446] enemy: t=5483391 slot  2 id 002  type 4b st  9 hp   4 at  1136, 2840 who 02911b0b claim 0 (me)
+[    2450] poke 0037b=01
+[    2460] poke 0037b=01
 [    2460] peek 00010=07 00011=00 000a0=52 00dd0=09 00dd1=09 00dd2=09 00bc0=00 00bc1=01 00bc2=02 
-[    2476] enemy: t=9881883 slot  0 id 000  type 42 st  9 hp   4 at  1125, 2768 who a1ab2efd claim 0 (me)
-[    2476] enemy: t=9881883 slot  1 id 001  type 4b st  9 hp   4 at  1122, 2800 who a1ab2efd claim 0 (me)
-[    2476] enemy: t=9881883 slot  2 id 002  type 4b st  9 hp   4 at  1136, 2818 who a1ab2efd claim 0 (me)
-[    2500] poke 00dd0=00
-[    2500] poke 00dd1=00
-[    2500] poke 00dd2=00
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] poke 0037b=01
-[    2500] enemy: slot 0 id 000 type 42: gone
-[    2500] enemy: slot 1 id 001 type 4b: gone
-[    2500] enemy: slot 2 id 002 type 4b: gone
+[    2470] poke 0037b=01
+[    2476] enemy: t=5483890 slot  0 id 000  type 42 st  9 hp   4 at  1125, 2768 who 02911b0b claim 0 (me)
+[    2476] enemy: t=5483890 slot  1 id 001  type 4b st  9 hp   4 at  1122, 2800 who 02911b0b claim 0 (me)
+[    2476] enemy: t=5483890 slot  2 id 002  type 4b st  9 hp   4 at  1136, 2818 who 02911b0b claim 0 (me)
+[    2480] poke 0037b=01
+[    2490] poke 0037b=01
+[    2500] poke 0037b=01
+[    2506] enemy: t=5484389 slot  0 id 000  type 42 st  9 hp   4 at  1140, 2768 who 02911b0b claim 0 (me)
+[    2506] enemy: t=5484389 slot  1 id 001  type 4b st  9 hp   4 at  1117, 2794 who 02911b0b claim 0 (me)
+[    2506] enemy: t=5484389 slot  2 id 002  type 4b st  9 hp   4 at  1136, 2795 who 02911b0b claim 0 (me)
 [    2510] poke 0037b=01
 [    2520] poke 0037b=01
-[    2520] peek 00010=07 00011=00 000a0=52 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
+[    2520] peek 00010=07 00011=00 000a0=52 00dd0=09 00dd1=09 00dd2=09 00bc0=00 00bc1=01 00bc2=02 
 [    2530] poke 0037b=01
+[    2536] enemy: t=5484888 slot  0 id 000  type 42 st  9 hp   4 at  1146, 2768 who 02911b0b claim 0 (me)
+[    2536] enemy: t=5484888 slot  1 id 001  type 4b st  9 hp   4 at  1117, 2772 who 02911b0b claim 0 (me)
+[    2536] enemy: t=5484888 slot  2 id 002  type 4b st  9 hp   4 at  1136, 2791 who 02911b0b claim 0 (me)
 [    2540] poke 0037b=01
 [    2550] poke 0037b=01
 [    2560] poke 0037b=01
+[    2566] enemy: t=5485387 slot  0 id 000  type 42 st  9 hp   4 at  1146, 2768 who 02911b0b claim 0 (me)
+[    2566] enemy: t=5485387 slot  1 id 001  type 4b st  9 hp   4 at  1117, 2749 who 02911b0b claim 0 (me)
+[    2566] enemy: t=5485387 slot  2 id 002  type 4b st  9 hp   4 at  1130, 2791 who 02911b0b claim 0 (me)
 [    2570] poke 0037b=01
 [    2580] poke 0037b=01
-[    2580] peek 00010=07 00011=00 000a0=52 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
+[    2580] peek 00010=07 00011=00 000a0=52 00dd0=09 00dd1=09 00dd2=09 00bc0=00 00bc1=01 00bc2=02 
 [    2590] poke 0037b=01
+[    2596] enemy: t=5485886 slot  0 id 000  type 42 st  9 hp   4 at  1145, 2789 who 02911b0b claim 0 (me)
+[    2596] enemy: t=5485886 slot  1 id 001  type 4b st  9 hp   4 at  1117, 2728 who 02911b0b claim 0 (me)
+[    2596] enemy: t=5485886 slot  2 id 002  type 4b st  9 hp   4 at  1117, 2791 who 02911b0b claim 0 (me)
 [    2600] poke 0037b=01
 [    2610] poke 0037b=01
 [    2620] poke 0037b=01
+[    2626] enemy: t=5486386 slot  0 id 000  type 42 st  9 hp   4 at  1144, 2781 who 02911b0b claim 0 (me)
+[    2626] enemy: t=5486386 slot  1 id 001  type 4b st  9 hp   4 at  1117, 2728 who 02911b0b claim 0 (me)
+[    2626] enemy: t=5486386 slot  2 id 002  type 4b st  9 hp   4 at  1117, 2810 who 02911b0b claim 0 (me)
 [    2630] poke 0037b=01
 [    2640] poke 0037b=01
-[    2640] peek 00010=07 00011=00 000a0=52 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
+[    2640] peek 00010=07 00011=00 000a0=52 00dd0=09 00dd1=09 00dd2=09 00bc0=00 00bc1=01 00bc2=02 
 [    2650] poke 0037b=01
+[    2656] enemy: t=5486885 slot  0 id 000  type 42 st  9 hp   4 at  1144, 2751 who 02911b0b claim 0 (me)
+[    2656] enemy: t=5486885 slot  1 id 001  type 4b st  9 hp   4 at  1127, 2728 who 02911b0b claim 0 (me)
+[    2656] enemy: t=5486885 slot  2 id 002  type 4b st  9 hp   4 at  1117, 2833 who 02911b0b claim 0 (me)
 [    2660] poke 0037b=01
 [    2670] poke 0037b=01
 [    2680] poke 0037b=01
+[    2686] enemy: t=5487384 slot  0 id 000  type 42 st  9 hp   4 at  1144, 2751 who 02911b0b claim 0 (me)
+[    2686] enemy: t=5487384 slot  1 id 001  type 4b st  9 hp   4 at  1150, 2728 who 02911b0b claim 0 (me)
+[    2686] enemy: t=5487384 slot  2 id 002  type 4b st  9 hp   4 at  1117, 2836 who 02911b0b claim 0 (me)
 [    2690] poke 0037b=01
 [    2700] poke 0037b=01
-[    2700] peek 00010=07 00011=00 000a0=52 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
-[    2710] poke 0037b=01
-[    2720] poke 0037b=01
-[    2730] poke 0037b=01
-[    2740] poke 0037b=01
-[    2750] poke 0037b=01
-[    2760] poke 0037b=01
-[    2760] peek 00010=07 00011=00 000a0=52 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
-[    2770] poke 0037b=01
-[    2780] poke 0037b=01
-[    2790] poke 0037b=01
-[    2800] poke 0037b=01
-[    2810] poke 0037b=01
-[    2820] poke 0037b=01
-[    2820] peek 00010=07 00011=00 000a0=52 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
-[    2830] poke 0037b=01
-[    2840] poke 0037b=01
-[    2850] poke 0037b=01
-[    2860] poke 0037b=01
-[    2870] poke 0037b=01
-[    2880] poke 0037b=01
-[    2880] peek 00010=07 00011=00 000a0=52 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
-[    2890] poke 0037b=01
-[    2900] poke 0037b=01
-[    2910] poke 0037b=01
-[    2920] poke 0037b=01
-[    2930] poke 0037b=01
-[    2940] poke 0037b=01
-[    2940] peek 00010=07 00011=00 000a0=52 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
-[    2950] poke 0037b=01
-[    2960] poke 0037b=01
-[    2970] poke 0037b=01
-[    2980] poke 0037b=01
-[    2990] poke 0037b=01
-[    3000] poke 0037b=01
-[    3000] peek 00010=07 00011=00 000a0=52 00dd0=00 00dd1=00 00dd2=00 00bc0=ff 00bc1=ff 00bc2=ff 
-[    3000] note: Bob left the room
+[    2700] peek 00010=07 00011=00 000a0=52 00dd0=09 00dd1=09 00dd2=09 00bc0=00 00bc1=01 00bc2=02 
+[    2703] enemy: t=5487683 place 10052 waiting
+[    2703] saved before leaving
+[    2703] note: Bob left the room

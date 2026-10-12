@@ -23,6 +23,7 @@ enum {
   M_STATE = 1, M_SRAM = 2, // 3 is M_ENEMY (enemy.h)
   M_HELLO = 16, M_TILES, M_PAL, M_BOMBS, M_KEYS, M_KEYREQ, M_KEYSNAP, M_PVP, M_ROMREQ, M_ROMDATA,
   M_TILEMAP, M_TILERESET, M_NOROM,
+  M_WARPREQ, M_WARPINFO, M_MAPPOS, // since 1.3; older versions ignore them
 };
 
 #define MAX_SPR 48
@@ -77,6 +78,13 @@ typedef struct Remote {
   uint32_t tmLocation, tmStamp;
   TmRun *tmRuns; int tmCount;
   bool wasInGame;
+  // where the world map shows them (M_MAPPOS)
+  bool mapHave, mapKnown, mapDark;
+  int16_t mapX, mapY;
+  // they want to warp to us and have not been answered yet
+  bool warpAsked;
+  uint8_t warpAskId;
+  uint64_t warpAskT;
 } Remote;
 
 static Remote s_rem[MAX_PLAYERS];
@@ -1359,6 +1367,432 @@ static void sync_enemies(void) {
   enemy_frame(&c);
 }
 
+// ------------------------------------------------------------------ what we know about the insides of the game
+// Addresses in the Japanese v1.0 ROM, which every randomizer is built on. game_start checks that
+// the code and tables are where they are expected (s_romKnown) before any of this is used.
+#define SAVE_GAME_FILE 0x00894A   // the game's routine that writes the file to the cartridge
+#define LOAD_ENTRANCE  0x02D707   // "LDA entrance rooms,X" inside the routine that goes through a door
+#define EXIT_ROOMS     0x02DAEE   // the places its buildings lead out to (79 of them): room,
+#define EXIT_AREAS     0x02DB8C   //   overworld area,
+#define EXIT_Y         0x02DDB5   //   and where Link comes out
+#define EXIT_X         0x02DE53
+#define MAP_TABLE      0x0AC5EC   // the perspective table of the world map (333 bytes)
+#define ENT_COUNT      0x85
+// the table of entrances, one entry per door, in the order the routine above reads it
+static const struct { uint32_t addr; uint8_t size; } kEntrance[] = {
+  {0x02C577, 2}, {0x02CBB3, 2}, {0x02CAA9, 2}, {0x02CCBD, 2}, {0x02CDC7, 2}, {0x02CED1, 2}, {0x02CFDB, 2},  // room, scroll y x, Link y x, camera y x
+  {0x02C681, 8},                                                                                           // edges of the room
+  {0x02D0E5, 1}, {0x02D16A, 1}, {0x02D1EF, 1}, {0x02D274, 1}, {0x02D2F9, 1}, {0x02D37E, 1}, {0x02D403, 1},  // tiles, floor, dungeon, doorway, layer, quadrants
+};
+#define ENT_FIELDS ((int)(sizeof(kEntrance) / sizeof(kEntrance[0])))
+#define ENT_BYTES 29
+static bool s_romKnown;
+
+static uint16_t rom16(uint32_t a) { return emu_rom8(a) | (emu_rom8(a + 1) << 8); }
+
+static void check_rom(void) {
+  s_romKnown = emu_rom8(SAVE_GAME_FILE) == 0x8B
+            && emu_rom8(LOAD_ENTRANCE) == 0xBD && rom16(LOAD_ENTRANCE + 1) == (kEntrance[0].addr & 0xFFFF)
+            && emu_rom8(MAP_TABLE) == 224 && emu_rom8(MAP_TABLE + 332) == 224
+            && rom16(kEntrance[0].addr) == 0x0104;
+  if (!s_romKnown) app_log("this ROM is laid out differently: no warping, no players on the map, no saving on leaving");
+}
+
+// ------------------------------------------------------------------ saving when the player leaves
+// The save file only changes when the game writes it, which it does for "Save and Quit" and after a
+// defeat. A player who leaves a room without either would come back with the rupees, bombs and
+// arrows of their last save (what is shared comes back from the team, what is personal does not).
+// So leaving lets the game do its own "Save and Quit" first: same routine, same result.
+static bool save_possible(void) {
+  uint8_t m = R[0x10], sub = R[0x11];
+  if (m == 0x0E) {
+    // over the game: the item menu, a text, the world map, the flute's map, the save question
+    if (sub != 0x01 && sub != 0x02 && sub != 0x07 && sub != 0x0A && sub != 0x0B) return false;
+    m = R[0x010C];
+  } else if (sub || R[0x02E4] || R[0x0FFC] || R[0x0112]) {
+    return false; // a transition, or the game holds Link in place
+  }
+  return (m == 0x07 || m == 0x09 || m == 0x0B) && SR[0x3C5] != 0; // (the game does not save before Link has his sword)
+}
+
+void game_save_before_exit(void) {
+  if (!s_running || !s_online || !s_romKnown) return;
+  R = emu_ram();
+  for (int i = 0; i < 300 && !save_possible(); i++) {
+    // a room that is still loading has to finish; the title, the file menu and a defeat are not waited for
+    uint8_t m = R[0x10];
+    if (is_bad_time(m, R[0x11]) || m == 0x12 || m == 0x17) { app_log("left without saving (module %02x)", m); return; }
+    bool dungeonMap = m == 0x0E && R[0x11] == 0x03; // uses the room's memory for its picture: X closes it first
+    emu_frame(dungeonMap && i % 20 < 2 ? 0x0200 : 0);
+  }
+  if (!save_possible()) { app_log("left without saving (module %02x.%02x)", R[0x10], R[0x11]); return; }
+  // what choosing "Save and Quit" in the game's own menu does; the screen is not faded first
+  R[0x012D] = 0x0F;
+  R[0x05FC] = 0; R[0x05FD] = 0;
+  R[0x10] = 0x17; R[0x11] = 0x01;
+  R[0x13] = 0x01;
+  for (int i = 0; i < 60 && R[0x10] == 0x17 && R[0x11] == 0x01; i++) emu_frame(0); // (it writes the file, then moves on)
+  app_log(R[0x10] == 0x17 && R[0x11] == 0x01 ? "the game did not get to saving" : "saved before leaving");
+}
+
+// ------------------------------------------------------------------ the world map
+// Every player tells the others where the world map should show them: where Link stands, or the
+// door he went through when he is inside something.
+static struct { bool known, dark; int16_t x, y; } s_map;
+
+static void map_track(void) {
+  if (!L.inGame) {
+    if (L.module < 0x06) s_map.known = false; // file menu: the next file starts wherever it starts
+    return;
+  }
+  if (!R[0x1B]) {
+    if (L.module != 0x09 && L.module != 0x0B) return;
+    uint8_t area = R[0x8A];
+    if (area < 0x80) {
+      s_map.x = (int16_t)rd16(R + 0x22); s_map.y = (int16_t)rd16(R + 0x20);
+      s_map.dark = (area & 0x40) != 0;
+    } else {
+      // Zora's Domain and the like are not on the map: where Link left it
+      s_map.x = (int16_t)rd16(R + 0xC10A); s_map.y = (int16_t)rd16(R + 0xC108);
+      s_map.dark = SR[0x3CA] != 0;
+    }
+    s_map.known = true;
+  } else if (!s_map.known && s_romKnown && L.module == 0x07 && L.sub == 0x00) {
+    // the file started indoors: the way out of this room, if it has one of its own
+    uint16_t room = rd16(R + 0xA0);
+    for (int k = 0x4E; k >= 0; k--) {
+      if (rom16(EXIT_ROOMS + k * 2) != room) continue;
+      s_map.x = (int16_t)rom16(EXIT_X + k * 2); s_map.y = (int16_t)rom16(EXIT_Y + k * 2);
+      s_map.dark = (emu_rom8(EXIT_AREAS + k) & 0x40) != 0;
+      s_map.known = true;
+      break;
+    }
+  }
+}
+
+static void map_send(void) {
+  if ((L.frame % 30) != 11) return;
+  if (!L.inGame && L.module != 0x0E) return; // (looking at the map counts as playing)
+  uint8_t m[6] = {M_MAPPOS, (uint8_t)((s_map.known ? 1 : 0) | (s_map.dark ? 2 : 0))};
+  wr16(m + 2, (uint16_t)s_map.x); wr16(m + 4, (uint16_t)s_map.y);
+  net_send(0, m, 6);
+}
+
+static bool rem_map_pos(const Remote *r, int *x, int *y, bool *dark) {
+  if (r->mapHave) {
+    *x = (uint16_t)r->mapX; *y = (uint16_t)r->mapY; *dark = r->mapDark;
+    return r->mapKnown;
+  }
+  // a version before 1.3 does not say: known while that player is outdoors
+  int area = r->location & 0xFF;
+  if ((r->location & 0x010000) || area >= 0x80) return false;
+  *x = (uint16_t)r->x; *y = (uint16_t)r->y; *dark = (area & 0x40) != 0;
+  return true;
+}
+
+// Is the game showing its world map (the map itself or the flute's choice of places)?
+static bool map_showing(void) {
+  return s_romKnown && L.module == 0x0E && (L.sub == 0x07 || L.sub == 0x0A) && R[0x0200] == 5;
+}
+
+// Where the map shows a place of the world: the arithmetic the game uses for Link's own marker.
+static bool map_project(int wx, int wy, int *sx, int *sy) {
+  uint16_t lx = (uint16_t)wx, ly = (uint16_t)wy;
+  int m7y = rd16(R + 0x063A), hofs = rd16(R + 0xE0);
+  if (R[0x0636] == 0) {
+    // the whole world
+    int j = -(ly >> 4) + m7y + ((ly >> 3) & 1) - 0xC0;
+    if (j < 0 || j >= 333) return false;
+    uint8_t yval = (uint8_t)((13 * emu_rom8(MAP_TABLE + j)) >> 4);
+    uint8_t at = (uint8_t)(lx >> 4);
+    bool left = at < 0x80;
+    at -= 0x80;
+    if (at & 0x80) at = (uint8_t)~at;
+    uint8_t t1 = (uint8_t)((((yval < 224 ? yval : 0) * 0x54) >> 8) + 0xB2);
+    uint8_t t2 = (uint8_t)((at * t1) >> 8);
+    uint8_t t3 = left ? (uint8_t)(0x80 - t2) : (uint8_t)(t2 + 0x80);
+    *sx = (int16_t)(uint16_t)(t3 - hofs + 0x80);
+    *sy = yval + 12;
+    return true;
+  }
+  // zoomed in
+  uint16_t t0 = (uint16_t)(-(ly >> 4) + m7y - 0x80);
+  if (t0 >= 0x100) return false;
+  uint16_t t1 = (uint16_t)((t0 * 37) >> 4);
+  if (t1 >= 333) return false;
+  uint8_t yval = emu_rom8(MAP_TABLE + t1);
+  uint16_t t2 = lx;
+  bool left = t2 < 0x7F8;
+  t2 -= 0x7F8;
+  if (t2 & 0x8000) t2 = (uint16_t)-t2;
+  uint8_t t3 = yval < 226 ? yval : 0;
+  uint8_t t4 = (uint8_t)(((t3 * 84) >> 8) + 178);
+  uint8_t t5 = (uint8_t)(((uint8_t)t2 * t4) >> 8);
+  uint16_t t6 = (uint16_t)((uint8_t)(t2 >> 8) * t4 + t5);
+  uint16_t t7 = left ? (uint16_t)(0x800 - t6) : (uint16_t)(t6 + 0x800);
+  bool left2 = t7 < 0x800;
+  t7 -= 0x800;
+  uint16_t t8 = left2 ? (uint16_t)-t7 : t7;
+  uint8_t t9 = (uint8_t)(((uint8_t)t8 * 45) >> 8);
+  uint16_t t10 = (uint16_t)((t8 >> 8) * 45 + t9);
+  uint16_t t11 = left2 ? (uint16_t)(0x80 - t10) : (uint16_t)(t10 + 0x80);
+  uint16_t xval = (uint16_t)(t11 - hofs);
+  if ((uint16_t)(xval + 0x80) >= 0x100) return false;
+  *sx = (int16_t)(xval + 0x81);
+  *sy = yval + 16;
+  return true;
+}
+
+static void draw_map_players(void) {
+  bool darkMap = L.sub == 0x07 && (R[0x8A] & 0x40) != 0;
+  struct { int x, y, w; } drawn[MAX_PLAYERS];
+  int ndrawn = 0;
+  for (int p = 0; p < MAX_PLAYERS; p++) {
+    const Remote *r = &s_rem[p];
+    if (!rem_alive(r) || r->romCrc != s_romCrc) continue;
+    if (!(r->flags & 1) && r->module != 0x0E) continue; // (looking at a map of their own does not take them off ours)
+    int wx, wy, sx, sy;
+    bool dark;
+    if (!rem_map_pos(r, &wx, &wy, &dark) || !map_project(wx, wy, &sx, &sy)) continue;
+    // (that point is the middle of the game's own markers; sprites are drawn one line lower than their number says)
+    int cx = sx * 2, cy = sy * 2 + 2;
+    if (cx < 4 || cx > CANVAS_W - 4 || cy < 4 || cy > CANVAS_H - 4) continue;
+    uint32_t col = g_playerColors[r->color % NUM_PLAYER_COLORS];
+    for (int dy = -6; dy <= 6; dy++) {
+      for (int dx = -6; dx <= 6; dx++) {
+        int d = dx * dx + dy * dy;
+        if (d > 40) continue;
+        // a disc with a dark rim; a ring for a player in the other world
+        ui_fill(cx + dx, cy + dy, 1, 1, (d > 22 || (dark != darkMap && d <= 6)) ? 0x101018 : col);
+      }
+    }
+    if (dark == darkMap) ui_fill(cx - 2, cy - 3, 2, 2, COL_WHITE);
+    char label[40];
+    snprintf(label, sizeof(label), "%s%s", r->name, dark == darkMap ? "" : dark ? " (Dark World)" : " (Light World)");
+    int w = ui_text_w(label, 1);
+    int tx = cx - w / 2, ty = cy - 18;
+    if (tx < 2) tx = 2;
+    if (tx + w > CANVAS_W - 2) tx = CANVAS_W - 2 - w;
+    if (ty < 2) ty = cy + 9;
+    // players at the same door: their names go one above the other
+    for (int k = 0; k < ndrawn; k++) {
+      if (ty < drawn[k].y + 11 && ty + 11 > drawn[k].y && tx < drawn[k].x + drawn[k].w + 4 && tx + w + 4 > drawn[k].x) { ty = drawn[k].y - 11; k = -1; }
+      if (ty < 2) break;
+    }
+    drawn[ndrawn].x = tx; drawn[ndrawn].y = ty; drawn[ndrawn].w = w; ndrawn++;
+    ui_blend(tx - 2, ty - 2, w + 4, 11, 0x000000, 130);
+    ui_text(tx, ty, label, col, 1);
+  }
+}
+
+// ------------------------------------------------------------------ warping to another player
+// The player who is asked describes where they stand in the terms the game has for its doors.
+// Outdoors that is what the game notes down when Link walks into a house, so that he comes out
+// again at the same spot. Indoors it is an entry of the game's table of entrances, filled in with
+// where they are right now. The player who warps then lets the game leave "a house" to the one,
+// or go through "a door" to the other: all the loading is the game's own.
+enum {
+  WR_KIND,                        // 0 outdoors, 1 indoors
+  WR_FLAGS,                       // 1 dark world, 2 place on the map known, 4 that place is dark, 8 Link is a bunny there
+  WR_MAPX, WR_MAPY = WR_MAPX + 2,
+  WR_EXIT = WR_MAPY + 2,          // the game's notes for the way out ($7EC140, 0x32 bytes)
+  WR_ENT = WR_EXIT + 0x32,        // indoors: the entrance they came through,
+  WR_TABLE,                       //   its table entry as it would be for the spot they stand on,
+  WR_DOOR = WR_TABLE + ENT_BYTES, //   and how the door looks from outside
+  WR_SIZE = WR_DOOR + 4,
+};
+enum { W_IDLE, W_ASKED, W_READY, W_CLOSING, W_LOADED, W_OPENING };
+static struct {
+  int stage;
+  uint32_t cid;
+  uint8_t id;
+  uint64_t t;
+  char name[13];
+  uint8_t rec[WR_SIZE];
+  uint8_t romBak[ENT_BYTES];
+  bool romPatched;
+} s_warp;
+
+// Link stands or walks on solid ground, and nothing is going on that a change of place would cut short.
+static bool warp_calm(void) {
+  if (!L.inGame || !s_romKnown) return false;
+  if ((L.module != 0x07 && L.module != 0x09) || L.sub != 0x00) return false;
+  if (R[0x5D] != 0x00 && R[0x5D] != 0x17) return false;                        // on the ground (also as a bunny): not swimming, falling, dashing...
+  if (R[0x4D] || R[0x46] || R[0x02E4] || R[0x0FFC] || R[0x0112]) return false; // knocked back, or the game holds Link in place
+  if (R[0x0308] || R[0x0372] || R[0x5B] || R[0x0345]) return false;            // carrying, running, at a pit, in deep water
+  if (R[0x24] != 0x00 && R[0x24] != 0xFF) return false;                        // in the air
+  if (R[0x04AA] || R[0x010A]) return false;                                    // on the way back from a defeat
+  if (R[0x1B] && R[0x010E] >= ENT_COUNT) return false;
+  return SR[0x3C5] != 0;                                                       // (before the sword, the game places Link itself)
+}
+
+static void warp_describe(uint8_t *o) {
+  memset(o, 0, WR_SIZE);
+  o[WR_KIND] = R[0x1B] != 0;
+  o[WR_FLAGS] = (uint8_t)((SR[0x3CA] ? 1 : 0) | (s_map.known ? 2 : 0) | (s_map.dark ? 4 : 0) | (R[0x5D] == 0x17 ? 8 : 0));
+  wr16(o + WR_MAPX, (uint16_t)s_map.x); wr16(o + WR_MAPY, (uint16_t)s_map.y);
+  uint8_t *e = o + WR_EXIT;
+  if (!R[0x1B]) {
+    // what the game would note down if Link walked into a door right here
+    wr16(e + 0x00, rd16(R + 0x040A)); wr16(e + 0x02, rd16(R + 0x1C));
+    wr16(e + 0x04, rd16(R + 0xE8)); wr16(e + 0x06, rd16(R + 0xE2));
+    wr16(e + 0x08, rd16(R + 0x20)); wr16(e + 0x0A, rd16(R + 0x22));
+    wr16(e + 0x0C, rd16(R + 0x8A)); wr16(e + 0x0E, rd16(R + 0x84));
+    wr16(e + 0x10, rd16(R + 0x0618)); wr16(e + 0x12, rd16(R + 0x061C));
+    memcpy(e + 0x14, R + 0x0600, 8);
+    memcpy(e + 0x1C, R + 0x0610, 8);
+    memcpy(e + 0x24, R + 0x0AA0, 4);
+    memcpy(e + 0x2A, R + 0x0624, 8);
+    return;
+  }
+  memcpy(e, R + 0xC140, 0x32);
+  o[WR_ENT] = R[0x010E];
+  uint8_t *t = o + WR_TABLE;
+  static const uint16_t kWords[7] = {0xA0, 0xE8, 0xE2, 0x20, 0x22, 0x0618, 0x061C};
+  for (int i = 0; i < 7; i++) { wr16(t, rd16(R + kWords[i])); t += 2; }
+  for (int i = 0; i < 8; i++) *t++ = R[0x0601 + i * 2];
+  *t++ = R[0x0AA1]; *t++ = R[0xA4]; *t++ = R[0x040C]; *t++ = R[0x6C];
+  *t++ = (uint8_t)((R[0xEE] << 4) | (R[0x0476] & 15));
+  *t++ = (uint8_t)((R[0xA6] << 4) | (R[0xA7] & 15));
+  *t++ = (uint8_t)((R[0xA9] << 4) | (R[0xAA] & 15));
+  memcpy(o + WR_DOOR, R + 0x0696, 4);
+}
+
+// Players who asked to warp to us get their answer as soon as Link stands still somewhere sensible.
+static void warp_answer(void) {
+  uint64_t now = app_ms();
+  for (int p = 0; p < MAX_PLAYERS; p++) {
+    Remote *r = &s_rem[p];
+    if (!r->used || !r->warpAsked) continue;
+    uint8_t m[3 + WR_SIZE] = {M_WARPINFO, r->warpAskId, 0};
+    int n = 3;
+    if (warp_calm()) {
+      warp_describe(m + 3);
+      n += m[3 + WR_KIND] ? WR_SIZE : WR_ENT;
+      game_notify("%s is warping to you", r->name);
+    } else if (L.inGame && now - r->warpAskT < 2500) {
+      continue; // in a moment, maybe
+    } else {
+      m[2] = 1;
+    }
+    r->warpAsked = false;
+    net_send_rel(r->cid, m, n);
+  }
+}
+
+static void warp_patch_entrance(bool apply) {
+  int ent = s_warp.rec[WR_ENT], p = 0;
+  for (int i = 0; i < ENT_FIELDS; i++) {
+    for (int b = 0; b < kEntrance[i].size; b++, p++) {
+      uint32_t a = kEntrance[i].addr + ent * kEntrance[i].size + b;
+      if (apply) { s_warp.romBak[p] = emu_rom8(a); emu_rom_poke(a, s_warp.rec[WR_TABLE + p]); }
+      else emu_rom_poke(a, s_warp.romBak[p]);
+    }
+  }
+  s_warp.romPatched = apply;
+}
+
+static void warp_stop(const char *why) {
+  if (s_warp.romPatched) warp_patch_entrance(false);
+  if (why) game_notify("%s", why);
+  s_warp.stage = W_IDLE;
+}
+
+static void warp_frame(void) {
+  if (s_warp.stage == W_IDLE) return;
+  uint64_t now = app_ms();
+  const uint8_t *rec = s_warp.rec;
+  bool inside = rec[WR_KIND] != 0;
+  switch (s_warp.stage) {
+    case W_ASKED:
+      if (now - s_warp.t > 5000) {
+        char b[72];
+        snprintf(b, sizeof(b), "No answer from %s (warping needs version 1.3 or newer)", s_warp.name);
+        warp_stop(b);
+      }
+      break;
+    case W_READY:
+      if (!warp_calm() || SR[0x3CC]) {
+        if (now - s_warp.t > 4000) warp_stop(SR[0x3CC] ? "You can not warp while someone is following you" : "You can not warp right now");
+        break;
+      }
+      if (R[0x1B]) {
+        // what the game does when Link leaves through a door: his keys and the parts of the room he has seen go into the save data
+        if (L.dungeon != 0xFF && L.dungeon < 0x20 && SR[0x36F] != 0xFF) key_set(L.dungeon >> 1, SR[0x36F]);
+        uint16_t room = rd16(R + 0xA0);
+        if (room < 0x128) wr16(SR + room * 2, rd16(SR + room * 2) | rd16(R + 0x0408));
+      }
+      // ... and what it does when he walks into one: the screen closes, then the next place is loaded
+      if (inside) R[0x010E] = rec[WR_ENT];
+      R[0x010C] = inside ? 0x06 : 0x08;
+      R[0x10] = 0x0F; R[0x11] = 0x00; R[0xB0] = 0x00;
+      s_warp.stage = W_CLOSING;
+      s_warp.t = now;
+      game_notify("Warping to %s", s_warp.name);
+      break;
+    case W_CLOSING:
+      if (R[0x10] == (inside ? 0x06 : 0x08)) {
+        // the game loads the place during this frame: this is the moment to tell it which
+        SR[0x3CA] = (rec[WR_FLAGS] & 1) ? 0x40 : 0x00;
+        bool bunny = (rec[WR_FLAGS] & 8) && !SR[0x357]; // (the moon pearl is shared, so this is what Link is over there)
+        if (bunny) { R[0x56] = 1; R[0x02E0] = 1; R[0x5D] = 0x17; }
+        else { R[0x56] = 0; R[0x02E0] = 0; R[0x5D] = 0x00; R[0x03F5] = 0; R[0x03F6] = 0; R[0x03F7] = 0; }
+        if (inside) {
+          warp_patch_entrance(true);
+          R[0x010E] = rec[WR_ENT];
+        } else {
+          // a room number that makes the game come out of "a house", to the spot in its notes; no door to draw
+          memcpy(R + 0xC140, rec + WR_EXIT, 0x32);
+          wr16(R + 0xA0, 0x0130);
+          memset(R + 0x0696, 0, 4);
+        }
+        s_warp.stage = W_LOADED;
+      } else if (R[0x10] != 0x0F || now - s_warp.t > 6000) {
+        warp_stop(NULL); // something else happened to Link in the meantime
+      }
+      break;
+    case W_LOADED:
+      if (inside) {
+        if (R[0x10] == 0x06 && now - s_warp.t < 9000) break;
+        warp_patch_entrance(false);
+        // the way out of here is theirs, not the one of the place we came from
+        memcpy(R + 0xC140, rec + WR_EXIT, 0x32);
+        memcpy(R + 0x0696, rec + WR_DOOR, 4);
+        s_map.known = (rec[WR_FLAGS] & 2) != 0; s_map.dark = (rec[WR_FLAGS] & 4) != 0;
+        s_map.x = (int16_t)rd16(rec + WR_MAPX); s_map.y = (int16_t)rd16(rec + WR_MAPY);
+      }
+      s_warp.stage = W_OPENING;
+      s_warp.t = now;
+      break;
+    case W_OPENING:
+      // (the game would now walk Link a few steps "out of the door": he is where he should be already)
+      if (R[0x10] == 0x09 && (R[0x11] == 0x0A || R[0x11] == 0x0B)) R[0x11] = 0x00;
+      if ((R[0x10] == 0x07 || R[0x10] == 0x09) && R[0x11] == 0x00) {
+        app_log("warp: arrived at %05x %d,%d", L.actual, (int16_t)rd16(R + 0x22), (int16_t)rd16(R + 0x20));
+        s_warp.stage = W_IDLE;
+      } else if (now - s_warp.t > 15000) {
+        s_warp.stage = W_IDLE;
+      }
+      break;
+  }
+}
+
+bool game_warp_to(uint32_t cid) {
+  Remote *r = rem_find(cid);
+  if (!s_running || !s_online || !r || s_warp.stage != W_IDLE) return false;
+  if (!rem_playing(r)) { game_notify("%s is not in the game right now", r->name); return false; }
+  if (!s_romKnown || !L.inGame) { game_notify("You can not warp right now"); return false; }
+  if (SR[0x3CC]) { game_notify("You can not warp while someone is following you"); return false; }
+  s_warp.stage = W_ASKED;
+  s_warp.cid = cid;
+  s_warp.id++;
+  s_warp.t = app_ms();
+  snprintf(s_warp.name, sizeof(s_warp.name), "%s", r->name);
+  uint8_t m[2] = {M_WARPREQ, s_warp.id};
+  net_send_rel(cid, m, 2);
+  return true;
+}
+
 // ------------------------------------------------------------------ sending
 static void send_hello(uint32_t cid) {
   uint8_t m[96];
@@ -1528,6 +1962,10 @@ static void on_main(void) {
     code_jsl(s_fast + LOAD_MAIL_PALETTE);
   }
   if (s_online) {
+    warp_frame();
+    warp_answer();
+    map_track();
+    map_send();
     if (L.inGame) {
       capture_sprites();
       fetch_pvp();
@@ -1813,6 +2251,37 @@ void game_net_recv(uint32_t cid, const uint8_t *d, int len, bool reliable) {
     case M_ROMREQ:
       serve_rom(cid);
       break;
+    case M_MAPPOS:
+      if (len >= 6) {
+        r->mapHave = true;
+        r->mapKnown = (d[1] & 1) != 0; r->mapDark = (d[1] & 2) != 0;
+        r->mapX = (int16_t)rd16(d + 2); r->mapY = (int16_t)rd16(d + 4);
+      }
+      break;
+    case M_WARPREQ:
+      if (len < 2) break;
+      if (!s_running) { uint8_t m[3] = {M_WARPINFO, d[1], 1}; net_send_rel(cid, m, 3); break; }
+      r->warpAsked = true; r->warpAskId = d[1]; r->warpAskT = app_ms(); // answered from the frame hook (warp_answer)
+      break;
+    case M_WARPINFO: {
+      if (len < 3 || s_warp.stage != W_ASKED || s_warp.cid != cid || d[1] != s_warp.id) break;
+      const uint8_t *rec = d + 3;
+      int n = len - 3;
+      bool ok = d[2] == 0 && n >= WR_ENT && (!rec[WR_KIND] || n >= WR_SIZE);
+      // nothing a player sends is taken on trust: the numbers have to be ones the game can load
+      if (ok && rec[WR_KIND]) ok = rec[WR_ENT] < ENT_COUNT && rd16(rec + WR_TABLE) < 0x128;
+      if (ok && !rec[WR_KIND]) ok = rd16(rec + WR_EXIT + 0x0C) < 0x80;
+      if (!ok) {
+        game_notify("%s can not be warped to right now", r->name);
+        s_warp.stage = W_IDLE;
+        break;
+      }
+      memset(s_warp.rec, 0, WR_SIZE);
+      memcpy(s_warp.rec, rec, n < WR_SIZE ? n : WR_SIZE);
+      s_warp.stage = W_READY;
+      s_warp.t = app_ms();
+      break;
+    }
     case M_NOROM:
       if (s_joinState == JOIN_DOWNLOADING) { s_joinState = JOIN_ERROR; snprintf(s_joinError, sizeof(s_joinError), "The host could not send the seed."); }
       break;
@@ -1874,6 +2343,7 @@ void game_net_peer(uint32_t cid, bool joined) {
     if (!r) return;
     if (r->hello && s_running) game_notify("%s left the room", r->name);
     if (s_joinState == JOIN_DOWNLOADING && s_joinFrom == cid) { s_joinState = JOIN_WAIT_INFO; }
+    if (s_warp.cid == cid && (s_warp.stage == W_ASKED || s_warp.stage == W_READY)) s_warp.stage = W_IDLE;
     enemy_peer_left(cid);
     free(r->tmRuns);
     memset(r, 0, sizeof(*r));
@@ -1968,6 +2438,9 @@ void game_start(bool online) {
   s_isDoor = s_isRando && (strncmp(title, "DR", 2) == 0 || (emu_rom8(0x278000) | emu_rom8(0x278001)) != 0);
   s_fast = (emu_rom8(0x00F82D) & 0x80) ? 0x800000 : 0;
   s_swampMasks = !s_isRando || emu_rom8(0x30803D) == 0x00;
+  check_rom();
+  memset(&s_warp, 0, sizeof(s_warp));
+  s_map.known = false;
   build_sync_table();
   for (int c = 0; c < NUM_CHUNKS; c++) { s_chunks[c].lastHash = 0; s_chunks[c].lastSent = 0; }
   app_log("game: \"%s\" rando=%d door=%d fast=%d crc=%08x online=%d", title, s_isRando, s_isDoor, s_fast != 0, s_romCrc, online);
@@ -2002,6 +2475,7 @@ void game_stop(void) {
   s_online = false;
   g_emuMainHook = NULL;
   enemy_reset();
+  s_warp.stage = W_IDLE;
   if (g_snes) { g_snes->ppu->extraCount = 0; g_snes->apuWriteHook = NULL; }
 }
 
@@ -2085,6 +2559,7 @@ void game_draw_overlay(void) {
       ui_text(sx - w / 2, sy, r->name, g_playerColors[r->color % NUM_PLAYER_COLORS], 1);
     }
   }
+  if (s_online && !launcher_active() && map_showing()) draw_map_players();
   int y = CANVAS_H - 20;
   for (int i = 0; i < 6; i++) {
     Note *nt = &s_notes[i];

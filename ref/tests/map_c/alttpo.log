@@ -1,0 +1,18 @@
+[       0] A Link to the Past Online 1.3
+[       0] base ROM: C:/Users/Maruf/Documents/Claude-Code/ALTTP-Online/ref/testbin/../../Zelda no Densetsu - Kamigami no Triforce (Japan).sfc
+[       0] net: joining room M7393 (cid 5956ad05, udp port 53531)
+[       5] net: public address known, 4 addresses to offer
+[      13] net: matchmaking server broker.hivemq.com ready
+[      24] net: matchmaking server broker.emqx.io ready
+[      34] net: new peer 62bfb021
+[      34] net: peer 62bfb021 connected (through the relay so far)
+[      34] net: new peer cb01d083
+[      34] net: peer cb01d083 connected (through the relay so far)
+[      35] net: direct link to 62bfb021
+[      35] net: direct link to cb01d083
+[      35] game: "DR157_1_1_126024102" rando=1 door=1 fast=1 crc=fae57117 online=1
+[     566] note: Alice entered Hyrule
+[    1282] note: Bob entered Hyrule
+[    2500] saved before leaving
+[    2500] note: Alice left the room
+[    2500] note: Bob left the room

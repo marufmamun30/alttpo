@@ -52,8 +52,14 @@ CONTROLS (change them in OPTIONS > CONTROLS; gamepads work)
   ESC menu and room code        TAB player list
   F11 fullscreen                F12 screenshot
 
+FINDING EACH OTHER
+  The game's world map (S) shows the other players, with their names.
+  ESC > WARP TO PLAYER takes you to where another player is standing.
+
 SAVING
-  Use the game's own Save and Quit. Saves are per game/seed in saves\, on each
+  Use the game's own Save and Quit (Right Shift). In an online game, LEAVE ROOM
+  and closing the program do it for you, so your rupees, bombs and arrows are
+  still there when you come back. Saves are per game/seed in saves\, on each
   player's own PC, so anyone can host next time.
 
 More details and troubleshooting: game-win64\README.md

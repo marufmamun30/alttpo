@@ -14,7 +14,7 @@
 
 enum {
   SC_NONE, SC_NOROM, SC_MAIN, SC_ONLINE, SC_GAMESEL, SC_HOSTOPTS, SC_JOIN, SC_CONNECT,
-  SC_RANDO, SC_RANDO_RUN, SC_OPTIONS, SC_CONTROLS, SC_PAUSE, SC_MESSAGE, SC_HELP,
+  SC_RANDO, SC_RANDO_RUN, SC_OPTIONS, SC_CONTROLS, SC_PAUSE, SC_MESSAGE, SC_HELP, SC_WARP,
 };
 
 static int s_screen = SC_MAIN;
@@ -206,6 +206,7 @@ static bool start_game(const uint8_t *rom, int len, const char *name, bool onlin
 }
 
 static void leave_game(void) {
+  game_save_before_exit();
   net_leave();
   game_stop();
   emu_close();
@@ -809,13 +810,15 @@ static void draw_players(int x, int y, int w) {
 static void screen_pause(void) {
   draw_backdrop(140);
   ui_frame_titled(24, 60, 216, 170, "MENU");
-  Item it[4] = {
-    {"RESUME", NULL, false, "", 0},
-    {"OPTIONS", NULL, false, "", 0},
-    {"HOW TO PLAY", NULL, false, "", 0},
-    {s_gameOnline ? "LEAVE ROOM" : "QUIT TO TITLE", NULL, false, "", 0},
-  };
-  int ev = menu(it, 4, &s_sel[SC_PAUSE], NULL, 32, 88, 200, 4, 2);
+  enum { RESUME, WARP, OPTIONS, HELP, LEAVE };
+  Item it[5];
+  int what[5], n = 0;
+  it[n] = (Item){"RESUME", NULL, false, "", 0}; what[n++] = RESUME;
+  if (s_gameOnline) { it[n] = (Item){"WARP TO PLAYER", NULL, false, "", 0}; what[n++] = WARP; }
+  it[n] = (Item){"OPTIONS", NULL, false, "", 0}; what[n++] = OPTIONS;
+  it[n] = (Item){"HOW TO PLAY", NULL, false, "", 0}; what[n++] = HELP;
+  it[n] = (Item){s_gameOnline ? "LEAVE ROOM" : "QUIT TO TITLE", NULL, false, "", 0}; what[n++] = LEAVE;
+  int ev = menu(it, n, &s_sel[SC_PAUSE], NULL, 32, 88, 200, n, 2);
   draw_players(250, 60, 240);
   if (s_gameOnline) {
     ui_frame(24, 244, 216, 86);
@@ -826,19 +829,48 @@ static void screen_pause(void) {
     char st[64];
     snprintf(st, sizeof(st), "up %d.%d  down %d.%d KB/s", up / 1024, (up % 1024) * 10 / 1024, down / 1024, (down % 1024) * 10 / 1024);
     ui_text(38, 310, st, COL_DARK, 1);
-    footer("The game keeps running while this menu is open");
+    footer("The game keeps running while this menu is open.  Leaving the room saves your game.");
   } else {
     footer("Use Save and Quit in the game to keep your progress");
   }
   if (ev == EV_OK) {
-    switch (s_sel[SC_PAUSE]) {
-      case 0: s_screen = SC_NONE; break;
-      case 1: s_screen = SC_OPTIONS; break;
-      case 2: s_screen = SC_HELP; break;
-      case 3: leave_game(); break;
+    switch (what[s_sel[SC_PAUSE]]) {
+      case RESUME: s_screen = SC_NONE; break;
+      case WARP: s_sel[SC_WARP] = 0; s_screen = SC_WARP; break;
+      case OPTIONS: s_screen = SC_OPTIONS; break;
+      case HELP: s_screen = SC_HELP; break;
+      case LEAVE: leave_game(); break;
     }
   }
   if (g_uiPressed & (UI_BACK | UI_MENU)) s_screen = SC_NONE;
+}
+
+static void screen_warp(void) {
+  draw_backdrop(140);
+  PlayerView pv[MAX_PLAYERS];
+  int n = game_players(pv, MAX_PLAYERS);
+  Item it[MAX_PLAYERS];
+  char where[MAX_PLAYERS][40];
+  uint32_t cid[MAX_PLAYERS];
+  int m = 0;
+  for (int i = 1; i < n; i++) {
+    bool there = pv[i].inGame && pv[i].sameGame;
+    snprintf(where[m], sizeof(where[m]), "%.36s", !pv[i].sameGame ? "different game" : !pv[i].inGame ? "in the menus" : game_location_name(pv[i].location));
+    it[m] = (Item){pv[i].name, where[m], !there, "", 0};
+    cid[m++] = pv[i].cid;
+  }
+  it[m] = (Item){"BACK", NULL, false, "", 0};
+  ui_frame_titled(56, 60, CANVAS_W - 112, 62 + (m + 1) * 22, "WARP TO A PLAYER");
+  if (!m) ui_text(84, 84, "Nobody else is in the room yet.", COL_GRAY, 1);
+  int ev = menu(it, m + 1, &s_sel[SC_WARP], NULL, 72, m ? 90 : 104, CANVAS_W - 144, m + 1, 2);
+  help_box("Link goes to where that player stands. Both of you have to be on your feet for it: "
+           "not swimming, falling or carrying something, and nobody may be following you.");
+  footer("ENTER  Warp     ESC  Back");
+  if (ev == EV_OK) {
+    if (s_sel[SC_WARP] >= m) s_screen = SC_PAUSE;
+    else { game_warp_to(cid[s_sel[SC_WARP]]); s_screen = SC_NONE; }
+  }
+  if (g_uiPressed & (UI_BACK | UI_MENU)) s_screen = SC_PAUSE;
 }
 
 static void screen_help(void) {
@@ -856,9 +888,12 @@ static void screen_help(void) {
     "it starts. Players in the same area see and hear each other and fight the same enemies; what an enemy "
     "drops goes to whoever picks it up first. Cut bushes, opened doors and lifted pots show up for everyone. "
     "If the room allows it, your sword, arrows, rods and hammer hurt other players.\n\n"
+    "FINDING EACH OTHER\n"
+    "  The game's world map shows where the other players are. Warp to Player in the ESC menu takes Link to one of them.\n\n"
     "SAVING\n"
-    "  Use the game's Save and Quit (open the item menu, then press Select... or just die). Each player keeps a save "
-    "file per seed on their own PC, and anyone can host the next session.\n\n"
+    "  Leaving a room, or closing the game while in one, saves your file like the game's own Save and Quit. "
+    "In single player use Save and Quit yourself (press Select). Each player keeps a save file per seed on their "
+    "own PC, and anyone can host the next session.\n\n"
     "KEYS\n"
     "  ESC menu    TAB player list    F11 fullscreen    F12 screenshot",
     0xD8E0F0, 1);
@@ -936,6 +971,7 @@ void launcher_frame(void) {
     case SC_OPTIONS: screen_options(); break;
     case SC_CONTROLS: screen_controls(); break;
     case SC_PAUSE: screen_pause(); game_draw_overlay(); break;
+    case SC_WARP: screen_warp(); game_draw_overlay(); break;
     case SC_HELP: screen_help(); break;
     case SC_MESSAGE: screen_message(); break;
   }

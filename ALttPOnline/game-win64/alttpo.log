@@ -1,7 +1,1923 @@
 [       0] A Link to the Past Online 1.2
 [       0] base ROM: C:/Users/Maruf/Documents/Claude-Code/ALTTP-Online/ALttPOnline/game-win64/alttp-jp.sfc
-[    5105] game: "ZELDANODENSETSU      " rando=0 door=0 fast=0 crc=3322effc online=1
-[    5105] net: hosting room 7M2AM (cid 4482414f, udp port 59300)
-[    5108] net: public address known, 4 addresses to offer
-[    5118] net: matchmaking server broker.hivemq.com ready
-[    5131] net: matchmaking server broker.emqx.io ready
+[    4049] rando: "C:\Users\Maruf\Documents\Claude-Code\ALTTP-Online\ALttPOnline\game-win64\randomizer\python\python.exe" -u DungeonRandomizer.py --settingsfile "C:/Users/Maruf/Documents/Claude-Code/ALTTP-Online/ALttPOnline/game-win64/randomizer/work/settings.json" --rom "C:/Users/Maruf/Documents/Claude-Code/ALTTP-Online/ALttPOnline/game-win64/randomizer/work/base.sfc" --outputpath "C:/Users/Maruf/Documents/Claude-Code/ALTTP-Online/ALttPOnline/game-win64/randomizer/work/." --outputname seed --seed 754002902 --logic noglitches --algorithm balanced --swords random --progressive on --difficulty normal --item_functionality normal --accessibility items --keyshuffle none --restrict_boss_items none --dropshuffle none --pottery none --bow_mode progressive --flute_mode normal --take_any none --beemizer 0 --mode open --goal ganon --crystals_gt 7 --crystals_ganon 7 --openpyramid auto --timer none --spoiler full --shuffle full --skullwoods original --linked_drops unset --overworld_map default --door_shuffle vanilla --intensity 2 --door_type_mode original --trap_door_mode optional --key_logic_algorithm partial --dungeon_counters default --mixed_travel prevent --standardize_palettes standardize --shufflebosses none --shuffleenemies none --enemy_health default --enemy_damage default --any_enemy_logic allow_all --fastmenu normal --heartbeep normal --heartcolor red --ow_palettes default --uw_palettes default
+[    4049] rando: Starting the randomizer...
+[    4079] rando: ALttP Door Randomizer Version 1.5.7-u : --seed 754002902 --code AwAAAoA4OAAAAAEACQA=
+[    4079] rando: Creating Meta Info
+[    4100] rando: Shuffling the World about
+[    4100] rando: Dungeon and Item prep
+[    4122] rando: Shuffling dungeons
+[    4122] rando: Generating Item Pool
+[    4122] rando: Calculating Access Rules
+[    4123] rando: Placing Dungeon Prizes
+[    4123] rando: Placing Dungeon Items
+[    4142] rando: Fill the world
+[    4162] rando: Patching ROM
+[    4206] rando: Creating Spoiler
+[    4206] rando: Calculating Playthrough
+[    4221] rando: Creating Spoiler
+[    4221] rando: Done. Enjoy.
+[    4221] rando: Patched ROM:         Yes
+[    4221] rando: Printed Playthrough: Yes
+[    4221] rando: Printed Spoiler:     Yes
+[    4221] rando: Seed: 754002902
+[    4221] rando: Total Time: 2.366801999974996
+[   13681] game: "DR157_1_1_754002902" rando=1 door=1 fast=1 crc=d6111123 online=1
+[   13681] net: hosting room AYYCH (cid 2b5d26d7, udp port 52579)
+[   13683] net: public address known, 4 addresses to offer
+[   13696] net: matchmaking server broker.hivemq.com ready
+[   13703] net: matchmaking server broker.emqx.io ready
+[   14657] net: new peer 39ae641d
+[   14672] net: peer 39ae641d connected (through the relay so far)
+[   14674] net: direct link to 39ae641d
+[   14678] note: mich joined the room
+[   14686] sending seed patch to 39ae641d (136896 bytes)
+[   17406] note: mich entered Hyrule
+[   17406] tilemap: sent 12 changed tiles (stamp 3, 53 bytes) to 39ae641d
+[   17929] tilemap: mich has 4 runs (stamp 4)
+[   24944] enemy: slot 13 id 499 type 41: taking over (free), claim 1
+[   24992] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 39ae641d
+[   25048] tilemap: sent 2 changed tiles (stamp 2, 17 bytes) to 39ae641d
+[   25104] tilemap: sent 3 changed tiles (stamp 3, 17 bytes) to 39ae641d
+[   25208] tilemap: sent 4 changed tiles (stamp 4, 23 bytes) to 39ae641d
+[   26130] tilemap: mich has 3 runs (stamp 5)
+[   26234] tilemap: mich has 3 runs (stamp 6)
+[   26379] enemy: slot 13 id 499: handed to 39ae641d, claim 2
+[   26478] tilemap: mich has 3 runs (stamp 7)
+[   26496] tilemap: sent 8 changed tiles (stamp 8, 35 bytes) to 39ae641d
+[   26551] enemy: slot 13 id 499 type 41: taking over (nearer), claim 3
+[   26752] tilemap: mich has 4 runs (stamp 9)
+[   26841] enemy: slot 13 id 499: handed to 39ae641d, claim 4
+[   26868] enemy: slot 13 id 499: killed by another player
+[   26912] tilemap: sent 10 changed tiles (stamp 10, 41 bytes) to 39ae641d
+[   27161] enemy: slot 13 id 548 type 42: brought in from 39ae641d
+[   27276] tilemap: mich has 6 runs (stamp 11)
+[   27278] enemy: slot 13 id 548 type 42: taking over (hit), claim 2
+[   27330] enemy: slot 13 id 548: handed to 39ae641d, claim 3
+[   27368] tilemap: sent 12 changed tiles (stamp 12, 47 bytes) to 39ae641d
+[   27409] enemy: slot 13 id 548: killed by another player
+[   27660] tilemap: mich has 7 runs (stamp 13)
+[   28068] enemy: slot 13 id e21 type 48: taking over (nearer), claim 2
+[   28201] tilemap: mich has 1 runs (stamp 1)
+[   28295] enemy: slot 13 id e21: handed to 39ae641d, claim 3
+[   28329] tilemap: sent 2 changed tiles (stamp 2, 17 bytes) to 39ae641d
+[   28468] enemy: slot 13 id e21 type 48: taking over (nearer), claim 4
+[   28557] tilemap: mich has 2 runs (stamp 3)
+[   28645] tilemap: sent 4 changed tiles (stamp 4, 29 bytes) to 39ae641d
+[   28767] enemy: slot 13 id e21: handed to 39ae641d, claim 5
+[   28844] enemy: slot 13 id e21 type 48: taking over (nearer), claim 6
+[   28929] tilemap: mich has 3 runs (stamp 5)
+[   29103] enemy: slot 13 id e21: handed to 39ae641d, claim 7
+[   29189] tilemap: sent 6 changed tiles (stamp 6, 35 bytes) to 39ae641d
+[   29224] enemy: slot 13 id e21 type 48: brought in from 39ae641d
+[   29276] enemy: slot 13 id e21 type 48: taking over (nearer), claim 8
+[   29313] tilemap: mich has 4 runs (stamp 7)
+[   29475] enemy: slot 12 id ad6 type 48: taking over (free), claim 1
+[   29583] enemy: slot 13 id e21: handed to 39ae641d, claim 9
+[   29733] enemy: slot 13 id e21: left a e1 behind (says 39ae641d)
+[   29786] enemy: slot 13 id e21: taken by another player
+[   29870] enemy: slot 13 id ad6 type 48: brought in from 39ae641d
+[   29913] enemy: slot 12 id 9d4 type 42: taking over (free), claim 1
+[   29932] enemy: slot 13 id ad6 type 48: taking over (nearer), claim 2
+[   30048] enemy: slot 13 id ad6: handed to 39ae641d, claim 3
+[   30201] tilemap: sent 8 changed tiles (stamp 8, 41 bytes) to 39ae641d
+[   30324] enemy: slot 13 id ad6 type 48: taking over (nearer), claim 4
+[   30472] enemy: slot 13 id ad6: handed to 39ae641d, claim 5
+[   30485] tilemap: sent 9 changed tiles (stamp 9, 41 bytes) to 39ae641d
+[   30582] enemy: slot 11 id 9d4 type 42: brought in from 39ae641d
+[   30628] enemy: slot 13 id ad6 type 48: taking over (nearer), claim 6
+[   30809] tilemap: sent 10 changed tiles (stamp 10, 47 bytes) to 39ae641d
+[   30838] enemy: slot 11 id 9d4 type 42: taking over (nearer), claim 2
+[   30845] tilemap: mich has 7 runs (stamp 11)
+[   30985] tilemap: sent 12 changed tiles (stamp 12, 59 bytes) to 39ae641d
+[   30988] enemy: slot 11 id 9d4: handed to 39ae641d, claim 3
+[   31025] tilemap: mich has 9 runs (stamp 13)
+[   31038] enemy: slot 11 id 9d4 type 42: taking over (nearer), claim 4
+[   31121] enemy: slot 11 id 9d4 type 42: gone
+[   31125] tilemap: mich has 10 runs (stamp 14)
+[   31189] tilemap: sent 15 changed tiles (stamp 15, 71 bytes) to 39ae641d
+[   31267] enemy: slot 13 id ad6 type 48: brought in from 39ae641d
+[   31652] enemy: slot 13 id ad6 type 48: taking over (nearer), claim 8
+[   31953] tilemap: mich has 10 runs (stamp 16)
+[   32070] enemy: slot 12 id 85e type 4a: taking over (free), claim 1
+[   32079] enemy: slot 13 id ad6: handed to 39ae641d, claim 9
+[   32121] tilemap: sent 17 changed tiles (stamp 17, 77 bytes) to 39ae641d
+[   32162] enemy: slot 10 id ad6 type 48: brought in from 39ae641d
+[   32203] enemy: slot 10 id ad6: left a d8 behind (says 39ae641d)
+[   32266] enemy: slot 10 id ad6: taken by another player
+[   32469] tilemap: mich has 11 runs (stamp 18)
+[   32697] tilemap: sent 19 changed tiles (stamp 19, 83 bytes) to 39ae641d
+[   33229] enemy: slot 13 id 791 type 4a: brought in from 39ae641d
+[   33404] enemy: slot 13 id 791 type 4a: taking over (nearer), claim 2
+[   33617] tilemap: sent 20 changed tiles (stamp 20, 89 bytes) to 39ae641d
+[   34533] note: mich found a Piece of Heart
+[   35354] enemy: slot 12 id 791 type 4a: taking over (free), claim 1
+[   35390] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 39ae641d
+[   35430] tilemap: mich has 1 runs (stamp 2)
+[   35458] tilemap: sent 3 changed tiles (stamp 3, 23 bytes) to 39ae641d
+[   35630] enemy: slot 9 id 6a0 type 41: taking over (free), claim 1
+[   35642] enemy: slot 8 id 5af type 41: taking over (free), claim 1
+[   35653] enemy: slot 12 id 791: handed to 39ae641d, claim 2
+[   35662] tilemap: sent 4 changed tiles (stamp 4, 29 bytes) to 39ae641d
+[   35666] tilemap: mich has 3 runs (stamp 4)
+[   35778] tilemap: sent 5 changed tiles (stamp 5, 35 bytes) to 39ae641d
+[   35786] tilemap: mich has 5 runs (stamp 6)
+[   35870] tilemap: sent 7 changed tiles (stamp 7, 35 bytes) to 39ae641d
+[   35907] enemy: slot 8 id 5af: handed to 39ae641d, claim 2
+[   36022] tilemap: mich has 4 runs (stamp 8)
+[   36050] tilemap: sent 9 changed tiles (stamp 9, 35 bytes) to 39ae641d
+[   36062] enemy: slot 9 id 6a0: handed to 39ae641d, claim 2
+[   36066] enemy: slot 12 id 791 type 4a: taking over (nearer), claim 3
+[   36133] enemy: slot 9 id 6a0 type 41: taking over (nearer), claim 3
+[   36134] enemy: slot 8 id 5af type 41: taking over (nearer), claim 3
+[   36141] enemy: slot 12 id 791: handed to 39ae641d, claim 4
+[   36206] tilemap: mich has 5 runs (stamp 10)
+[   36214] tilemap: sent 11 changed tiles (stamp 11, 47 bytes) to 39ae641d
+[   36251] enemy: slot 11 id 791 type 4a: brought in from 39ae641d
+[   36295] enemy: slot 9 id 6a0: left a d8 behind
+[   36318] tilemap: sent 12 changed tiles (stamp 12, 47 bytes) to 39ae641d
+[   36394] enemy: slot 8 id 5af: left a d8 behind
+[   36398] tilemap: sent 13 changed tiles (stamp 13, 47 bytes) to 39ae641d
+[   36454] tilemap: sent 14 changed tiles (stamp 14, 53 bytes) to 39ae641d
+[   36462] tilemap: mich has 7 runs (stamp 15)
+[   36523] enemy: slot 8 id 5af: pickup d8 collected
+[   36730] tilemap: sent 19 changed tiles (stamp 16, 71 bytes) to 39ae641d
+[   36738] tilemap: sent 19 changed tiles (stamp 17, 71 bytes) to 39ae641d
+[   37083] tilemap: sent 4 changed tiles (stamp 1, 29 bytes) to 39ae641d
+[   37115] tilemap: mich has 4 runs (stamp 2)
+[   37283] tilemap: sent 12 changed tiles (stamp 3, 53 bytes) to 39ae641d
+[   37842] tilemap: mich has 2 runs (stamp 4)
+[   37986] tilemap: sent 20 changed tiles (stamp 5, 83 bytes) to 39ae641d
+[   37994] tilemap: mich has 4 runs (stamp 5)
+[   38042] tilemap: sent 24 changed tiles (stamp 6, 95 bytes) to 39ae641d
+[   38102] tilemap: sent 28 changed tiles (stamp 7, 107 bytes) to 39ae641d
+[   38358] tilemap: sent 32 changed tiles (stamp 8, 125 bytes) to 39ae641d
+[   38426] tilemap: sent 36 changed tiles (stamp 9, 137 bytes) to 39ae641d
+[   38474] tilemap: sent 40 changed tiles (stamp 10, 149 bytes) to 39ae641d
+[   39191] tilemap: sent 5 changed tiles (stamp 3, 35 bytes) to 39ae641d
+[   39249] tilemap: mich has 3 runs (stamp 4)
+[   39257] tilemap: mich has 3 runs (stamp 5)
+[   39318] enemy: slot 11 id 5af type 41: brought in from 39ae641d
+[   39360] enemy: slot 11 id 5af type 41: taking over (hit), claim 2
+[   39401] tilemap: mich has 4 runs (stamp 6)
+[   39468] enemy: slot 11 id 5af: handed to 39ae641d, claim 3
+[   39488] tilemap: sent 7 changed tiles (stamp 7, 47 bytes) to 39ae641d
+[   39525] tilemap: mich has 5 runs (stamp 8)
+[   39608] tilemap: sent 9 changed tiles (stamp 9, 53 bytes) to 39ae641d
+[   39660] enemy: slot 11 id 5af type 41: taking over (hit), claim 4
+[   39688] enemy: slot 11 id 5af type 41: gone
+[   39692] tilemap: sent 10 changed tiles (stamp 10, 59 bytes) to 39ae641d
+[   39765] tilemap: mich has 6 runs (stamp 11)
+[   40074] enemy: slot 9 id 9d4 type 42: taking over (free), claim 1
+[   40155] enemy: slot 11 id 85e type 4a: taking over (free), claim 1
+[   40283] enemy: slot 9 id 9d4: handed to 39ae641d, claim 2
+[   40313] tilemap: sent 12 changed tiles (stamp 12, 59 bytes) to 39ae641d
+[   40467] enemy: slot 9 id 9d4 type 42: taking over (hit), claim 3
+[   40516] enemy: slot 9 id 9d4 type 42: gone
+[   40597] enemy: slot 10 id 49e type 4a: taking over (free), claim 1
+[   40633] enemy: slot 11 id 85e: handed to 39ae641d, claim 2
+[   40661] enemy: slot 9 id 43a type 49: taking over (free), claim 1
+[   40681] enemy: slot 7 id 419 type 49: taking over (free), claim 1
+[   40802] enemy: slot 10 id 49e: handed to 39ae641d, claim 2
+[   41107] tilemap: mich has 1 runs (stamp 1)
+[   41155] tilemap: sent 2 changed tiles (stamp 2, 23 bytes) to 39ae641d
+[   41263] tilemap: mich has 3 runs (stamp 3)
+[   41264] enemy: slot 11 id 48f type 43: taking over (nearer), claim 1
+[   41313] enemy: slot 8 id 1c4 type 41: brought in from 39ae641d
+[   41359] enemy: slot 12 id 0ec type 42: taking over (nearer), claim 2
+[   41363] enemy: slot 8 id 1c4 type 41: taking over (nearer), claim 2
+[   41410] enemy: slot 11 id 48f: handed to 39ae641d, claim 2
+[   41643] tilemap: mich has 4 runs (stamp 4)
+[   41703] tilemap: sent 5 changed tiles (stamp 5, 41 bytes) to 39ae641d
+[   41722] enemy: slot 11 id 48f: left a d8 behind (says 39ae641d)
+[   41754] enemy: slot 11 id 48f: taken by another player
+[   41808] enemy: slot 11 id 1c4 type 41: taking over (free), claim 1
+[   41847] tilemap: mich has 6 runs (stamp 6)
+[   41858] enemy: slot 11 id 1c4: handed to 39ae641d, claim 2
+[   42310] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 39ae641d
+[   42396] enemy: slot 13 id 407: handed to 39ae641d, claim 1
+[   42406] tilemap: mich has 1 runs (stamp 2)
+[   42814] enemy: slot 13 id 478 type 0b: brought in from 39ae641d
+[   42910] enemy: slot 11 id 1c7 type 42: taking over (free), claim 1
+[   42999] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 39ae641d
+[   43070] enemy: slot 13 id 478 type 0b: taking over (hit), claim 2
+[   43195] enemy: slot 11 id 1c7 type 42: taking over (free), claim 1
+[   43726] tilemap: sent 4 changed tiles (stamp 1, 29 bytes) to 39ae641d
+[   44569] enemy: slot 2 id 002 type 24: gone
+[   44917] enemy: slot 0 id 000: handed to 39ae641d, claim 1
+[   44917] enemy: slot 1 id 001: handed to 39ae641d, claim 1
+[   45491] enemy: slot 10 id 1da type 42: taking over (free), claim 1
+[   45491] enemy: slot 11 id 1c7 type 42: taking over (free), claim 1
+[   45491] enemy: slot 12 id 478 type 0b: taking over (free), claim 1
+[   45551] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 39ae641d
+[   45598] tilemap: mich has 2 runs (stamp 2)
+[   46001] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 39ae641d
+[   46297] tilemap: sent 2 changed tiles (stamp 2, 23 bytes) to 39ae641d
+[   46680] tilemap: mich has 3 runs (stamp 3)
+[   46776] tilemap: mich has 3 runs (stamp 4)
+[   46777] tilemap: sent 5 changed tiles (stamp 5, 35 bytes) to 39ae641d
+[   46857] tilemap: sent 6 changed tiles (stamp 6, 35 bytes) to 39ae641d
+[   46901] tilemap: sent 8 changed tiles (stamp 7, 44 bytes) to 39ae641d
+[   47327] enemy: slot 5 id 005: handed to 39ae641d, claim 1
+[   47328] enemy: slot 4 id 004: handed to 39ae641d, claim 1
+[   47453] enemy: slot 7 id 007: handed to 39ae641d, claim 1
+[   47454] enemy: slot 6 id 006: handed to 39ae641d, claim 1
+[   47469] enemy: slot 4 id 004 type 83: taking over (nearer), claim 2
+[   47476] enemy: slot 5 id 005 type 83: taking over (nearer), claim 2
+[   48266] enemy: slot 7 id 007 type 83: taking over (nearer), claim 2
+[   48267] enemy: slot 6 id 006 type 83: taking over (nearer), claim 2
+[   48748] net: new peer 5034dc2d
+[   48758] net: peer 5034dc2d connected (through the relay so far)
+[   48763] note: maruf joined the room
+[   48763] net: direct link to 5034dc2d
+[   48769] sending seed patch to 5034dc2d (136896 bytes)
+[   48974] tilemap: mich has 2 runs (stamp 2)
+[   62512] note: maruf entered Hyrule
+[   62826] enemy: slot 13 id 548 type 42: brought in from 39ae641d
+[   62876] enemy: slot 13 id 548 type 42: taking over (free), claim 1
+[   63157] tilemap: mich has 1 runs (stamp 1)
+[   63243] tilemap: sent 2 changed tiles (stamp 2, 23 bytes) to 39ae641d
+[   63371] enemy: slot 13 id 548 type 42: taking over (free), claim 1
+[   63435] enemy: slot 12 id 499 type 41: taking over (free), claim 1
+[   63621] enemy: slot 13 id 548: handed to 39ae641d, claim 2
+[   63695] tilemap: mich has 3 runs (stamp 3)
+[   63726] enemy: slot 12 id 499: handed to 39ae641d, claim 2
+[   63759] tilemap: sent 4 changed tiles (stamp 4, 35 bytes) to 39ae641d
+[   63779] enemy: slot 13 id 548: killed by another player
+[   63807] tilemap: mich has 4 runs (stamp 5)
+[   63879] enemy: slot 12 id 499 type 41: taking over (nearer), claim 3
+[   63895] tilemap: mich has 5 runs (stamp 6)
+[   63966] enemy: slot 12 id 499: handed to 39ae641d, claim 4
+[   63991] tilemap: sent 7 changed tiles (stamp 7, 47 bytes) to 39ae641d
+[   64094] enemy: slot 12 id 499: killed by another player
+[   64299] tilemap: sent 8 changed tiles (stamp 8, 53 bytes) to 39ae641d
+[   64343] tilemap: sent 10 changed tiles (stamp 9, 62 bytes) to 39ae641d
+[   64776] tilemap: mich has 2 runs (stamp 1)
+[   66713] tilemap: sent 8 changed tiles (stamp 2, 41 bytes) to 39ae641d
+[   66713] tilemap: sent 8 changed tiles (stamp 2, 41 bytes) to 5034dc2d
+[   66957] tilemap: sent 12 changed tiles (stamp 3, 53 bytes) to 39ae641d
+[   66957] tilemap: sent 12 changed tiles (stamp 3, 53 bytes) to 5034dc2d
+[   67808] tilemap: maruf has 4 runs (stamp 4)
+[   68391] tilemap: maruf has 1 runs (stamp 1)
+[   68395] tilemap: mich has 1 runs (stamp 1)
+[   68455] tilemap: sent 2 changed tiles (stamp 2, 17 bytes) to 39ae641d
+[   68455] tilemap: sent 2 changed tiles (stamp 2, 17 bytes) to 5034dc2d
+[   68511] tilemap: sent 3 changed tiles (stamp 3, 23 bytes) to 39ae641d
+[   68511] tilemap: sent 3 changed tiles (stamp 3, 23 bytes) to 5034dc2d
+[   68547] tilemap: sent 4 changed tiles (stamp 4, 23 bytes) to 39ae641d
+[   68547] tilemap: sent 4 changed tiles (stamp 4, 23 bytes) to 5034dc2d
+[   68619] tilemap: maruf has 3 runs (stamp 5)
+[   68789] enemy: slot 13 id 499 type 41: taking over (hit), claim 2
+[   68869] enemy: slot 13 id 499: handed to 5034dc2d, claim 3
+[   68895] tilemap: sent 6 changed tiles (stamp 6, 29 bytes) to 39ae641d
+[   68895] tilemap: sent 6 changed tiles (stamp 6, 29 bytes) to 5034dc2d
+[   68907] tilemap: mich has 5 runs (stamp 7)
+[   69077] enemy: slot 13 id 499 type 41: taking over (hit), claim 4
+[   69125] enemy: slot 13 id 499: handed to 5034dc2d, claim 5
+[   69143] tilemap: mich has 4 runs (stamp 8)
+[   69302] enemy: slot 13 id 499 type 41: taking over (nearer), claim 6
+[   69363] tilemap: sent 10 changed tiles (stamp 9, 41 bytes) to 39ae641d
+[   69363] tilemap: sent 10 changed tiles (stamp 9, 41 bytes) to 5034dc2d
+[   69400] enemy: slot 13 id 499: handed to 39ae641d, claim 7
+[   69411] tilemap: maruf has 5 runs (stamp 10)
+[   69427] enemy: slot 13 id 499: killed by another player
+[   69555] tilemap: maruf has 5 runs (stamp 11)
+[   70231] tilemap: maruf has 5 runs (stamp 12)
+[   70671] tilemap: maruf has 5 runs (stamp 13)
+[   71256] enemy: slot 12 id 514: handed to 39ae641d, claim 1
+[   71257] enemy: slot 11 id 554: handed to 39ae641d, claim 1
+[   71313] tilemap: maruf has 1 runs (stamp 1)
+[   71333] tilemap: sent 2 changed tiles (stamp 2, 17 bytes) to 39ae641d
+[   71333] tilemap: sent 2 changed tiles (stamp 2, 17 bytes) to 5034dc2d
+[   71377] tilemap: sent 3 changed tiles (stamp 3, 17 bytes) to 39ae641d
+[   71377] tilemap: sent 3 changed tiles (stamp 3, 17 bytes) to 5034dc2d
+[   71381] tilemap: maruf has 1 runs (stamp 3)
+[   71417] tilemap: sent 4 changed tiles (stamp 4, 17 bytes) to 39ae641d
+[   71417] tilemap: sent 4 changed tiles (stamp 4, 17 bytes) to 5034dc2d
+[   71449] tilemap: sent 5 changed tiles (stamp 5, 17 bytes) to 39ae641d
+[   71449] tilemap: sent 5 changed tiles (stamp 5, 17 bytes) to 5034dc2d
+[   71453] tilemap: maruf has 1 runs (stamp 5)
+[   71572] enemy: slot 11 id 554 type 42: taking over (free), claim 2
+[   71702] tilemap: mich has 1 runs (stamp 1)
+[   72011] enemy: slot 13 id e21 type 48: taking over (free), claim 1
+[   72095] enemy: slot 12 id 9d4 type 42: taking over (free), claim 1
+[   72120] enemy: slot 11 id ad6 type 48: taking over (free), claim 1
+[   72253] enemy: slot 12 id 9d4: handed to 5034dc2d, claim 2
+[   72341] enemy: slot 11 id ad6 type 48: brought in from 5034dc2d
+[   72406] enemy: slot 12 id 9d4 type 42: taking over (nearer), claim 3
+[   72412] enemy: slot 13 id e21: handed to 5034dc2d, claim 2
+[   72700] enemy: slot 12 id 9d4: handed to 39ae641d, claim 4
+[   72709] enemy: slot 11 id 85e type 4a: taking over (free), claim 1
+[   72779] enemy: slot 8 id ad6 type 48: brought in from 39ae641d
+[   73146] enemy: slot 8 id ad6 type 48: taking over (nearer), claim 4
+[   73162] tilemap: maruf has 2 runs (stamp 2)
+[   73330] enemy: slot 8 id ad6: handed to 5034dc2d, claim 5
+[   73368] enemy: slot 10 id e21 type 48: taking over (nearer), claim 4
+[   73442] enemy: slot 8 id ad6 type 48: taking over (nearer), claim 6
+[   73451] tilemap: mich has 3 runs (stamp 3)
+[   73526] tilemap: maruf has 3 runs (stamp 4)
+[   73568] tilemap: mich has 3 runs (stamp 5)
+[   73602] enemy: slot 8 id ad6: handed to 5034dc2d, claim 7
+[   73628] enemy: slot 10 id e21: handed to 5034dc2d, claim 5
+[   73630] tilemap: sent 6 changed tiles (stamp 6, 35 bytes) to 39ae641d
+[   73630] tilemap: sent 6 changed tiles (stamp 6, 35 bytes) to 5034dc2d
+[   73678] tilemap: maruf has 4 runs (stamp 7)
+[   73708] tilemap: mich has 5 runs (stamp 8)
+[   73766] tilemap: sent 9 changed tiles (stamp 9, 47 bytes) to 39ae641d
+[   73766] tilemap: sent 9 changed tiles (stamp 9, 47 bytes) to 5034dc2d
+[   73826] tilemap: maruf has 6 runs (stamp 10)
+[   73832] enemy: slot 13 id e21 type 48: brought in from 39ae641d
+[   73874] enemy: slot 8 id ad6 type 48: taking over (nearer), claim 8
+[   73954] enemy: slot 8 id ad6: handed to 5034dc2d, claim 9
+[   73974] tilemap: sent 11 changed tiles (stamp 11, 47 bytes) to 39ae641d
+[   73974] tilemap: sent 11 changed tiles (stamp 11, 47 bytes) to 5034dc2d
+[   74069] enemy: slot 13 id e21 type 48: taking over (free), claim 1
+[   74072] tilemap: mich has 6 runs (stamp 12)
+[   74130] enemy: slot 8 id ad6 type 48: taking over (nearer), claim 10
+[   74166] enemy: slot 13 id e21: handed to 39ae641d, claim 2
+[   74182] tilemap: maruf has 7 runs (stamp 13)
+[   74258] enemy: slot 8 id ad6: handed to 5034dc2d, claim 11
+[   74290] tilemap: sent 14 changed tiles (stamp 14, 59 bytes) to 39ae641d
+[   74290] tilemap: sent 14 changed tiles (stamp 14, 59 bytes) to 5034dc2d
+[   74318] enemy: slot 13 id e21 type 48: brought in from 39ae641d
+[   74382] tilemap: maruf has 9 runs (stamp 15)
+[   74429] enemy: slot 13 id e21 type 48: taking over (nearer), claim 3
+[   74472] tilemap: mich has 10 runs (stamp 16)
+[   74580] enemy: slot 12 id 9d4: taken by another player
+[   74626] enemy: slot 12 id ad6: killed by another player
+[   74661] enemy: slot 13 id e21: handed to 39ae641d, claim 4
+[   74709] enemy: slot 13 id e21 type 48: taking over (nearer), claim 5
+[   74820] enemy: slot 13 id e21: handed to 5034dc2d, claim 6
+[   74852] tilemap: mich has 10 runs (stamp 17)
+[   74852] enemy: slot 13 id e21: killed by another player
+[   74958] tilemap: maruf has 11 runs (stamp 18)
+[   75285] enemy: slot 13 id 85e type 4a: taking over (free), claim 1
+[   75330] tilemap: sent 19 changed tiles (stamp 19, 83 bytes) to 39ae641d
+[   75330] tilemap: sent 19 changed tiles (stamp 19, 83 bytes) to 5034dc2d
+[   75550] enemy: slot 13 id 85e: handed to 39ae641d, claim 2
+[   75702] enemy: slot 11 id 49e type 4a: taking over (free), claim 1
+[   75778] tilemap: sent 20 changed tiles (stamp 20, 89 bytes) to 39ae641d
+[   75778] tilemap: sent 20 changed tiles (stamp 20, 89 bytes) to 5034dc2d
+[   75860] enemy: slot 8 id 43a type 49: taking over (free), claim 1
+[   75908] enemy: slot 7 id 419 type 49: taking over (free), claim 1
+[   75917] enemy: slot 11 id 49e: handed to 5034dc2d, claim 2
+[   75933] tilemap: maruf has 13 runs (stamp 21)
+[   76023] enemy: slot 8 id 43a: handed to 5034dc2d, claim 2
+[   76379] tilemap: sent 2 changed tiles (stamp 2, 23 bytes) to 5034dc2d
+[   76497] tilemap: sent 3 changed tiles (stamp 3, 29 bytes) to 5034dc2d
+[   76555] tilemap: maruf has 4 runs (stamp 4)
+[   77346] tilemap: sent 4 changed tiles (stamp 1, 29 bytes) to 5034dc2d
+[   78609] enemy: slot 11 id bd6 type 00: taking over (nearer), claim 1
+[   78657] tilemap: maruf has 1 runs (stamp 1)
+[   78673] enemy: slot 10 id e59 type c4: taking over (free), claim 1
+[   78718] enemy: slot 11 id bd6 type 00: brought in from 5034dc2d
+[   78804] tilemap: sent 2 changed tiles (stamp 2, 23 bytes) to 5034dc2d
+[   78856] tilemap: sent 3 changed tiles (stamp 3, 17 bytes) to 5034dc2d
+[   78912] tilemap: sent 4 changed tiles (stamp 4, 23 bytes) to 5034dc2d
+[   81233] net: peer 39ae641d dropped (left)
+[   81233] note: mich left the room
+[   81584] net: new peer 39ae641d
+[   81597] net: peer 39ae641d connected (through the relay so far)
+[   81601] net: direct link to 39ae641d
+[   81603] note: mich joined the room
+[   82175] note: mich entered Hyrule
+[   86004] net: peer 39ae641d dropped (left)
+[   86004] note: mich left the room
+[   86152] net: new peer 39ae641d
+[   86164] net: peer 39ae641d connected (through the relay so far)
+[   86169] net: direct link to 39ae641d
+[   86170] note: mich joined the room
+[   87203] note: mich entered Hyrule
+[   87493] note: mich found a Heart Container
+[   88661] tilemap: mich has 1 runs (stamp 3)
+[   88753] enemy: slot 11 id bd6 type 00: taking over (free), claim 1
+[   89365] enemy: slot 12 id 60a type 17: brought in from 39ae641d
+[   89425] enemy: slot 12 id 60a type 17: taking over (nearer), claim 2
+[   89483] tilemap: mich has 2 runs (stamp 4)
+[   89531] tilemap: mich has 2 runs (stamp 5)
+[   90001] tilemap: sent 6 changed tiles (stamp 6, 29 bytes) to 39ae641d
+[   90007] tilemap: mich has 3 runs (stamp 6)
+[   90053] tilemap: sent 7 changed tiles (stamp 7, 29 bytes) to 39ae641d
+[   90071] tilemap: mich has 4 runs (stamp 8)
+[   90102] enemy: slot 11 id 1b2 type 00: taking over (free), claim 1
+[   90226] enemy: slot 11 id 1b2: handed to 39ae641d, claim 2
+[   90389] enemy: slot 11 id 1b2 type 00: brought in from 39ae641d
+[   93032] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 39ae641d
+[   93060] enemy: slot 12 id 82e type c4: taking over (nearer), claim 2
+[   93284] tilemap: sent 2 changed tiles (stamp 2, 17 bytes) to 39ae641d
+[   93293] enemy: slot 12 id 82e: handed to 39ae641d, claim 3
+[   93414] tilemap: mich has 2 runs (stamp 3)
+[   93832] tilemap: sent 4 changed tiles (stamp 4, 29 bytes) to 39ae641d
+[   95660] enemy: slot 13 id 82e type c4: taking over (free), claim 1
+[   95858] enemy: slot 13 id 82e type c4: brought in from 39ae641d
+[   96186] enemy: slot 13 id 1b2 type 00: taking over (free), claim 1
+[   96192] enemy: slot 11 id 82e type c4: brought in from 39ae641d
+[   96294] enemy: slot 13 id 1b2 type 00: taking over (free), claim 1
+[   96435] enemy: slot 13 id 1b2: handed to 39ae641d, claim 2
+[   96540] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 39ae641d
+[   96588] tilemap: sent 2 changed tiles (stamp 2, 17 bytes) to 39ae641d
+[   96631] tilemap: mich has 2 runs (stamp 3)
+[   96828] tilemap: sent 4 changed tiles (stamp 4, 29 bytes) to 39ae641d
+[   96868] tilemap: sent 5 changed tiles (stamp 5, 29 bytes) to 39ae641d
+[   96913] enemy: slot 12 id 60a type 17: taking over (free), claim 1
+[   96971] enemy: slot 13 id 2ad type 00: taking over (free), claim 1
+[   97041] enemy: slot 12 id 60a: handed to 39ae641d, claim 2
+[   97208] tilemap: sent 6 changed tiles (stamp 6, 35 bytes) to 39ae641d
+[   97276] tilemap: sent 7 changed tiles (stamp 7, 38 bytes) to 39ae641d
+[   97634] enemy: slot 0 id 000 type 6d: taking over (off their screen), claim 1
+[   97634] enemy: slot 6 id 006 type 6d: taking over (nearer), claim 1
+[   97635] enemy: slot 5 id 005 type 6d: taking over (nearer), claim 1
+[   97636] enemy: slot 4 id 004 type 6d: taking over (nearer), claim 1
+[   97639] enemy: slot 1 id 001 type 6d: taking over (nearer), claim 1
+[   97753] enemy: slot 0 id 000: handed to 39ae641d, claim 2
+[   97896] enemy: slot 0 id 000 type 6d: taking over (nearer), claim 3
+[   97904] enemy: slot 5 id 005: handed to 5034dc2d, claim 2
+[   97905] enemy: slot 4 id 004: handed to 5034dc2d, claim 2
+[   97940] enemy: slot 1 id 001: handed to 5034dc2d, claim 2
+[   97949] enemy: slot 0 id 000: handed to 5034dc2d, claim 4
+[   98011] enemy: slot 6 id 006: handed to 39ae641d, claim 2
+[   98156] tilemap: sent 4 changed tiles (stamp 1, 29 bytes) to 39ae641d
+[   98156] tilemap: sent 4 changed tiles (stamp 1, 29 bytes) to 5034dc2d
+[   98176] tilemap: sent 8 changed tiles (stamp 2, 41 bytes) to 39ae641d
+[   98176] tilemap: sent 8 changed tiles (stamp 2, 41 bytes) to 5034dc2d
+[   98528] enemy: slot 0 id 000 type 6d: taking over (free), claim 1
+[   98528] enemy: slot 1 id 001 type 6d: taking over (free), claim 1
+[   98528] enemy: slot 2 id 002 type 6d: taking over (free), claim 1
+[   98528] enemy: slot 3 id 003 type 6d: taking over (free), claim 1
+[   98528] enemy: slot 4 id 004 type 6d: taking over (free), claim 1
+[   98528] enemy: slot 7 id 007 type 6d: taking over (free), claim 1
+[   98528] enemy: slot 8 id 008 type 6d: taking over (free), claim 1
+[   98563] tilemap: sent 4 changed tiles (stamp 1, 29 bytes) to 39ae641d
+[   98563] tilemap: sent 4 changed tiles (stamp 1, 29 bytes) to 5034dc2d
+[   98665] tilemap: mich has 4 runs (stamp 2)
+[   98727] enemy: slot 3 id 003 type 6d: gone
+[   98800] enemy: slot 4 id 004: handed to 5034dc2d, claim 2
+[   98803] enemy: slot 1 id 001: handed to 5034dc2d, claim 2
+[   98814] enemy: slot 2 id 002: handed to 39ae641d, claim 2
+[   98816] enemy: slot 0 id 000: handed to 39ae641d, claim 2
+[   98847] enemy: slot 2 id 002: killed by another player
+[   98897] tilemap: mich has 6 runs (stamp 3)
+[   98907] tilemap: sent 16 changed tiles (stamp 4, 83 bytes) to 39ae641d
+[   98907] tilemap: sent 16 changed tiles (stamp 4, 83 bytes) to 5034dc2d
+[   98955] enemy: slot 4 id 004 type 6d: taking over (nearer), claim 3
+[   98958] enemy: slot 1 id 001 type 6d: taking over (nearer), claim 3
+[   99163] tilemap: sent 24 changed tiles (stamp 5, 113 bytes) to 39ae641d
+[   99163] tilemap: sent 24 changed tiles (stamp 5, 113 bytes) to 5034dc2d
+[   99167] tilemap: sent 28 changed tiles (stamp 6, 128 bytes) to 39ae641d
+[   99167] tilemap: sent 28 changed tiles (stamp 6, 128 bytes) to 5034dc2d
+[   99173] enemy: slot 0 id 000: left a d8 behind (says 39ae641d)
+[   99173] enemy: slot 1 id 001: handed to 5034dc2d, claim 5
+[   99173] enemy: slot 4 id 004: handed to 39ae641d, claim 4
+[   99173] enemy: slot 7 id 007: handed to 39ae641d, claim 2
+[   99173] enemy: slot 8 id 008: handed to 39ae641d, claim 2
+[   99197] enemy: slot 0 id 000: taken by another player
+[   99216] enemy: slot 7 id 007 type 6d: taking over (off their screen), claim 3
+[   99216] enemy: slot 8 id 008 type 6d: taking over (off their screen), claim 3
+[   99280] enemy: slot 1 id 001 type 6d: taking over (free), claim 6
+[   99325] tilemap: maruf has 11 runs (stamp 7)
+[   99329] tilemap: maruf has 11 runs (stamp 8)
+[   99329] enemy: slot 1 id 001: handed to 39ae641d, claim 7
+[   99333] enemy: slot 8 id 008: handed to 5034dc2d, claim 4
+[   99415] tilemap: sent 28 changed tiles (stamp 9, 128 bytes) to 39ae641d
+[   99415] tilemap: sent 28 changed tiles (stamp 9, 128 bytes) to 5034dc2d
+[   99419] tilemap: sent 28 changed tiles (stamp 10, 128 bytes) to 39ae641d
+[   99419] tilemap: sent 28 changed tiles (stamp 10, 128 bytes) to 5034dc2d
+[   99461] tilemap: mich has 11 runs (stamp 11)
+[   99465] tilemap: mich has 11 runs (stamp 12)
+[   99729] enemy: slot 7 id 007: handed to 39ae641d, claim 4
+[   99839] tilemap: sent 28 changed tiles (stamp 13, 128 bytes) to 39ae641d
+[   99839] tilemap: sent 28 changed tiles (stamp 13, 128 bytes) to 5034dc2d
+[   99843] tilemap: sent 28 changed tiles (stamp 14, 128 bytes) to 39ae641d
+[   99843] tilemap: sent 28 changed tiles (stamp 14, 128 bytes) to 5034dc2d
+[   99848] enemy: slot 1 id 001 type 6d: taking over (off their screen), claim 9
+[   99848] enemy: slot 4 id 004 type 6d: taking over (off their screen), claim 6
+[   99881] tilemap: maruf has 11 runs (stamp 15)
+[   99885] tilemap: maruf has 11 runs (stamp 16)
+[   99947] tilemap: sent 28 changed tiles (stamp 17, 128 bytes) to 39ae641d
+[   99947] tilemap: sent 28 changed tiles (stamp 17, 128 bytes) to 5034dc2d
+[   99951] tilemap: sent 28 changed tiles (stamp 18, 128 bytes) to 39ae641d
+[   99951] tilemap: sent 28 changed tiles (stamp 18, 128 bytes) to 5034dc2d
+[   99958] enemy: slot 1 id 001: handed to 39ae641d, claim 10
+[   99958] enemy: slot 4 id 004: handed to 39ae641d, claim 7
+[  100223] tilemap: sent 28 changed tiles (stamp 19, 128 bytes) to 39ae641d
+[  100223] tilemap: sent 28 changed tiles (stamp 19, 128 bytes) to 5034dc2d
+[  100227] tilemap: sent 28 changed tiles (stamp 20, 128 bytes) to 39ae641d
+[  100227] tilemap: sent 28 changed tiles (stamp 20, 128 bytes) to 5034dc2d
+[  100232] enemy: slot 7 id 007 type 6d: taking over (nearer), claim 6
+[  100269] tilemap: mich has 11 runs (stamp 21)
+[  100273] tilemap: mich has 11 runs (stamp 22)
+[  100381] tilemap: mich has 11 runs (stamp 23)
+[  100385] tilemap: mich has 11 runs (stamp 24)
+[  100439] enemy: slot 8 id 008 type 6d: taking over (nearer), claim 7
+[  100488] enemy: slot 8 id 008: handed to 39ae641d, claim 8
+[  100501] enemy: slot 7 id 007: handed to 5034dc2d, claim 7
+[  100903] enemy: slot 8 id 008 type 6d: taking over (nearer), claim 10
+[  100917] tilemap: mich has 11 runs (stamp 25)
+[  100921] tilemap: mich has 11 runs (stamp 26)
+[  100952] enemy: slot 8 id 008: handed to 39ae641d, claim 11
+[  102495] enemy: slot 11 id bd6 type 00: taking over (free), claim 1
+[  102557] enemy: slot 9 id e59 type c4: taking over (free), claim 1
+[  102613] enemy: slot 11 id bd6: handed to 39ae641d, claim 2
+[  103347] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 39ae641d
+[  103347] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 5034dc2d
+[  103451] enemy: slot 12 id 1c7: handed to 5034dc2d, claim 1
+[  103460] enemy: slot 11 id 1da: handed to 5034dc2d, claim 1
+[  103503] tilemap: sent 2 changed tiles (stamp 2, 23 bytes) to 39ae641d
+[  103503] tilemap: sent 2 changed tiles (stamp 2, 23 bytes) to 5034dc2d
+[  103507] tilemap: mich has 2 runs (stamp 2)
+[  103536] tilemap: maruf has 3 runs (stamp 3)
+[  103600] enemy: slot 11 id 1da type 42: taking over (nearer), claim 2
+[  103625] enemy: slot 13 id 478 type 0b: taking over (free), claim 1
+[  103628] tilemap: maruf has 4 runs (stamp 4)
+[  103666] enemy: slot 12 id 1c7: left a d8 behind (says 39ae641d)
+[  103679] tilemap: mich has 6 runs (stamp 5)
+[  103694] enemy: slot 13 id 1da type 42: brought in from 5034dc2d
+[  103764] enemy: slot 13 id 1da type 42: taking over (free), claim 4
+[  103772] tilemap: maruf has 6 runs (stamp 6)
+[  103808] enemy: slot 12 id 1c7: pickup d8 collected
+[  103856] tilemap: maruf has 7 runs (stamp 7)
+[  103857] enemy: slot 13 id 1da: handed to 39ae641d, claim 5
+[  103883] tilemap: mich has 8 runs (stamp 8)
+[  104082] enemy: slot 12 id 478 type 0b: taking over (free), claim 1
+[  104096] tilemap: maruf has 9 runs (stamp 9)
+[  104501] tilemap: sent 2 changed tiles (stamp 1, 20 bytes) to 39ae641d
+[  104558] tilemap: mich has 2 runs (stamp 2)
+[  104877] tilemap: mich has 3 runs (stamp 3)
+[  107877] tilemap: mich has 1 runs (stamp 1)
+[  107986] tilemap: maruf has 2 runs (stamp 2)
+[  108811] note: maruf found a Heart Container
+[  110161] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 39ae641d
+[  110161] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 5034dc2d
+[  110257] tilemap: sent 2 changed tiles (stamp 2, 17 bytes) to 39ae641d
+[  110257] tilemap: sent 2 changed tiles (stamp 2, 17 bytes) to 5034dc2d
+[  110259] tilemap: mich has 1 runs (stamp 2)
+[  110459] tilemap: mich has 2 runs (stamp 3)
+[  111737] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 39ae641d
+[  111737] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 5034dc2d
+[  111830] tilemap: maruf has 2 runs (stamp 2)
+[  112458] tilemap: maruf has 3 runs (stamp 3)
+[  112614] tilemap: maruf has 4 runs (stamp 4)
+[  112743] tilemap: maruf has 4 runs (stamp 5)
+[  114684] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 39ae641d
+[  114684] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 5034dc2d
+[  114736] tilemap: sent 2 changed tiles (stamp 2, 23 bytes) to 39ae641d
+[  114736] tilemap: sent 2 changed tiles (stamp 2, 23 bytes) to 5034dc2d
+[  114784] tilemap: sent 3 changed tiles (stamp 3, 23 bytes) to 39ae641d
+[  114784] tilemap: sent 3 changed tiles (stamp 3, 23 bytes) to 5034dc2d
+[  116521] tilemap: sent 36 changed tiles (stamp 1, 140 bytes) to 39ae641d
+[  116521] tilemap: sent 36 changed tiles (stamp 1, 140 bytes) to 5034dc2d
+[  116937] note: mich picked up 1 bomb for everyone
+[  116938] tilemap: mich has 9 runs (stamp 2)
+[  118065] tilemap: mich has 1 runs (stamp 1)
+[  118076] tilemap: sent 2 changed tiles (stamp 2, 23 bytes) to 39ae641d
+[  118076] tilemap: sent 2 changed tiles (stamp 2, 23 bytes) to 5034dc2d
+[  118157] tilemap: maruf has 2 runs (stamp 3)
+[  118552] tilemap: sent 5 changed tiles (stamp 4, 32 bytes) to 39ae641d
+[  118552] tilemap: sent 5 changed tiles (stamp 4, 32 bytes) to 5034dc2d
+[  119062] enemy: slot 10 id d56 type 0b: taking over (free), claim 1
+[  119074] enemy: slot 9 id d68 type 0b: taking over (free), claim 1
+[  119694] tilemap: mich has 1 runs (stamp 1)
+[  119901] enemy: slot 10 id d68 type 0b: taking over (free), claim 1
+[  119923] tilemap: sent 3 changed tiles (stamp 2, 26 bytes) to 5034dc2d
+[  119997] enemy: slot 9 id d56 type 0b: taking over (free), claim 1
+[  120091] tilemap: sent 5 changed tiles (stamp 3, 35 bytes) to 5034dc2d
+[  120198] tilemap: maruf has 4 runs (stamp 4)
+[  120849] tilemap: sent 36 changed tiles (stamp 1, 140 bytes) to 5034dc2d
+[  120982] tilemap: sent 36 changed tiles (stamp 1, 140 bytes) to 39ae641d
+[  121245] tilemap: sent 40 changed tiles (stamp 2, 158 bytes) to 39ae641d
+[  121245] tilemap: sent 40 changed tiles (stamp 2, 158 bytes) to 5034dc2d
+[  121307] tilemap: mich has 11 runs (stamp 3)
+[  121319] tilemap: maruf has 13 runs (stamp 4)
+[  121389] note: mich found a Heart Container
+[  121415] tilemap: mich has 15 runs (stamp 5)
+[  122157] enemy: slot 11 id d68 type 0b: taking over (free), claim 1
+[  122157] enemy: slot 13 id d56 type 0b: taking over (free), claim 1
+[  122321] tilemap: mich has 1 runs (stamp 1)
+[  122369] tilemap: mich has 1 runs (stamp 2)
+[  122397] tilemap: maruf has 2 runs (stamp 3)
+[  122413] enemy: slot 11 id d68: handed to 5034dc2d, claim 2
+[  122532] enemy: slot 11 id d68 type 0b: taking over (nearer), claim 4
+[  122536] enemy: slot 13 id d56: handed to 39ae641d, claim 2
+[  122653] tilemap: mich has 3 runs (stamp 4)
+[  122719] tilemap: sent 5 changed tiles (stamp 5, 35 bytes) to 39ae641d
+[  122719] tilemap: sent 5 changed tiles (stamp 5, 35 bytes) to 5034dc2d
+[  122753] tilemap: mich has 5 runs (stamp 6)
+[  122767] tilemap: sent 7 changed tiles (stamp 7, 41 bytes) to 39ae641d
+[  122767] tilemap: sent 7 changed tiles (stamp 7, 41 bytes) to 5034dc2d
+[  122813] tilemap: mich has 5 runs (stamp 8)
+[  122819] tilemap: sent 9 changed tiles (stamp 9, 41 bytes) to 39ae641d
+[  122819] tilemap: sent 9 changed tiles (stamp 9, 41 bytes) to 5034dc2d
+[  122821] tilemap: maruf has 6 runs (stamp 9)
+[  122887] tilemap: sent 10 changed tiles (stamp 10, 41 bytes) to 39ae641d
+[  122887] tilemap: sent 10 changed tiles (stamp 10, 41 bytes) to 5034dc2d
+[  122906] enemy: slot 13 id d56 type 0b: taking over (nearer), claim 4
+[  123053] tilemap: maruf has 7 runs (stamp 11)
+[  123109] tilemap: maruf has 7 runs (stamp 12)
+[  123161] tilemap: maruf has 7 runs (stamp 13)
+[  123217] tilemap: maruf has 7 runs (stamp 14)
+[  123243] tilemap: sent 16 changed tiles (stamp 15, 59 bytes) to 39ae641d
+[  123243] tilemap: sent 16 changed tiles (stamp 15, 59 bytes) to 5034dc2d
+[  123273] tilemap: maruf has 8 runs (stamp 16)
+[  123289] tilemap: mich has 8 runs (stamp 17)
+[  123317] tilemap: maruf has 8 runs (stamp 18)
+[  123339] tilemap: sent 20 changed tiles (stamp 19, 65 bytes) to 39ae641d
+[  123339] tilemap: sent 20 changed tiles (stamp 19, 65 bytes) to 5034dc2d
+[  123369] tilemap: maruf has 9 runs (stamp 20)
+[  123411] tilemap: sent 22 changed tiles (stamp 21, 53 bytes) to 39ae641d
+[  123411] tilemap: sent 22 changed tiles (stamp 21, 53 bytes) to 5034dc2d
+[  123421] tilemap: maruf has 9 runs (stamp 22)
+[  123537] tilemap: maruf has 8 runs (stamp 23)
+[  123597] tilemap: maruf has 7 runs (stamp 24)
+[  123705] tilemap: mich has 7 runs (stamp 25)
+[  123750] enemy: slot 10 id d68 type 0b: taking over (free), claim 1
+[  123773] tilemap: mich has 7 runs (stamp 26)
+[  123841] tilemap: mich has 7 runs (stamp 27)
+[  123905] tilemap: maruf has 7 runs (stamp 28)
+[  123938] enemy: slot 13 id d56: handed to 39ae641d, claim 5
+[  123957] tilemap: maruf has 7 runs (stamp 29)
+[  123986] enemy: slot 13 id d56 type 0b: taking over (hit), claim 6
+[  124009] tilemap: maruf has 9 runs (stamp 30)
+[  124073] tilemap: maruf has 7 runs (stamp 31)
+[  124080] enemy: slot 10 id d68: handed to 39ae641d, claim 2
+[  124125] tilemap: maruf has 9 runs (stamp 32)
+[  124189] tilemap: maruf has 6 runs (stamp 33)
+[  124402] enemy: slot 13 id d56: handed to 5034dc2d, claim 7
+[  124426] enemy: slot 12 id d68 type 0b: brought in from 5034dc2d
+[  124549] tilemap: maruf has 6 runs (stamp 34)
+[  124628] enemy: slot 12 id d68 type 0b: brought in from 39ae641d
+[  124778] enemy: slot 13 id d56 type 0b: taking over (nearer), claim 9
+[  124795] enemy: slot 12 id d68 type 0b: taking over (nearer), claim 5
+[  124943] enemy: slot 13 id d56: handed to 39ae641d, claim 10
+[  125090] enemy: slot 13 id d56 type 0b: taking over (nearer), claim 12
+[  125301] enemy: slot 13 id d56: handed to 39ae641d, claim 13
+[  125386] enemy: slot 13 id d56 type 0b: taking over (nearer), claim 14
+[  125552] enemy: slot 13 id d56: handed to 39ae641d, claim 15
+[  125626] enemy: slot 13 id d56 type 0b: taking over (nearer), claim 17
+[  125707] enemy: slot 13 id d56: handed to 5034dc2d, claim 18
+[  125930] enemy: slot 13 id d56 type 0b: taking over (nearer), claim 19
+[  125967] enemy: slot 12 id d68: handed to 39ae641d, claim 6
+[  126457] enemy: slot 13 id d56: handed to 39ae641d, claim 20
+[  126506] enemy: slot 13 id d56 type 0b: taking over (nearer), claim 21
+[  126922] enemy: slot 11 id d68 type 0b: taking over (free), claim 1
+[  126977] enemy: slot 11 id d68: handed to 39ae641d, claim 2
+[  127255] tilemap: mich has 7 runs (stamp 35)
+[  127371] tilemap: mich has 7 runs (stamp 36)
+[  127427] tilemap: mich has 7 runs (stamp 37)
+[  127449] tilemap: maruf has 8 runs (stamp 38)
+[  127495] tilemap: mich has 7 runs (stamp 39)
+[  127561] tilemap: maruf has 8 runs (stamp 40)
+[  127567] tilemap: mich has 8 runs (stamp 41)
+[  127705] tilemap: maruf has 7 runs (stamp 42)
+[  127759] tilemap: mich has 7 runs (stamp 43)
+[  127811] tilemap: mich has 7 runs (stamp 44)
+[  127883] tilemap: mich has 7 runs (stamp 45)
+[  127947] tilemap: mich has 6 runs (stamp 46)
+[  127989] tilemap: maruf has 6 runs (stamp 47)
+[  128127] tilemap: sent 49 changed tiles (stamp 48, 53 bytes) to 39ae641d
+[  128127] tilemap: sent 49 changed tiles (stamp 48, 53 bytes) to 5034dc2d
+[  128311] tilemap: mich has 8 runs (stamp 49)
+[  128311] tilemap: sent 51 changed tiles (stamp 50, 65 bytes) to 39ae641d
+[  128311] tilemap: sent 51 changed tiles (stamp 50, 65 bytes) to 5034dc2d
+[  128319] enemy: slot 13 id d56: handed to 39ae641d, claim 22
+[  128355] tilemap: sent 52 changed tiles (stamp 51, 65 bytes) to 39ae641d
+[  128355] tilemap: sent 52 changed tiles (stamp 51, 65 bytes) to 5034dc2d
+[  128399] tilemap: sent 54 changed tiles (stamp 52, 74 bytes) to 39ae641d
+[  128399] tilemap: sent 54 changed tiles (stamp 52, 74 bytes) to 5034dc2d
+[  130662] tilemap: maruf has 1 runs (stamp 1)
+[  130781] tilemap: sent 4 changed tiles (stamp 4, 29 bytes) to 5034dc2d
+[  130848] tilemap: sent 4 changed tiles (stamp 4, 29 bytes) to 39ae641d
+[  130913] tilemap: sent 6 changed tiles (stamp 5, 38 bytes) to 39ae641d
+[  130913] tilemap: sent 6 changed tiles (stamp 5, 38 bytes) to 5034dc2d
+[  132118] tilemap: maruf has 9 runs (stamp 14)
+[  132260] tilemap: maruf has 10 runs (stamp 15)
+[  132324] note: mich found the Fighter's Shield
+[  132597] tilemap: sent 17 changed tiles (stamp 15, 77 bytes) to 39ae641d
+[  132911] tilemap: sent 18 changed tiles (stamp 16, 83 bytes) to 39ae641d
+[  132911] tilemap: sent 18 changed tiles (stamp 16, 83 bytes) to 5034dc2d
+[  132967] tilemap: mich has 12 runs (stamp 17)
+[  133013] enemy: slot 13 id d56 type 0b: taking over (free), claim 1
+[  133048] enemy: slot 10 id d68 type 0b: taking over (free), claim 1
+[  133087] tilemap: mich has 12 runs (stamp 18)
+[  133179] tilemap: sent 21 changed tiles (stamp 19, 95 bytes) to 39ae641d
+[  133179] tilemap: sent 21 changed tiles (stamp 19, 95 bytes) to 5034dc2d
+[  133183] tilemap: mich has 12 runs (stamp 19)
+[  133243] tilemap: mich has 12 runs (stamp 20)
+[  133255] tilemap: sent 24 changed tiles (stamp 21, 95 bytes) to 39ae641d
+[  133255] tilemap: sent 24 changed tiles (stamp 21, 95 bytes) to 5034dc2d
+[  133299] tilemap: mich has 13 runs (stamp 22)
+[  133363] tilemap: mich has 13 runs (stamp 23)
+[  133431] tilemap: mich has 13 runs (stamp 24)
+[  133691] tilemap: maruf has 10 runs (stamp 15)
+[  133693] tilemap: mich has 13 runs (stamp 26)
+[  133759] enemy: slot 9 id d68 type 0b: brought in from 39ae641d
+[  134148] tilemap: sent 30 changed tiles (stamp 27, 101 bytes) to 39ae641d
+[  134148] tilemap: sent 30 changed tiles (stamp 27, 101 bytes) to 5034dc2d
+[  134251] tilemap: mich has 14 runs (stamp 28)
+[  134304] tilemap: sent 32 changed tiles (stamp 29, 107 bytes) to 39ae641d
+[  134304] tilemap: sent 32 changed tiles (stamp 29, 107 bytes) to 5034dc2d
+[  134327] tilemap: mich has 15 runs (stamp 30)
+[  134379] tilemap: mich has 15 runs (stamp 31)
+[  134451] tilemap: mich has 15 runs (stamp 32)
+[  134528] tilemap: sent 36 changed tiles (stamp 33, 113 bytes) to 39ae641d
+[  134528] tilemap: sent 36 changed tiles (stamp 33, 113 bytes) to 5034dc2d
+[  134576] tilemap: sent 37 changed tiles (stamp 34, 113 bytes) to 39ae641d
+[  134576] tilemap: sent 37 changed tiles (stamp 34, 113 bytes) to 5034dc2d
+[  134616] tilemap: sent 38 changed tiles (stamp 35, 113 bytes) to 39ae641d
+[  134616] tilemap: sent 38 changed tiles (stamp 35, 113 bytes) to 5034dc2d
+[  134619] tilemap: mich has 16 runs (stamp 35)
+[  134660] tilemap: sent 39 changed tiles (stamp 36, 113 bytes) to 39ae641d
+[  134660] tilemap: sent 39 changed tiles (stamp 36, 113 bytes) to 5034dc2d
+[  135136] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 39ae641d
+[  135439] tilemap: mich has 2 runs (stamp 2)
+[  135500] tilemap: sent 4 changed tiles (stamp 3, 32 bytes) to 39ae641d
+[  136617] tilemap: mich has 2 runs (stamp 1)
+[  136622] note: mich found the Moon Pearl
+[  136658] enemy: slot 1 id 001 type 5b: taking over (free), claim 1
+[  136658] enemy: slot 2 id 002 type 8a: taking over (free), claim 1
+[  136658] enemy: slot 3 id 003 type a7: taking over (free), claim 1
+[  136658] enemy: slot 4 id 004 type a7: taking over (free), claim 1
+[  136658] enemy: slot 5 id 005 type 80: taking over (free), claim 1
+[  136658] enemy: slot 6 id 006 type 5b: taking over (free), claim 1
+[  136658] enemy: slot 7 id 007 type 15: taking over (free), claim 1
+[  136658] enemy: slot 8 id 008 type 80: taking over (free), claim 1
+[  136658] enemy: slot 9 id 009 type 15: taking over (free), claim 1
+[  136766] enemy: slot 2 id 002: handed to 39ae641d, claim 2
+[  136774] tilemap: sent 8 changed tiles (stamp 2, 47 bytes) to 39ae641d
+[  136827] enemy: slot 1 id 001: handed to 39ae641d, claim 2
+[  136827] enemy: slot 3 id 003: handed to 39ae641d, claim 2
+[  136827] enemy: slot 4 id 004: handed to 39ae641d, claim 2
+[  136827] enemy: slot 5 id 005: handed to 39ae641d, claim 2
+[  136827] enemy: slot 6 id 006: handed to 39ae641d, claim 2
+[  136827] enemy: slot 7 id 007: handed to 39ae641d, claim 2
+[  136827] enemy: slot 8 id 008: handed to 39ae641d, claim 2
+[  136827] enemy: slot 9 id 009: handed to 39ae641d, claim 2
+[  136873] tilemap: mich has 6 runs (stamp 3)
+[  137025] tilemap: mich has 8 runs (stamp 4)
+[  137333] tilemap: mich has 14 runs (stamp 5)
+[  137337] tilemap: mich has 18 runs (stamp 6)
+[  137373] tilemap: mich has 18 runs (stamp 7)
+[  137377] tilemap: mich has 18 runs (stamp 8)
+[  137465] tilemap: mich has 18 runs (stamp 9)
+[  137469] tilemap: mich has 18 runs (stamp 10)
+[  137984] enemy: slot 2 id 002 type d1: gone
+[  140564] tilemap: sent 48 changed tiles (stamp 11, 197 bytes) to 39ae641d
+[  140565] tilemap: mich has 18 runs (stamp 14)
+[  140568] tilemap: sent 48 changed tiles (stamp 15, 197 bytes) to 39ae641d
+[  140632] tilemap: mich has 18 runs (stamp 16)
+[  140636] tilemap: mich has 18 runs (stamp 17)
+[  141204] tilemap: mich has 18 runs (stamp 18)
+[  141208] tilemap: mich has 18 runs (stamp 19)
+[  141224] tilemap: mich has 18 runs (stamp 20)
+[  141228] tilemap: mich has 18 runs (stamp 21)
+[  141252] tilemap: mich has 18 runs (stamp 22)
+[  141256] tilemap: mich has 18 runs (stamp 23)
+[  141268] tilemap: mich has 18 runs (stamp 24)
+[  141272] tilemap: mich has 18 runs (stamp 25)
+[  141288] tilemap: mich has 18 runs (stamp 26)
+[  141292] tilemap: mich has 18 runs (stamp 27)
+[  141308] tilemap: mich has 18 runs (stamp 28)
+[  141312] tilemap: mich has 18 runs (stamp 29)
+[  141332] tilemap: mich has 18 runs (stamp 30)
+[  141336] tilemap: mich has 18 runs (stamp 31)
+[  141348] tilemap: mich has 18 runs (stamp 32)
+[  141352] tilemap: mich has 18 runs (stamp 33)
+[  141376] tilemap: mich has 18 runs (stamp 34)
+[  141380] tilemap: mich has 18 runs (stamp 35)
+[  141438] enemy: slot 2 id 002 type 8a: taking over (nearer), claim 3
+[  141448] tilemap: mich has 18 runs (stamp 36)
+[  141452] tilemap: mich has 18 runs (stamp 37)
+[  141468] tilemap: mich has 18 runs (stamp 38)
+[  141472] tilemap: mich has 18 runs (stamp 39)
+[  141520] tilemap: mich has 18 runs (stamp 40)
+[  141524] tilemap: mich has 18 runs (stamp 41)
+[  141548] tilemap: mich has 18 runs (stamp 42)
+[  141552] tilemap: mich has 18 runs (stamp 43)
+[  141584] tilemap: mich has 18 runs (stamp 44)
+[  141588] tilemap: mich has 18 runs (stamp 45)
+[  141612] tilemap: mich has 18 runs (stamp 46)
+[  141616] tilemap: mich has 18 runs (stamp 47)
+[  141636] tilemap: mich has 18 runs (stamp 48)
+[  141640] tilemap: mich has 18 runs (stamp 49)
+[  141660] tilemap: mich has 18 runs (stamp 50)
+[  141664] tilemap: mich has 18 runs (stamp 51)
+[  141724] tilemap: mich has 18 runs (stamp 52)
+[  141728] tilemap: mich has 18 runs (stamp 53)
+[  141744] tilemap: mich has 18 runs (stamp 54)
+[  141744] tilemap: sent 48 changed tiles (stamp 55, 197 bytes) to 39ae641d
+[  141748] tilemap: mich has 18 runs (stamp 55)
+[  141748] tilemap: sent 48 changed tiles (stamp 56, 197 bytes) to 39ae641d
+[  141760] tilemap: mich has 18 runs (stamp 57)
+[  141764] tilemap: mich has 18 runs (stamp 58)
+[  141776] tilemap: sent 48 changed tiles (stamp 59, 197 bytes) to 39ae641d
+[  141780] tilemap: sent 48 changed tiles (stamp 60, 197 bytes) to 39ae641d
+[  141856] tilemap: mich has 18 runs (stamp 61)
+[  141860] tilemap: mich has 18 runs (stamp 62)
+[  141892] tilemap: mich has 18 runs (stamp 63)
+[  141896] tilemap: mich has 18 runs (stamp 64)
+[  141932] tilemap: mich has 18 runs (stamp 65)
+[  141936] tilemap: mich has 18 runs (stamp 66)
+[  141956] tilemap: mich has 18 runs (stamp 67)
+[  141960] tilemap: mich has 18 runs (stamp 68)
+[  142136] tilemap: mich has 18 runs (stamp 69)
+[  142140] tilemap: mich has 18 runs (stamp 70)
+[  142172] tilemap: mich has 18 runs (stamp 71)
+[  142176] tilemap: mich has 18 runs (stamp 72)
+[  145726] tilemap: sent 4 changed tiles (stamp 1, 29 bytes) to 39ae641d
+[  145783] enemy: slot 3 id 003: handed to 39ae641d, claim 1
+[  145795] tilemap: sent 8 changed tiles (stamp 2, 47 bytes) to 39ae641d
+[  145891] enemy: slot 3 id 003: killed by another player
+[  152826] tilemap: maruf has 2 runs (stamp 4)
+[  153965] tilemap: sent 2 changed tiles (stamp 1, 20 bytes) to 5034dc2d
+[  157809] tilemap: sent 4 changed tiles (stamp 4, 23 bytes) to 39ae641d
+[  157938] tilemap: mich has 3 runs (stamp 5)
+[  157949] tilemap: sent 5 changed tiles (stamp 5, 29 bytes) to 5034dc2d
+[  157978] tilemap: mich has 3 runs (stamp 6)
+[  158038] tilemap: mich has 4 runs (stamp 7)
+[  158074] tilemap: mich has 4 runs (stamp 8)
+[  158098] tilemap: mich has 4 runs (stamp 9)
+[  158134] tilemap: mich has 4 runs (stamp 10)
+[  159162] tilemap: sent 12 changed tiles (stamp 11, 44 bytes) to 39ae641d
+[  159162] tilemap: sent 12 changed tiles (stamp 11, 44 bytes) to 5034dc2d
+[  159206] tilemap: mich has 6 runs (stamp 12)
+[  159262] tilemap: mich has 6 runs (stamp 13)
+[  159915] tilemap: maruf has 10 runs (stamp 23)
+[  159916] tilemap: mich has 10 runs (stamp 23)
+[  159918] tilemap: mich has 10 runs (stamp 24)
+[  159966] tilemap: mich has 11 runs (stamp 25)
+[  160002] tilemap: mich has 11 runs (stamp 26)
+[  160066] tilemap: mich has 11 runs (stamp 27)
+[  160088] tilemap: maruf has 12 runs (stamp 28)
+[  160098] tilemap: mich has 12 runs (stamp 29)
+[  160202] tilemap: mich has 12 runs (stamp 30)
+[  160254] tilemap: mich has 11 runs (stamp 31)
+[  160285] tilemap: sent 34 changed tiles (stamp 32, 107 bytes) to 39ae641d
+[  160285] tilemap: sent 34 changed tiles (stamp 32, 107 bytes) to 5034dc2d
+[  160699] enemy: slot 2 id 002: left a d8 behind
+[  160735] enemy: slot 0 id 000: handed to 39ae641d, claim 1
+[  160858] enemy: slot 2 id 002: taken by another player
+[  160887] enemy: slot 1 id 001: left a d8 behind
+[  160963] enemy: slot 1 id 001: taken by another player
+[  160988] enemy: slot 0 id 000: left a d8 behind (says 39ae641d)
+[  161016] enemy: slot 0 id 000: taken by another player
+[  161528] enemy: slot 0 id 000: handed to 5034dc2d, claim 1
+[  161999] enemy: slot 0 id 000: handed to 5034dc2d, claim 1
+[  162037] enemy: slot 2 id 002: handed to 5034dc2d, claim 1
+[  162108] enemy: slot 0 id 000: killed by another player
+[  162223] enemy: slot 1 id 001 type 4b: gone
+[  162278] tilemap: sent 4 changed tiles (stamp 1, 29 bytes) to 5034dc2d
+[  162362] tilemap: sent 8 changed tiles (stamp 2, 41 bytes) to 5034dc2d
+[  162504] enemy: slot 2 id 002: left a d8 behind (says 5034dc2d)
+[  162526] enemy: slot 2 id 002: taken by another player
+[  168576] enemy: slot 0 id 000: left a e4 behind
+[  168598] enemy: slot 0 id 000: pickup e4 collected
+[  168813] tilemap: sent 4 changed tiles (stamp 1, 29 bytes) to 5034dc2d
+[  168869] enemy: slot 1 id 001: handed to 5034dc2d, claim 1
+[  168917] tilemap: sent 28 changed tiles (stamp 2, 119 bytes) to 5034dc2d
+[  168925] tilemap: sent 36 changed tiles (stamp 3, 146 bytes) to 5034dc2d
+[  168929] tilemap: sent 40 changed tiles (stamp 4, 158 bytes) to 5034dc2d
+[  169039] enemy: slot 1 id 001 type 41: taking over (off their screen), claim 2
+[  169325] enemy: slot 1 id 001 type 41: gone
+[  170096] tilemap: sent 4 changed tiles (stamp 1, 29 bytes) to 5034dc2d
+[  170253] tilemap: sent 8 changed tiles (stamp 2, 47 bytes) to 5034dc2d
+[  170274] enemy: slot 1 id 001: handed to 5034dc2d, claim 1
+[  170289] enemy: slot 0 id 000 type 41: gone
+[  170389] enemy: slot 1 id 001: killed by another player
+[  170481] tilemap: sent 12 changed tiles (stamp 3, 65 bytes) to 5034dc2d
+[  170785] enemy: slot 2 id 002: handed to 5034dc2d, claim 1
+[  170835] enemy: slot 2 id 002 type 41: taking over (hit), claim 2
+[  170988] enemy: slot 2 id 002 type 41: gone
+[  172394] enemy: slot 0 id 000: handed to 5034dc2d, claim 1
+[  172396] enemy: slot 1 id 001: handed to 5034dc2d, claim 1
+[  172443] enemy: slot 0 id 000: left a d8 behind (says 5034dc2d)
+[  172443] enemy: slot 1 id 001: killed by another player
+[  172485] enemy: slot 0 id 000: pickup d8 collected
+[  173175] enemy: slot 0 id 000 type 42: gone
+[  173242] tilemap: sent 56 changed tiles (stamp 4, 212 bytes) to 5034dc2d
+[  173246] tilemap: maruf has 3 runs (stamp 1)
+[  173251] tilemap: maruf has 11 runs (stamp 5)
+[  173267] tilemap: maruf has 11 runs (stamp 6)
+[  173271] tilemap: maruf has 11 runs (stamp 7)
+[  173448] tilemap: sent 56 changed tiles (stamp 8, 212 bytes) to 5034dc2d
+[  173452] tilemap: sent 56 changed tiles (stamp 9, 212 bytes) to 5034dc2d
+[  173484] enemy: slot 1 id 001: handed to 5034dc2d, claim 1
+[  173503] tilemap: maruf has 17 runs (stamp 10)
+[  173511] tilemap: maruf has 19 runs (stamp 11)
+[  173515] tilemap: maruf has 18 runs (stamp 12)
+[  173527] enemy: slot 1 id 001 type 41: taking over (off their screen), claim 2
+[  173737] enemy: slot 1 id 001: left a e4 behind
+[  173744] tilemap: sent 92 changed tiles (stamp 13, 341 bytes) to 5034dc2d
+[  173748] tilemap: sent 92 changed tiles (stamp 14, 341 bytes) to 5034dc2d
+[  173806] enemy: slot 1 id 001: pickup e4 collected
+[  173876] tilemap: sent 96 changed tiles (stamp 15, 359 bytes) to 5034dc2d
+[  174015] tilemap: maruf has 20 runs (stamp 16)
+[  174018] tilemap: maruf has 20 runs (stamp 17)
+[  174030] tilemap: maruf has 20 runs (stamp 18)
+[  174035] tilemap: maruf has 20 runs (stamp 19)
+[  174109] tilemap: sent 96 changed tiles (stamp 19, 359 bytes) to 39ae641d
+[  174115] tilemap: mich has 3 runs (stamp 1)
+[  174119] tilemap: mich has 20 runs (stamp 20)
+[  174131] tilemap: mich has 20 runs (stamp 21)
+[  174132] tilemap: sent 96 changed tiles (stamp 22, 359 bytes) to 39ae641d
+[  174132] tilemap: sent 96 changed tiles (stamp 22, 359 bytes) to 5034dc2d
+[  174135] tilemap: mich has 20 runs (stamp 22)
+[  174136] tilemap: sent 96 changed tiles (stamp 23, 359 bytes) to 39ae641d
+[  174136] tilemap: sent 96 changed tiles (stamp 23, 359 bytes) to 5034dc2d
+[  174148] tilemap: sent 96 changed tiles (stamp 24, 359 bytes) to 39ae641d
+[  174148] tilemap: sent 96 changed tiles (stamp 24, 359 bytes) to 5034dc2d
+[  174152] tilemap: sent 96 changed tiles (stamp 25, 359 bytes) to 39ae641d
+[  174152] tilemap: sent 96 changed tiles (stamp 25, 359 bytes) to 5034dc2d
+[  174171] tilemap: maruf has 20 runs (stamp 26)
+[  174174] tilemap: maruf has 20 runs (stamp 27)
+[  174186] tilemap: maruf has 20 runs (stamp 28)
+[  174190] tilemap: maruf has 20 runs (stamp 29)
+[  174363] tilemap: mich has 20 runs (stamp 30)
+[  174367] tilemap: mich has 20 runs (stamp 31)
+[  174410] tilemap: maruf has 20 runs (stamp 32)
+[  174414] tilemap: maruf has 20 runs (stamp 33)
+[  175208] enemy: slot 1 id 001 type 42: taking over (free), claim 1
+[  175208] enemy: slot 2 id 002 type 6a: taking over (free), claim 1
+[  175353] enemy: slot 1 id 001 type 42: gone
+[  175537] tilemap: sent 4 changed tiles (stamp 1, 29 bytes) to 39ae641d
+[  175537] tilemap: sent 4 changed tiles (stamp 1, 29 bytes) to 5034dc2d
+[  175556] tilemap: mich has 2 runs (stamp 2)
+[  175712] tilemap: mich has 2 runs (stamp 3)
+[  175962] enemy: slot 2 id 002: handed to 39ae641d, claim 2
+[  176150] enemy: slot 2 id 002: taken by another player
+[  176165] note: mich found Hyrule Castle Big Key
+[  176165] note: mich found Sewers Big Key
+[  176300] tilemap: mich has 4 runs (stamp 4)
+[  176411] tilemap: maruf has 6 runs (stamp 5)
+[  176420] tilemap: mich has 6 runs (stamp 6)
+[  176421] note: mich found a Piece of Heart
+[  176437] note: mich found a Piece of Heart
+[  177656] tilemap: sent 24 changed tiles (stamp 1, 101 bytes) to 39ae641d
+[  177656] tilemap: sent 24 changed tiles (stamp 1, 101 bytes) to 5034dc2d
+[  177660] tilemap: sent 36 changed tiles (stamp 2, 146 bytes) to 39ae641d
+[  177660] tilemap: sent 36 changed tiles (stamp 2, 146 bytes) to 5034dc2d
+[  177671] tilemap: mich has 9 runs (stamp 3)
+[  177672] tilemap: sent 36 changed tiles (stamp 4, 146 bytes) to 39ae641d
+[  177672] tilemap: sent 36 changed tiles (stamp 4, 146 bytes) to 5034dc2d
+[  177675] tilemap: mich has 9 runs (stamp 4)
+[  177676] tilemap: sent 36 changed tiles (stamp 5, 146 bytes) to 39ae641d
+[  177676] tilemap: sent 36 changed tiles (stamp 5, 146 bytes) to 5034dc2d
+[  177681] enemy: slot 1 id 001 type 41: brought in from 5034dc2d
+[  177687] tilemap: mich has 9 runs (stamp 6)
+[  177691] tilemap: mich has 9 runs (stamp 7)
+[  177844] enemy: slot 1 id 001 type 41: taking over (free), claim 2
+[  177886] tilemap: maruf has 9 runs (stamp 8)
+[  177890] tilemap: maruf has 9 runs (stamp 9)
+[  177902] tilemap: maruf has 9 runs (stamp 10)
+[  177906] tilemap: maruf has 9 runs (stamp 11)
+[  177992] enemy: slot 1 id 001 type 42: brought in from 39ae641d
+[  178074] enemy: slot 1 id 001 type 42: taking over (nearer), claim 2
+[  178241] enemy: slot 1 id 001: handed to 39ae641d, claim 3
+[  178256] enemy: slot 0 id 000 type 42: gone
+[  178288] enemy: slot 1 id 001: killed by another player
+[  179405] enemy: slot 1 id 001 type 41: gone
+[  179482] enemy: slot 0 id 000: handed to 5034dc2d, claim 1
+[  179617] enemy: slot 0 id 000 type 41: taking over (off their screen), claim 2
+[  179724] enemy: slot 0 id 000: handed to 39ae641d, claim 3
+[  179754] enemy: slot 0 id 000 type 41: taking over (hit), claim 4
+[  179910] enemy: slot 0 id 000: handed to 39ae641d, claim 5
+[  180932] enemy: slot 0 id 000: handed to 39ae641d, claim 1
+[  180932] enemy: slot 1 id 001: handed to 39ae641d, claim 1
+[  180932] enemy: slot 2 id 002: handed to 39ae641d, claim 1
+[  180973] enemy: slot 1 id 001 type 4b: taking over (free), claim 2
+[  180973] enemy: slot 2 id 002 type 4b: taking over (free), claim 2
+[  180981] tilemap: sent 4 changed tiles (stamp 1, 29 bytes) to 39ae641d
+[  180981] tilemap: sent 4 changed tiles (stamp 1, 29 bytes) to 5034dc2d
+[  181024] enemy: slot 2 id 002: handed to 5034dc2d, claim 3
+[  181025] enemy: slot 1 id 001: handed to 5034dc2d, claim 3
+[  181107] enemy: slot 1 id 001: left a d8 behind (says 5034dc2d)
+[  181175] enemy: slot 0 id 000: killed by another player
+[  181196] enemy: slot 1 id 001: taken by another player
+[  181300] enemy: slot 2 id 002 type 4b: taking over (hit), claim 5
+[  181328] enemy: slot 2 id 002: left a d8 behind
+[  181352] enemy: slot 2 id 002: pickup d8 collected
+[  181975] enemy: slot 1 id 001 type 42: gone
+[  182032] enemy: slot 2 id 002: left a d8 behind
+[  182217] enemy: slot 0 id 000: handed to 39ae641d, claim 1
+[  182445] enemy: slot 2 id 002: taken by another player
+[  182768] enemy: slot 0 id 000 type 41: taking over (nearer), claim 3
+[  182802] enemy: slot 0 id 000: handed to 5034dc2d, claim 4
+[  182965] enemy: slot 0 id 000: killed by another player
+[  183134] tilemap: maruf has 2 runs (stamp 1)
+[  183762] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 39ae641d
+[  183762] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 5034dc2d
+[  183789] tilemap: mich has 2 runs (stamp 2)
+[  183846] enemy: slot 12 id 6ff type 0d: taking over (nearer), claim 1
+[  183921] tilemap: mich has 3 runs (stamp 3)
+[  184089] enemy: slot 12 id 6ff: handed to 39ae641d, claim 2
+[  184116] enemy: slot 12 id 6ff: left a e1 behind (says 39ae641d)
+[  184194] enemy: slot 12 id 6ff: taken by another player
+[  184234] enemy: slot 12 id ab4 type 55: taking over (free), claim 1
+[  185277] enemy: slot 13 id 6f7 type 0d: taking over (nearer), claim 2
+[  185377] enemy: slot 13 id 6f7: handed to 5034dc2d, claim 3
+[  185426] enemy: slot 13 id 6f7: left a e1 behind (says 5034dc2d)
+[  185490] enemy: slot 13 id 6f7: taken by another player
+[  185951] enemy: slot 2 id 002: handed to 5034dc2d, claim 1
+[  185961] enemy: slot 1 id 001: handed to 39ae641d, claim 1
+[  186034] enemy: slot 0 id 000: handed to 39ae641d, claim 1
+[  186277] enemy: slot 0 id 000: handed to 39ae641d, claim 1
+[  186277] enemy: slot 1 id 001: handed to 39ae641d, claim 1
+[  186277] enemy: slot 2 id 002: handed to 39ae641d, claim 1
+[  186323] enemy: slot 0 id 000 type 42: taking over (free), claim 2
+[  186323] enemy: slot 1 id 001 type 4b: taking over (free), claim 2
+[  186323] enemy: slot 2 id 002 type 4b: taking over (free), claim 2
+[  186394] enemy: slot 1 id 001: handed to 5034dc2d, claim 3
+[  186394] enemy: slot 2 id 002: handed to 5034dc2d, claim 3
+[  186401] enemy: slot 0 id 000: handed to 5034dc2d, claim 3
+[  186686] enemy: slot 1 id 001 type 41: taking over (free), claim 1
+[  186686] enemy: slot 2 id 002 type 41: taking over (free), claim 1
+[  186780] enemy: slot 2 id 002: handed to 39ae641d, claim 2
+[  186938] enemy: slot 2 id 002 type 41: taking over (nearer), claim 3
+[  187043] enemy: slot 2 id 002: handed to 5034dc2d, claim 4
+[  187053] enemy: slot 1 id 001 type 41: gone
+[  187233] enemy: slot 2 id 002: killed by another player
+[  187752] tilemap: sent 12 changed tiles (stamp 2, 56 bytes) to 39ae641d
+[  187757] tilemap: mich has 2 runs (stamp 1)
+[  187761] tilemap: mich has 3 runs (stamp 3)
+[  187777] enemy: slot 0 id 000 type 6d: taking over (free), claim 1
+[  187777] enemy: slot 1 id 001 type 6d: taking over (free), claim 1
+[  187777] enemy: slot 2 id 002 type 6d: taking over (free), claim 1
+[  187777] enemy: slot 3 id 003 type 6d: taking over (free), claim 1
+[  187824] tilemap: sent 12 changed tiles (stamp 3, 56 bytes) to 5034dc2d
+[  187832] tilemap: maruf has 3 runs (stamp 4)
+[  187841] enemy: slot 3 id 003: handed to 39ae641d, claim 2
+[  187842] enemy: slot 2 id 002: handed to 39ae641d, claim 2
+[  187887] enemy: slot 2 id 002 type 6d: taking over (off their screen), claim 3
+[  187894] enemy: slot 0 id 000: handed to 39ae641d, claim 2
+[  187938] enemy: slot 1 id 001: handed to 39ae641d, claim 2
+[  188081] enemy: slot 2 id 002: handed to 5034dc2d, claim 4
+[  188380] enemy: slot 2 id 002 type 6d: taking over (off their screen), claim 5
+[  189189] enemy: slot 2 id 002: handed to 5034dc2d, claim 6
+[  189286] enemy: slot 2 id 002 type 6d: taking over (off their screen), claim 7
+[  189340] enemy: slot 2 id 002: handed to 5034dc2d, claim 8
+[  189689] enemy: slot 1 id 001 type 6d: taking over (nearer), claim 6
+[  189803] enemy: slot 2 id 002 type 6d: taking over (off their screen), claim 9
+[  189807] enemy: slot 0 id 000 type 6d: taking over (off their screen), claim 4
+[  189811] enemy: slot 3 id 003 type 6d: taking over (off their screen), claim 4
+[  189955] enemy: slot 3 id 003: handed to 5034dc2d, claim 5
+[  189964] enemy: slot 2 id 002: handed to 5034dc2d, claim 10
+[  190017] enemy: slot 1 id 001: handed to 5034dc2d, claim 7
+[  190123] enemy: slot 0 id 000: left a d8 behind
+[  190163] enemy: slot 0 id 000: pickup d8 collected
+[  190284] enemy: slot 1 id 001 type 6d: taking over (off their screen), claim 8
+[  190349] enemy: slot 1 id 001: handed to 5034dc2d, claim 9
+[  190641] enemy: slot 1 id 001 type 6d: taking over (nearer), claim 10
+[  190843] enemy: slot 1 id 001: left a e3 behind
+[  190864] enemy: slot 1 id 001: pickup e3 collected
+[  191392] enemy: slot 2 id 002 type 6d: taking over (off their screen), claim 14
+[  191538] enemy: slot 3 id 003 type 6d: taking over (off their screen), claim 9
+[  191697] enemy: slot 3 id 003: handed to 39ae641d, claim 10
+[  191749] enemy: slot 3 id 003: left a e3 behind (says 39ae641d)
+[  191972] enemy: slot 2 id 002: handed to 39ae641d, claim 15
+[  192089] enemy: slot 2 id 002 type 6d: taking over (off their screen), claim 16
+[  192782] enemy: slot 2 id 002: handed to 39ae641d, claim 17
+[  192992] enemy: slot 2 id 002: left a e0 behind (says 39ae641d)
+[  193201] enemy: slot 2 id 002: pickup e0 collected
+[  200709] enemy: slot 11 id bd6 type 00: taking over (nearer), claim 2
+[  200741] enemy: slot 10 id e59 type c4: taking over (free), claim 1
+[  200778] enemy: slot 11 id bd6: handed to 39ae641d, claim 3
+[  200992] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 39ae641d
+[  200992] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 5034dc2d
+[  201441] enemy: slot 11 id 1da: handed to 39ae641d, claim 1
+[  201488] enemy: slot 11 id 1da: killed by another player
+[  201571] enemy: slot 12 id 1c7: handed to 39ae641d, claim 1
+[  201624] enemy: slot 12 id 1c7 type 42: taking over (hit), claim 2
+[  201671] enemy: slot 12 id 1c7 type 42: gone
+[  201684] tilemap: mich has 1 runs (stamp 1)
+[  201716] tilemap: mich has 2 runs (stamp 2)
+[  201752] tilemap: mich has 2 runs (stamp 3)
+[  201758] tilemap: sent 4 changed tiles (stamp 4, 29 bytes) to 39ae641d
+[  201758] tilemap: sent 4 changed tiles (stamp 4, 29 bytes) to 5034dc2d
+[  201786] tilemap: sent 5 changed tiles (stamp 5, 29 bytes) to 39ae641d
+[  201786] tilemap: sent 5 changed tiles (stamp 5, 29 bytes) to 5034dc2d
+[  201796] tilemap: mich has 4 runs (stamp 6)
+[  201830] tilemap: maruf has 5 runs (stamp 7)
+[  201832] tilemap: mich has 5 runs (stamp 7)
+[  201884] tilemap: mich has 5 runs (stamp 8)
+[  201924] tilemap: mich has 5 runs (stamp 9)
+[  201970] tilemap: sent 11 changed tiles (stamp 10, 47 bytes) to 39ae641d
+[  201970] tilemap: sent 11 changed tiles (stamp 10, 47 bytes) to 5034dc2d
+[  201988] tilemap: mich has 7 runs (stamp 11)
+[  202094] enemy: slot 13 id 478 type 0b: brought in from 39ae641d
+[  202184] tilemap: mich has 8 runs (stamp 12)
+[  202206] tilemap: maruf has 9 runs (stamp 13)
+[  202216] tilemap: mich has 9 runs (stamp 14)
+[  202252] tilemap: mich has 10 runs (stamp 15)
+[  202256] tilemap: mich has 10 runs (stamp 16)
+[  202274] tilemap: maruf has 10 runs (stamp 17)
+[  202332] tilemap: mich has 10 runs (stamp 18)
+[  202372] tilemap: mich has 10 runs (stamp 19)
+[  202420] tilemap: mich has 10 runs (stamp 20)
+[  202426] tilemap: maruf has 11 runs (stamp 21)
+[  202444] tilemap: mich has 11 runs (stamp 22)
+[  202508] tilemap: mich has 12 runs (stamp 23)
+[  202556] tilemap: mich has 12 runs (stamp 24)
+[  202598] tilemap: maruf has 13 runs (stamp 25)
+[  202614] tilemap: sent 29 changed tiles (stamp 26, 95 bytes) to 39ae641d
+[  202614] tilemap: sent 29 changed tiles (stamp 26, 95 bytes) to 5034dc2d
+[  202638] tilemap: sent 30 changed tiles (stamp 27, 89 bytes) to 39ae641d
+[  202638] tilemap: sent 30 changed tiles (stamp 27, 89 bytes) to 5034dc2d
+[  202644] tilemap: mich has 14 runs (stamp 27)
+[  202646] tilemap: maruf has 13 runs (stamp 28)
+[  202670] tilemap: maruf has 14 runs (stamp 29)
+[  202702] tilemap: sent 33 changed tiles (stamp 30, 107 bytes) to 39ae641d
+[  202702] tilemap: sent 33 changed tiles (stamp 30, 107 bytes) to 5034dc2d
+[  202846] tilemap: sent 34 changed tiles (stamp 31, 113 bytes) to 39ae641d
+[  202846] tilemap: sent 34 changed tiles (stamp 31, 113 bytes) to 5034dc2d
+[  202898] tilemap: maruf has 18 runs (stamp 32)
+[  203505] enemy: slot 13 id 478 type 0b: taking over (nearer), claim 3
+[  204828] tilemap: maruf has 18 runs (stamp 33)
+[  205336] enemy: slot 13 id 407: left a d8 behind
+[  205383] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 39ae641d
+[  205401] enemy: slot 13 id 407: pickup d8 collected
+[  205408] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 5034dc2d
+[  205487] tilemap: mich has 2 runs (stamp 2)
+[  205519] tilemap: mich has 2 runs (stamp 3)
+[  205547] tilemap: mich has 2 runs (stamp 4)
+[  205558] enemy: slot 12 id 555 type 42: taking over (free), claim 1
+[  205558] enemy: slot 13 id 1e5 type 42: taking over (free), claim 1
+[  205571] tilemap: mich has 2 runs (stamp 5)
+[  205603] tilemap: mich has 3 runs (stamp 6)
+[  205617] enemy: slot 13 id 1e5: handed to 5034dc2d, claim 2
+[  205627] tilemap: mich has 3 runs (stamp 7)
+[  205638] enemy: slot 12 id 555: handed to 5034dc2d, claim 2
+[  205639] enemy: slot 12 id 555 type 42: taking over (hit), claim 3
+[  205686] enemy: slot 12 id 555 type 42: gone
+[  205699] tilemap: sent 8 changed tiles (stamp 8, 35 bytes) to 39ae641d
+[  205699] tilemap: sent 8 changed tiles (stamp 8, 35 bytes) to 5034dc2d
+[  205703] tilemap: mich has 3 runs (stamp 8)
+[  205707] tilemap: mich has 4 runs (stamp 9)
+[  205758] enemy: slot 13 id 1e5 type 42: taking over (nearer), claim 3
+[  205836] enemy: slot 13 id 1e5: left a d8 behind
+[  205869] enemy: slot 13 id 1e5: pickup d8 collected
+[  206083] tilemap: maruf has 6 runs (stamp 10)
+[  206111] tilemap: maruf has 6 runs (stamp 11)
+[  206135] tilemap: maruf has 7 runs (stamp 12)
+[  206159] tilemap: maruf has 7 runs (stamp 13)
+[  206183] tilemap: maruf has 8 runs (stamp 14)
+[  206219] tilemap: maruf has 8 runs (stamp 15)
+[  206239] tilemap: maruf has 8 runs (stamp 16)
+[  206267] tilemap: maruf has 8 runs (stamp 17)
+[  206612] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 5034dc2d
+[  206680] tilemap: sent 2 changed tiles (stamp 2, 23 bytes) to 5034dc2d
+[  206704] tilemap: maruf has 3 runs (stamp 3)
+[  206712] tilemap: sent 4 changed tiles (stamp 4, 29 bytes) to 5034dc2d
+[  206724] tilemap: maruf has 4 runs (stamp 5)
+[  206748] tilemap: sent 6 changed tiles (stamp 6, 41 bytes) to 5034dc2d
+[  206772] tilemap: sent 7 changed tiles (stamp 7, 41 bytes) to 5034dc2d
+[  206800] tilemap: sent 8 changed tiles (stamp 8, 47 bytes) to 5034dc2d
+[  206900] tilemap: maruf has 6 runs (stamp 9)
+[  206916] tilemap: sent 10 changed tiles (stamp 10, 47 bytes) to 5034dc2d
+[  206956] tilemap: maruf has 6 runs (stamp 11)
+[  206960] tilemap: sent 12 changed tiles (stamp 12, 47 bytes) to 5034dc2d
+[  206965] tilemap: sent 12 changed tiles (stamp 12, 47 bytes) to 39ae641d
+[  207008] tilemap: maruf has 6 runs (stamp 13)
+[  207020] tilemap: sent 14 changed tiles (stamp 14, 47 bytes) to 39ae641d
+[  207020] tilemap: sent 14 changed tiles (stamp 14, 47 bytes) to 5034dc2d
+[  207022] enemy: slot 13 id 571: handed to 39ae641d, claim 1
+[  207052] tilemap: maruf has 6 runs (stamp 15)
+[  207072] tilemap: sent 16 changed tiles (stamp 16, 53 bytes) to 39ae641d
+[  207072] tilemap: sent 16 changed tiles (stamp 16, 53 bytes) to 5034dc2d
+[  207112] tilemap: maruf has 8 runs (stamp 17)
+[  207324] tilemap: sent 21 changed tiles (stamp 18, 77 bytes) to 39ae641d
+[  207324] tilemap: sent 21 changed tiles (stamp 18, 77 bytes) to 5034dc2d
+[  207332] tilemap: sent 21 changed tiles (stamp 19, 77 bytes) to 39ae641d
+[  207332] tilemap: sent 21 changed tiles (stamp 19, 77 bytes) to 5034dc2d
+[  207340] tilemap: sent 21 changed tiles (stamp 20, 77 bytes) to 39ae641d
+[  207340] tilemap: sent 21 changed tiles (stamp 20, 77 bytes) to 5034dc2d
+[  210707] tilemap: sent 4 changed tiles (stamp 3, 29 bytes) to 39ae641d
+[  210767] tilemap: mich has 2 runs (stamp 4)
+[  210776] tilemap: mich has 2 runs (stamp 5)
+[  210784] tilemap: mich has 2 runs (stamp 6)
+[  210836] enemy: slot 12 id 571 type 42: taking over (free), claim 1
+[  210859] tilemap: sent 5 changed tiles (stamp 7, 35 bytes) to 39ae641d
+[  210889] tilemap: sent 5 changed tiles (stamp 7, 35 bytes) to 5034dc2d
+[  210924] tilemap: mich has 4 runs (stamp 8)
+[  210950] tilemap: maruf has 4 runs (stamp 9)
+[  210958] tilemap: maruf has 4 runs (stamp 10)
+[  210966] tilemap: maruf has 4 runs (stamp 11)
+[  211165] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 39ae641d
+[  211189] tilemap: mich has 2 runs (stamp 2)
+[  211221] tilemap: mich has 2 runs (stamp 3)
+[  211246] tilemap: mich has 2 runs (stamp 4)
+[  211268] tilemap: sent 4 changed tiles (stamp 4, 29 bytes) to 5034dc2d
+[  211310] tilemap: mich has 3 runs (stamp 5)
+[  211334] tilemap: mich has 3 runs (stamp 6)
+[  211362] tilemap: mich has 3 runs (stamp 7)
+[  211393] tilemap: mich has 3 runs (stamp 8)
+[  211418] tilemap: mich has 4 runs (stamp 9)
+[  211482] tilemap: mich has 4 runs (stamp 10)
+[  211489] tilemap: sent 11 changed tiles (stamp 11, 47 bytes) to 39ae641d
+[  211489] tilemap: sent 11 changed tiles (stamp 11, 47 bytes) to 5034dc2d
+[  211492] enemy: slot 10 id 515 type 48: taking over (free), claim 1
+[  211564] tilemap: maruf has 6 runs (stamp 12)
+[  211588] tilemap: maruf has 6 runs (stamp 13)
+[  211609] tilemap: mich has 6 runs (stamp 14)
+[  211616] tilemap: maruf has 7 runs (stamp 15)
+[  211665] tilemap: sent 16 changed tiles (stamp 16, 65 bytes) to 39ae641d
+[  211665] tilemap: sent 16 changed tiles (stamp 16, 65 bytes) to 5034dc2d
+[  211684] tilemap: maruf has 9 runs (stamp 17)
+[  211714] tilemap: mich has 10 runs (stamp 18)
+[  211746] tilemap: mich has 10 runs (stamp 19)
+[  211756] enemy: slot 9 id 591 type 42: brought in from 39ae641d
+[  211824] tilemap: maruf has 10 runs (stamp 20)
+[  211825] tilemap: mich has 11 runs (stamp 20)
+[  211919] enemy: slot 11 id 591 type 42: brought in from 39ae641d
+[  212065] enemy: slot 10 id 515: handed to 39ae641d, claim 2
+[  212169] tilemap: sent 24 changed tiles (stamp 21, 95 bytes) to 39ae641d
+[  212169] tilemap: sent 24 changed tiles (stamp 21, 95 bytes) to 5034dc2d
+[  212201] tilemap: sent 26 changed tiles (stamp 22, 101 bytes) to 39ae641d
+[  212201] tilemap: sent 26 changed tiles (stamp 22, 101 bytes) to 5034dc2d
+[  212261] enemy: slot 11 id 591 type 42: taking over (hit), claim 2
+[  212342] enemy: slot 11 id 591: left a d8 behind
+[  212356] enemy: slot 10 id 515 type 48: taking over (hit), claim 3
+[  212365] tilemap: sent 27 changed tiles (stamp 23, 107 bytes) to 39ae641d
+[  212365] tilemap: sent 27 changed tiles (stamp 23, 107 bytes) to 5034dc2d
+[  212365] enemy: slot 11 id 591: pickup d8 collected
+[  212402] enemy: slot 10 id 515 type 48: gone
+[  212542] tilemap: mich has 15 runs (stamp 24)
+[  212617] tilemap: sent 33 changed tiles (stamp 25, 137 bytes) to 39ae641d
+[  212617] tilemap: sent 33 changed tiles (stamp 25, 137 bytes) to 5034dc2d
+[  212649] tilemap: sent 35 changed tiles (stamp 26, 143 bytes) to 39ae641d
+[  212649] tilemap: sent 35 changed tiles (stamp 26, 143 bytes) to 5034dc2d
+[  212674] enemy: slot 13 id 517 type 19: taking over (free), claim 1
+[  212749] tilemap: sent 39 changed tiles (stamp 27, 161 bytes) to 39ae641d
+[  212749] tilemap: sent 39 changed tiles (stamp 27, 161 bytes) to 5034dc2d
+[  212781] tilemap: sent 41 changed tiles (stamp 28, 167 bytes) to 39ae641d
+[  212781] tilemap: sent 41 changed tiles (stamp 28, 167 bytes) to 5034dc2d
+[  212833] tilemap: mich has 20 runs (stamp 29)
+[  212897] tilemap: sent 46 changed tiles (stamp 30, 191 bytes) to 39ae641d
+[  212897] tilemap: sent 46 changed tiles (stamp 30, 191 bytes) to 5034dc2d
+[  212913] enemy: slot 13 id 517: handed to 5034dc2d, claim 2
+[  212933] tilemap: sent 48 changed tiles (stamp 31, 197 bytes) to 39ae641d
+[  212933] tilemap: sent 48 changed tiles (stamp 31, 197 bytes) to 5034dc2d
+[  213033] tilemap: mich has 23 runs (stamp 32)
+[  213065] tilemap: sent 53 changed tiles (stamp 33, 221 bytes) to 39ae641d
+[  213065] tilemap: sent 53 changed tiles (stamp 33, 221 bytes) to 5034dc2d
+[  213101] tilemap: sent 55 changed tiles (stamp 34, 227 bytes) to 39ae641d
+[  213101] tilemap: sent 55 changed tiles (stamp 34, 227 bytes) to 5034dc2d
+[  213274] enemy: slot 13 id 517: left a e0 behind (says 5034dc2d)
+[  213345] tilemap: sent 56 changed tiles (stamp 35, 233 bytes) to 39ae641d
+[  213345] tilemap: sent 56 changed tiles (stamp 35, 233 bytes) to 5034dc2d
+[  213401] tilemap: sent 57 changed tiles (stamp 36, 236 bytes) to 39ae641d
+[  213401] tilemap: sent 57 changed tiles (stamp 36, 236 bytes) to 5034dc2d
+[  213464] tilemap: maruf has 27 runs (stamp 37)
+[  213533] tilemap: sent 59 changed tiles (stamp 38, 245 bytes) to 39ae641d
+[  213533] tilemap: sent 59 changed tiles (stamp 38, 245 bytes) to 5034dc2d
+[  213653] tilemap: sent 60 changed tiles (stamp 39, 251 bytes) to 39ae641d
+[  213653] tilemap: sent 60 changed tiles (stamp 39, 251 bytes) to 5034dc2d
+[  214488] enemy: slot 12 id 47b type 41: gone
+[  214686] tilemap: sent 2 changed tiles (stamp 2, 23 bytes) to 39ae641d
+[  214709] tilemap: sent 2 changed tiles (stamp 2, 23 bytes) to 5034dc2d
+[  215078] note: mich picked up 3 bombs for everyone
+[  215080] tilemap: mich has 2 runs (stamp 1)
+[  215177] tilemap: sent 8 changed tiles (stamp 2, 47 bytes) to 39ae641d
+[  215177] tilemap: sent 8 changed tiles (stamp 2, 47 bytes) to 5034dc2d
+[  215305] tilemap: sent 12 changed tiles (stamp 3, 65 bytes) to 39ae641d
+[  215305] tilemap: sent 12 changed tiles (stamp 3, 65 bytes) to 5034dc2d
+[  215324] tilemap: mich has 8 runs (stamp 4)
+[  215328] tilemap: maruf has 6 runs (stamp 5)
+[  215412] tilemap: mich has 4 runs (stamp 6)
+[  215757] tilemap: sent 28 changed tiles (stamp 7, 113 bytes) to 39ae641d
+[  215757] tilemap: sent 28 changed tiles (stamp 7, 113 bytes) to 5034dc2d
+[  215820] tilemap: maruf has 6 runs (stamp 8)
+[  215820] tilemap: mich has 6 runs (stamp 8)
+[  215821] tilemap: sent 32 changed tiles (stamp 9, 125 bytes) to 39ae641d
+[  215821] tilemap: sent 32 changed tiles (stamp 9, 125 bytes) to 5034dc2d
+[  216226] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 39ae641d
+[  216226] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 5034dc2d
+[  216262] tilemap: mich has 2 runs (stamp 2)
+[  216299] tilemap: maruf has 2 runs (stamp 3)
+[  216394] enemy: slot 12 id 47b type 41: taking over (nearer), claim 2
+[  216613] enemy: slot 12 id 47b: handed to 39ae641d, claim 3
+[  216677] enemy: slot 12 id 47b type 41: taking over (hit), claim 4
+[  216723] enemy: slot 12 id 47b type 41: gone
+[  216934] tilemap: mich has 3 runs (stamp 4)
+[  217211] tilemap: sent 4 changed tiles (stamp 4, 32 bytes) to 5034dc2d
+[  217434] tilemap: mich has 4 runs (stamp 5)
+[  217494] tilemap: mich has 4 runs (stamp 6)
+[  217518] tilemap: mich has 4 runs (stamp 7)
+[  217634] tilemap: mich has 5 runs (stamp 8)
+[  217642] tilemap: mich has 5 runs (stamp 9)
+[  217666] tilemap: mich has 5 runs (stamp 10)
+[  217690] tilemap: mich has 5 runs (stamp 11)
+[  217860] enemy: slot 13 id 427 type 58: taking over (free), claim 1
+[  217910] enemy: slot 13 id 427: handed to 5034dc2d, claim 2
+[  217912] enemy: slot 11 id 0d7: handed to 5034dc2d, claim 1
+[  218040] enemy: slot 11 id 0d7: left a d8 behind (says 5034dc2d)
+[  218092] enemy: slot 11 id 0d7: pickup d8 collected
+[  218098] enemy: slot 13 id 427: left a d8 behind (says 5034dc2d)
+[  218141] enemy: slot 13 id 427: taken by another player
+[  218333] enemy: slot 13 id 1fb type 46: brought in from 39ae641d
+[  218335] enemy: slot 11 id 1cb type 46: brought in from 39ae641d
+[  218500] enemy: slot 13 id 1fb: left a dc behind (says 39ae641d)
+[  218518] enemy: slot 11 id 1cb type 46: taking over (hit), claim 2
+[  218563] enemy: slot 13 id 1fb: taken by another player
+[  218564] note: mich picked up 1 bomb for everyone
+[  218574] enemy: slot 11 id 1cb: handed to 39ae641d, claim 3
+[  218620] enemy: slot 11 id 1cb: left a dc behind (says 39ae641d)
+[  218668] enemy: slot 11 id 1cb: pickup dc collected
+[  218784] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 39ae641d
+[  218784] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 5034dc2d
+[  218796] tilemap: mich has 2 runs (stamp 2)
+[  218824] tilemap: mich has 2 runs (stamp 3)
+[  218836] tilemap: sent 4 changed tiles (stamp 4, 26 bytes) to 39ae641d
+[  218836] tilemap: sent 4 changed tiles (stamp 4, 26 bytes) to 5034dc2d
+[  218872] tilemap: mich has 3 runs (stamp 5)
+[  218884] tilemap: maruf has 4 runs (stamp 6)
+[  218912] tilemap: mich has 5 runs (stamp 7)
+[  218956] tilemap: mich has 5 runs (stamp 8)
+[  219292] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 39ae641d
+[  219322] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 5034dc2d
+[  219331] enemy: slot 13 id 486: handed to 39ae641d, claim 1
+[  219348] tilemap: sent 2 changed tiles (stamp 2, 17 bytes) to 39ae641d
+[  219348] tilemap: sent 2 changed tiles (stamp 2, 17 bytes) to 5034dc2d
+[  219384] tilemap: sent 3 changed tiles (stamp 3, 23 bytes) to 39ae641d
+[  219384] tilemap: sent 3 changed tiles (stamp 3, 23 bytes) to 5034dc2d
+[  219412] tilemap: sent 4 changed tiles (stamp 4, 23 bytes) to 39ae641d
+[  219412] tilemap: sent 4 changed tiles (stamp 4, 23 bytes) to 5034dc2d
+[  219451] enemy: slot 13 id 486: left a e1 behind (says 5034dc2d)
+[  219480] tilemap: mich has 2 runs (stamp 5)
+[  219488] tilemap: sent 7 changed tiles (stamp 6, 32 bytes) to 39ae641d
+[  219488] tilemap: sent 7 changed tiles (stamp 6, 32 bytes) to 5034dc2d
+[  219867] tilemap: maruf has 4 runs (stamp 8)
+[  219869] tilemap: mich has 4 runs (stamp 8)
+[  219935] enemy: slot 13 id 486: taken by another player
+[  220186] tilemap: mich has 6 runs (stamp 9)
+[  220276] tilemap: sent 14 changed tiles (stamp 10, 65 bytes) to 39ae641d
+[  220276] tilemap: sent 14 changed tiles (stamp 10, 65 bytes) to 5034dc2d
+[  220340] tilemap: sent 15 changed tiles (stamp 11, 68 bytes) to 39ae641d
+[  220340] tilemap: sent 15 changed tiles (stamp 11, 68 bytes) to 5034dc2d
+[  220368] tilemap: sent 16 changed tiles (stamp 12, 71 bytes) to 39ae641d
+[  220368] tilemap: sent 16 changed tiles (stamp 12, 71 bytes) to 5034dc2d
+[  220869] enemy: slot 12 id 1c6 type 0d: taking over (free), claim 1
+[  220879] enemy: slot 11 id 1a7 type 0d: taking over (free), claim 1
+[  220889] enemy: slot 10 id 188 type 0d: taking over (free), claim 1
+[  220924] enemy: slot 9 id 468 type 0d: taking over (free), claim 1
+[  220973] enemy: slot 13 id 0bd: handed to 5034dc2d, claim 1
+[  221030] enemy: slot 12 id 1c6: handed to 5034dc2d, claim 2
+[  221031] enemy: slot 11 id 1a7: handed to 5034dc2d, claim 2
+[  221174] enemy: slot 9 id 468: handed to 39ae641d, claim 2
+[  221185] enemy: slot 13 id 1c6 type 0d: brought in from 5034dc2d
+[  221335] tilemap: maruf has 1 runs (stamp 1)
+[  221407] enemy: slot 9 id 468: killed by another player
+[  221448] tilemap: sent 2 changed tiles (stamp 2, 23 bytes) to 39ae641d
+[  221448] tilemap: sent 2 changed tiles (stamp 2, 23 bytes) to 5034dc2d
+[  221516] tilemap: sent 3 changed tiles (stamp 3, 29 bytes) to 39ae641d
+[  221516] tilemap: sent 3 changed tiles (stamp 3, 29 bytes) to 5034dc2d
+[  221746] enemy: slot 13 id 1c6 type 0d: taking over (free), claim 1
+[  221758] enemy: slot 12 id 0bd type 0d: taking over (free), claim 1
+[  221768] enemy: slot 11 id 1a7 type 0d: taking over (free), claim 1
+[  221790] enemy: slot 10 id 188 type 0d: taking over (free), claim 1
+[  221838] enemy: slot 12 id 0bd: handed to 5034dc2d, claim 2
+[  221901] enemy: slot 13 id 1c6: handed to 5034dc2d, claim 2
+[  221911] enemy: slot 11 id 1a7: handed to 5034dc2d, claim 2
+[  221984] enemy: slot 10 id 188: handed to 5034dc2d, claim 2
+[  222260] enemy: slot 9 id 47e: left a d8 behind
+[  222313] enemy: slot 9 id 47e: pickup d8 collected
+[  222326] enemy: slot 11 id 0dd type 58: brought in from 39ae641d
+[  222353] enemy: slot 13 id 55c: handed to 39ae641d, claim 1
+[  222376] enemy: slot 11 id 0dd type 58: taking over (nearer), claim 2
+[  222606] enemy: slot 12 id 521 type 58: gone
+[  222650] enemy: slot 13 id 405 type 55: taking over (free), claim 1
+[  222724] enemy: slot 11 id 0dd: handed to 39ae641d, claim 3
+[  222771] enemy: slot 11 id 0dd: left a d8 behind (says 39ae641d)
+[  222831] enemy: slot 11 id 0dd: pickup d8 collected
+[  222852] enemy: slot 13 id 55c type 00: taking over (free), claim 1
+[  222889] enemy: slot 12 id 405 type 55: brought in from 39ae641d
+[  222935] tilemap: mich has 1 runs (stamp 1)
+[  223381] enemy: slot 9 id d14 type 55: brought in from 39ae641d
+[  223402] enemy: slot 12 id c88: handed to 39ae641d, claim 1
+[  223466] enemy: slot 9 id d14 type 55: taking over (free), claim 1
+[  223521] enemy: slot 7 id c18 type 56: brought in from 39ae641d
+[  223547] enemy: slot 11 id c3c: handed to 39ae641d, claim 1
+[  223575] enemy: slot 10 id c5e: handed to 5034dc2d, claim 1
+[  223820] enemy: slot 12 id e5d type 56: taking over (free), claim 1
+[  223960] enemy: slot 13 id f67 type 56: taking over (free), claim 1
+[  224179] enemy: slot 11 id bba type 56: taking over (free), claim 1
+[  224346] enemy: slot 12 id e5d type 56: brought in from 39ae641d
+[  224438] enemy: slot 13 id f67: left a df behind
+[  224469] enemy: slot 13 id f67: pickup df collected
+[  224495] enemy: slot 13 id bba type 56: taking over (free), claim 1
+[  224998] enemy: slot 13 id d14 type 55: taking over (free), claim 1
+[  225097] enemy: slot 13 id d14: handed to 39ae641d, claim 2
+[  225138] enemy: slot 12 id c5e type 55: brought in from 39ae641d
+[  225184] enemy: slot 11 id c3c: taken by another player
+[  225222] enemy: slot 11 id c18 type 56: brought in from 39ae641d
+[  225236] enemy: slot 10 id c88: taken by another player
+[  225278] enemy: slot 13 id d14 type 55: taking over (nearer), claim 3
+[  225358] enemy: slot 11 id c18 type 56: taking over (free), claim 2
+[  225363] enemy: slot 12 id 80d type 56: brought in from 39ae641d
+[  225671] enemy: slot 11 id 4c4 type 56: brought in from 39ae641d
+[  225689] enemy: slot 10 id 488 type 56: brought in from 39ae641d
+[  225728] enemy: slot 8 id 488 type 56: taking over (free), claim 1
+[  225763] enemy: slot 12 id 80d: left a d9 behind (says 39ae641d)
+[  225787] enemy: slot 12 id 80d: taken by another player
+[  225916] enemy: slot 13 id 437 type 56: brought in from 39ae641d
+[  225992] enemy: slot 11 id 4c4: killed by another player
+[  226160] enemy: slot 13 id 437 type 56: taking over (hit), claim 2
+[  226191] enemy: slot 12 id 0c9 type 55: taking over (nearer), claim 2
+[  226218] enemy: slot 10 id 171 type 55: taking over (free), claim 1
+[  226287] enemy: slot 13 id 437: handed to 39ae641d, claim 3
+[  226316] enemy: slot 13 id 437: killed by another player
+[  226330] enemy: slot 13 id 06a type 56: brought in from 5034dc2d
+[  226470] enemy: slot 13 id 06a type 56: taking over (nearer), claim 2
+[  226528] enemy: slot 11 id 1d2 type 55: taking over (nearer), claim 2
+[  226550] enemy: slot 12 id 0c9: handed to 5034dc2d, claim 3
+[  226581] enemy: slot 11 id 1d2 type 55: taking over (free), claim 1
+[  226668] enemy: slot 11 id 1d2: handed to 5034dc2d, claim 2
+[  226693] enemy: slot 8 id 1a6 type 56: taking over (free), claim 1
+[  226725] enemy: slot 13 id 06a: handed to 5034dc2d, claim 3
+[  226758] enemy: slot 13 id 06a type 56: taking over (hit), claim 4
+[  226794] enemy: slot 13 id 06a: handed to 39ae641d, claim 5
+[  226841] enemy: slot 13 id 06a: left a d8 behind (says 39ae641d)
+[  226865] enemy: slot 13 id 06a: pickup d8 collected
+[  227031] enemy: slot 7 id 52a type 56: taking over (free), claim 1
+[  227031] enemy: slot 13 id 1aa type 55: taking over (free), claim 1
+[  227057] enemy: slot 8 id 16c type 56: taking over (free), claim 1
+[  227103] enemy: slot 12 id 1a6 type 56: brought in from 5034dc2d
+[  227109] enemy: slot 10 id 171: handed to 5034dc2d, claim 2
+[  227115] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 39ae641d
+[  227115] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 5034dc2d
+[  227147] tilemap: sent 2 changed tiles (stamp 2, 23 bytes) to 39ae641d
+[  227147] tilemap: sent 2 changed tiles (stamp 2, 23 bytes) to 5034dc2d
+[  227156] enemy: slot 6 id 2e2 type 56: brought in from 39ae641d
+[  227249] enemy: slot 11 id 287 type 55: taking over (free), claim 1
+[  227271] enemy: slot 8 id 16c: handed to 39ae641d, claim 2
+[  227313] enemy: slot 13 id 1aa: handed to 5034dc2d, claim 2
+[  227331] tilemap: sent 3 changed tiles (stamp 3, 29 bytes) to 39ae641d
+[  227331] tilemap: sent 3 changed tiles (stamp 3, 29 bytes) to 5034dc2d
+[  227367] enemy: slot 5 id 2ed type 55: taking over (free), claim 1
+[  227367] enemy: slot 10 id 28d type 55: taking over (free), claim 1
+[  227431] enemy: slot 13 id 2e2 type 56: brought in from 5034dc2d
+[  227491] tilemap: sent 4 changed tiles (stamp 4, 35 bytes) to 39ae641d
+[  227491] tilemap: sent 4 changed tiles (stamp 4, 35 bytes) to 5034dc2d
+[  227524] enemy: slot 11 id 287: handed to 39ae641d, claim 2
+[  227572] enemy: slot 12 id 2e2 type 56: brought in from 5034dc2d
+[  227656] enemy: slot 11 id 287 type 55: taking over (nearer), claim 3
+[  227678] enemy: slot 10 id 28d: handed to 39ae641d, claim 2
+[  227681] enemy: slot 7 id 16c type 56: taking over (free), claim 1
+[  227705] enemy: slot 4 id 52a type 56: taking over (free), claim 1
+[  227705] enemy: slot 6 id 1aa type 55: taking over (free), claim 1
+[  227708] enemy: slot 11 id 287: handed to 39ae641d, claim 4
+[  227726] enemy: slot 12 id 2e2 type 56: brought in from 39ae641d
+[  227747] enemy: slot 13 id 1a6 type 56: taking over (free), claim 1
+[  227799] enemy: slot 11 id 1d2 type 55: taking over (free), claim 1
+[  227799] enemy: slot 12 id 2e2 type 56: taking over (nearer), claim 2
+[  227815] enemy: slot 10 id 171 type 55: taking over (free), claim 1
+[  227876] enemy: slot 7 id 16c: handed to 5034dc2d, claim 2
+[  227882] enemy: slot 8 id 534 type 56: taking over (free), claim 1
+[  227896] enemy: slot 5 id 641 type 55: taking over (free), claim 1
+[  227926] enemy: slot 6 id 1aa: handed to 39ae641d, claim 2
+[  227954] enemy: slot 6 id 1aa: left a e1 behind (says 39ae641d)
+[  227966] enemy: slot 7 id 16c: killed by another player
+[  227973] enemy: slot 13 id 1a6: handed to 5034dc2d, claim 2
+[  228008] enemy: slot 10 id 171: handed to 39ae641d, claim 2
+[  228113] enemy: slot 6 id 1aa: taken by another player
+[  228117] enemy: slot 7 id 641 type 55: taking over (free), claim 1
+[  228127] enemy: slot 5 id 2e2 type 56: taking over (free), claim 1
+[  228167] enemy: slot 13 id 1a6: killed by another player
+[  228229] enemy: slot 13 id 534 type 56: brought in from 39ae641d
+[  228283] enemy: slot 5 id 2e2: handed to 39ae641d, claim 2
+[  228289] enemy: slot 10 id 171 type 55: taking over (nearer), claim 3
+[  228302] enemy: slot 11 id 1d2: handed to 5034dc2d, claim 2
+[  228343] enemy: slot 10 id 171: handed to 5034dc2d, claim 4
+[  228374] enemy: slot 12 id 287 type 55: brought in from 39ae641d
+[  228450] enemy: slot 7 id 641: handed to 39ae641d, claim 2
+[  228491] enemy: slot 12 id 287 type 55: taking over (free), claim 2
+[  228539] enemy: slot 4 id 52a: handed to 5034dc2d, claim 2
+[  228598] enemy: slot 11 id 2ed type 55: taking over (free), claim 1
+[  228598] enemy: slot 13 id 28d type 55: taking over (free), claim 1
+[  228723] enemy: slot 12 id 287: handed to 39ae641d, claim 3
+[  228794] enemy: slot 13 id 28d: handed to 39ae641d, claim 2
+[  228804] enemy: slot 11 id 2ed: handed to 39ae641d, claim 2
+[  228912] enemy: slot 8 id 287 type 55: brought in from 39ae641d
+[  229031] enemy: slot 7 id 641 type 55: brought in from 5034dc2d
+[  229061] enemy: slot 7 id 641 type 55: taking over (free), claim 2
+[  229133] enemy: slot 12 id 52a: killed by another player
+[  229204] enemy: slot 7 id 641: handed to 5034dc2d, claim 3
+[  229236] enemy: slot 12 id 534 type 56: taking over (free), claim 1
+[  229257] enemy: slot 11 id 171 type 55: brought in from 39ae641d
+[  229263] enemy: slot 8 id 1d2: taken by another player
+[  229396] enemy: slot 13 id 2e2 type 56: brought in from 39ae641d
+[  229409] enemy: slot 7 id 641 type 55: taking over (off their screen), claim 4
+[  229447] enemy: slot 12 id 534: handed to 5034dc2d, claim 2
+[  229613] enemy: slot 12 id 2ed type 55: taking over (free), claim 1
+[  229652] enemy: slot 7 id 641: handed to 5034dc2d, claim 5
+[  229845] enemy: slot 12 id 2ed: handed to 5034dc2d, claim 2
+[  229923] enemy: slot 11 id 28d type 55: brought in from 5034dc2d
+[  230110] enemy: slot 13 id 28d type 55: brought in from 39ae641d
+[  230110] enemy: slot 12 id 2ed type 55: brought in from 39ae641d
+[  230184] enemy: slot 12 id 2ed type 55: taking over (free), claim 4
+[  230184] enemy: slot 13 id 28d type 55: taking over (free), claim 3
+[  230458] enemy: slot 12 id 2ed: handed to 39ae641d, claim 5
+[  230458] enemy: slot 13 id 28d: handed to 39ae641d, claim 4
+[  230501] enemy: slot 13 id 28d type 55: taking over (free), claim 5
+[  230503] enemy: slot 12 id 2ed type 55: brought in from 5034dc2d
+[  230804] enemy: slot 12 id 2ed type 55: taking over (free), claim 7
+[  230895] enemy: slot 12 id 2ed type 55: brought in from 5034dc2d
+[  230948] enemy: slot 12 id 2ed type 55: taking over (nearer), claim 9
+[  231062] enemy: slot 10 id 287 type 55: taking over (free), claim 1
+[  231144] enemy: slot 11 id 2e2 type 56: taking over (free), claim 1
+[  231156] enemy: slot 8 id 641 type 55: taking over (free), claim 1
+[  231182] enemy: slot 12 id 2ed: handed to 39ae641d, claim 10
+[  231217] enemy: slot 10 id 287: handed to 39ae641d, claim 2
+[  231280] enemy: slot 11 id 2e2: handed to 39ae641d, claim 2
+[  231357] enemy: slot 11 id 2e2 type 56: taking over (nearer), claim 3
+[  231391] enemy: slot 8 id 641: handed to 39ae641d, claim 2
+[  231425] enemy: slot 13 id 534 type 56: taking over (free), claim 1
+[  231546] enemy: slot 11 id 171 type 55: taking over (free), claim 1
+[  231583] enemy: slot 13 id 534: handed to 39ae641d, claim 2
+[  231715] enemy: slot 13 id 0c9 type 55: taking over (free), claim 1
+[  231798] enemy: slot 11 id 171: handed to 39ae641d, claim 2
+[  231986] enemy: slot 12 id 488 type 56: taking over (free), claim 1
+[  232047] enemy: slot 13 id 0c9: handed to 39ae641d, claim 2
+[  232206] enemy: slot 12 id 488: handed to 39ae641d, claim 2
+[  232430] enemy: slot 13 id d14 type 55: taking over (free), claim 1
+[  232444] enemy: slot 12 id c18 type 56: taking over (free), claim 1
+[  232490] enemy: slot 11 id c5e type 55: taking over (free), claim 1
+[  232614] enemy: slot 13 id d14: handed to 39ae641d, claim 2
+[  232711] enemy: slot 11 id c5e: handed to 39ae641d, claim 2
+[  232721] enemy: slot 12 id c18 type 56: brought in from 5034dc2d
+[  232956] enemy: slot 13 id 0dd type 58: taking over (free), claim 1
+[  233027] enemy: slot 12 id 521 type 58: taking over (free), claim 1
+[  233139] enemy: slot 13 id 0dd: handed to 39ae641d, claim 2
+[  233263] enemy: slot 13 id 0dd: left a d8 behind (says 39ae641d)
+[  233293] enemy: slot 13 id 0dd: taken by another player
+[  233325] enemy: slot 11 id 405 type 55: brought in from 39ae641d
+[  233427] enemy: slot 12 id 521: handed to 5034dc2d, claim 2
+[  233453] tilemap: mich has 1 runs (stamp 1)
+[  233496] enemy: slot 12 id 521: killed by another player
+[  233510] enemy: slot 12 id 47e type 0a: brought in from 5034dc2d
+[  233586] enemy: slot 11 id 405 type 55: taking over (nearer), claim 2
+[  233791] enemy: slot 9 id 55c type 00: brought in from 5034dc2d
+[  234143] enemy: slot 12 id 47e: killed by another player
+[  234326] enemy: slot 12 id 55c type 00: brought in from 5034dc2d
+[  234591] enemy: slot 12 id 0bd type 0d: taking over (nearer), claim 1
+[  234634] enemy: slot 9 id 1a7 type 0d: taking over (nearer), claim 1
+[  234643] enemy: slot 8 id 1c6 type 0d: taking over (nearer), claim 1
+[  234760] enemy: slot 11 id 188 type 0d: taking over (nearer), claim 1
+[  234805] enemy: slot 8 id 1c6: handed to 5034dc2d, claim 2
+[  234818] enemy: slot 11 id 188: handed to 5034dc2d, claim 2
+[  234866] enemy: slot 11 id 188: left a e1 behind (says 5034dc2d)
+[  234926] enemy: slot 11 id 188: taken by another player
+[  234941] enemy: slot 9 id 1a7: handed to 39ae641d, claim 2
+[  235136] enemy: slot 12 id 0bd: handed to 5034dc2d, claim 2
+[  235295] enemy: slot 13 id 1a7 type 0d: brought in from 39ae641d
+[  235308] enemy: slot 11 id 1c6 type 0d: brought in from 39ae641d
+[  235415] enemy: slot 12 id 0bd type 0d: taking over (nearer), claim 3
+[  235497] enemy: slot 12 id 0bd: handed to 39ae641d, claim 4
+[  235548] enemy: slot 13 id 468 type 0d: brought in from 39ae641d
+[  235915] tilemap: sent 4 changed tiles (stamp 1, 29 bytes) to 39ae641d
+[  235932] tilemap: sent 4 changed tiles (stamp 1, 29 bytes) to 5034dc2d
+[  236103] tilemap: mich has 3 runs (stamp 2)
+[  236151] tilemap: mich has 3 runs (stamp 3)
+[  236478] tilemap: maruf has 4 runs (stamp 4)
+[  236506] tilemap: maruf has 4 runs (stamp 5)
+[  236513] tilemap: mich has 5 runs (stamp 6)
+[  236535] tilemap: sent 10 changed tiles (stamp 7, 56 bytes) to 39ae641d
+[  236535] tilemap: sent 10 changed tiles (stamp 7, 56 bytes) to 5034dc2d
+[  236537] tilemap: mich has 5 runs (stamp 7)
+[  236538] tilemap: maruf has 5 runs (stamp 7)
+[  236590] tilemap: maruf has 5 runs (stamp 8)
+[  236595] tilemap: sent 13 changed tiles (stamp 9, 59 bytes) to 39ae641d
+[  236595] tilemap: sent 13 changed tiles (stamp 9, 59 bytes) to 5034dc2d
+[  236619] tilemap: sent 14 changed tiles (stamp 10, 65 bytes) to 39ae641d
+[  236619] tilemap: sent 14 changed tiles (stamp 10, 65 bytes) to 5034dc2d
+[  236663] tilemap: sent 15 changed tiles (stamp 11, 62 bytes) to 39ae641d
+[  236663] tilemap: sent 15 changed tiles (stamp 11, 62 bytes) to 5034dc2d
+[  236961] tilemap: mich has 8 runs (stamp 12)
+[  238990] note: maruf picked up 1 bomb for everyone
+[  239427] note: maruf picked up 1 bomb for everyone
+[  239542] note: mich picked up 1 bomb for everyone
+[  240094] enemy: slot 7 id 0c5 type 08: brought in from 5034dc2d
+[  240141] enemy: slot 13 id 08f: killed by another player
+[  240191] enemy: slot 8 id 570 type 08: brought in from 5034dc2d
+[  240191] enemy: slot 6 id 478 type 08: brought in from 5034dc2d
+[  240201] enemy: slot 9 id 1c4 type 08: taking over (hit), claim 1
+[  240210] enemy: slot 11 id 1d0 type 08: taking over (hit), claim 1
+[  240216] enemy: slot 12 id 568 type 08: taking over (free), claim 1
+[  240248] enemy: slot 9 id 1c4: left a e3 behind
+[  240250] enemy: slot 13 id 0c5 type 08: brought in from 5034dc2d
+[  240256] enemy: slot 11 id 1d0 type 08: gone
+[  240279] enemy: slot 8 id 570 type 08: taking over (nearer), claim 2
+[  240295] enemy: slot 10 id 41c: killed by another player
+[  240374] enemy: slot 8 id 570: handed to 5034dc2d, claim 3
+[  240399] enemy: slot 9 id 1c4: taken by another player
+[  240505] enemy: slot 13 id 0c5: left a d8 behind (says 39ae641d)
+[  240510] enemy: slot 12 id 568: handed to 5034dc2d, claim 2
+[  240568] enemy: slot 8 id 570: left a d8 behind (says 5034dc2d)
+[  240589] enemy: slot 8 id 570: taken by another player
+[  240862] enemy: slot 13 id 1b3: handed to 39ae641d, claim 1
+[  240863] enemy: slot 12 id 500: handed to 39ae641d, claim 1
+[  241223] enemy: slot 13 id 1e7 type 41: taking over (free), claim 1
+[  241948] enemy: slot 12 id 1e7: killed by another player
+[  241948] enemy: slot 13 id 0ce: taken by another player
+[  242040] enemy: slot 13 id 425 type 55: taking over (free), claim 1
+[  242099] enemy: slot 13 id 425: handed to 39ae641d, claim 2
+[  242259] enemy: slot 12 id d34 type 51: taking over (free), claim 1
+[  242293] enemy: slot 11 id d37 type 51: taking over (free), claim 1
+[  242328] enemy: slot 13 id c69: handed to 39ae641d, claim 1
+[  242492] enemy: slot 13 id 9c5 type 08: taking over (free), claim 1
+[  242625] enemy: slot 12 id d34: handed to 39ae641d, claim 2
+[  242757] enemy: slot 13 id 889 type 08: brought in from 5034dc2d
+[  242769] enemy: slot 12 id d34: killed by another player
+[  242786] enemy: slot 11 id d37 type 51: gone
+[  242828] enemy: slot 12 id 9c5 type 08: brought in from 39ae641d
+[  242934] enemy: slot 10 id 85f type 0a: brought in from 5034dc2d
+[  242992] enemy: slot 12 id 9c5 type 08: taking over (hit), claim 2
+[  243039] enemy: slot 12 id 9c5 type 08: gone
+[  243072] enemy: slot 12 id c69: taken by another player
+[  243102] enemy: slot 10 id 85f: left a e0 behind (says 5034dc2d)
+[  243108] enemy: slot 13 id 889 type 08: taking over (hit), claim 2
+[  243155] enemy: slot 13 id 889 type 08: gone
+[  243179] enemy: slot 10 id 85f: taken by another player
+[  243246] enemy: slot 12 id 5a9 type 51: taking over (free), claim 1
+[  243246] enemy: slot 13 id 5a1 type 08: taking over (free), claim 1
+[  243328] enemy: slot 13 id 5a1: handed to 39ae641d, claim 2
+[  243329] enemy: slot 12 id 5a9: handed to 39ae641d, claim 2
+[  243410] enemy: slot 11 id 0ee type 51: taking over (free), claim 1
+[  243418] enemy: slot 13 id 5a1: left a e3 behind (says 39ae641d)
+[  244746] enemy: slot 10 id 183 type 51: taking over (free), claim 1
+[  244892] enemy: slot 13 id 0ee: handed to 5034dc2d, claim 1
+[  245283] enemy: slot 13 id 5a9 type 51: brought in from 5034dc2d
+[  245283] enemy: slot 12 id 5a1 type 08: brought in from 5034dc2d
+[  245352] enemy: slot 12 id 5a1 type 08: taking over (free), claim 2
+[  245352] enemy: slot 13 id 5a9 type 51: taking over (free), claim 2
+[  245476] enemy: slot 10 id 183: left a dc behind
+[  245512] enemy: slot 10 id 183: pickup dc collected
+[  245600] enemy: slot 12 id 5a9 type 51: taking over (free), claim 1
+[  245600] enemy: slot 13 id 5a1 type 08: taking over (free), claim 1
+[  245874] enemy: slot 12 id 5a9: left a dc behind
+[  245898] enemy: slot 12 id 5a9: pickup dc collected
+[  245903] enemy: slot 11 id a54 type 51: taking over (free), claim 1
+[  245909] enemy: slot 13 id 5a1: handed to 5034dc2d, claim 2
+[  246038] enemy: slot 13 id a98 type 51: taking over (free), claim 1
+[  246306] enemy: slot 11 id a54: handed to 39ae641d, claim 2
+[  246504] enemy: slot 11 id a54: killed by another player
+[  246557] enemy: slot 13 id a98: handed to 5034dc2d, claim 2
+[  246608] enemy: slot 12 id 67f type 51: taking over (free), claim 1
+[  246773] enemy: slot 13 id 7d5 type 0a: taking over (free), claim 1
+[  246834] enemy: slot 11 id 701 type 41: taking over (free), claim 1
+[  246929] enemy: slot 13 id 7d5: handed to 39ae641d, claim 2
+[  246951] enemy: slot 12 id 67f: handed to 39ae641d, claim 2
+[  247057] enemy: slot 11 id 701 type 41: gone
+[  247105] enemy: slot 12 id 67f: left a dd behind (says 39ae641d)
+[  247126] enemy: slot 12 id 67f: pickup dd collected
+[  247242] enemy: slot 10 id 397 type 51: taking over (free), claim 1
+[  247242] enemy: slot 11 id 393 type 51: taking over (free), claim 1
+[  247543] enemy: slot 10 id 397: handed to 39ae641d, claim 2
+[  247543] enemy: slot 11 id 393: handed to 39ae641d, claim 2
+[  248199] tilemap: sent 36 changed tiles (stamp 1, 140 bytes) to 39ae641d
+[  248199] tilemap: sent 36 changed tiles (stamp 1, 140 bytes) to 5034dc2d
+[  248458] tilemap: mich has 9 runs (stamp 2)
+[  248524] tilemap: maruf has 9 runs (stamp 3)
+[  248538] tilemap: mich has 11 runs (stamp 4)
+[  248569] note: mich picked up 1 bomb for everyone
+[  248606] tilemap: mich has 11 runs (stamp 5)
+[  248612] tilemap: maruf has 13 runs (stamp 6)
+[  248643] note: maruf picked up 1 bomb for everyone
+[  248672] tilemap: maruf has 13 runs (stamp 7)
+[  249766] enemy: slot 12 id 397 type 51: taking over (free), claim 1
+[  249766] enemy: slot 13 id 393 type 51: taking over (free), claim 1
+[  249810] enemy: slot 11 id 701 type 41: brought in from 39ae641d
+[  249854] enemy: slot 11 id 701 type 41: taking over (nearer), claim 2
+[  249950] enemy: slot 10 id 67f type 51: taking over (free), claim 1
+[  249995] enemy: slot 13 id 393: handed to 39ae641d, claim 2
+[  249997] enemy: slot 12 id 397: handed to 39ae641d, claim 2
+[  250113] enemy: slot 11 id 701 type 41: gone
+[  250258] enemy: slot 11 id 7d5 type 0a: taking over (free), claim 1
+[  250490] enemy: slot 11 id 7d5 type 0a: gone
+[  250518] enemy: slot 13 id b9d type 51: taking over (free), claim 1
+[  250602] enemy: slot 10 id 67f: handed to 5034dc2d, claim 2
+[  250681] enemy: slot 13 id a98 type 51: taking over (free), claim 1
+[  250926] enemy: slot 12 id ebe type 08: taking over (free), claim 1
+[  250983] enemy: slot 11 id a54 type 51: taking over (free), claim 1
+[  251064] enemy: slot 13 id a98: handed to 5034dc2d, claim 2
+[  251225] enemy: slot 13 id d37 type 51: taking over (free), claim 1
+[  251261] enemy: slot 12 id d34 type 51: taking over (free), claim 1
+[  251377] enemy: slot 11 id c69 type 08: taking over (free), claim 1
+[  251408] enemy: slot 13 id d37: handed to 5034dc2d, claim 2
+[  251463] enemy: slot 12 id d34: handed to 5034dc2d, claim 2
+[  251697] enemy: slot 12 id 425 type 55: taking over (free), claim 1
+[  251710] enemy: slot 13 id 0ce: handed to 39ae641d, claim 1
+[  252082] enemy: slot 13 id 1b3: handed to 5034dc2d, claim 1
+[  252091] enemy: slot 12 id 500: handed to 39ae641d, claim 1
+[  252133] enemy: slot 11 id 562 type 41: brought in from 39ae641d
+[  252164] enemy: slot 12 id 500 type 46: taking over (hit), claim 2
+[  252212] enemy: slot 12 id 500: handed to 39ae641d, claim 3
+[  252257] enemy: slot 12 id 500: left a dc behind (says 39ae641d)
+[  252284] enemy: slot 13 id 1b3: left a d8 behind (says 5034dc2d)
+[  252311] enemy: slot 12 id 500: pickup dc collected
+[  252431] enemy: slot 11 id 562 type 41: taking over (nearer), claim 2
+[  252464] enemy: slot 11 id 562: handed to 39ae641d, claim 3
+[  252465] enemy: slot 11 id 562 type 41: taking over (hit), claim 4
+[  252501] enemy: slot 11 id 562: handed to 39ae641d, claim 5
+[  252548] enemy: slot 11 id 562: left a d8 behind (says 39ae641d)
+[  252574] enemy: slot 11 id 562: pickup d8 collected
+[  252710] tilemap: maruf has 1 runs (stamp 1)
+[  252969] enemy: slot 13 id 07e: handed to 39ae641d, claim 1
+[  252978] enemy: slot 12 id 09d: handed to 39ae641d, claim 1
+[  253064] tilemap: maruf has 1 runs (stamp 1)
+[  253512] enemy: slot 4 id 004: handed to 39ae641d, claim 1
+[  253681] enemy: slot 0 id 000 type 18: gone
+[  253831] enemy: slot 1 id 001: handed to 39ae641d, claim 1
+[  253877] enemy: slot 1 id 001: left a e0 behind (says 39ae641d)
+[  253880] enemy: slot 4 id 004 type 24: taking over (free), claim 3
+[  253912] enemy: slot 1 id 001: pickup e0 collected
+[  253949] enemy: slot 4 id 004: handed to 5034dc2d, claim 4
+[  256327] enemy: slot 1 id 001: taken by another player
+[  256352] enemy: slot 0 id 000 type 18: taking over (free), claim 1
+[  256363] enemy: slot 4 id 004 type 24: taking over (free), claim 3
+[  256404] tilemap: sent 4 changed tiles (stamp 1, 29 bytes) to 39ae641d
+[  256404] tilemap: sent 4 changed tiles (stamp 1, 29 bytes) to 5034dc2d
+[  257076] tilemap: sent 8 changed tiles (stamp 2, 41 bytes) to 5034dc2d
+[  257160] tilemap: sent 8 changed tiles (stamp 2, 41 bytes) to 39ae641d
+[  257257] enemy: slot 0 id 000: handed to 39ae641d, claim 2
+[  257257] enemy: slot 4 id 004: handed to 39ae641d, claim 4
+[  257328] enemy: slot 0 id 000 type 18: taking over (free), claim 3
+[  257328] enemy: slot 4 id 004 type 24: taking over (free), claim 5
+[  257381] enemy: slot 4 id 004: handed to 5034dc2d, claim 6
+[  258527] enemy: slot 0 id 000 type 18: taking over (free), claim 1
+[  258527] enemy: slot 4 id 004 type 24: taking over (free), claim 1
+[  258608] enemy: slot 0 id 000: handed to 5034dc2d, claim 2
+[  258608] enemy: slot 4 id 004: handed to 5034dc2d, claim 2
+[  258666] enemy: slot 0 id 000 type 18: taking over (free), claim 3
+[  258666] enemy: slot 4 id 004 type 24: taking over (free), claim 3
+[  259468] tilemap: mich has 2 runs (stamp 1)
+[  259581] tilemap: mich has 4 runs (stamp 2)
+[  259636] enemy: slot 0 id 000 type 18: taking over (off their screen), claim 2
+[  259649] enemy: slot 4 id 004 type 24: taking over (nearer), claim 2
+[  259762] enemy: slot 4 id 004: handed to 5034dc2d, claim 3
+[  261120] tilemap: mich has 1 runs (stamp 1)
+[  261184] tilemap: mich has 1 runs (stamp 2)
+[  261232] tilemap: mich has 2 runs (stamp 3)
+[  261292] tilemap: mich has 2 runs (stamp 4)
+[  261376] enemy: slot 13 id 6c2 type 01: brought in from 39ae641d
+[  261400] enemy: slot 12 id 697 type 4c: brought in from 39ae641d
+[  261456] enemy: slot 13 id 6c2 type 01: brought in from 39ae641d
+[  261592] enemy: slot 12 id 697 type 4c: taking over (nearer), claim 2
+[  261641] enemy: slot 12 id 697: handed to 5034dc2d, claim 3
+[  261656] enemy: slot 10 id 6fa type 4c: taking over (free), claim 2
+[  261738] enemy: slot 10 id a42 type 4c: brought in from 39ae641d
+[  261802] enemy: slot 10 id a42 type 4c: taking over (nearer), claim 2
+[  261803] enemy: slot 9 id 96d type 4c: taking over (free), claim 1
+[  261867] enemy: slot 8 id ac0 type 4c: taking over (free), claim 1
+[  261867] enemy: slot 12 id 9cb type 4c: taking over (free), claim 1
+[  261936] enemy: slot 12 id 697 type 4c: brought in from 5034dc2d
+[  262083] enemy: slot 12 id 697 type 4c: brought in from 5034dc2d
+[  262128] enemy: slot 13 id 6c2 type 01: taking over (hit), claim 2
+[  262175] enemy: slot 13 id 6c2 type 01: gone
+[  262206] enemy: slot 12 id 697: left a db behind (says 5034dc2d)
+[  262301] enemy: slot 12 id ac0 type 4c: taking over (free), claim 1
+[  262301] enemy: slot 13 id 9cb type 4c: taking over (free), claim 1
+[  262337] enemy: slot 8 id 697: taken by another player
+[  262363] enemy: slot 8 id 6fa type 4c: brought in from 5034dc2d
+[  262470] enemy: slot 9 id 96d: handed to 39ae641d, claim 2
+[  262499] enemy: slot 10 id a42: handed to 39ae641d, claim 3
+[  262592] enemy: slot 8 id 6fa: killed by another player
+[  262915] enemy: slot 10 id f34 type 01: taking over (free), claim 1
+[  264061] enemy: slot 12 id 09e: handed to 39ae641d, claim 1
+[  264098] tilemap: mich has 2 runs (stamp 1)
+[  264110] enemy: slot 12 id 09e type 00: taking over (off their screen), claim 2
+[  264150] enemy: slot 13 id 0ab: handed to 5034dc2d, claim 1
+[  264196] enemy: slot 13 id 0ab: killed by another player
+[  264324] enemy: slot 13 id 09e type 00: brought in from 39ae641d
+[  264823] enemy: slot 12 id 09e type 00: taking over (free), claim 1
+[  264823] enemy: slot 13 id 0ab type 3e: taking over (free), claim 1
+[  264953] enemy: slot 12 id 09e: handed to 5034dc2d, claim 2
+[  264968] enemy: slot 13 id 0ab type 3e: gone
+[  265025] enemy: slot 12 id 1e8 type 3e: taking over (free), claim 1
+[  265071] enemy: slot 11 id 09e type 00: brought in from 39ae641d
+[  265092] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 39ae641d
+[  265092] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 5034dc2d
+[  265182] tilemap: maruf has 3 runs (stamp 2)
+[  265244] enemy: slot 12 id 1e8: handed to 39ae641d, claim 2
+[  265327] note: maruf picked up 1 bomb for everyone
+[  265359] note: maruf picked up 1 bomb for everyone
+[  265447] enemy: slot 11 id 09e type 00: brought in from 5034dc2d
+[  265661] enemy: slot 12 id 1e8 type 3e: taking over (free), claim 4
+[  265712] enemy: slot 12 id 1e8: handed to 39ae641d, claim 5
+[  265717] enemy: slot 11 id 09e type 00: taking over (free), claim 1
+[  265808] tilemap: sent 6 changed tiles (stamp 3, 41 bytes) to 39ae641d
+[  265808] tilemap: sent 6 changed tiles (stamp 3, 41 bytes) to 5034dc2d
+[  265831] enemy: slot 12 id 1e8: killed by another player
+[  265860] tilemap: sent 7 changed tiles (stamp 4, 47 bytes) to 39ae641d
+[  265860] tilemap: sent 7 changed tiles (stamp 4, 47 bytes) to 5034dc2d
+[  265896] tilemap: mich has 6 runs (stamp 5)
+[  265946] tilemap: maruf has 7 runs (stamp 6)
+[  265959] tilemap: sent 10 changed tiles (stamp 7, 65 bytes) to 39ae641d
+[  265959] tilemap: sent 10 changed tiles (stamp 7, 65 bytes) to 5034dc2d
+[  266101] enemy: slot 11 id 09e: handed to 5034dc2d, claim 2
+[  266653] enemy: slot 10 id 163 type 47: taking over (free), claim 1
+[  266665] enemy: slot 13 id 0b8: left a e0 behind
+[  266789] enemy: slot 11 id 44f: handed to 39ae641d, claim 1
+[  266789] enemy: slot 12 id 0ac: handed to 39ae641d, claim 1
+[  266868] enemy: slot 13 id 0b8: taken by another player
+[  266884] enemy: slot 10 id 163: handed to 39ae641d, claim 2
+[  267083] enemy: slot 12 id 0ac type 46: taking over (hit), claim 2
+[  267089] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 39ae641d
+[  267089] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 5034dc2d
+[  267111] tilemap: maruf has 2 runs (stamp 2)
+[  267112] tilemap: mich has 2 runs (stamp 2)
+[  267135] enemy: slot 12 id 0ac: handed to 39ae641d, claim 3
+[  267161] enemy: slot 13 id 44f type 4d: brought in from 5034dc2d
+[  267208] tilemap: mich has 3 runs (stamp 3)
+[  267212] tilemap: mich has 3 runs (stamp 4)
+[  267216] tilemap: mich has 4 runs (stamp 5)
+[  267220] tilemap: mich has 4 runs (stamp 6)
+[  267240] enemy: slot 10 id 163: left a dc behind (says 39ae641d)
+[  267252] enemy: slot 13 id 44f type 4d: taking over (nearer), claim 4
+[  267352] enemy: slot 10 id 163: taken by another player
+[  267380] tilemap: mich has 5 runs (stamp 7)
+[  267411] tilemap: maruf has 7 runs (stamp 8)
+[  267418] enemy: slot 11 id 5b4 type 00: taking over (free), claim 1
+[  267560] tilemap: mich has 8 runs (stamp 9)
+[  267588] tilemap: mich has 9 runs (stamp 10)
+[  267675] tilemap: maruf has 10 runs (stamp 11)
+[  277102] enemy: slot 11 id 419 type 17: gone
+[  277197] note: mich picked up 1 bomb for everyone
+[  277520] tilemap: sent 3 changed tiles (stamp 3, 29 bytes) to 39ae641d
+[  277641] tilemap: mich has 4 runs (stamp 4)
+[  277886] note: mich picked up 1 bomb for everyone
+[  279532] enemy: slot 1 id 001: killed by another player
+[  279532] enemy: slot 2 id 002: taken by another player
+[  280743] tilemap: sent 4 changed tiles (stamp 1, 29 bytes) to 39ae641d
+[  280743] tilemap: sent 4 changed tiles (stamp 1, 29 bytes) to 5034dc2d
+[  280807] tilemap: sent 8 changed tiles (stamp 2, 41 bytes) to 39ae641d
+[  280807] tilemap: sent 8 changed tiles (stamp 2, 41 bytes) to 5034dc2d
+[  281040] tilemap: mich has 4 runs (stamp 3)
+[  281088] tilemap: mich has 4 runs (stamp 4)
+[  281161] tilemap: mich has 4 runs (stamp 5)
+[  283536] enemy: slot 13 id c5a type 08: gone
+[  283548] enemy: slot 11 id c5f: handed to 5034dc2d, claim 1
+[  283590] enemy: slot 13 id d54 type 55: taking over (free), claim 1
+[  283665] enemy: slot 11 id c5f: left a e0 behind (says 5034dc2d)
+[  283716] enemy: slot 11 id c5f: taken by another player
+[  283771] enemy: slot 12 id c9b: left a e0 behind
+[  283797] enemy: slot 10 id db1 type 58: brought in from 5034dc2d
+[  283806] enemy: slot 11 id da9 type 0d: taking over (free), claim 1
+[  283864] enemy: slot 12 id c9b: pickup e0 collected
+[  283996] enemy: slot 12 id e61 type 55: taking over (free), claim 1
+[  284041] enemy: slot 13 id d54: handed to 5034dc2d, claim 2
+[  284140] enemy: slot 13 id eae type 58: taking over (free), claim 1
+[  284182] enemy: slot 11 id f72 type 0d: taking over (free), claim 1
+[  284204] enemy: slot 10 id f94 type 0d: taking over (free), claim 1
+[  284255] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 5034dc2d
+[  284439] tilemap: sent 2 changed tiles (stamp 2, 23 bytes) to 5034dc2d
+[  284528] enemy: slot 9 id f19 type 55: taking over (free), claim 1
+[  284604] tilemap: sent 2 changed tiles (stamp 2, 23 bytes) to 39ae641d
+[  284687] enemy: slot 13 id eae: handed to 5034dc2d, claim 2
+[  284719] tilemap: sent 3 changed tiles (stamp 3, 29 bytes) to 39ae641d
+[  284719] tilemap: sent 3 changed tiles (stamp 3, 29 bytes) to 5034dc2d
+[  284737] enemy: slot 11 id f72: handed to 5034dc2d, claim 2
+[  284850] enemy: slot 10 id f94: handed to 5034dc2d, claim 2
+[  285154] enemy: slot 13 id 560 type 0f: gone
+[  285577] enemy: slot 12 id 156: left a db behind
+[  285630] enemy: slot 12 id 156: pickup db collected
+[  285704] tilemap: sent 3 changed tiles (stamp 3, 29 bytes) to 39ae641d
+[  285729] enemy: slot 12 id 0b8 type 55: taking over (free), claim 1
+[  285794] enemy: slot 11 id 141 type 08: gone
+[  286477] tilemap: sent 1 changed tiles (stamp 1, 17 bytes) to 39ae641d
+[  286502] enemy: slot 13 id 516 type 58: brought in from 39ae641d
+[  286514] tilemap: sent 2 changed tiles (stamp 2, 23 bytes) to 39ae641d
+[  286535] tilemap: sent 2 changed tiles (stamp 2, 23 bytes) to 5034dc2d
+[  286549] enemy: slot 13 id 516 type 58: taking over (nearer), claim 2
+[  286578] tilemap: sent 3 changed tiles (stamp 3, 29 bytes) to 39ae641d
+[  286578] tilemap: sent 3 changed tiles (stamp 3, 29 bytes) to 5034dc2d
+[  286698] tilemap: sent 5 changed tiles (stamp 4, 35 bytes) to 39ae641d
+[  286698] tilemap: sent 5 changed tiles (stamp 4, 35 bytes) to 5034dc2d
+[  286702] tilemap: sent 6 changed tiles (stamp 5, 35 bytes) to 39ae641d
+[  286702] tilemap: sent 6 changed tiles (stamp 5, 35 bytes) to 5034dc2d
+[  286706] tilemap: sent 8 changed tiles (stamp 6, 41 bytes) to 39ae641d
+[  286706] tilemap: sent 8 changed tiles (stamp 6, 41 bytes) to 5034dc2d
+[  286710] tilemap: sent 9 changed tiles (stamp 7, 41 bytes) to 39ae641d
+[  286710] tilemap: sent 9 changed tiles (stamp 7, 41 bytes) to 5034dc2d
+[  286729] enemy: slot 12 id 0bf type 58: brought in from 39ae641d
+[  286731] enemy: slot 11 id 088: left a d9 behind
+[  286762] enemy: slot 11 id 088: pickup d9 collected
+[  286891] enemy: slot 10 id 180 type 58: gone
+[  286981] tilemap: mich has 6 runs (stamp 8)
+[  286982] enemy: slot 12 id 0bf type 58: taking over (nearer), claim 2
+[  287023] enemy: slot 13 id 516 type 58: brought in from 5034dc2d
+[  287095] enemy: slot 13 id 516 type 58: brought in from 5034dc2d
+[  287114] tilemap: sent 14 changed tiles (stamp 9, 65 bytes) to 39ae641d
+[  287114] tilemap: sent 14 changed tiles (stamp 9, 65 bytes) to 5034dc2d
+[  287240] enemy: slot 11 id 45c type 00: brought in from 5034dc2d
+[  287613] tilemap: maruf has 9 runs (stamp 10)
+[  287681] enemy: slot 11 id 180: killed by another player
+[  287681] enemy: slot 13 id 088: taken by another player
+[  287706] enemy: slot 12 id 0bf type 58: taking over (free), claim 1
+[  287768] enemy: slot 12 id 0bf: handed to 39ae641d, claim 2
+[  287944] tilemap: sent 18 changed tiles (stamp 11, 86 bytes) to 39ae641d
+[  287944] tilemap: sent 18 changed tiles (stamp 11, 86 bytes) to 5034dc2d
+[  288653] tilemap: sent 8 changed tiles (stamp 1, 41 bytes) to 39ae641d
+[  289556] tilemap: sent 4 changed tiles (stamp 1, 29 bytes) to 39ae641d
+[  289805] note: maruf picked up 1 bomb for everyone
+[  290455] note: maruf picked up 1 bomb for everyone
+[  291365] net: peer 5034dc2d dropped (left)
+[  291365] note: maruf left the room
+[  291836] note: mich left the room

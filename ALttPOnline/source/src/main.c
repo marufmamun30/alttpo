@@ -548,6 +548,7 @@ int main(int argc, char **argv) {
   }
 
   rando_cancel();
+  game_save_before_exit();
   net_shutdown();
   game_stop();
   emu_close();

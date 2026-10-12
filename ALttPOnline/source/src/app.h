@@ -6,7 +6,7 @@
 #include <stdbool.h>
 #include <stddef.h>
 
-#define APP_VERSION "1.2"
+#define APP_VERSION "1.3"
 #define PROTO_VERSION 2
 #define MAX_PLAYERS 8
 
@@ -176,6 +176,8 @@ const char *game_join_error(void);
 void game_join_begin(void);
 bool game_join_take_rom(uint8_t **rom, int *len, char *nameOut, int nameSize);
 void game_set_hosted(const uint8_t *rom, int len, const char *name); // what we serve to joiners
+bool game_warp_to(uint32_t cid);  // asks that player where they are, then takes Link there
+void game_save_before_exit(void); // online: the game does its own Save and Quit before it is closed
 
 // ---------------------------------------------------------------- randomizer
 enum { RO_CHOICE, RO_BOOL, RO_INT };
